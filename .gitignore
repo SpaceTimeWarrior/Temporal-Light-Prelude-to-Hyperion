@@ -1,0 +1,9 @@
+build/
+cache/
+
+*.bak
+*.sav
+*.icloud
+
+user_settings.gbsres
+tiled/modified kenny assets/full image.png

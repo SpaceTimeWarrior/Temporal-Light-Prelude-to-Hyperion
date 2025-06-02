@@ -1,0 +1,109 @@
+{
+  "_resourceType": "scene",
+  "id": "f74f2877-d708-4b1d-9780-a9041c259a8c",
+  "_index": 0,
+  "name": "cut/intro/competition scene",
+  "backgroundId": "169149c7-32b1-4c85-bac5-30a1454e2728",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 223,
+  "y": 86,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left",
+          "up",
+          "down",
+          "right",
+          "a",
+          "b",
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b"
+              ]
+            },
+            "id": "2194389d-6b2a-4465-a235-2d44c4ef717d"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "bbe5c7e7-f821-4ae6-be4e-2bee054efc86",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "33320da8-06d4-42a0-aaf6-7f78d94b1f6c"
+          }
+        ]
+      },
+      "id": "6d1225bc-257d-4f65-86f1-c879e1fcbff7"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 1,
+        "duration": 1,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_TIMER_DISABLE",
+            "args": {
+              "timer": 1
+            },
+            "id": "46fbba71-4598-4270-ba3b-78fcd3a3d02a"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "bbe5c7e7-f821-4ae6-be4e-2bee054efc86",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "899a548c-7329-4f71-9132-cbcfdd537be2"
+          }
+        ]
+      },
+      "id": "95736d24-d218-4cfc-a9ce-220bb02d15cf"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

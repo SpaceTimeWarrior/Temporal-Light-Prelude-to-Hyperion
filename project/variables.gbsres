@@ -1,0 +1,10 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "128",
+      "name": "intro thread",
+      "symbol": "var_intro_thread"
+    }
+  ]
+}
