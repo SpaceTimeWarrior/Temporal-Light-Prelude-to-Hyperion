@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "25673ddf-69bc-42fd-8d63-aafa603bff8b",
+  "_index": 5,
+  "name": "cut/intro/broadcast",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 260,
+  "y": 398,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

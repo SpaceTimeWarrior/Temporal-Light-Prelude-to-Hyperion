@@ -1,13 +1,43 @@
 {
-    "activeFile": "",
+    "activeFile": "temporal Light tiles/in_game_HUD.tsx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "modified kenny assets/Kenny Art.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "temporal Light tiles/in_game_HUD.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "temporal Light tiles/temporal_light_tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "temporal Light tiles/temporal_light_tileset2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        }
     },
+    "last.imagePath": "C:/Users/steve/Documents/Temporal-Light-Prelude-to-Hyperion/tiled/temporal Light tiles",
     "openFiles": [
+        "modified kenny assets/Kenny Art.tsx",
+        "temporal Light tiles/temporal_light_tileset.tsx",
+        "temporal Light tiles/temporal_light_tileset2.tsx",
+        "temporal Light tiles/in_game_HUD.tsx"
     ],
     "project": "temporal Light Prelude to hyperion.tiled-project",
     "recentFiles": [
-    ]
+        "modified kenny assets/Kenny Art.tsx",
+        "temporal Light tiles/temporal_light_tileset.tsx",
+        "temporal Light tiles/temporal_light_tileset2.tsx",
+        "temporal Light tiles/in_game_HUD.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
 }

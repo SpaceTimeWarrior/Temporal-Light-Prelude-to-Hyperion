@@ -7,3 +7,4 @@ cache/
 
 user_settings.gbsres
 tiled/modified kenny assets/full image.png
+plugins/masterVolumePlugin/events/eventSetMasterVolume.js

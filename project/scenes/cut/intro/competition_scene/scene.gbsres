@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "f74f2877-d708-4b1d-9780-a9041c259a8c",
   "_index": 0,
-  "name": "cut/intro/competition scene",
+  "name": "cut/intro/competition_scene",
   "backgroundId": "169149c7-32b1-4c85-bac5-30a1454e2728",
   "tilesetId": "",
   "width": 20,
@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 223,
-  "y": 86,
+  "x": 224,
+  "y": 30,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -68,7 +68,7 @@
       "command": "EVENT_SET_TIMER_SCRIPT",
       "args": {
         "timer": 1,
-        "duration": 1,
+        "duration": 5,
         "frames": 30,
         "__scriptTabs": "end"
       },
@@ -84,7 +84,7 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "bbe5c7e7-f821-4ae6-be4e-2bee054efc86",
+              "sceneId": "673b483d-049c-4b66-bad7-cefdb85030ec",
               "x": {
                 "type": "number",
                 "value": 0
