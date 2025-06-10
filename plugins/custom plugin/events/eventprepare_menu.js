@@ -1,9 +1,8 @@
-export const id = "EVENT_PREP_MENU";
+const id = "EVENT_PREP_MENU";
+const name = "Prep Menu";
+const groups = ["TL_EVENTS","EVENT_GROUP_SCREEN"];
 
-export const name = "Prep Menu";
-export const groups = ["TL_EVENTS","EVENT_GROUP_SCREEN"];
-
-export const fields = [
+const fields = [
   {
     label: "Prepare menu for drawing",
   },
@@ -13,7 +12,7 @@ export const fields = [
     type: "slider",
     min: 0,
     max: 20,
-    defaultValue: "0",
+    defaultValue: 0,
   },
   {
     key: "ynoverlay",
@@ -25,8 +24,7 @@ export const fields = [
   },
   {
     key: "color",
-    label: l10n("FIELD_FILL_COLOR"),
-    description: l10n("FIELD_FILL_COLOR_OVERLAY_DESC"),
+    label: "fill color",
     type: "overlayColor",
     defaultValue: "black",
   },
@@ -67,8 +65,17 @@ export const fields = [
 ];
 
 
-export const compile = (input, helpers) => {
-  const { overlayShow,appendRaw } = helpers;
+const compile = (input, helpers) => {
+  const { overlayShow,_addCmd } = helpers;
   overlayShow(input.color, input.xnoverlay, input.ynoverlay);
-  appendRaw(`VM_OVERLAY_SET_SUBMAP xoverlay,yoverlay,overlayw,overlayh,xsource,ysource`);
+  _addCmd("VM_OVERLAY_SET_SUBMAP", input.xoverlay,input.yoverlay,input.overlayw,input.overlayh,input.xsource,input.ysource);
+};
+
+module.exports = {
+   id,
+   name,
+   groups,
+   fields,
+   compile,
+   allowedBeforeInitFade: true,
 };

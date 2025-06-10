@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "37696722-010b-443d-8c13-b1d8926e547f",
+  "_index": 16,
+  "name": "Earth/overworld/kits_house_south",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 1704,
+  "y": 1704,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

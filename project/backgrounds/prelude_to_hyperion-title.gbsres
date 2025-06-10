@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "04c7a217-b53c-4143-bc05-456fc80db88f",
+  "name": "prelude to hyperion-title",
+  "symbol": "bg_prelude_to_hyperion_titl",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "prelude to hyperion-title.png",
+  "tileColors": "",
+  "autoColor": false
+}

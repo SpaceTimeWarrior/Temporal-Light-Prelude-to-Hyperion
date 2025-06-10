@@ -1,0 +1,95 @@
+{
+  "_resourceType": "actor",
+  "id": "b32b6924-582a-4ed4-be6c-67c103f4f355",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9be79250-35e5-45a3-b334-b422e6aa8412",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_23",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blair: not my \nfinest moment.",
+          "at least one \nthing glacia \nlearned how to",
+          "censor images.\nwith a big black\nbar.",
+          "10 years old and\nlearning to swim\nand I didn't",
+          "notice part of\nmy swimsuit got\ncaught and tore\noff"
+        ],
+        "__section": "text",
+        "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "db310143-5299-4c04-b3a6-ca0a6f4b4fff"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 34
+            },
+            "id": "7fe9f682-4ae7-4403-be77-c4d384edaae0"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 34
+              }
+            },
+            "id": "e66d0ec8-6d8f-4e8d-a912-e59809b27f33"
+          }
+        ]
+      },
+      "id": "f4b6b47b-3fdc-44e0-a364-23ad3d277789"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 27,
+  "y": 15,
+  "_index": 6
+}

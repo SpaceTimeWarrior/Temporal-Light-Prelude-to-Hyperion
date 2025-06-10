@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "fe46f7fb-8157-40be-8a9e-3d039f543d7f",
+  "_index": 15,
+  "name": "Earth/kits_house/kits_room",
+  "backgroundId": "4172562a-6bc1-44da-9b54-bcdc339aff66",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0035+0f6+00e+0f!004+0f!002+0fd+004+0f!002+0f2+004+0f2+004+0f!004+0f!002+0f2+00f+0f!002+0f2+00f+0f!002+0f2+00f+0f!002+0f2+00f+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f12+003d+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_16",
+  "x": 904,
+  "y": 928,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

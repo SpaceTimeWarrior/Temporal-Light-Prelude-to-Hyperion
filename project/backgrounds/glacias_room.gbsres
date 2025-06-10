@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "72dc80cb-11c5-4560-bc67-90bd3e13f59f",
+  "name": "glacia's room",
+  "symbol": "bg_glacia_s_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "glacia's room.png",
+  "tileColors": "00140+0428+",
+  "autoColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "1fcc8cb4-6bb4-460c-ad26-fb0e812afcaa",
+  "_index": 20,
+  "name": "Earth/overworld/woodland path 2",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 2144,
+  "y": 1712,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

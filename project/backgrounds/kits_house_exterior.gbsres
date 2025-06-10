@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d65a0bd2-86ab-428e-b6dd-fc7f0c25199e",
+  "name": "kit's house exterior",
+  "symbol": "bg_kit_s_house_exterior",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "kit's house exterior.png",
+  "tileColors": "0550+01266+0014+0114+0014+0114+0014+0114+0014+0114+0014+0114+0014+0114+0014+0114+0014+0114+0014+0114+0014+0114+0014+0114+0014+0114+0014+0114+0014+0114+0014+0156+0450+",
+  "autoColor": false
+}

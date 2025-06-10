@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a44973dc-f8e4-4178-a714-d111bb7a4026",
+  "name": "blair's room",
+  "symbol": "bg_blair_s_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "blair's room.png",
+  "tileColors": "00140+0428+",
+  "autoColor": false
+}

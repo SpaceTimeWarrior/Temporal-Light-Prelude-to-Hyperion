@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "086acf8b-1873-4911-afdd-d71fdeb2a259",
+  "_index": 7,
+  "name": "Earth/kits_house/House_part_A",
+  "backgroundId": "64ae5547-668f-49fb-9534-51b8efecf738",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "006e+0f6+001f+0f3+006+0f3+001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f!00a+0f!001c+0f3+006+0f3+009+0ff+006+0f!006+0f!00a+0f!002+0f!004+0f!006+0f!006+0f!006+0f!003+0f8+00e+0f3+004+0f!006+0f!001b+0f!004+0f!006+0f!001b+0f6+006+0f4+0074+0f4+0024+0f!003+0f8+001c+0f!00a+0f!009+0f4+00f+0f!00a+0f!009+0f4+003+0f6+006+0f!00a+0f!009+0f4+003+0f!004+0f!006+0f!00a+0f!009+0f4+00!0f3+004+0f!006+0f!00a+0f!00e+0f!003+0f4+006+0f3+008+0f3+006+0f7+003+0f!00b+0f!00a+0f!006+0f!009+0f!00b+0f!00a+0f!006+0f!009+0f!00b+0f!00a+0f!006+0f!009+0f3+008+0f2+00a+0f!006+0f!00a+0f3+006+0f3+00a+0f!006+0f!00c+0f!006+0f!00c+0f!006+0f!00c+0f8+00d+0f6+0018+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 608,
+  "y": 456,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 34
+            },
+            "id": "5dde4c56-9fd4-49c3-a4f0-30c984fddff8"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 34
+              }
+            },
+            "id": "dd65ff7c-b3b5-4524-8fcd-5af7c1ae258c"
+          }
+        ]
+      },
+      "id": "650211ef-81d6-4e72-9a6b-a01b8ce4960a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,171 @@
+{
+  "_resourceType": "script",
+  "id": "99f79d8d-f0ce-446c-95ff-af52259e5483",
+  "name": "init_game",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "player stats",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 10
+              },
+              "__collapse": false
+            },
+            "id": "f106ce76-450a-4fcd-832b-23faa2dc759f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "4",
+              "value": {
+                "type": "number",
+                "value": 10
+              },
+              "__collapse": false
+            },
+            "id": "dd7201a6-fa37-4a18-9881-0d80e46cc85e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "number",
+                "value": 20
+              },
+              "__collapse": false
+            },
+            "id": "ac779bfb-2f1e-4025-b467-c2043f19b2c0"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "8",
+              "value": {
+                "type": "number",
+                "value": 20
+              },
+              "__collapse": false
+            },
+            "id": "767bfbb6-7e12-43e7-a81a-fcd0335fa21b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "14",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "3a22bc35-3254-4a00-a3db-fd5c724d8798"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "13",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "700e39d7-a2ff-4302-8105-2cdc0ed13bc0"
+          }
+        ]
+      },
+      "id": "ace09f23-793d-410f-99ee-506c37fdb9b3"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "story variables",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CLEAR_FLAGS",
+            "args": {
+              "variable": "10",
+              "flag1": true,
+              "flag2": true,
+              "flag3": true,
+              "flag4": true,
+              "flag5": true,
+              "flag6": true,
+              "flag7": true,
+              "flag8": true,
+              "flag9": true,
+              "flag10": true,
+              "flag11": true,
+              "flag12": true,
+              "flag13": true,
+              "flag14": true,
+              "flag15": true,
+              "flag16": true
+            },
+            "id": "b8dad7b5-bae3-40e5-8dd9-41085b0b6c18"
+          },
+          {
+            "command": "EVENT_CLEAR_FLAGS",
+            "args": {
+              "variable": "15",
+              "flag1": true,
+              "flag2": true,
+              "flag3": true,
+              "flag4": true,
+              "flag5": true,
+              "flag6": true,
+              "flag7": true,
+              "flag8": true,
+              "flag9": true,
+              "flag10": true,
+              "flag11": true,
+              "flag12": true,
+              "flag13": true,
+              "flag14": true,
+              "flag15": true,
+              "flag16": true
+            },
+            "id": "0dde1cc6-c9c1-43d0-b5c8-0e6d4a66eff4"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "b2ab68ee-ac98-40f5-9dbb-9a2d94c34f01"
+          }
+        ]
+      },
+      "id": "f93f01be-a491-4ff2-a14c-81321d80b2cf"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "11",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "83f0192c-f5b9-4fde-9f85-4c8edf622b2e"
+    }
+  ]
+}

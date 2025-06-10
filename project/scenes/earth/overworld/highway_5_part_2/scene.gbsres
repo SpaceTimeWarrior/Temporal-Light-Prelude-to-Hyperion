@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "eafeba10-9939-4ff6-91f7-bcd232741564",
+  "_index": 18,
+  "name": "Earth/overworld/Highway 5 part 2",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 2124,
+  "y": 1203.1999969482422,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "78d2b392-70d1-4816-bf3d-f7684b1943a1",
+  "name": "kit's house bathroom",
+  "symbol": "bg_kit_s_house_bathroom",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "kit's house bathroom.png",
+  "tileColors": "00140+0428+",
+  "autoColor": false
+}

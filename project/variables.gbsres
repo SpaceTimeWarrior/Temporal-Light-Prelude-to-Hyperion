@@ -2,9 +2,118 @@
   "_resourceType": "variables",
   "variables": [
     {
+      "id": "0",
+      "name": "Blairs_HP",
+      "symbol": "var_blairs_hp"
+    },
+    {
+      "id": "1",
+      "name": "last_Blairs_HP",
+      "symbol": "var_last_blairs_hp"
+    },
+    {
+      "id": "2",
+      "name": "Blairs energy",
+      "symbol": "var_blairs_energy"
+    },
+    {
+      "id": "3",
+      "name": "last_Blairs_energy",
+      "symbol": "var_last_blairs_energy"
+    },
+    {
+      "id": "4",
+      "name": "max_HP",
+      "symbol": "var_max_hp"
+    },
+    {
+      "id": "5",
+      "name": "temp_HP",
+      "symbol": "var_temp_hp"
+    },
+    {
+      "id": "6",
+      "name": "temp_height",
+      "symbol": "var_temp_height"
+    },
+    {
+      "id": "7",
+      "name": "temp_HP2",
+      "symbol": "var_temp_hp2"
+    },
+    {
+      "id": "8",
+      "name": "max_energy",
+      "symbol": "var_max_energy"
+    },
+    {
+      "id": "9",
+      "name": "energy_counter",
+      "symbol": "var_energy_counter"
+    },
+    {
+      "id": "10",
+      "name": "story_flags_1",
+      "symbol": "var_story_flags_1",
+      "flags": {
+        "flag1": "initial dialog",
+        "flag3": "Flag 3",
+        "flag2": "glacia export",
+        "flag16": "keybind 1"
+      }
+    },
+    {
+      "id": "11",
+      "name": "is_browser",
+      "symbol": "var_is_browser"
+    },
+    {
+      "id": "12",
+      "name": "on_bike",
+      "symbol": "var_on_bike"
+    },
+    {
+      "id": "13",
+      "name": "last_ability",
+      "symbol": "var_last_ability"
+    },
+    {
+      "id": "14",
+      "name": "ability_value",
+      "symbol": "var_ability_value"
+    },
+    {
+      "id": "15",
+      "name": "ability_unlocks",
+      "symbol": "var_ability_unlocks"
+    },
+    {
+      "id": "16",
+      "name": "in_boss",
+      "symbol": "var_in_boss"
+    },
+    {
+      "id": "17",
+      "name": "no_boss_update",
+      "symbol": "var_no_boss_update"
+    },
+    {
       "id": "128",
       "name": "intro thread",
       "symbol": "var_intro_thread"
+    },
+    {
+      "id": "bbe5c7e7-f821-4ae6-be4e-2bee054efc86__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "484ac5ee-8243-4bc7-9957-8278c9429fda__L0",
+      "name": "",
+      "symbol": "",
+      "flags": {
+        "flag16": "Flag 16"
+      }
     }
   ]
 }

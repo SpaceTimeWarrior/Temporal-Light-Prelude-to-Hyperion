@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "2bb04305-117e-4e6d-88c0-f2ea377d85ff",
+  "_index": 9,
+  "name": "Earth/kits_house/bathroom",
+  "backgroundId": "78d2b392-70d1-4816-bf3d-f7684b1943a1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0032+0f8+00c+0f8+008+0f6+004+0f2+008+0f6+004+0f2+002+0f8+008+0f2+002+0f8+008+0f2+0012+0f2+0012+0f2+002+0f8+008+0f2+002+0f12+008+0fc+008+0fc+0052+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 936,
+  "y": 536,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "64ae5547-668f-49fb-9534-51b8efecf738",
+  "name": "kit's house interior A",
+  "symbol": "bg_kit_s_house_interior_a",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "kit's house interior A.png",
+  "tileColors": "00550+0450+",
+  "autoColor": false
+}

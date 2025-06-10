@@ -6,3 +6,7 @@ master volume plugin for web versions
 https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection
 
 prepare menu created for temporal light but creates a drawable window at the bottom of the screen and was in every temporal light game since shadow flame
+
+the hud is based on the prior games but was recreated from scratch
+
+pearlite's spritemap was used as a template for kitsune characters

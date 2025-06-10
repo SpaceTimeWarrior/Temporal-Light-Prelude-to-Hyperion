@@ -1,0 +1,192 @@
+temporal light stories
+prelude to hyperion
+brief concept: prequel to hyperion war that explains blair's rebelious past from 3rd shrine maiden to hoverbiker to first princess of eather
+this also explains the hyperion blade(later renamed to firefight)'s origins
+
+blair and her family are brown fox kitsunes
+blair's patterns are solid brown with a white chest and brown eyes
+glacia's patterns are brown with a white tip on the tail and on the hands and feet. with hetero chromia eyes
+kit's patterns are solid brown with brown eyes
+
+chapter 1
+April 5th 2004
+Appalachian mountains, South Carolina (later distortion mountains)
+
+the game starts with a tv broadcast of the president of the united states over to the new Earth order
+the broadcast is interrupted by blair's sister glacia yelling to get packed for school
+glacia: Blair you are watching tv again we have to go to school
+the screen then changes to blair's room (it looks like a stereotypical girl's room in the early 2000's with first generation of 3d printer in the bottom right corner as a addition)[changed to top left]
+blair is sitting in front of the tv
+she gets up
+system:press <>^*[* is down in game's font] to move
+
+once the player leaves the room
+next scene(glacia is talking to kit[glacier's and blair's mother] in a kitchen. and glaicia notices blair and glacia starts to walk to blair and the camera focuses on glacia as she walks toward blair)
+once glacia gets close to blair
+
+Glacia: thought I find you watching tv another drama video or a horror film
+
+blair: worse news.
+
+glacia gives a confused look: news what is going on
+kit then walks into the scene
+
+blair: our president signed over the us to the new Earth order
+everyone except blair gives shocked looks
+
+glacia: are you sure it wasn't one of those apocolipse films where a planet or multiple are being destroyed by some sort of giant creature
+
+kit: I am not completely suprised as the us was the last big country that hasn't already signed their country over to the new Earth Order
+
+blair: if it is it is a movie it was very convincing but it could of been a propaganda ad as I just turned it on.
+
+kit: I will ask at work but you two should get to school
+
+glacia and blair then leave the house to the garage
+and each gets on a motorcycle and put on a headset then a helmet
+
+glacia: we will take the backroads it is a nice practice of our shooting skills
+
+the scene changes to a dirt path with blair riding a motorcycle with glacia a little further ahead 
+
+glacia:I will go ahead to clear a path. but press select on your bike to select a magic type and press @[internal for the a button] to fire.(internal tutorial)
+
+blair: is there a reason for reciting the manual to me. are you going to tell me the oiling schedule next
+
+glacia: no reason...ok maybe to anoy you.
+
+the player navigates a path of trees and fallen branches
+most of which are frozen and shattered.
+
+
+chapter 2
+once the player reaches glacia both blair and glacia get on the road and enters the school parking lot
+
+blair then takes her helmet off and places them in the lockbox on the motorcycle
+
+the school is a mixture of human and monsters and was 10 floors(2 are available in demo)
+
+glacia: this is where we part. have a nice day blair
+
+blair then walks into the classroom
+
+inside is 5 humans 2 boys 3 girls, 3 kitsunes 2 boys and 1 girl,4 phoenixes all boys, 1 female vampire, the instructor is a female blue phoenix (this is excluding blair)
+blair then took her seat
+
+instructor: welcome class to my freshmen magic class. I am flame clawwing I will be teaching you for the next few months. since there are humans here we are going to only be teaching theory. sorry but I want it to be a fair teaching environment. if you wish to learn practical I will have office hours after school
+
+female human A: serves you monsters right
+
+flame: I will warn you once do not continue this retoric.
+
+female human A: ok.
+
+blair thinking: I have a bad feeling about her
+
+flame: anyways I will start with the first lesson. there are two types of magic manipulation and creation. manipulation is to take in magic of that element and to force them out. most magic is of this type. creation or I should call it transformation is to convert one magic element into another. this generally uses more energy than manipulation. true creation is rare and can be self destructive.
+
+female human B: what about transformation magic. she then throws a foxberry into flame's mouth before she can say anything
+
+flame: sina principals office now sune please ensure that  she makes it there.
+
+sune: will do sina you have to come with me.
+
+female human B: where are you taking me all I heard was squeeking.
+
+sune: think about it you purposely transformed our instructor in class and it was not about transformations. also kitsunes can understand foxes as if it was their own language.
+
+female human B: fine I will go this time but you furries have not seen the last of me I sina buttface will take my revenge
+
+sune(trying not to laugh): lets go
+
+sune and sina leave the room
+
+flame: flower can you translate for me
+
+female kitsune A: will do
+
+system: flame and flower continue on for a hour going over things like grading and flame's office hours as well as student resources
+
+the bell rings 
+chapter 3
+system: press pause to get access to a map
+
+blair thinking: What is my next class... lunch. glacia is at the same time. great.
+
+as soon as blair approaches the cafeteria. the ceiling collapses on her
+
+the screen blacks out
+
+blair wakes up in her bed
+
+blair: was that a dream or did it happen
+
+blair then turns on the tv
+
+this is a special news update congress is proposing a bill to dissolve itself and become a part of the New Earh order
+
+glacia: blair are you awake
+
+blair then turns off the tv and runs downstairs
+
+glacia notices blair and walks over
+
+glacia: sorry about yesterday a human girl from your class threw a explosive into the kilm while a student was using it this student was expelled. she kept using the racism card as to why they shouldn't expel. too bad for them there was cameras. I got to practice healing magic though but I wish I didn't have to learn it this way.
+
+blair: you mean that wasn't a dream
+
+kit: no it wasn't I got information on yesterday. this is purely propaganda. Since you recently awakened your magic, you will have to learn your shrine duties
+
+blair: shrine duties
+
+kit: this is for powerful magics or remembrance of the dead. all female kitsunes have to learn this when coming of age.
+
+blair: but what if I don't want to learn magic?
+
+kit: sorry but it is for your own good. how about this can you deliver this package to slice fireglobe. he is to the southeast of here.(and marked on the map)
+
+blair(annoyed): fine.
+
+once the blair reaches the house, slice and bias can be seen practicing swordsmanship.
+
+bias: looks like the furballs are back
+
+slice: bias show some respect you know it is rude.
+
+blair: I have a package for you
+
+slice: looks like my blessed wooden sword has finally been repaired...while I normally don't teach the way of the sword, but would you like to practice
+
+blair: yes.
+
+slice: I will have my son bias to fight you
+
+blair: any tips.
+
+slice: I need to see how you fight first
+
+(mini-boss Bias fireglobe HP 20 atk 1. melee attacks only can-lose=true)[can-lose means no game-over on 0 hp]
+if lost
+ bias: look the furball is running with their tail between their legs
+
+ slice Slaps bias hard enough to knock him back a few feet
+
+ slice: Bias show some respect this probably is the first time using the sword and you have been practicing since you have been able to walk. Sorry about him but if I were to guess you might want to focus on your agility or focus on blocking spells. while I can't teach the spells since I can't cast magic, but I know there are some at your school
+
+
+if won
+ bias: I lost.no it can't be that furball must of cheated
+ 
+ slice: if anyone cheated it is you bias and that is not how to treat a lady. it looks like there isn't much I can teach you
+
+ slice: take this it should help you on your journey ($20)
+
+both
+slice: here take this knife. it ain't much but it can help you protect yourself. Meanwhile I got to scold my son on how to treat a lady.
+
+blair: I guess I have to check back with my mom
+
+chapter 4
+when the player returns home the door is busted open what looks like a fox ear is on the ground in front of the door
+
+blair: what happened... is that glacia's

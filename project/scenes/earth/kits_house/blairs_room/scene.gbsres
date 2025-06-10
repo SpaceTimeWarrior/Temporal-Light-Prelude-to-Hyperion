@@ -1,0 +1,123 @@
+{
+  "_resourceType": "scene",
+  "id": "484ac5ee-8243-4bc7-9957-8278c9429fda",
+  "_index": 6,
+  "name": "Earth/kits_house/blairs_room",
+  "backgroundId": "a44973dc-f8e4-4178-a714-d111bb7a4026",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "ca394da8-0d18-4832-9c8f-187262444c8c"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0030+0f4+00b+0f5+004+0f7+004+0f!009+0f2+003+0f!004+0f!009+0f2+003+0f!004+0f!009+0f2+003+0f!002+0f3+009+0f2+003+0f!002+0f!00c+0f2+002+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+00a+0f2+0031+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 422,
+  "y": 266,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "47aadf1f-dfb3-42d2-a47b-a8f05cfd131f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "d26f59ca-4eb3-4831-a954-3f5786cd563b"
+          }
+        ]
+      },
+      "id": "394f1dfc-45ea-4cee-8e9c-614ce00158b1"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 15,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_SET_DIALOGUE_FRAME",
+            "args": {
+              "tilesetId": "e008786f-b759-41fd-bc57-77981aa3993c"
+            },
+            "id": "0d354ea5-a4a1-40e8-b52c-ed9ed6938119"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "11947c5b-96d4-4e76-998a-26daf3013442",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "98cbaec4-9a0b-42bd-90f3-312d5dd29648"
+          },
+          {
+            "command": "EVENT_SET_DIALOGUE_FRAME",
+            "args": {},
+            "id": "e78b2ae7-c097-442f-9ee5-d34f39b8387f"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "10",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": true
+            },
+            "id": "5d5fcb6d-2a8d-4b72-9ec2-4ea644ff17dc"
+          }
+        ]
+      },
+      "id": "cc72f85c-b14e-4732-a8a4-1f33f984587b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

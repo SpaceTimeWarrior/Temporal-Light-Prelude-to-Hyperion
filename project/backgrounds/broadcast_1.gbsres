@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a2ca324c-9e36-4673-801d-3e38b54ecdd8",
+  "name": "broadcast_1",
+  "symbol": "bg_broadcast_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "broadcast_1.png",
+  "tileColors": "002a+0212+002+0212+002+0212+002+0212+002+0212+002+0212+002+0212+002+0212+002+0212+002+0212+002+0212+002+0212+0050+",
+  "autoColor": false
+}

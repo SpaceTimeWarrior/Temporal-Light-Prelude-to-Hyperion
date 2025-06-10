@@ -2,21 +2,109 @@
   "_resourceType": "scene",
   "id": "25673ddf-69bc-42fd-8d63-aafa603bff8b",
   "_index": 5,
+  "type": "TOPDOWN",
   "name": "cut/intro/broadcast",
-  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
-  "tilesetId": "",
+  "symbol": "scene_6",
+  "x": 168,
+  "y": 256,
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "backgroundId": "a2ca324c-9e36-4673-801d-3e38b54ecdd8",
+  "tilesetId": "",
   "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
+  "spritePaletteIds": [
+    "",
+    "5493b644-8682-4614-be2f-4343f5f61fa3"
+  ],
   "autoFadeSpeed": 1,
-  "symbol": "scene_6",
-  "x": 260,
-  "y": 398,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "587992bc-516c-4430-90be-314f55a14148"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "99f79d8d-f0ce-446c-95ff-af52259e5483"
+      },
+      "id": "b89f2757-f7e7-4e4f-81d2-5d41dcc47911"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "we interupt this\nshow for some\nbreaking news",
+          "president leo \npriderock is going\nto sign the latest",
+          "bill signing the\nUS over to the New\nEarth Order"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4a695d65-a5c5-47ed-a148-a433991e3ceb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Glacia:Blair you\nare watching tv \nagain.",
+          "we have to go to\nschool"
+        ],
+        "__section": "text",
+        "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "85e9498f-1d55-483f-88f3-18f811570cc2"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "484ac5ee-8243-4bc7-9957-8278c9429fda",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "df754bfb-4d82-4db7-83d9-ee1f1e5d404e"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

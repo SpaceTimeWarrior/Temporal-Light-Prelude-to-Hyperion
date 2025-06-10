@@ -20,9 +20,9 @@
     "default-ui"
   ],
   "defaultSpritePaletteIds": [
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
+    "default-bg-2",
+    "5493b644-8682-4614-be2f-4343f5f61fa3",
+    "7558b223-4cba-4214-b98a-1227be2fe95d",
     "default-sprite",
     "default-sprite",
     "default-sprite",
@@ -35,7 +35,7 @@
   "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
   "defaultCharacterEncoding": "",
   "defaultPlayerSprites": {
-    "TOPDOWN": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "TOPDOWN": "318581b1-1317-4a0f-917b-525fb3c256b2",
     "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -81,7 +81,7 @@
   "customControlsSelect": [
     "Shift"
   ],
-  "colorMode": "mixed",
+  "colorMode": "mono",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {},

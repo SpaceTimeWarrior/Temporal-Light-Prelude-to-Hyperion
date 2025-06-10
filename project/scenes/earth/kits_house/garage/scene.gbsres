@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "b26fa971-a27e-4c73-af29-665ffa6a877c",
+  "_index": 8,
+  "name": "Earth/kits_house/Garage",
+  "backgroundId": "1384b300-b1b5-4e18-80db-54358fc62ac6",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "007b+0f24+004+0f!0022+0f!004+0f!0022+0f2+003+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0027+0f!0022+0f2+003+0f!0022+0f!004+0f24+0079+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 280,
+  "y": 536,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "c96dedbc-9da5-4685-9b44-2ed86db97b5c"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "5690bef4-cc63-4a75-9678-37b6169f8f40"
+          }
+        ]
+      },
+      "id": "d695e4e0-a2dc-4874-a296-6d286fee4ddd"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

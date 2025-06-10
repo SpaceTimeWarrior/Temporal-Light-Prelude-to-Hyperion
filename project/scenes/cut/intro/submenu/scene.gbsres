@@ -3,19 +3,26 @@
   "id": "233c47bf-59bd-4081-8511-08b18632bb6d",
   "_index": 4,
   "name": "cut/intro/submenu",
-  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "backgroundId": "a44973dc-f8e4-4178-a714-d111bb7a4026",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0030+0f4+00b+0f5+004+0f7+004+0f!009+0f2+003+0f!004+0f!009+0f2+003+0f!004+0f!009+0f2+003+0f!002+0f3+009+0f2+003+0f!002+0f!00c+0f2+002+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+00a+0f2+0031+",
   "autoFadeSpeed": 1,
   "symbol": "scene_5",
   "x": 704,
   "y": 30,
   "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "ab7511c2-0c15-4240-836a-be90c8ab4def"
+    },
     {
       "command": "EVENT_MENU",
       "args": {

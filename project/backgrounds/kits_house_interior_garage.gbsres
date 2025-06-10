@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1384b300-b1b5-4e18-80db-54358fc62ac6",
+  "name": "kit's house interior Garage",
+  "symbol": "bg_kit_s_house_interior_gar",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "kit's house interior Garage.png",
+  "tileColors": "00280+0450+",
+  "autoColor": false
+}

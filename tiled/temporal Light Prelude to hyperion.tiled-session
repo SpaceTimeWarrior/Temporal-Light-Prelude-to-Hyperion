@@ -1,39 +1,128 @@
 {
-    "activeFile": "temporal Light tiles/in_game_HUD.tsx",
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "temporal Light maps/kit's room.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "modified kenny assets/Kenny Art.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 2,
             "scaleInEditor": 2
         },
+        "temporal Light maps/blair's room.tmx": {
+            "scale": 5.620833333333334,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 79.97034840622683,
+                "y": 71.9644180874722
+            }
+        },
+        "temporal Light maps/glacia's room.tmx": {
+            "scale": 5.62,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 79.98220640569396,
+                "y": 71.97508896797154
+            }
+        },
+        "temporal Light maps/kit's house bathroom.tmx": {
+            "scale": 5.620833333333334,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 69.11786508524833,
+                "y": 70.00741289844328
+            }
+        },
+        "temporal Light maps/kit's house exterior.tmx": {
+            "scale": 2.810416666666667,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 159.94069681245367,
+                "y": 143.9288361749444
+            }
+        },
+        "temporal Light maps/kit's house interior A.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 160.09090909090912,
+                "y": 144.09090909090907
+            }
+        },
+        "temporal Light maps/kit's house interior B.tmx": {
+            "scale": 2.810416666666667,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 159.0511489992587,
+                "y": 176.30837657524089
+            }
+        },
+        "temporal Light maps/kit's house interior Garage.tmx": {
+            "scale": 3.32203125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 159.99247448379663,
+                "y": 72.09444522835237
+            }
+        },
+        "temporal Light maps/kit's room.tmx": {
+            "scale": 5.620833333333334,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 80.0593031875463,
+                "y": 51.68272794662712
+            }
+        },
         "temporal Light tiles/in_game_HUD.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 2,
             "scaleInEditor": 2
         },
         "temporal Light tiles/temporal_light_tileset.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 2,
             "scaleInEditor": 2
         },
         "temporal Light tiles/temporal_light_tileset2.tsx": {
-            "scaleInDock": 1,
+            "scaleInDock": 2,
             "scaleInEditor": 2
         }
     },
     "last.imagePath": "C:/Users/steve/Documents/Temporal-Light-Prelude-to-Hyperion/tiled/temporal Light tiles",
+    "map.height": 9,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 10,
     "openFiles": [
         "modified kenny assets/Kenny Art.tsx",
         "temporal Light tiles/temporal_light_tileset.tsx",
         "temporal Light tiles/temporal_light_tileset2.tsx",
-        "temporal Light tiles/in_game_HUD.tsx"
+        "temporal Light tiles/in_game_HUD.tsx",
+        "temporal Light maps/blair's room.tmx",
+        "temporal Light maps/kit's house interior A.tmx",
+        "temporal Light maps/kit's house interior Garage.tmx",
+        "temporal Light maps/glacia's room.tmx",
+        "temporal Light maps/kit's house exterior.tmx",
+        "temporal Light maps/kit's house bathroom.tmx",
+        "temporal Light maps/kit's house interior B.tmx",
+        "temporal Light maps/kit's room.tmx"
     ],
     "project": "temporal Light Prelude to hyperion.tiled-project",
     "recentFiles": [
         "modified kenny assets/Kenny Art.tsx",
         "temporal Light tiles/temporal_light_tileset.tsx",
         "temporal Light tiles/temporal_light_tileset2.tsx",
-        "temporal Light tiles/in_game_HUD.tsx"
+        "temporal Light tiles/in_game_HUD.tsx",
+        "temporal Light maps/blair's room.tmx",
+        "temporal Light maps/kit's house interior A.tmx",
+        "temporal Light maps/kit's house interior Garage.tmx",
+        "temporal Light maps/glacia's room.tmx",
+        "temporal Light maps/kit's house exterior.tmx",
+        "temporal Light maps/kit's house bathroom.tmx",
+        "temporal Light maps/kit's house interior B.tmx",
+        "temporal Light maps/kit's room.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

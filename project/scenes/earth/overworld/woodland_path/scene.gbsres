@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "be989a84-6bd7-4172-9086-c724858a7c95",
+  "_index": 13,
+  "name": "Earth/overworld/woodland path",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001e+0f2+0014+0f2+0014+0f2+0011c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 2200,
+  "y": 592,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

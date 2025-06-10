@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "2de83b5a-358f-4431-b90c-2823a76bb8b4",
+  "name": "title_animations",
+  "symbol": "tileset_title_animations",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "title_animations.png"
+}

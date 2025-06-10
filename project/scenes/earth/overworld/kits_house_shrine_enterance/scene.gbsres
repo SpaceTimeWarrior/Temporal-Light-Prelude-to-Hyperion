@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "89a5e5f4-dc8c-45a9-8d0f-b8b9213ba3d1",
+  "_index": 14,
+  "name": "Earth/overworld/kits_house_shrine_enterance",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 1424,
+  "y": 1504,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

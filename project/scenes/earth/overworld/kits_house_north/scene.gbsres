@@ -1,0 +1,64 @@
+{
+  "_resourceType": "scene",
+  "id": "63f7482c-8358-4d8a-b92f-ee7ac8147757",
+  "_index": 12,
+  "name": "Earth/overworld/kits_house_north",
+  "backgroundId": "d65a0bd2-86ab-428e-b6dd-fc7f0c25199e",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "ca394da8-0d18-4832-9c8f-187262444c8c",
+    "default-bg-1"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0f50+00364+0f2+001c+0f2+008+0f2+001c+0f2+008+0f2+001b+0f4+006+0f4+001a+0f4+006+0f4+001b+0f2+008+0f2+0026+0f2+0017+0f!0014+0f!005+0fe+0014+0f6+00d+0f16+007d+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 1680,
+  "y": 1168,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 34
+            },
+            "id": "2ce1b9fb-7d00-4eba-9694-1aef833467e7"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 34
+              }
+            },
+            "id": "c5abaa88-1054-48db-bda6-2ba4e29bcc1a"
+          }
+        ]
+      },
+      "id": "88a54f3f-8768-4e1b-a4a7-0244126ff9bb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

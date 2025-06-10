@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+  "name": "hud",
+  "symbol": "tileset_in_game_hud",
+  "width": 20,
+  "height": 13,
+  "imageWidth": 160,
+  "imageHeight": 104,
+  "filename": "hud.png"
+}

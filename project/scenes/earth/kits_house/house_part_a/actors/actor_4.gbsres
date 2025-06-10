@@ -1,0 +1,484 @@
+{
+  "_resourceType": "actor",
+  "id": "1016fc6e-fb4a-445d-ba2a-4e0d30e31d00",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "318581b1-1317-4a0f-917b-525fb3c256b2",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_12",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 0,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "e63d57fe-887d-4359-9a3e-a9060e1d2721"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66"
+            },
+            "id": "ce0bd706-71f9-4e1f-8daa-7546166bee12"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_CAMERA_MOVE_TO",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 21
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "speed": 0
+            },
+            "id": "bd9f44f9-2216-406b-b4cd-39d5557c26c3"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "e9e56e74-3986-41db-9886-b2ddb18e88be"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
+              "x": {
+                "type": "number",
+                "value": 31
+              },
+              "y": {
+                "type": "number",
+                "value": 26
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "74b0cc3b-5bb5-46af-bd4e-d4329371ea72"
+          },
+          {
+            "command": "EVENT_CAMERA_LOCK",
+            "args": {
+              "speed": 1,
+              "axis": [
+                "x",
+                "y"
+              ]
+            },
+            "id": "aaeb6bf3-644f-45e5-8d5e-607c1409d7ea"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Glacia: thought \nI find you \nwatching tv",
+                "another drama \nvideo or a \nhorror film"
+              ],
+              "__section": "text",
+              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "90d325d3-b5bb-4540-acc3-c3b6cff6f14e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:worse news"
+              ],
+              "__section": "text",
+              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6e0113b6-1291-4c5f-bdf4-b62665ebd4cb"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
+              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+            },
+            "id": "344cffaf-84e4-40b5-b890-52b52c5a4ea8"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 33
+              },
+              "y": {
+                "type": "number",
+                "value": 26
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "09d30e62-ab45-4bb5-a72b-e5732a4242ff"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair: our \npresident signed\nover the us",
+                "to the new \nEarth Order"
+              ],
+              "__section": "text",
+              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "23a4dff9-db53-4ab6-8a45-7352612dd705"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "e84b3a2f-a3e6-4a96-9c41-6709b1da29a1"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "f9f40c8a-2089-425d-ac69-df1fa810e0d7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "glacia: are you \nsure it wasn't \none of those ",
+                "apocalypse films\nwhere a planet \nor multiple are ",
+                "being destroyed \nby some sort of \ngiant creature"
+              ],
+              "__section": "text",
+              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "99bedd23-34f6-417d-b3c3-f71965688968"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "kit: I am not \ncompletely \nsurprised as the",
+                "us was the last \nbig country that\nhasn't already ",
+                "signed their \ncountry over to \nthe new Earth \nOrder"
+              ],
+              "__section": "text",
+              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "cbe5b21f-d4f9-43cf-92ed-3331a2b56988"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:if it is a\nmovie it was \nvery convincing",
+                "but it could of \nbeen a \npropaganda ad",
+                "as I just turned\nit on."
+              ],
+              "__section": "text",
+              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d8f4f4ec-def9-4a4b-833c-be006d2121fb"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "kit: I will ask \nat work",
+                "but you two\nshould get to \nschool"
+              ],
+              "__section": "text",
+              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "36b365f5-5368-4a49-ba97-5c77c760dadf"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "glacia: I will\nmeet you at the\ngarage"
+              ],
+              "__section": "text",
+              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1935d5fd-a755-4a77-aa77-b8fd109128aa"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false,
+              "__label": "HUD"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PREP_MENU",
+                  "args": {
+                    "xnoverlay": 0,
+                    "ynoverlay": 16,
+                    "color": "black",
+                    "xoverlay": 0,
+                    "yoverlay": 0,
+                    "overlayw": 20,
+                    "overlayh": 2,
+                    "xsource": 0,
+                    "ysource": 34
+                  },
+                  "id": "7901e0df-5224-4600-9180-fc8d656c4052"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 34
+                    }
+                  },
+                  "id": "d10f61ad-2b32-4e8c-91a2-e1e24887b408"
+                }
+              ]
+            },
+            "id": "e98bc26b-ede6-4aba-8d88-15fb9bf0b032"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "moveType": "vertical",
+              "useCollisions": true
+            },
+            "id": "102d132b-b249-4137-b893-264dba6e6706"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30
+            },
+            "id": "ea656210-74ea-4bc0-9221-8c8153b316c3"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 33
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "64297e44-2283-4c09-b59c-f221d89163cf"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 1,
+              "frames": 30
+            },
+            "id": "23ea6ce3-b529-4749-8c82-f91573a330a5"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66"
+            },
+            "id": "7ec4430b-4794-4eac-bdd4-3aace9fffbf2"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "10",
+              "flag1": true,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "b3e944d7-59a1-4690-abb5-d4566b8157df"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "6c2db508-8fc5-434c-b237-93ed91109070"
+          }
+        ]
+      },
+      "id": "0ca284dc-4077-41b6-b5f9-31af89c13e66"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 33,
+  "y": 20,
+  "_index": 3
+}

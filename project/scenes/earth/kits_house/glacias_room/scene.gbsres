@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "0e4c1561-3e50-40c0-adf8-822e5814537a",
+  "_index": 11,
+  "name": "Earth/kits_house/glacias_room",
+  "backgroundId": "72dc80cb-11c5-4560-bc67-90bd3e13f59f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0030+0f4+00f+0f!004+0f7+002+0f7+00a+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f12+003d+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 608,
+  "y": 264,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "3661f0c8-7fb4-4eaf-ab8d-3822ed421204"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "190ed868-06d6-4c78-9792-e3455da9b03b"
+          }
+        ]
+      },
+      "id": "a2a0d9eb-1b5e-447e-9196-f17c40d3562c"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
