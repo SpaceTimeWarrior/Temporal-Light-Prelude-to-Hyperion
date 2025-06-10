@@ -1,4 +1,4 @@
-# temporal-light-Jem of twilight
+# temporal-light-Prelude to Hyperion
 this licence states that the code and mechanics are open source
 characters,story,locations,tilesets,music or anything else not stated above falls under the temporal light Fan content policy
 this policy is a modified version of fair use.
