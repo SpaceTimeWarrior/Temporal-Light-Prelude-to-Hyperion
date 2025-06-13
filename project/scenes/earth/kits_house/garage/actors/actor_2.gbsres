@@ -17,6 +17,17 @@
   "symbol": "actor_16",
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "165e178b-5b68-486a-aba1-65b4038d8415"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "63f7482c-8358-4d8a-b92f-ee7ac8147757",

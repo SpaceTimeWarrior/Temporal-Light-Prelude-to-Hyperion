@@ -3,20 +3,60 @@
   "id": "be989a84-6bd7-4172-9086-c724858a7c95",
   "_index": 13,
   "name": "Earth/overworld/woodland path",
-  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "backgroundId": "7e12ac74-1c3f-450d-85ef-198f0c106460",
   "tilesetId": "",
   "width": 20,
-  "height": 18,
-  "type": "TOPDOWN",
+  "height": 200,
+  "type": "SHMUP",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "001e+0f2+0014+0f2+0014+0f2+0011c+",
+  "collisions": "0f4+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00a+0fa+00a+0fa+00a+0fa+00a+0f8+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+00a+0fa+00a+0fc+008+0fc+008+0fc+008+0fc+008+0fe+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0f8+00e+0f6+00e+0f6+00e+0f6+00e+0f6+00e+0f6+00e+0f6+004+0f4+006+0f6+004+0f4+006+0f6+004+0f4+006+0f6+004+0f4+006+0f6+004+0f4+006+0f6+004+0f4+006+0f6+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f8+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fa+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f6+0010+0f4+0010+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+004+0f8+004+0f4+004+0f8+004+0f4+004+0f8+004+0f4+004+0f8+004+0f4+004+0f8+004+0f4+004+0f8+004+0f4+004+0f8+004+0f4+004+0f8+004+0f4+004+0f8+004+0f4+004+0f8+004+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f4+006+0f6+004+0f4+004+0f8+004+0f4+004+0fa+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+00a+0fa+00a+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fe+004+0f10+004+0f10+004+0f10+004+0fe+006+0fe+006+0fe+006+0fe+006+0fe+004+0f10+004+0f10+004+0f10+004+0f10+004+0f10+004+0fe+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fa+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0fa+008+0fc+008+0fc+008+0fc+008+0fa+00a+0fa+00a+0f8+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+00a+0fa+006+0f!003+0fe+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0fc+008+0f6+0028+",
   "autoFadeSpeed": 1,
   "symbol": "scene_14",
-  "x": 2200,
-  "y": 592,
-  "script": [],
+  "x": 3344,
+  "y": 120,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 198
+            },
+            "id": "bf11e597-e07a-4e4d-a570-246dac5831ee"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 198
+              }
+            },
+            "id": "a8cfefe9-5311-442b-95e3-7ec99919f756"
+          }
+        ]
+      },
+      "id": "ebb108f0-97ea-4726-adc4-b34b77632167"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "3c43e872-e147-4fa3-ac73-a561df52d044"
 }

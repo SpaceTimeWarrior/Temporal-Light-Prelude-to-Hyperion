@@ -1,0 +1,54 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "54a43c2f-6b68-48a1-b75d-a472dee33481",
+  "name": "Damage_collider",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "26068cbc-9c50-471b-afea-c07e05fbd37a",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "f3892018-1bfd-4d23-8a56-5b7d26821c1a"
+    },
+    {
+      "command": "EVENT_SET_TIMER_SCRIPT",
+      "args": {
+        "timer": 3,
+        "duration": 0.5,
+        "frames": 30,
+        "__scriptTabs": "end"
+      },
+      "children": {
+        "script": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "26068cbc-9c50-471b-afea-c07e05fbd37a",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "b029c738-e52a-4c68-82d4-f3e08c6ab59a"
+          }
+        ]
+      },
+      "id": "d4dadd60-6c06-4c5c-bc60-04607bbd5163"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_TIMER_DISABLE",
+      "args": {
+        "timer": 3
+      },
+      "id": "6e253453-cdf8-4ff8-8a12-5fab634cf319",
+      "children": {}
+    }
+  ]
+}

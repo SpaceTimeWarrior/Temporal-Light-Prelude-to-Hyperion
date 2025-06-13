@@ -2,11 +2,11 @@
   "_resourceType": "script",
   "id": "11947c5b-96d4-4e76-998a-26daf3013442",
   "name": "browser_keys",
-  "description": "",
+  "description": "this is to tell the controls to the game\none that displays the gameboy controls and one that gives the web controls",
   "variables": {
     "V0": {
       "id": "V0",
-      "name": "Variable A",
+      "name": "dialog_index",
       "passByReference": false
     }
   },

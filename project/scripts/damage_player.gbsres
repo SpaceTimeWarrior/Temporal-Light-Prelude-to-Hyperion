@@ -1,0 +1,214 @@
+{
+  "_resourceType": "script",
+  "id": "26068cbc-9c50-471b-afea-c07e05fbd37a",
+  "name": "Damage player",
+  "description": "use this if you want to damage the player.\nthis has gameover checking (setting the can_lose to true disables the check.if the player loses then hp wil be restored to 20% and the has_lost flag set to true. if somehow blair's hp still is below or at 0 blair's hp will be set to 1 with a error message)",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Damage_amounts",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "sub",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V0"
+          }
+        }
+      },
+      "id": "d30a15d0-a3aa-4694-9265-8d79feab1f32"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.125,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 8
+        }
+      },
+      "id": "d4cb3a79-7740-4451-a57c-b016db3e8315"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "18"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "    blair died\n        RIP"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "98d5838c-671c-42f8-a2ef-9b48929d8719"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "beebb822-4515-43af-b18e-f1fb2f8fd8cf",
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "0385f971-097d-4ca7-a315-a9c07812cee0"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "19",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "64dabed9-624c-422a-9888-8b678053c169"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "expression",
+                      "value": "($04$*20)/100"
+                    }
+                  },
+                  "id": "6028d89e-7a11-40b3-820c-98a550bb6e6a"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "0",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          }
+                        },
+                        "id": "f59765c4-6c9a-453a-adce-8e6f17bc79a9"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "ERROR-HP below 0\nafter healing...",
+                            "if this occoured\non normal gameplay\ncontact the dev\nas soon as possible"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "1e69a470-d44a-4677-aa32-00b3d2e1b9bb"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "5336fceb-44bc-4715-8105-25a88442d419"
+                }
+              ]
+            },
+            "id": "fcc398b3-2c85-439d-9880-45faae9cc2f7"
+          }
+        ],
+        "false": []
+      },
+      "id": "6b6d8b5f-b4a5-4aa6-bead-f642206ac015"
+    }
+  ]
+}

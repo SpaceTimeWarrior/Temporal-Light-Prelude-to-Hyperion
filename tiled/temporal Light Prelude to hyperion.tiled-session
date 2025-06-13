@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "temporal Light maps/kit's room.tmx",
+    "activeFile": "modified kenny assets/woodland path 1.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -11,6 +11,14 @@
         "modified kenny assets/Kenny Art.tsx": {
             "scaleInDock": 2,
             "scaleInEditor": 2
+        },
+        "modified kenny assets/woodland path 1.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 79.83333333333331,
+                "y": 167.16666666666669
+            }
         },
         "temporal Light maps/blair's room.tmx": {
             "scale": 5.620833333333334,
@@ -28,12 +36,28 @@
                 "y": 71.97508896797154
             }
         },
+        "temporal Light maps/highway 5 part 1.tmx": {
+            "scale": 1.669921875,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320.0748538011696,
+                "y": 144.0187134502924
+            }
+        },
+        "temporal Light maps/highway 5 part 2.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 79.5,
+                "y": 267.5
+            }
+        },
         "temporal Light maps/kit's house bathroom.tmx": {
             "scale": 5.620833333333334,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 69.11786508524833,
-                "y": 70.00741289844328
+                "x": 79.97034840622683,
+                "y": 71.9644180874722
             }
         },
         "temporal Light maps/kit's house exterior.tmx": {
@@ -48,7 +72,7 @@
             "scale": 5.5,
             "selectedLayer": 5,
             "viewCenter": {
-                "x": 160.09090909090912,
+                "x": 160.0909090909091,
                 "y": 144.09090909090907
             }
         },
@@ -56,8 +80,8 @@
             "scale": 2.810416666666667,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 159.0511489992587,
-                "y": 176.30837657524089
+                "x": 159.94069681245367,
+                "y": 143.9288361749444
             }
         },
         "temporal Light maps/kit's house interior Garage.tmx": {
@@ -68,12 +92,20 @@
                 "y": 72.09444522835237
             }
         },
+        "temporal Light maps/kit's house shrine enterance.tmx": {
+            "scale": 2.81,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 150.71174377224202,
+                "y": 168.14946619217085
+            }
+        },
         "temporal Light maps/kit's room.tmx": {
             "scale": 5.620833333333334,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 80.0593031875463,
-                "y": 51.68272794662712
+                "x": 79.97034840622683,
+                "y": 71.9644180874722
             }
         },
         "temporal Light tiles/in_game_HUD.tsx": {
@@ -90,7 +122,7 @@
         }
     },
     "last.imagePath": "C:/Users/steve/Documents/Temporal-Light-Prelude-to-Hyperion/tiled/temporal Light tiles",
-    "map.height": 9,
+    "map.height": 180,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
@@ -104,10 +136,14 @@
         "temporal Light maps/kit's house interior A.tmx",
         "temporal Light maps/kit's house interior Garage.tmx",
         "temporal Light maps/glacia's room.tmx",
-        "temporal Light maps/kit's house exterior.tmx",
         "temporal Light maps/kit's house bathroom.tmx",
         "temporal Light maps/kit's house interior B.tmx",
-        "temporal Light maps/kit's room.tmx"
+        "temporal Light maps/kit's room.tmx",
+        "temporal Light maps/highway 5 part 1.tmx",
+        "temporal Light maps/kit's house exterior.tmx",
+        "temporal Light maps/highway 5 part 2.tmx",
+        "temporal Light maps/kit's house shrine enterance.tmx",
+        "modified kenny assets/woodland path 1.tmx"
     ],
     "project": "temporal Light Prelude to hyperion.tiled-project",
     "recentFiles": [
@@ -119,10 +155,10 @@
         "temporal Light maps/kit's house interior A.tmx",
         "temporal Light maps/kit's house interior Garage.tmx",
         "temporal Light maps/glacia's room.tmx",
-        "temporal Light maps/kit's house exterior.tmx",
         "temporal Light maps/kit's house bathroom.tmx",
         "temporal Light maps/kit's house interior B.tmx",
-        "temporal Light maps/kit's room.tmx"
+        "temporal Light maps/kit's room.tmx",
+        "temporal Light maps/highway 5 part 1.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

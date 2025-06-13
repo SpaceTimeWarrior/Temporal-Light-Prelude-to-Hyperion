@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "99f79d8d-f0ce-446c-95ff-af52259e5483",
   "name": "init_game",
-  "description": "",
+  "description": "sets up the game for playing",
   "variables": {},
   "actors": {},
   "symbol": "script_2",
@@ -93,7 +93,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "story variables",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -166,6 +166,26 @@
         }
       },
       "id": "83f0192c-f5b9-4fde-9f85-4c8edf622b2e"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "18",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "53247e51-d517-4e1f-9c90-8e3b8268076d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "19",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "a3076d70-c8df-4031-95aa-801f0b48702f"
     }
   ]
 }

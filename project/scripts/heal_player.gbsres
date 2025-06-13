@@ -1,0 +1,199 @@
+{
+  "_resourceType": "script",
+  "id": "fd411bbb-c553-4fc5-8afd-367ca15affca",
+  "name": "heal player",
+  "description": "use this to heal the player\nonly the first variable is used the other two are temp variables\nDo not use a negative number as there is no checks ",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "healing_amounts",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "temp",
+      "passByReference": false
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Variable C",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V1",
+        "value": {
+          "type": "add",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "0"
+          }
+        }
+      },
+      "id": "b500cd6d-8000-489f-a55e-dd329d93733f"
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V2",
+        "expression": "($04$*120)/100"
+      },
+      "id": "bedff62f-1c2a-4101-a0c8-0002f034373c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "V1"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V2"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V0",
+              "value": {
+                "type": "sub",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V1"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "V2"
+                }
+              }
+            },
+            "id": "80c2bf88-982c-456e-85d4-714517668abf"
+          }
+        ],
+        "false": []
+      },
+      "id": "5f999832-a1e3-459f-99de-65bb31330791"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "V0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "add",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "0"
+                }
+              }
+            },
+            "id": "27710b7a-3db5-4841-b127-d275d6b2be0e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "variable",
+                "value": "V0"
+              },
+              "__comment": true
+            },
+            "id": "68dcf0d7-b9c0-4b71-8bc5-6a89c2c41265"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair was healed\nby $V0$ points"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "27ea60e9-43b5-4715-8b23-bf138309e59f"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "this would of \nhealed blair but\nher health was \nfull"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a7fea010-6ab2-4ceb-adc0-7444feaa499c"
+          }
+        ]
+      },
+      "id": "81fc1272-f5c4-43d4-bea8-2f6dc48b1e43"
+    }
+  ]
+}

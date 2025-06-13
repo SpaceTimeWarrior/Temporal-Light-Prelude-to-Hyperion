@@ -13,7 +13,7 @@
     "default-bg-1"
   ],
   "spritePaletteIds": [],
-  "collisions": "0f50+00364+0f2+001c+0f2+008+0f2+001c+0f2+008+0f2+001b+0f4+006+0f4+001a+0f4+006+0f4+001b+0f2+008+0f2+0026+0f2+0017+0f!0014+0f!005+0fe+0014+0f6+00d+0f16+007d+",
+  "collisions": "0f50+00364+0f2+001c+0f2+008+0f2+001c+0f2+008+0f2+001b+0f4+006+0f4+001a+0f4+006+0f4+001b+0f2+008+0f2+0026+0f2+0016+0f2+0014+0f!005+0fe+0014+0f6+00d+0f16+007d+",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
   "x": 1680,
@@ -22,7 +22,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "HUD"
       },
       "children": {
@@ -56,6 +56,106 @@
         ]
       },
       "id": "88a54f3f-8768-4e1b-a4a7-0244126ff9bb"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "12"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "12",
+              "choices": 2,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "4d227af5-a279-45d9-b9cb-c59ed3b567e6"
+                  },
+                  "id": "9a730e84-7d97-47ad-ba1a-edd6861b62ba"
+                }
+              ],
+              "true1": [],
+              "true2": [],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": [
+                {
+                  "command": "EVENT_PLAYER_SET_SPRITE",
+                  "args": {
+                    "spriteSheetId": "318581b1-1317-4a0f-917b-525fb3c256b2"
+                  },
+                  "id": "b421824d-5cf8-4433-8a55-e2efc9a6a00c"
+                }
+              ]
+            },
+            "id": "8550bfc3-a1f6-4ea6-b23b-84c90164544d"
+          }
+        ],
+        "false": []
+      },
+      "id": "f9cd880a-fc54-4929-9579-918da9ee9cca"
     }
   ],
   "playerHit1Script": [],

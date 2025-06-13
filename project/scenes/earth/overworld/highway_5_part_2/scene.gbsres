@@ -3,19 +3,65 @@
   "id": "eafeba10-9939-4ff6-91f7-bcd232741564",
   "_index": 18,
   "name": "Earth/overworld/Highway 5 part 2",
-  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "backgroundId": "3bcd4bbb-0e0f-4e71-91ad-850abaa5de9e",
   "tilesetId": "",
   "width": 20,
-  "height": 18,
+  "height": 72,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0f6+008+0fc+008+0f6+001a2+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f4+0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f2+00!0f!0010+0f4+0010+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0028+",
   "autoFadeSpeed": 1,
   "symbol": "scene_19",
-  "x": 2124,
-  "y": 1203.1999969482422,
-  "script": [],
+  "x": 2008,
+  "y": 1168,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 70
+            },
+            "id": "bee62393-d711-4afb-aa72-ad6ef0cd5b73"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 70
+              }
+            },
+            "id": "c0228080-41e5-467e-ab18-7371bb43186e"
+          }
+        ]
+      },
+      "id": "0d7fa98a-66ac-42d4-86b8-424f995ca58d"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d8842575-7eb2-4730-8ee8-b5effbf1ae24"
+      },
+      "id": "0ecd1961-fd0a-4be5-a71f-2e9759f2f983"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

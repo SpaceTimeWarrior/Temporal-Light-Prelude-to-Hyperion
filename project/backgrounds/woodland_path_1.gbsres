@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7e12ac74-1c3f-450d-85ef-198f0c106460",
+  "name": "woodland path 1",
+  "symbol": "bg_woodland_path_1",
+  "width": 20,
+  "height": 200,
+  "imageWidth": 160,
+  "imageHeight": 1600,
+  "filename": "woodland path 1.png",
+  "tileColors": "00be8+04!003b7+",
+  "autoColor": false
+}

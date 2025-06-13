@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 288,
   "filename": "kit's house interior B.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

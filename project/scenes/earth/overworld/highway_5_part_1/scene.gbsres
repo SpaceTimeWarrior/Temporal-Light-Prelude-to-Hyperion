@@ -2,21 +2,63 @@
   "_resourceType": "scene",
   "id": "3be4f9f6-42c7-4c73-b90a-ed307adf113c",
   "_index": 17,
-  "name": "Earth/overworld/Highway 5 part 1",
-  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Earth/overworld/Highway 5 part 1",
   "symbol": "scene_18",
-  "x": 1368,
-  "y": 1187.1999969482422,
-  "script": [],
+  "x": 1032,
+  "y": 1168,
+  "width": 80,
+  "height": 36,
+  "backgroundId": "ec994c03-4d61-4556-86e9-a6df12360186",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "ca394da8-0d18-4832-9c8f-187262444c8c"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 34
+            },
+            "id": "61b8be1c-296d-4c49-b329-a6e5750a6e3a"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 34
+              }
+            },
+            "id": "825580df-3aef-4856-b6ca-211b97791302"
+          }
+        ]
+      },
+      "id": "cf4b1ed1-b4ed-4e43-85ee-de25fcb29f41"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "0fa0+005f0+0f4a+006+0f4a+006+0f4a+006+0f4b+005+0f4b+005+0f4a+006+0f4a+006+0f4a+006+0f4a+006+0f4b+003+0f4d+003+0fa2+00a0+"
 }

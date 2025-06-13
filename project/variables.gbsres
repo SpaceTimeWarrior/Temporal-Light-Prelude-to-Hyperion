@@ -23,8 +23,8 @@
     },
     {
       "id": "4",
-      "name": "max_HP",
-      "symbol": "var_max_hp"
+      "name": "maxhp",
+      "symbol": "var_maxhp"
     },
     {
       "id": "5",
@@ -96,6 +96,16 @@
       "id": "17",
       "name": "no_boss_update",
       "symbol": "var_no_boss_update"
+    },
+    {
+      "id": "18",
+      "name": "can_lose",
+      "symbol": "var_can_lose"
+    },
+    {
+      "id": "19",
+      "name": "has_lost",
+      "symbol": "var_has_lost"
     },
     {
       "id": "128",

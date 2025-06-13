@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "79fb5c88-f304-475b-b2af-c987b1ca4031",
+  "name": "kit's house shrine enterance",
+  "symbol": "bg_kit_s_house_shrine_enter",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "kit's house shrine enterance.png",
+  "tileColors": "0122+006+0122+006+0122+006+0122+006+0122+006+0122+006+0122+006+0122+006+0122+006+0122+006+0122+006+0122+0016e+0122+006+0122+006+0122+006+0122+006+0122+006+0122+006+01118+0450+",
+  "autoColor": false
+}

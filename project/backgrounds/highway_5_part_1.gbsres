@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ec994c03-4d61-4556-86e9-a6df12360186",
+  "name": "highway 5 part 1",
+  "symbol": "bg_highway_5_part_1",
+  "width": 80,
+  "height": 36,
+  "imageWidth": 640,
+  "imageHeight": 288,
+  "filename": "highway 5 part 1.png",
+  "tileColors": "05a0+007d0+014a+006+014a+006+014b+005+014b+005+014b+005+014a+006+014a+006+04a0+",
+  "autoColor": false
+}
