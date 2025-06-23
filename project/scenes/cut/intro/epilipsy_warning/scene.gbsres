@@ -2,19 +2,24 @@
   "_resourceType": "scene",
   "id": "22526339-08a3-4def-990a-324f8829b110",
   "_index": 2,
-  "name": "cut/intro/epilipsy_warning",
-  "backgroundId": "e6b12fc0-b8ff-4e32-8564-bf3a6d91344c",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "LOGO",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "cut/intro/epilipsy_warning",
   "symbol": "scene_3",
   "x": 60,
   "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "e6b12fc0-b8ff-4e32-8564-bf3a6d91344c",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -105,5 +110,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

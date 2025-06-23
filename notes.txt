@@ -1,0 +1,12 @@
+ability_value
+index|name|cost
+0|null            |0
+1|fireball        |2
+2|knife           |1
+3|eatherian sword |1
+4|ice shard       |4
+5|fist            |1
+6|wooden sword    |1
+
+energy recharge rate = 1energy/sec
+if energy is fully depleted you have to wait for a full recharge time

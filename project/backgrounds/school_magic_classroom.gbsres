@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "86988fa4-29b0-48d7-8ac8-a4f5bd143e41",
+  "name": "school magic classroom",
+  "symbol": "bg_school_magic_classroom",
+  "width": 20,
+  "height": 40,
+  "imageWidth": 160,
+  "imageHeight": 320,
+  "filename": "school magic classroom.png",
+  "tileColors": "",
+  "autoColor": false
+}

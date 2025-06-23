@@ -3,13 +3,13 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "modified kenny assets/woodland path 1.tmx",
+    "activeFile": "temporal Light maps/school magic classroom.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "modified kenny assets/Kenny Art.tsx": {
-            "scaleInDock": 2,
+            "scaleInDock": 1.5,
             "scaleInEditor": 2
         },
         "modified kenny assets/woodland path 1.tmx": {
@@ -49,7 +49,15 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 79.5,
-                "y": 267.5
+                "y": 287.5
+            }
+        },
+        "temporal Light maps/highway 5 part 3.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 260.6363636363636,
+                "y": 295.9090909090909
             }
         },
         "temporal Light maps/kit's house bathroom.tmx": {
@@ -58,6 +66,14 @@
             "viewCenter": {
                 "x": 79.97034840622683,
                 "y": 71.9644180874722
+            }
+        },
+        "temporal Light maps/kit's house exterior south.tmx": {
+            "scale": 3.313125,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 160.1207319373703,
+                "y": 71.98641765704585
             }
         },
         "temporal Light maps/kit's house exterior.tmx": {
@@ -94,10 +110,10 @@
         },
         "temporal Light maps/kit's house shrine enterance.tmx": {
             "scale": 2.81,
-            "selectedLayer": 1,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 150.71174377224202,
-                "y": 168.14946619217085
+                "x": 107.65124555160143,
+                "y": 156.76156583629893
             }
         },
         "temporal Light maps/kit's room.tmx": {
@@ -106,6 +122,54 @@
             "viewCenter": {
                 "x": 79.97034840622683,
                 "y": 71.9644180874722
+            }
+        },
+        "temporal Light maps/kit's shrine path 1.tmx": {
+            "scale": 2.810416666666667,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 159.94069681245367,
+                "y": 143.9288361749444
+            }
+        },
+        "temporal Light maps/school enterance.tmx": {
+            "scale": 3,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 159.83333333333331,
+                "y": 288.16666666666663
+            }
+        },
+        "temporal Light maps/school hallway 1.tmx": {
+            "scale": 4,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 320.125,
+                "y": 288.125
+            }
+        },
+        "temporal Light maps/school magic classroom.tmx": {
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 79.83333333333331,
+                "y": 188.49999999999997
+            }
+        },
+        "temporal Light maps/school parking lot f 10.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 319.66666666666663,
+                "y": 288.33333333333337
+            }
+        },
+        "temporal Light maps/woodland path 1.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 79.83333333333331,
+                "y": 800.1666666666666
             }
         },
         "temporal Light tiles/in_game_HUD.tsx": {
@@ -122,7 +186,7 @@
         }
     },
     "last.imagePath": "C:/Users/steve/Documents/Temporal-Light-Prelude-to-Hyperion/tiled/temporal Light tiles",
-    "map.height": 180,
+    "map.height": 9,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
@@ -142,8 +206,14 @@
         "temporal Light maps/highway 5 part 1.tmx",
         "temporal Light maps/kit's house exterior.tmx",
         "temporal Light maps/highway 5 part 2.tmx",
-        "temporal Light maps/kit's house shrine enterance.tmx",
-        "modified kenny assets/woodland path 1.tmx"
+        "temporal Light maps/woodland path 1.tmx",
+        "temporal Light maps/school parking lot f 10.tmx",
+        "temporal Light maps/school enterance.tmx",
+        "temporal Light maps/school hallway 1.tmx",
+        "temporal Light maps/kit's house exterior south.tmx",
+        "temporal Light maps/highway 5 part 3.tmx",
+        "temporal Light maps/kit's shrine path 1.tmx",
+        "temporal Light maps/school magic classroom.tmx"
     ],
     "project": "temporal Light Prelude to hyperion.tiled-project",
     "recentFiles": [

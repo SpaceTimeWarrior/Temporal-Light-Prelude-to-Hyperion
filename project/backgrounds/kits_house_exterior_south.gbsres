@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c19040f5-e901-414b-b678-20280cbab595",
+  "name": "kit's house exterior south",
+  "symbol": "bg_kit_s_house_exterior_sou",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "kit's house exterior south.png",
+  "tileColors": "",
+  "autoColor": false
+}

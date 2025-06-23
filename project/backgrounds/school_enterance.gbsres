@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c9f08bd7-d533-45bf-b30b-819439719627",
+  "name": "school enterance",
+  "symbol": "bg_school_enterance",
+  "width": 40,
+  "height": 72,
+  "imageWidth": 320,
+  "imageHeight": 576,
+  "filename": "school enterance.png",
+  "tileColors": "03af0+0450+",
+  "autoColor": false
+}

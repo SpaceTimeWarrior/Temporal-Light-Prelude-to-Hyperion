@@ -1,0 +1,55 @@
+{
+  "_resourceType": "trigger",
+  "id": "70bda7f4-656e-4251-95c8-797c1e0016f5",
+  "name": "",
+  "prefabId": "",
+  "x": 19,
+  "y": 2,
+  "symbol": "trigger_63",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 20,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 4,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Glacia:Where ARE\nYOU GOING?"
+              ],
+              "__section": "text",
+              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "601a9454-ee1f-4f4d-b342-bc4bed018d3c"
+          }
+        ]
+      },
+      "id": "e885d99d-4882-443c-8c1d-169417d0a6da"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

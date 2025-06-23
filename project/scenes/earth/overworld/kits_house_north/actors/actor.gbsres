@@ -4,9 +4,9 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "fcf78166-b980-400d-8175-78a09531a5a4",
+  "spriteSheetId": "faf652d4-67f8-4b31-97de-a07937a4af84",
   "prefabId": "",
-  "direction": "down",
+  "direction": "up",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -16,12 +16,84 @@
   "prefabScriptOverrides": {},
   "symbol": "actor_33",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 2,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "bc8ab50a-a35a-49f9-adf1-e95031653ac7"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "10",
+              "flag1": false,
+              "flag2": false,
+              "flag3": true,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "2b8e35e9-851b-4d35-aadb-68c8cdb1dd61"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "glacia: We will \ntake the \nbackroads,",
+                "it is a nice \npractice of our \nshooting skills"
+              ],
+              "__section": "text",
+              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5cd37735-4f11-4c4b-a639-1b4b2d32bb20"
+          }
+        ]
+      },
+      "id": "a30602b8-f1b7-479b-b2c0-21f811e9053d"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 5,
-  "y": 23,
+  "x": 3,
+  "y": 24,
   "_index": 0
 }

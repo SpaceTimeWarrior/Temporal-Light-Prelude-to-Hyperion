@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "299b3543-de5f-46a8-acd8-8b7d82977752",
+  "name": "Gameover_tileset",
+  "symbol": "tileset_gameover_tileset",
+  "width": 8,
+  "height": 2,
+  "imageWidth": 64,
+  "imageHeight": 16,
+  "filename": "Gameover_tileset.png"
+}

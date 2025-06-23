@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bd7d736c-2104-4fad-abac-ae65ac0e6654",
+  "name": "school parking lot f 10",
+  "symbol": "bg_school_parking_lot_f_10",
+  "width": 80,
+  "height": 72,
+  "imageWidth": 640,
+  "imageHeight": 576,
+  "filename": "school parking lot f 10.png",
+  "tileColors": "0315e0+04a0+",
+  "autoColor": false
+}

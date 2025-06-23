@@ -11,7 +11,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "player stats",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -144,6 +144,29 @@
             "id": "0dde1cc6-c9c1-43d0-b5c8-0e6d4a66eff4"
           },
           {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "15",
+              "flag1": true,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "783a8c2b-3314-4551-86e4-3f6f31e609b0"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "16",
@@ -186,6 +209,17 @@
         }
       },
       "id": "a3076d70-c8df-4031-95aa-801f0b48702f"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "24",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "ab210719-d96c-4690-8a93-cc02dbc4dc33"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6c29da05-79ac-4192-ab1e-c11adccb60d2",
+  "name": "school hallway 1",
+  "symbol": "bg_school_hallway_1",
+  "width": 80,
+  "height": 72,
+  "imageWidth": 640,
+  "imageHeight": 576,
+  "filename": "school hallway 1.png",
+  "tileColors": "",
+  "autoColor": false
+}

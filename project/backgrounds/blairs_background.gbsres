@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ff78b71b-81c0-4681-9816-969864242eaf",
+  "name": "blairs_background",
+  "symbol": "bg_jems_background",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "blairs_background.png",
+  "tileColors": "00a1+048+00c+058+00c+048+0097+",
+  "autoColor": false
+}

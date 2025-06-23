@@ -5,8 +5,8 @@
   "type": "TOPDOWN",
   "name": "cut/intro/broadcast",
   "symbol": "scene_6",
-  "x": 168,
-  "y": 256,
+  "x": 256,
+  "y": 272,
   "width": 20,
   "height": 18,
   "backgroundId": "a2ca324c-9e36-4673-801d-3e38b54ecdd8",
@@ -36,9 +36,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "we interupt this\nshow for some\nbreaking news",
+          "we interrupt this\nshow for some\nbreaking news",
           "president leo \npriderock is going\nto sign the latest",
-          "bill signing the\nUS over to the New\nEarth Order"
+          "bill signing the\nUS to join the New\nEarth Order"
         ],
         "__section": "text",
         "avatarId": "",

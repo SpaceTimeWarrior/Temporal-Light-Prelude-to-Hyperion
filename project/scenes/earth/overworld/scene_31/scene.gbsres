@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "d5cf8760-c839-4eb9-aa10-fbfa4a48ab31",
+  "_index": 30,
+  "name": "Earth/overworld/Scene 31",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_31",
+  "x": 374,
+  "y": 1544.7999877929688,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

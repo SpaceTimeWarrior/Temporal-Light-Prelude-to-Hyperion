@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "7b2d1902-55d2-45d0-862b-c0657272d8fa",
+  "_index": 21,
+  "name": "Earth/kits_house/dads_room",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_23",
+  "x": 912,
+  "y": 744,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

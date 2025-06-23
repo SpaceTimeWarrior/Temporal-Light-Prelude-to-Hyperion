@@ -1,0 +1,13 @@
+8x8 px glyphs
+
+gbs mono letter replacement
+
+mono spaced
+
+character replacement means that character can be replaced.
+
+game context
+this is meant to be a ancient language for monsters writing and preserving magic spells and enchantments
+
+single case font
+has some international letters

@@ -11,21 +11,61 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
-        "sceneId": "be989a84-6bd7-4172-9086-c724858a7c95",
-        "x": {
-          "type": "number",
-          "value": 9
-        },
-        "y": {
-          "type": "number",
-          "value": 197
-        },
-        "direction": "up",
-        "fadeSpeed": "2"
+        "variable": "10",
+        "flag": 4,
+        "__collapseElse": false
       },
-      "id": "63c5e9f9-4e2f-40d7-b537-e113fa12d6fe"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Blair: school is\nclosed today"
+              ],
+              "__section": "text",
+              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8c00b2da-43cb-4f7f-a438-81dd753173cd"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "be989a84-6bd7-4172-9086-c724858a7c95",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 197
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "63c5e9f9-4e2f-40d7-b537-e113fa12d6fe"
+          }
+        ]
+      },
+      "id": "ca95986f-fd7f-43c8-b148-3e68f33f3ca3"
     }
   ],
   "leaveScript": [],

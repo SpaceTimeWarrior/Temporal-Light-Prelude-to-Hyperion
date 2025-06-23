@@ -17,7 +17,7 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "V0",
-        "choices": 2,
+        "choices": 4,
         "__collapseCase0": false,
         "value0": 1,
         "__collapseCase1": false,
@@ -61,7 +61,8 @@
                 "type": "variable",
                 "value": "11"
               },
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -122,7 +123,116 @@
             "id": "33cadfd3-829d-42bf-a070-35073e0d4870"
           }
         ],
-        "true1": [],
+        "true1": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "11"
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "glacia: I will \ngo ahead to \nclear a path.",
+                      "Press shift on \nyour bike to \nselect a magic",
+                      "type and press z\nto fire."
+                    ],
+                    "__section": "text",
+                    "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "2878d736-11df-4d71-8fe4-ff76d22195ca"
+                },
+                {
+                  "command": "EVENT_SET_DIALOGUE_FRAME",
+                  "args": {
+                    "tilesetId": "e008786f-b759-41fd-bc57-77981aa3993c"
+                  },
+                  "id": "3fbd905c-e3f2-45d9-922a-7da4da39dc74"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "(for mobile select\nto change \nand @ to fire)"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "b5de8608-ef05-4a1b-b1ab-445a0d15def5"
+                },
+                {
+                  "command": "EVENT_SET_DIALOGUE_FRAME",
+                  "args": {},
+                  "id": "6ec42d3c-0604-46fb-80fd-c2e973c478a3"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "glacia: I will \ngo ahead to \nclear a path.",
+                      "Press select on \nyour bike to \nselect a magic",
+                      "type and press @\nto fire."
+                    ],
+                    "__section": "text",
+                    "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "cc4eff0d-6962-470f-b7b0-93709c87cb71"
+                }
+              ]
+            },
+            "id": "7fd0fe69-43eb-444f-a4d5-a96d56262a5c"
+          }
+        ],
         "true2": [],
         "true3": [],
         "true4": [],

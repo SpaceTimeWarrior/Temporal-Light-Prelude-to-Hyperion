@@ -1,0 +1,53 @@
+{
+  "_resourceType": "actor",
+  "id": "98a19bd2-44ec-4427-89d2-b771e2ca1a10",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "faf652d4-67f8-4b31-97de-a07937a4af84",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_132",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "glacia: lets go"
+        ],
+        "__section": "text",
+        "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "fc160cfc-50f8-4cd3-b544-3498b3a4b100"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 6,
+  "y": 2,
+  "_index": 2
+}

@@ -97,8 +97,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Glacia: thought \nI find you \nwatching tv",
-                "another drama \nvideo or a \nhorror film"
+                "Glacia: Thought\nI'd find you \nwatching tv,",
+                "or another drama\nvideo, or a \nhorror film"
               ],
               "__section": "text",
               "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
@@ -123,7 +123,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "blair:worse news"
+                "blair:worse,news"
               ],
               "__section": "text",
               "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
@@ -153,6 +153,31 @@
             "id": "344cffaf-84e4-40b5-b890-52b52c5a4ea8"
           },
           {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "glacia: News,\nwhat is going \non?"
+              ],
+              "__section": "text",
+              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "aad5b92b-77a7-417b-8cae-dfb6b3743fd8"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "$self$",
@@ -173,8 +198,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "blair: our \npresident signed\nover the us",
-                "to the new \nEarth Order"
+                "Our president \nsigned the US to",
+                "join the new \nEarth order"
               ],
               "__section": "text",
               "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
@@ -244,7 +269,8 @@
               "text": [
                 "kit: I am not \ncompletely \nsurprised as the",
                 "us was the last \nbig country that\nhasn't already ",
-                "signed their \ncountry over to \nthe new Earth \nOrder"
+                "signed their \ncountry over to \nthe new Earth \nOrder",
+                "But I doubt our\npresident did\nthat."
               ],
               "__section": "text",
               "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
@@ -269,9 +295,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "blair:if it is a\nmovie it was \nvery convincing",
-                "but it could of \nbeen a \npropaganda ad",
-                "as I just turned\nit on."
+                "blair:if it is a\nmovie it was \nvery convincing,",
+                "but it could of \nbeen propaganda\nas I just turned\nit on."
               ],
               "__section": "text",
               "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
@@ -296,7 +321,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "kit: I will ask \nat work",
+                "kit: I will ask \nat work.",
                 "but you two\nshould get to \nschool"
               ],
               "__section": "text",
@@ -342,44 +367,6 @@
               "closeDelayFrames": 30
             },
             "id": "1935d5fd-a755-4a77-aa77-b8fd109128aa"
-          },
-          {
-            "command": "EVENT_GROUP",
-            "args": {
-              "__collapse": false,
-              "__label": "HUD"
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_PREP_MENU",
-                  "args": {
-                    "xnoverlay": 0,
-                    "ynoverlay": 16,
-                    "color": "black",
-                    "xoverlay": 0,
-                    "yoverlay": 0,
-                    "overlayw": 20,
-                    "overlayh": 2,
-                    "xsource": 0,
-                    "ysource": 34
-                  },
-                  "id": "7901e0df-5224-4600-9180-fc8d656c4052"
-                },
-                {
-                  "command": "EVENT_CALL_CUSTOM_EVENT",
-                  "args": {
-                    "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
-                    "$variable[V0]$": {
-                      "type": "number",
-                      "value": 34
-                    }
-                  },
-                  "id": "d10f61ad-2b32-4e8c-91a2-e1e24887b408"
-                }
-              ]
-            },
-            "id": "e98bc26b-ede6-4aba-8d88-15fb9bf0b032"
           },
           {
             "command": "EVENT_ACTOR_MOVE_TO",
@@ -430,6 +417,44 @@
               "frames": 30
             },
             "id": "23ea6ce3-b529-4749-8c82-f91573a330a5"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false,
+              "__label": "HUD"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PREP_MENU",
+                  "args": {
+                    "xnoverlay": 0,
+                    "ynoverlay": 16,
+                    "color": "black",
+                    "xoverlay": 0,
+                    "yoverlay": 0,
+                    "overlayw": 20,
+                    "overlayh": 2,
+                    "xsource": 0,
+                    "ysource": 34
+                  },
+                  "id": "7901e0df-5224-4600-9180-fc8d656c4052"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 34
+                    }
+                  },
+                  "id": "d10f61ad-2b32-4e8c-91a2-e1e24887b408"
+                }
+              ]
+            },
+            "id": "e98bc26b-ede6-4aba-8d88-15fb9bf0b032"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",

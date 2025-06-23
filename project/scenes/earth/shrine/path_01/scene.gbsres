@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "cd844433-3920-4946-a6bb-9eabcbeeb429",
+  "_index": 23,
+  "name": "Earth/shrine/path 01",
+  "backgroundId": "00e6f3e7-ba36-4b29-aa11-b7131bbfe3a3",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0ff0+0014+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f14+0014+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+001a+0fe+001a+0fe+001a+0fe+001a+0fe+001a+0fe+001a+0fe+001a+0fe+001a+0fe+001a+0f118+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_25",
+  "x": 1032,
+  "y": 1392,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

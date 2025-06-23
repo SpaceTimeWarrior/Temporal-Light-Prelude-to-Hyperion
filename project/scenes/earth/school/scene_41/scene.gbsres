@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "90a7236f-3131-4b7c-aa04-e17ccccf2fbb",
+  "_index": 40,
+  "name": "Earth/school/Scene 41",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_41",
+  "x": 6160.39990234375,
+  "y": 149.60000002384186,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "2fbc21b1-938c-48a1-b9a6-f0145fb33280",
+  "name": "load tileset",
+  "symbol": "tileset_load_tileset",
+  "width": 10,
+  "height": 6,
+  "imageWidth": 80,
+  "imageHeight": 48,
+  "filename": "load tileset.png"
+}

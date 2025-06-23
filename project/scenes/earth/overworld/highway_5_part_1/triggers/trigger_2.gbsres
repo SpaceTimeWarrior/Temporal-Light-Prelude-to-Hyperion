@@ -1,0 +1,74 @@
+{
+  "_resourceType": "trigger",
+  "id": "29b5dba0-4fee-4f9b-894f-98842ec1534d",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 2,
+  "symbol": "trigger_59",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 19,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 4,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "8013ab4d-79b1-4ca7-b35a-819ec48c130a",
+              "x": {
+                "type": "number",
+                "value": 37
+              },
+              "y": {
+                "type": "property",
+                "target": "player",
+                "property": "ypos"
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "e6ff70ba-463a-4e2d-b505-7973f34c8597"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "  Wrong way turn \n      around"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e2d982ea-4c6d-41bd-8a5f-0a7bc256e0e9"
+          }
+        ]
+      },
+      "id": "84ac6637-dbd4-4e3d-8a65-4b8518a1f002"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

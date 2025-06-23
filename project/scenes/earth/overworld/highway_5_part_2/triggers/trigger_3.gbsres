@@ -1,0 +1,90 @@
+{
+  "_resourceType": "trigger",
+  "id": "e275f50c-32cf-4b00-80ea-d55ff34884ca",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 58,
+  "symbol": "trigger_52",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 12,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "12"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "bike is too big \nfor there"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d75944e2-7092-40e5-bd03-7cb5ed684225"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "37696722-010b-443d-8c13-b1d8926e547f",
+              "x": {
+                "type": "number",
+                "value": 36
+              },
+              "y": {
+                "type": "sub",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "ypos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 54
+                }
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "592a3070-ba80-4893-99c5-e951825a9041"
+          }
+        ]
+      },
+      "id": "e17fd5a6-b6e3-474b-81c1-621729f859df"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

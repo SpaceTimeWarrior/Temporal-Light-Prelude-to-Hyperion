@@ -10,3 +10,9 @@ prepare menu created for temporal light but creates a drawable window at the bot
 the hud is based on the prior games but was recreated from scratch
 
 pearlite's spritemap was used as a template for kitsune characters
+
+braught over the game over screen from jem of twilight and did changes such as centering the text and adding elements
+
+using gb studio mono as a base individually changed the letters for TL_magiscript (used for a ancient magic that can be obtained in a later chapter)
+
+using jem's status screen from jem of twilight and inspiration from shadow flame the screen was altered to fit the new mechanics

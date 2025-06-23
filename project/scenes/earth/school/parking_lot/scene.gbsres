@@ -1,0 +1,68 @@
+{
+  "_resourceType": "scene",
+  "id": "f143d82a-6b80-427b-a6bf-3a77d9fcd0eb",
+  "_index": 24,
+  "name": "Earth/school/parking_lot",
+  "backgroundId": "bd7d736c-2104-4fad-abac-ae65ac0e6654",
+  "tilesetId": "",
+  "width": 80,
+  "height": 72,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f1e2+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f40+0010+0f40+0010+0f40+0010+0f40+0010+0f40+0010+0f40+0010+0f40+0010+0f40+0010+0f40+0010+0f40+0010+0f40+0010+0f40+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f10+0012+0f1e+0010+0f10+0012+0f1e+0010+0f10+0012+0f1e+0010+0f10+0012+0f1e+0010+0f10+0012+0f1e+0010+0f10+0012+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+0010+0f1e+0010+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f12+003e+0f34+00a+0f46+00a+0f46+00a+0f46+00a+0fc2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_0",
+  "x": 6472,
+  "y": 1224,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 70
+            },
+            "id": "50dbfb92-7dce-44fe-9bd0-fc9d36b8dec2"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 70
+              }
+            },
+            "id": "2d16d3df-04de-435a-8e5e-f6c13f89f9a3"
+          }
+        ]
+      },
+      "id": "546bf5a6-8ca4-4421-adfe-e31215b80dbf"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d8842575-7eb2-4730-8ee8-b5effbf1ae24"
+      },
+      "id": "5e58ced1-2d37-4904-8a73-a980d25c3741"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

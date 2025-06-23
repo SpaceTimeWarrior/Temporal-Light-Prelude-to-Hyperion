@@ -5,11 +5,11 @@
   "type": "TOPDOWN",
   "name": "Earth/overworld/Highway 5 part 3",
   "symbol": "scene_24",
-  "x": 661.6000061035156,
-  "y": 1209.5999755859375,
-  "width": 20,
-  "height": 18,
-  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "x": 704,
+  "y": 1168,
+  "width": 40,
+  "height": 72,
+  "backgroundId": "99231fd5-f529-49eb-879d-f6bc4a573f65",
   "tilesetId": "",
   "paletteIds": [
     "",
@@ -21,5 +21,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0087+0f!00e0+"
+  "collisions": "0f5a+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f10+009+0f!00e+0f10+009+0f!00e+0f10+009+0f!00e+0f10+009+0f!00e+0f10+009+0f!00e+0f10+009+0f!00e+0f1a+00e+0f1a+00e+0f1a+00e+0f2+00e+0fa+00e+0f2+00e+0fa+00e+0f2+00e+0fa+00e+0f2+00e+0fa+00e+0f2+00e+0fa+00e+0f2+00e+0fa+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f150+"
 }

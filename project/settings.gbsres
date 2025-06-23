@@ -7,14 +7,14 @@
   "startAnimSpeed": 15,
   "startDirection": "down",
   "showCollisionExtraTiles": false,
-  "sgbEnabled": false,
+  "sgbEnabled": true,
   "customHead": "",
   "defaultBackgroundPaletteIds": [
     "default-bg-1",
     "default-bg-2",
     "default-bg-3",
     "default-bg-4",
-    "default-bg-5",
+    "a5804dc8-520f-4d32-bfb6-4f2806616cd7",
     "default-bg-6",
     "dmg",
     "default-ui"

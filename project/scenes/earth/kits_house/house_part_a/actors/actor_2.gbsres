@@ -17,29 +17,42 @@
   "symbol": "actor_8",
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_GROUP",
       "args": {
-        "text": [
-          "kitchen sink"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "__collapse": false,
+        "__label": "HUD"
       },
-      "id": "7476b122-b981-4995-bbad-3eb593818b12"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 34
+            },
+            "id": "fb8ef1f0-ae6e-4a08-9ce7-334e87f1b2fe"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 34
+              }
+            },
+            "id": "c16cb2d3-0f2d-4182-ba38-1a1685e0b3b9"
+          }
+        ]
+      },
+      "id": "9724a44f-dac6-4e04-b69c-22731d033b17"
     }
   ],
   "startScript": [],
