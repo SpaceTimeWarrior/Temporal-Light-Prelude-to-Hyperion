@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "fb5981f4-cad1-40d9-a2cf-cb75bf45f34e",
+  "_index": 32,
+  "name": "Earth/slice/Kitchen",
+  "backgroundId": "710d93e7-dabc-4420-b6c4-ef218ab639ab",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f1c+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f8+005+0f!004+0f2+008+0f4+008+0f8+0014+0f4+008+0f8+0014+0f4+008+0f8+0014+0f4+008+0f8+0014+0f4+008+0f8+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+003c+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+00b+0f4+009+0f14+007+0f4+009+0f14+007+0f4+009+0f14+007+0f4+009+0f14+0014+0f14+0014+0f14+0014+0f100+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_33",
+  "x": 2520,
+  "y": 2344,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

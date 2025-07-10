@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "fa597d4d-ab58-44ef-92cf-8e661edfd36e",
+  "_index": 57,
+  "name": "RPG/standard battle",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_58",
+  "x": 1716.087267537054,
+  "y": 221.73371886780637,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

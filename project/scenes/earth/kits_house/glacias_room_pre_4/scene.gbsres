@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "caaf9722-6fd7-4d35-a933-43cc326a11cd",
+  "_index": 59,
+  "name": "Earth/kits_house/glacias_room_pre_4",
+  "backgroundId": "151a9a70-621b-459f-8a3f-8eff6ff78f82",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f44+004+0f10+00a+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f52+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_60",
+  "x": 944,
+  "y": 704,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8a550085-433a-419b-bd9a-47338767ec27",
+  "name": "Earth freeway 1",
+  "symbol": "bg_earth_freeway_1",
+  "width": 40,
+  "height": 200,
+  "imageWidth": 320,
+  "imageHeight": 1600,
+  "filename": "Earth freeway 1.png",
+  "tileColors": "",
+  "autoColor": false
+}

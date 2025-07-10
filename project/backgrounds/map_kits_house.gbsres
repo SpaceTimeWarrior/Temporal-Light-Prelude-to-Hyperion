@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7d9da5b8-736e-431d-9856-a97a9e4ac163",
+  "name": "MAP_kit's house",
+  "symbol": "bg_map_kit_s_house",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "MAP_kit's house.png",
+  "tileColors": "",
+  "autoColor": false
+}

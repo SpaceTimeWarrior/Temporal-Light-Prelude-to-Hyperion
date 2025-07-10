@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "275485d7-8924-435a-8b40-bc9f760fb9b6",
+  "_index": 31,
+  "name": "Earth/overworld/highway 5 part 4-freeway interchange",
+  "backgroundId": "102bbb61-4dc5-4fcf-9173-e80ede846f7b",
+  "tilesetId": "",
+  "width": 80,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0fe+0010+0f1b+00f+0f16+0010+0f1a+00f+0f17+0010+0f19+00f+0f!00!0f16+0010+0f18+00f+0f!002+0f16+0010+0f17+00f+0f!003+0f16+0010+0f16+00f+0f!004+0f16+0010+0f15+00f+0f!005+0f16+0010+0f14+00f+0f!006+0f8+00640+0f280+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_32",
+  "x": 2176,
+  "y": 1120,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

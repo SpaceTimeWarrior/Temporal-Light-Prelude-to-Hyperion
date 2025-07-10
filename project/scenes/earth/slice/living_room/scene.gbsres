@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "1fae793c-11d9-4608-811c-8009093d87f3",
+  "_index": 33,
+  "name": "Earth/slice/living room",
+  "backgroundId": "c82fdf75-2449-450b-87a3-6204a3156980",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0ff6+001c+0fc+001c+0fc+001c+0fe+0018+0ff+001a+0fe+001a+0fe+001a+0ff+0018+0f10+0018+0fe+001c+0fc+001c+0fc+001c+0fc+001c+0fc+001c+0f6+00f0+0f6+001c+0fc+007+0f!00c+0f!007+0fc+007+0f!00c+0f!007+0fc+007+0fe+007+0ff6+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_34",
+  "x": 2848,
+  "y": 2280,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

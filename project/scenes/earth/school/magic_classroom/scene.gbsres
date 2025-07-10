@@ -2,21 +2,983 @@
   "_resourceType": "scene",
   "id": "827b7feb-a575-48e8-8df1-8b60150c3e4f",
   "_index": 39,
+  "type": "TOPDOWN",
   "name": "Earth/school/magic classroom",
-  "backgroundId": "86988fa4-29b0-48d7-8ac8-a4f5bd143e41",
-  "tilesetId": "",
+  "symbol": "scene_40",
+  "x": 5864,
+  "y": 600,
   "width": 20,
   "height": 40,
-  "type": "TOPDOWN",
+  "backgroundId": "86988fa4-29b0-48d7-8ac8-a4f5bd143e41",
+  "tilesetId": "",
   "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "0fa2+0010+0f4+0010+0f4+0010+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fa+002+0f12+002+0f32+",
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "ca394da8-0d18-4832-9c8f-187262444c8c",
+    "default-ui",
+    "7558b223-4cba-4214-b98a-1227be2fe95d"
+  ],
   "autoFadeSpeed": 1,
-  "symbol": "scene_40",
-  "x": 5704,
-  "y": 664,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_OVERLAY_HIDE",
+      "args": {},
+      "id": "1f799fbb-6fea-410e-89da-1e5d82073c47"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 32
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "cdc0f964-82ff-48c9-8319-b5ebc06b5e45"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 30
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "a006c545-4d08-4e8d-a57f-458ef591341d"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              }
+            },
+            "id": "ecd78d17-1e4f-4714-a415-988b9eed74ed"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "this is a long \ndialog do you want\nto skip"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6c61c70a-f1b4-4c33-9b81-ec2102d3c8ce"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L1",
+              "items": 2,
+              "option1": "listen",
+              "option2": "skip",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": true,
+              "__collapse": true
+            },
+            "id": "2b9bf653-5870-4f17-a55b-5e71fb5cf97e"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "the instructor the\nclass a student\ncalled sina using",
+                      "a foxberry \ntransformed the\ninstructor into a",
+                      "fox-phoenix hybrid"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": true
+                  },
+                  "id": "5cfb7c13-9ca4-4137-a56b-f4341222f42b"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "92471ece-a1c6-45c4-9d7d-e2c4e14604d8"
+                  },
+                  "id": "4d006b89-293e-423c-8ceb-436a491dfe83"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "51320d72-5eaa-4748-a2b7-97b460bb5392"
+                  },
+                  "id": "f024b993-5842-49c8-81cb-5b28a675905b"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "c4e44524-2c6e-4bf6-acbb-250df4a5913c"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_CAMERA_MOVE_TO",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "speed": 1
+                  },
+                  "id": "6dc1c871-68cd-47bb-a995-7a0cbf72b133"
+                },
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 1,
+                          "frames": 30,
+                          "__collapse": true
+                        },
+                        "id": "f165fa97-0431-446f-b585-cc6f4ef5fd62"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Welcome class to\nmy freshmen \nmagic class. ",
+                            "I am Flame \nClawwing and I\nwill be teaching",
+                            "you for the next\nfew months.Since\nthere are humans",
+                            "here we are \ngoing to only be\nteaching magic",
+                            "theory.Sorry but\nI want this to \nbe a fair ",
+                            "teaching\nenvironment. If\nyou wish to ",
+                            "learn practical\nmagic",
+                            "I will \nhave office hours\nafter school"
+                          ],
+                          "__section": "text",
+                          "avatarId": "68be6b1e-92af-4033-8a41-f5dbb54b9e43",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "3d107a20-9bca-405b-8f92-b68afbdec4da"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "human ???A:Serves \nyou monsters right"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "6d228698-da68-4d8e-abbc-a18b86659d3f"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "flame: I will \nwarn you once",
+                            "do not \ncontinue this \nrhetoric."
+                          ],
+                          "__section": "text",
+                          "avatarId": "68be6b1e-92af-4033-8a41-f5dbb54b9e43",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "61752a48-d4a5-4692-bf35-456ec4df399c"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "human ???A: Ok..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "6efa5bbd-c451-4461-82b9-5518b4d5dca4"
+                      },
+                      {
+                        "command": "EVENT_SET_DIALOGUE_FRAME",
+                        "args": {
+                          "tilesetId": "07ce9c02-6104-4667-a86b-89eef5594f53"
+                        },
+                        "id": "3dc9cdbe-99af-4e6a-900f-7b8d54b58deb"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "blair:I have a \nbad feeling \nabout her"
+                          ],
+                          "__section": "text",
+                          "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "f090966c-4cd5-4ec3-bf28-8d3a8c9fe58e"
+                      },
+                      {
+                        "command": "EVENT_SET_DIALOGUE_FRAME",
+                        "args": {},
+                        "id": "9d9a7b11-62af-413a-ab5e-1bace5ce2625"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "flame: Anyways I\nwill start with \nthe first lesson",
+                            "There are two \ntypes of magic,\nmanipulation and\ncreation. ",
+                            "Manipulation is\nto take in magic\nof that element",
+                            "and to force it \nout. Most magic\nis of this type.",
+                            "Creation, or I \nshould call it \ntransfiguration,",
+                            "is to convert \none magic \nelement into \nanother.",
+                            "This generally \nuses more energy\nthan \nmanipulation",
+                            "True creation is\nrare and can be \nself destructive"
+                          ],
+                          "__section": "text",
+                          "avatarId": "68be6b1e-92af-4033-8a41-f5dbb54b9e43",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "1dc24664-cb23-45b4-97be-7ae0de119852"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "sina:What about \ntransformation \nmagic?"
+                          ],
+                          "__section": "behavior",
+                          "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "text",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "f5f5fecd-1c7a-40d7-93d5-0605b38710c5"
+                      },
+                      {
+                        "command": "EVENT_LAUNCH_PROJECTILE",
+                        "args": {
+                          "__section": "projectile",
+                          "spriteSheetId": "f1f5072d-ce35-43cd-a6a7-baf0c7690c0e",
+                          "spriteStateId": "",
+                          "actorId": "92471ece-a1c6-45c4-9d7d-e2c4e14604d8",
+                          "x": 0,
+                          "y": 0,
+                          "directionType": "target",
+                          "otherActorId": "$self$",
+                          "direction": "right",
+                          "angle": 0,
+                          "angleVariable": "L0",
+                          "targetActorId": "51320d72-5eaa-4748-a2b7-97b460bb5392",
+                          "initialOffset": 0,
+                          "speed": 4,
+                          "animSpeed": 15,
+                          "lifeTime": 1,
+                          "loopAnim": true,
+                          "destroyOnHit": true,
+                          "collisionGroup": "3",
+                          "collisionMask": [
+                            "1"
+                          ]
+                        },
+                        "id": "cec979d8-387c-4434-85c0-6bf5ba516a67"
+                      },
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 1,
+                          "frames": 30
+                        },
+                        "id": "e30eb8e9-bf53-424e-9980-19bf910dd397"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "L0",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          }
+                        },
+                        "id": "38fad814-363a-4532-b862-603f307e9c3b"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_SPRITE",
+                        "args": {
+                          "actorId": "51320d72-5eaa-4748-a2b7-97b460bb5392",
+                          "spriteSheetId": "31f8ab63-5149-484f-a01b-6a14d46d50c8"
+                        },
+                        "id": "1660d172-1867-4d16-8e27-c9953e12bc82"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "51320d72-5eaa-4748-a2b7-97b460bb5392",
+                          "direction": {
+                            "type": "direction",
+                            "value": "left"
+                          }
+                        },
+                        "id": "61da3a65-1f79-46b0-9403-112134c7aa28"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "flame:Sina, \nprincipals \noffice now!",
+                            "Sune, please \nensure that she \nmakes it there."
+                          ],
+                          "__section": "text",
+                          "avatarId": "68be6b1e-92af-4033-8a41-f5dbb54b9e43",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "b84d4ea0-b2a6-4388-86d3-7fa86ea37600"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "sune: Will do.\nSina,you have to\ncome with me."
+                          ],
+                          "__section": "text",
+                          "avatarId": "2c9edda4-843b-4a53-86fe-0630fa87a103",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "3c151e3c-c8ab-4bb0-98df-9f9b9c09d8ee"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "sina:Where are \nyou taking me? ",
+                            "All I heard was \nsqueaking."
+                          ],
+                          "__section": "text",
+                          "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "23f6f37f-aebf-4450-86ff-59f204e00fab"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "sune:Think about\nit, you\npurposely ",
+                            "transformed our\ninstructor in \nclass and it was",
+                            "not about\ntransformations.\nAlso kitsunes ",
+                            "can understand \nfoxes as if it \nwas their own \nlanguage"
+                          ],
+                          "__section": "text",
+                          "avatarId": "2c9edda4-843b-4a53-86fe-0630fa87a103",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "cde2de0c-6b72-4353-a957-b4b29b7f319e"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "sina:Fine I will\ngo this time but\nyou furries have",
+                            "not seen the \nlast of me. ",
+                            "I Sina Buttface \nwill take my \nrevenge"
+                          ],
+                          "__section": "text",
+                          "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "9ff49d6e-9e6c-469e-b1d4-cd7dae86f22f"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "sune(trying not \nto laugh): Lets \ngo"
+                          ],
+                          "__section": "text",
+                          "avatarId": "2c9edda4-843b-4a53-86fe-0630fa87a103",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "0e1ae9d4-686e-4a71-98f2-049a46a0aba7"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_MOVE_TO",
+                        "args": {
+                          "actorId": "92471ece-a1c6-45c4-9d7d-e2c4e14604d8",
+                          "x": {
+                            "type": "number",
+                            "value": 6
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 16
+                          },
+                          "moveType": "horizontal",
+                          "useCollisions": false
+                        },
+                        "id": "217ee2eb-11fc-4a37-8c1f-b356bad79345"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_MOVE_TO",
+                        "args": {
+                          "actorId": "51b30acb-e630-4bd4-b7d0-b528d98a01d6",
+                          "x": {
+                            "type": "number",
+                            "value": 6
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 14
+                          },
+                          "moveType": "horizontal",
+                          "useCollisions": false,
+                          "__collapse": true
+                        },
+                        "id": "aedd2fb9-4804-4cd6-be10-5773ad232ff3"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_MOVE_TO",
+                        "args": {
+                          "actorId": "92471ece-a1c6-45c4-9d7d-e2c4e14604d8",
+                          "x": {
+                            "type": "number",
+                            "value": 6
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 30
+                          },
+                          "moveType": "horizontal",
+                          "useCollisions": false
+                        },
+                        "id": "3ebfe7fb-7c40-41cc-83a1-28b31df86128"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_MOVE_TO",
+                        "args": {
+                          "actorId": "51b30acb-e630-4bd4-b7d0-b528d98a01d6",
+                          "x": {
+                            "type": "number",
+                            "value": 6
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 36
+                          },
+                          "moveType": "vertical",
+                          "useCollisions": false
+                        },
+                        "id": "92f91717-ea77-4499-a733-a3d5c7ce3133"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "92471ece-a1c6-45c4-9d7d-e2c4e14604d8"
+                        },
+                        "id": "c253ce9d-dda6-4486-900c-6e5e731e9859"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "51b30acb-e630-4bd4-b7d0-b528d98a01d6"
+                        },
+                        "id": "43bb2367-2743-492c-8431-3dfe1b3f0b51"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "flame: Flower\ncan you \ntranslate for me"
+                          ],
+                          "__section": "text",
+                          "avatarId": "68be6b1e-92af-4033-8a41-f5dbb54b9e43",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "c58094c2-9360-419c-87d7-df7d9c049166"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "flower:Will do"
+                          ],
+                          "__section": "text",
+                          "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "918b4dd4-520a-4061-b9ff-f0571f863478"
+                      },
+                      {
+                        "command": "EVENT_SET_DIALOGUE_FRAME",
+                        "args": {
+                          "tilesetId": "e008786f-b759-41fd-bc57-77981aa3993c"
+                        },
+                        "id": "0f8222f7-97b0-4723-9b8a-6a6938f9ceae"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "system:Flame and \nFlower continue on\nfor a hour going ",
+                            "over things like \ngrading and \nFlame's office ",
+                            "hours as well as \nstudent resources"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "c1a1d264-331c-4c77-bc10-402339499a43"
+                      },
+                      {
+                        "command": "EVENT_SET_DIALOGUE_FRAME",
+                        "args": {},
+                        "id": "c960272a-fb9d-4c92-8fa1-ccf19e697a38"
+                      },
+                      {
+                        "command": "EVENT_CAMERA_LOCK",
+                        "args": {
+                          "speed": 1,
+                          "axis": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "id": "bb2d00b9-8f42-4fb8-868d-c1df91a5ec65"
+                      },
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 1,
+                          "frames": 30
+                        },
+                        "id": "4f6d5825-f9cb-461c-bc78-bdd9f4ae2e2f"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "51320d72-5eaa-4748-a2b7-97b460bb5392"
+                        },
+                        "id": "b88bdccb-6815-4c1b-a708-c6577ffa802f"
+                      }
+                    ]
+                  },
+                  "id": "b50b2661-37fb-4a1f-8e5a-9876ecba6759"
+                }
+              ]
+            },
+            "id": "246f1db6-c8ce-41fe-a72f-ea64db068df9"
+          },
+          {
+            "command": "EVENT_SET_DIALOGUE_FRAME",
+            "args": {
+              "tilesetId": "e008786f-b759-41fd-bc57-77981aa3993c",
+              "__collapse": true
+            },
+            "id": "a39a9602-6f94-43ac-b34c-80064dfd4903"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "11947c5b-96d4-4e76-998a-26daf3013442",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 3
+              },
+              "__collapse": true
+            },
+            "id": "4c55efbd-63c6-4d70-8788-4e05a7a6bed8"
+          },
+          {
+            "command": "EVENT_SET_DIALOGUE_FRAME",
+            "args": {
+              "tilesetId": "07ce9c02-6104-4667-a86b-89eef5594f53",
+              "__collapse": true
+            },
+            "id": "60c5d73d-65ce-4a8c-8590-73cd5ae092f2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:What is my\nnext class... \nlunch.",
+                " I think Glacia\nis at the same \ntime. Great!"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "596965c0-14f6-483e-b05a-57c1545f703e"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "moveType": "horizontal",
+              "useCollisions": false,
+              "__collapse": true
+            },
+            "id": "6965767d-0f9c-42cb-ae0c-866b82254038"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 37
+              },
+              "moveType": "vertical",
+              "useCollisions": true,
+              "__collapse": true
+            },
+            "id": "65319221-a360-421e-beae-709edb69fd39"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "10",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": true,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "63b706fa-6e81-4666-ae74-6326bcb2ed5c"
+          }
+        ]
+      },
+      "id": "fd356bdc-25af-45ba-a318-39a7e2f0904a"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "0fa2+0010+0f4+0010+0f4+0010+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+002+0f2+003+0f2+003+0f2+002+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fa+002+0f12+002+0f32+"
 }

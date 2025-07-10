@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "cf5e5f69-8cde-4ef1-a2f8-0aee04155214",
+  "name": "slice's house east",
+  "symbol": "bg_slice_s_house_east",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "slice's house east.png",
+  "tileColors": "00550+0450+",
+  "autoColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "50de77ac-c62c-4d34-88b3-84aece5a4ec4",
+  "_index": 48,
+  "name": "MAP/school",
+  "backgroundId": "b96265bb-30ff-4c6f-a363-185a4800bb62",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_49",
+  "x": 2176,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

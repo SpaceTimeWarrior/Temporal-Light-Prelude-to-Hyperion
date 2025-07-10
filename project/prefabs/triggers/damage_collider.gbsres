@@ -21,7 +21,8 @@
         "timer": 3,
         "duration": 0.5,
         "frames": 30,
-        "__scriptTabs": "end"
+        "__scriptTabs": "end",
+        "__collapse": false
       },
       "children": {
         "script": [

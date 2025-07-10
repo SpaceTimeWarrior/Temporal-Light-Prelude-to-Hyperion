@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b96265bb-30ff-4c6f-a363-185a4800bb62",
+  "name": "MAP_school",
+  "symbol": "bg_map_school",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "MAP_school.png",
+  "tileColors": "",
+  "autoColor": false
+}

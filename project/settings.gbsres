@@ -38,8 +38,8 @@
     "TOPDOWN": "318581b1-1317-4a0f-917b-525fb3c256b2",
     "PLATFORM": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
     "ADVENTURE": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "SHMUP": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-    "POINTNCLICK": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+    "SHMUP": "3c43e872-e147-4fa3-ac73-a561df52d044",
+    "POINTNCLICK": "1eddf7ee-94ef-4e58-ad08-969daf87b41c",
     "LOGO": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
   },
   "musicDriver": "huge",

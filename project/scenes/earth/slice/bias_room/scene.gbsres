@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "1db7e5d4-6224-4915-bd99-948086b5d1c9",
+  "_index": 37,
+  "name": "Earth/slice/Bias room",
+  "backgroundId": "3291a802-4a2f-427f-941a-e50e0fa722bb",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f36+002+0fc+00a+0fa+00a+0f5+004+0f!00a+0f4+006+0f5+005+0f7+003+0f5+005+0f5+005+0f5+005+0f7+00d+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fc+002+0f12+002+0f12+002+0f1c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_38",
+  "x": 2728,
+  "y": 1656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

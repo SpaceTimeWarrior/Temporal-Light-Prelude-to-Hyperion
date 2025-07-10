@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "34943516-bbdf-4abb-8ef4-fa63a1fb0315",
+  "_index": 36,
+  "name": "Earth/slice/slices room",
+  "backgroundId": "fd2067de-7d71-49e4-8711-82d121c0ac58",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f45+003+0f!004+0fb+00a+0f5+004+0f!00a+0f4+0010+0f4+0010+0f4+00a+0f!005+0f4+00a+0f!005+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f6+002+0f12+002+0f12+002+0f22+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_37",
+  "x": 2872,
+  "y": 1656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

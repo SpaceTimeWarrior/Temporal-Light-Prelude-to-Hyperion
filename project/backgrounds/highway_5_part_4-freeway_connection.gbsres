@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "102bbb61-4dc5-4fcf-9173-e80ede846f7b",
+  "name": "highway 5 part 4-freeway connection",
+  "symbol": "bg_highway_5_part_4_freeway",
+  "width": 80,
+  "height": 36,
+  "imageWidth": 640,
+  "imageHeight": 288,
+  "filename": "highway 5 part 4-freeway connection.png",
+  "tileColors": "05e+0010+0519+0012+0515+0010+0519+0011+0516+0010+0517+0012+0517+0010+0517+0011+0518+0010+0516+0011+0519+0010+0514+0012+051a+0010+0514+0011+05f+00!05b+0010+0513+0011+05e+008c0+",
+  "autoColor": false
+}

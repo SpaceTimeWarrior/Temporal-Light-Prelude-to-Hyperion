@@ -3,19 +3,58 @@
   "id": "0a27987f-1cd2-414b-b983-3ef5605f7c34",
   "_index": 29,
   "name": "Earth/shrine/path 02",
-  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "backgroundId": "845066c7-a703-4361-81e2-278664a24bf7",
   "tilesetId": "",
   "width": 20,
-  "height": 18,
+  "height": 24,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0f3c+00b+0f9+00b+0f9+00b+0f9+00b+0f9+00b+0f9+00b+0fa+00a+0fa+00a+0fe+00f+0f5+00f+0f5+00f+0f5+00f+0f5+00f+0f5+00f+0f5+00f+0f5+00d+0f66+",
   "autoFadeSpeed": 1,
   "symbol": "scene_30",
-  "x": 768,
-  "y": 1080,
-  "script": [],
+  "x": 760,
+  "y": 1104,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 22
+            },
+            "id": "80916a19-202e-489f-935c-f37f7c7171fb"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 22
+              }
+            },
+            "id": "34421169-462a-4e1c-8f8c-47a5da226234"
+          }
+        ]
+      },
+      "id": "d67e54f5-4e52-4a32-bfef-3a400e461164"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

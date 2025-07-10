@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "411d3a38-69b9-4953-a805-b70b12a9b03a",
+  "name": "slice's house Alice's room",
+  "symbol": "bg_slice_s_house_alice_s_ro",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "slice's house Alice's room.png",
+  "tileColors": "",
+  "autoColor": false
+}

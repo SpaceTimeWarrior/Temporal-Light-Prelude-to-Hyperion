@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fd2067de-7d71-49e4-8711-82d121c0ac58",
+  "name": "slice's room",
+  "symbol": "bg_slice_s_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "slice's room.png",
+  "tileColors": "",
+  "autoColor": false
+}

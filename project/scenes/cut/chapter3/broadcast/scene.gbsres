@@ -1,0 +1,91 @@
+{
+  "_resourceType": "scene",
+  "id": "aa57b7b6-952c-48c0-989c-61945812e297",
+  "_index": 58,
+  "name": "cut/chapter3/broadcast",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_59",
+  "x": 432,
+  "y": 272,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "this is a special\nnews update \ncongress is ",
+          "proposing a bill \nto join the new \nearth order"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "38d8765f-9a8c-4408-bc24-55926907c448"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "glacia: Blair \nare you awake?"
+        ],
+        "__section": "text",
+        "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "812acf96-037c-455c-84cb-3daf401bc768"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "484ac5ee-8243-4bc7-9957-8278c9429fda",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 13
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "c0ea58dc-6f72-4a3b-b95f-5f441f009488"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

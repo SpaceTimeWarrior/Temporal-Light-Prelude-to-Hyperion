@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "da5f85e9-9513-4047-a443-830480aefa6b",
+  "_index": 51,
+  "name": "Earth/overworld/freeway 3",
+  "backgroundId": "8ada3349-2a78-4849-babe-7d810e68834d",
+  "tilesetId": "",
+  "width": 40,
+  "height": 200,
+  "type": "SHMUP",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001f40+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_52",
+  "x": 328,
+  "y": 3832,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "3c43e872-e147-4fa3-ac73-a561df52d044"
+}

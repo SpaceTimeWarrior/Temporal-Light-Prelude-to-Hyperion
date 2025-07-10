@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "00f38bbf-57d4-4b31-bf77-814c236fb88c",
+  "name": "ability_unlocks",
+  "symbol": "tileset_ability_unlocks",
+  "width": 10,
+  "height": 2,
+  "imageWidth": 80,
+  "imageHeight": 16,
+  "filename": "ability_unlocks.png"
+}

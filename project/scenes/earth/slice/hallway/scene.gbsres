@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "5ad661b0-32bc-4f00-9bd6-7f9bb8fcd98a",
+  "_index": 34,
+  "name": "Earth/slice/Hallway",
+  "backgroundId": "c7c70124-57b5-412f-b7d6-2f242724bcc9",
+  "tilesetId": "",
+  "width": 40,
+  "height": 72,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2b2+002+0fa+002+0fc+002+0fc+002+0fa+002+0fc+002+0fc+002+0fa+002+0fc+002+0fa+0020+0f8+0020+0f8+0020+0f8+0020+0f8+0020+0f8+0020+0f8+0020+0f8+0020+0fe+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f20+008+0f62+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_35",
+  "x": 2632,
+  "y": 1736,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

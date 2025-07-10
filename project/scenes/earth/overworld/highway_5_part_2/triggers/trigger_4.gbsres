@@ -25,15 +25,15 @@
               "sceneId": "1fcc8cb4-6bb4-460c-ad26-fb0e812afcaa",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 10
               },
               "y": {
                 "type": "number",
                 "value": 0
               },
-              "direction": "",
+              "direction": "down",
               "fadeSpeed": "2",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "32196fe2-49dc-4288-8693-0dedb6d3bc6a"
           }

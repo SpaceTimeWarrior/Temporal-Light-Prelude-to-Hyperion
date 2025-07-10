@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "185b00bd-4f83-4b9c-96c4-f985eeed6028",
+  "_index": 41,
+  "name": "Earth/school/bathroom",
+  "backgroundId": "64298d4f-535b-4bff-ba83-1b7af983dcd0",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "008c+0f13+0014+0f!0012+0f!003+0f11+0013+0f!002+0f!0024+0f!002+0f!0024+0f!002+0f!0024+0f!002+0f!0024+0f!002+0f1f+006+0f!002+0f!004+0f!0018+0f!006+0f!002+0f!004+0f!0018+0f!006+0f!002+0f!004+0f!0018+0f!006+0f!002+0f6+0018+0f!002+0f5+0020+0f!002+0f!0025+0f2+002e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_42",
+  "x": 5856,
+  "y": 288,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "c2f238ff-5d6d-4368-8403-c794dfe41f89"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "5c0b9fda-1344-4f23-9b9a-13101ca5aac1"
+          }
+        ]
+      },
+      "id": "f0b09961-fe90-4663-a005-4f7da2519e0e"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

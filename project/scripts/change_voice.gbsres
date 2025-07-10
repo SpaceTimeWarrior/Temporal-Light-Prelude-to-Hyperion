@@ -1,0 +1,212 @@
+{
+  "_resourceType": "script",
+  "id": "585baf83-94b6-4be5-a921-70b7ee564856",
+  "name": "change_voice",
+  "description": "-3 = no voice\n-2 = male default\n-1 = female default\n0 = blair\n1 = glacia\n2 = kit\n3 = sune\n4 = bias\n5 = slice\n6 = flame\n7 = leo",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "voice",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "script_9",
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "V0",
+        "choices": 16,
+        "__collapseCase0": true,
+        "value0": -3,
+        "__collapseCase1": true,
+        "value1": -2,
+        "__collapseCase2": true,
+        "value2": -1,
+        "__collapseCase3": false,
+        "value3": 0,
+        "__collapseCase4": false,
+        "value4": 1,
+        "__collapseCase5": false,
+        "value5": 2,
+        "__collapseCase6": false,
+        "value6": 3,
+        "__collapseCase7": false,
+        "value7": 4,
+        "__collapseCase8": false,
+        "value8": 5,
+        "__collapseCase9": false,
+        "value9": 6,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "none",
+              "pitch": 4,
+              "frequency": 300,
+              "duration": 0.05,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "1f55f32e-d0d9-45d1-a94e-28c0c60d2501"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 275,
+              "duration": 0.03,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "d5d4809e-4c32-48f6-9318-73e9c1e706dd"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 475,
+              "duration": 0.03,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "31b0a3d1-fa32-4b44-99cc-5f885c6827b9"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 520,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "b85a3064-33f3-4934-91e5-4c495a2d3345"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 500,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "754e0326-87b2-4e50-bd1e-0b8cec9eff37"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 470,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "d1348e4e-bd8c-4098-9ecd-0118dc129639"
+          }
+        ],
+        "true6": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 50,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "a15f9c47-1766-465d-b3eb-4368557dcc84"
+          }
+        ],
+        "true7": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 250,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "a11e20b6-cea9-4ec8-9d35-bbdf637c23f1"
+          }
+        ],
+        "true8": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 100,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "c4247211-4d32-46e5-89f9-3b0af1e4f98c"
+          }
+        ],
+        "true9": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 800,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "8e9da84b-0e0d-4bed-aad6-2edb31341f3c"
+          }
+        ],
+        "true10": [
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 80,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "08b82c24-0497-44ee-9bd0-99969f19fea1"
+          }
+        ],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "4baea5c7-e7f3-41d2-912a-da92d3aa620b"
+    }
+  ]
+}

@@ -2,21 +2,64 @@
   "_resourceType": "scene",
   "id": "37696722-010b-443d-8c13-b1d8926e547f",
   "_index": 16,
-  "name": "Earth/overworld/kits_house_south",
-  "backgroundId": "c19040f5-e901-414b-b678-20280cbab595",
-  "tilesetId": "",
-  "width": 40,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "0081+0f8+006+0f11+009+0f!006+0f!006+0f!0016+0f4+006+0f!005+0f2+0015+0f!00a+0f!005+0fe+007+0f3+00a+0f!001a+0f!00c+0f!001a+0f!00c+0f!001a+0f!00c+0f!005+0f!0014+0f!00c+0f2+004+0f!0014+0f!0012+0f!0014+0f!0012+0fe+007+0f!0027+0f!0074+",
-  "autoFadeSpeed": 1,
+  "name": "Earth/overworld/kits_house_south",
   "symbol": "scene_17",
   "x": 1680,
   "y": 1600,
-  "script": [],
+  "width": 40,
+  "height": 18,
+  "backgroundId": "c19040f5-e901-414b-b678-20280cbab595",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "ca394da8-0d18-4832-9c8f-187262444c8c"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "33c14faa-8718-4460-9238-0d7c6efd24b6"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "19a92aef-3598-4a16-9aec-526d46cccfce"
+          }
+        ]
+      },
+      "id": "5899a86b-a1a9-4450-950d-370ed56577a9"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "0081+0f8+006+0f11+009+0f!006+0f!006+0f!0016+0f4+006+0f!005+0f2+0015+0f!00a+0f!005+0fe+007+0f3+00a+0f!001a+0f!00c+0f!001a+0f!00c+0f!001a+0f!00c+0f!005+0f!0014+0f!00c+0f2+004+0f!0014+0f!0012+0f!0014+0f!0012+0fe+007+0f!0027+0f!0074+"
 }

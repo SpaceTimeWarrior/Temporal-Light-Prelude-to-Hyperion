@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "2f7a02c0-6968-4795-a65c-53dac096cb63",
+  "_index": 49,
+  "name": "Earth/overworld/freeway 1",
+  "backgroundId": "8a550085-433a-419b-bd9a-47338767ec27",
+  "tilesetId": "",
+  "width": 40,
+  "height": 200,
+  "type": "SHMUP",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001f40+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_50",
+  "x": 320,
+  "y": 7096,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "3c43e872-e147-4fa3-ac73-a561df52d044"
+}

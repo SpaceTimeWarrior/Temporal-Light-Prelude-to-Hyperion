@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "318581b1-1317-4a0f-917b-525fb3c256b2",
+  "spriteSheetId": "63164923-f2b0-4219-be4c-fb0c5f851641",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -15,7 +15,108 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_12",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 8,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              }
+            },
+            "id": "04fb6647-fb15-4bbe-866a-b1704a353fff"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              }
+            },
+            "id": "0f26e99e-8db4-47c1-9969-84890b87ff8a"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "3e277621-bf26-41d5-8749-4862f6829ece"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "kit: go deliver\nthe gift I gave\nyou.",
+                "it is southeast\nof here.(*>).",
+                "I recommend that\nyou use your \nmotorcycle"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a26a3f19-4e1e-4f84-95fc-d6a12803f86d"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              }
+            },
+            "id": "11d7f59e-41d0-4382-ab3c-c07824fb638f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "0565b099-5254-4f57-bc9b-c830bf9ebc1c"
+          }
+        ],
+        "false": []
+      },
+      "id": "7a6d3c39-e8d1-45b0-a1f3-af49aa7f8ca9"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_IF_FLAGS_COMPARE",
@@ -27,71 +128,555 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_IF_FLAGS_COMPARE",
             "args": {
-              "actorId": "$self$"
+              "variable": "10",
+              "flag": 9,
+              "__collapseElse": true
             },
-            "id": "e63d57fe-887d-4359-9a3e-a9060e1d2721"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_FLAGS_COMPARE",
+                  "args": {
+                    "variable": "10",
+                    "flag": 8,
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66"
+                        },
+                        "id": "c43c9595-c3bd-4de1-bdf7-75a922c56e9f"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {
+                          "__collapse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_CAMERA_MOVE_TO",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 21
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 9
+                                },
+                                "speed": 0
+                              },
+                              "id": "44527919-54e4-4dac-8be9-0fbf130a7a16"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_EMOTE",
+                              "args": {
+                                "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
+                                "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                              },
+                              "id": "6e6d6d7b-f1c1-4cfb-a144-852182a46f7c"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_MOVE_TO",
+                              "args": {
+                                "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
+                                "x": {
+                                  "type": "number",
+                                  "value": 31
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 26
+                                },
+                                "moveType": "vertical",
+                                "useCollisions": false
+                              },
+                              "id": "5d85b250-560d-4e00-a6ed-cfb0fc0dc29b"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_EMOTE",
+                              "args": {
+                                "actorId": "$self$",
+                                "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                              },
+                              "id": "6ee8fd04-3bcc-4934-81e3-0afdc42b5dc7"
+                            },
+                            {
+                              "command": "EVENT_ACTOR_MOVE_TO",
+                              "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                  "type": "number",
+                                  "value": 33
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": 26
+                                },
+                                "moveType": "vertical",
+                                "useCollisions": false
+                              },
+                              "id": "b57c013c-5473-4d23-8f4a-365b544bf99c"
+                            },
+                            {
+                              "command": "EVENT_CAMERA_LOCK",
+                              "args": {
+                                "speed": 1,
+                                "axis": [
+                                  "x",
+                                  "y"
+                                ]
+                              },
+                              "id": "c16984f3-d764-4791-9742-a664e58f9bf5"
+                            },
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                                "$variable[V0]$": {
+                                  "type": "number",
+                                  "value": 1
+                                }
+                              },
+                              "id": "0038de92-1955-46f2-b998-88769ae95621"
+                            }
+                          ]
+                        },
+                        "id": "c72a141f-51ea-4269-90f5-d832b6b93b6b"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "glacia:Sorry \nabout yesterday,\na human girl ",
+                            "from your class \nthrew a \nexplosive into ",
+                            "the kiln a floor\nabove you while\na student",
+                            "was using it. \nShe was expelled\nShe kept using ",
+                            "the racism card\nas to why they \nshouldn't expel.",
+                            "Too bad for them\nthere were\ncameras.",
+                            "I got to\npractice healing\nmagic,though I ",
+                            "wish I didn't \nhave to learn it\nthis way."
+                          ],
+                          "__section": "text",
+                          "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "c88d370d-64bb-4b9c-a4de-e4c97a872144"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "8ff95090-24e8-490c-8850-c3573009cedc"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "blair:You mean \nthat wasn't a dream"
+                          ],
+                          "__section": "text",
+                          "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "086df27b-6419-4d25-9402-10b99e27dcb7"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 2
+                          }
+                        },
+                        "id": "0b740236-5673-47eb-92c4-4a92f03c529e"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "kit:No, it \nwasn't. ",
+                            "I got info\nabout \nyesterday's news",
+                            "This is purely \npropaganda. the \nNew Earth Order ",
+                            "has been \nHijacking news \nstations",
+                            "but I think they\nare paying the \nowners under the",
+                            "table but I \ncan't prove it. ",
+                            "Since you \nrecently \nawakened your ",
+                            "magic, you will \nhave to learn \nyour shrine \nduties"
+                          ],
+                          "__section": "text",
+                          "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "8c06878b-c2a4-4893-af77-6096c5f1f168"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "2f5eb2b5-289d-45e5-a4ee-01fb0caa195a"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "blair: Shrine \nduties?"
+                          ],
+                          "__section": "text",
+                          "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "4b4af870-1c16-42a5-86ee-89b8e687fe0a"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 2
+                          }
+                        },
+                        "id": "5d7f197b-4612-435b-8631-4e300241469b"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "kit: This is for\npowerful magics\nor remembrance ",
+                            "of the dead. \nAll female \nkitsunes have to",
+                            "learn this when \ncoming of age."
+                          ],
+                          "__section": "text",
+                          "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "25e6fa25-f6ed-4453-9236-da5ba583a267"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "5689c963-650f-4a4f-8cd7-c4c74a3884dc"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "blair: But what\nif I don't want \nto learn magic?"
+                          ],
+                          "__section": "text",
+                          "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "eb856d40-d14b-443c-80ad-cf6833ca1481"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 2
+                          }
+                        },
+                        "id": "65b09289-4635-4680-a389-7873b4712c8b"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "kit: Sorry, but \nit is for your \nown good.",
+                            "How about this,\ncan you deliver \nthis package to ",
+                            "Slice Fireglobe?\nHe is to the \nSouth east of \nhere"
+                          ],
+                          "__section": "text",
+                          "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "3a953c4f-47b8-4541-a208-e591bfbb79a3"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "$self$",
+                          "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+                        },
+                        "id": "5cac7835-79c4-4443-b3a6-fe89da872a09"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "3e112c76-959d-4cf9-97bc-af736bdb28ad"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "blair:fine"
+                          ],
+                          "__section": "text",
+                          "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "617fa8bb-2a93-4870-8a2f-6a3c8c564ea4"
+                      },
+                      {
+                        "command": "EVENT_ADD_FLAGS",
+                        "args": {
+                          "variable": "10",
+                          "flag1": false,
+                          "flag2": false,
+                          "flag3": false,
+                          "flag4": false,
+                          "flag5": false,
+                          "flag6": false,
+                          "flag7": false,
+                          "flag8": false,
+                          "flag9": true,
+                          "flag10": false,
+                          "flag11": false,
+                          "flag12": false,
+                          "flag13": false,
+                          "flag14": false,
+                          "flag15": false,
+                          "flag16": false
+                        },
+                        "id": "8dfe4efb-4d61-4cdc-ab68-d4fb89af4b0f"
+                      }
+                    ]
+                  },
+                  "id": "1f8e3bc3-54c8-4614-b323-85737eb1e71f"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "e63d57fe-887d-4359-9a3e-a9060e1d2721"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66"
+                  },
+                  "id": "ce0bd706-71f9-4e1f-8daa-7546166bee12"
+                }
+              ]
             },
-            "id": "ce0bd706-71f9-4e1f-8daa-7546166bee12"
+            "id": "76b11a90-5dd7-4533-bb53-019a0cde3936"
           }
         ],
         "false": [
           {
-            "command": "EVENT_CAMERA_MOVE_TO",
+            "command": "EVENT_GROUP",
             "args": {
-              "x": {
-                "type": "number",
-                "value": 21
-              },
-              "y": {
-                "type": "number",
-                "value": 9
-              },
-              "speed": 0
+              "__collapse": true
             },
-            "id": "bd9f44f9-2216-406b-b4cd-39d5557c26c3"
-          },
-          {
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
-              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
-            },
-            "id": "e9e56e74-3986-41db-9886-b2ddb18e88be"
-          },
-          {
-            "command": "EVENT_ACTOR_MOVE_TO",
-            "args": {
-              "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
-              "x": {
-                "type": "number",
-                "value": 31
-              },
-              "y": {
-                "type": "number",
-                "value": 26
-              },
-              "moveType": "vertical",
-              "useCollisions": false
-            },
-            "id": "74b0cc3b-5bb5-46af-bd4e-d4329371ea72"
-          },
-          {
-            "command": "EVENT_CAMERA_LOCK",
-            "args": {
-              "speed": 1,
-              "axis": [
-                "x",
-                "y"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CAMERA_MOVE_TO",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 21
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "speed": 0
+                  },
+                  "id": "bd9f44f9-2216-406b-b4cd-39d5557c26c3"
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
+                    "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                  },
+                  "id": "e9e56e74-3986-41db-9886-b2ddb18e88be"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
+                    "x": {
+                      "type": "number",
+                      "value": 31
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 26
+                    },
+                    "moveType": "vertical",
+                    "useCollisions": false
+                  },
+                  "id": "74b0cc3b-5bb5-46af-bd4e-d4329371ea72"
+                },
+                {
+                  "command": "EVENT_CAMERA_LOCK",
+                  "args": {
+                    "speed": 1,
+                    "axis": [
+                      "x",
+                      "y"
+                    ]
+                  },
+                  "id": "aaeb6bf3-644f-45e5-8d5e-607c1409d7ea"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "c9834442-52fc-44f8-aba4-5cd13a765f38"
+                }
               ]
             },
-            "id": "aaeb6bf3-644f-45e5-8d5e-607c1409d7ea"
+            "id": "d98b7637-bbb6-4fdc-b13c-a4c8e8010abb"
           },
           {
             "command": "EVENT_TEXT",
@@ -101,7 +686,7 @@
                 "or another drama\nvideo, or a \nhorror film"
               ],
               "__section": "text",
-              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -120,13 +705,24 @@
             "id": "90d325d3-b5bb-4540-acc3-c3b6cff6f14e"
           },
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "f72cb15c-2df2-4b8f-9c18-4d2f9db867cf"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "blair:worse,news"
               ],
               "__section": "text",
-              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -153,13 +749,24 @@
             "id": "344cffaf-84e4-40b5-b890-52b52c5a4ea8"
           },
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "76a02527-b8b3-4d2a-bac3-520d34c8e320"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "glacia: News,\nwhat is going \non?"
               ],
               "__section": "text",
-              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -195,14 +802,25 @@
             "id": "09d30e62-ab45-4bb5-a72b-e5732a4242ff"
           },
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "e4aafd06-0b71-4e09-a8cb-8e04050f937f"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Our president \nsigned the US to",
+                "blair:Our \npresident \nsigned the US to",
                 "join the new \nEarth order"
               ],
               "__section": "text",
-              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -237,6 +855,17 @@
             "id": "f9f40c8a-2089-425d-ac69-df1fa810e0d7"
           },
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "547d56ba-f719-4f09-a871-f26a702d895e"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -245,7 +874,7 @@
                 "being destroyed \nby some sort of \ngiant creature"
               ],
               "__section": "text",
-              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -264,16 +893,27 @@
             "id": "99bedd23-34f6-417d-b3c3-f71965688968"
           },
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "a402ad98-a8f8-49cb-a087-2ddc880887d2"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "kit: I am not \ncompletely \nsurprised as the",
                 "us was the last \nbig country that\nhasn't already ",
-                "signed their \ncountry over to \nthe new Earth \nOrder",
+                "signed their \ncountry to join\nthe new earth \norder",
                 "But I doubt our\npresident did\nthat."
               ],
               "__section": "text",
-              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -292,6 +932,17 @@
             "id": "cbe5b21f-d4f9-43cf-92ed-3331a2b56988"
           },
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "ba97172a-58b1-413d-aca0-e036abdefe48"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -299,7 +950,7 @@
                 "but it could of \nbeen propaganda\nas I just turned\nit on."
               ],
               "__section": "text",
-              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -318,6 +969,17 @@
             "id": "d8f4f4ec-def9-4a4b-833c-be006d2121fb"
           },
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "152310ef-6119-4615-9154-1aefb12c6a5b"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -325,7 +987,7 @@
                 "but you two\nshould get to \nschool"
               ],
               "__section": "text",
-              "avatarId": "bd1d6413-4bf6-479b-b4a4-f5df119296e3",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -344,13 +1006,24 @@
             "id": "36b365f5-5368-4a49-ba97-5c77c760dadf"
           },
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "5c9129eb-baf8-407d-9cd3-49ef921315a6"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
                 "glacia: I will\nmeet you at the\ngarage"
               ],
               "__section": "text",
-              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -386,14 +1059,6 @@
             "id": "102d132b-b249-4137-b893-264dba6e6706"
           },
           {
-            "command": "EVENT_WAIT",
-            "args": {
-              "time": 1,
-              "frames": 30
-            },
-            "id": "ea656210-74ea-4bc0-9221-8c8153b316c3"
-          },
-          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "$self$",
@@ -411,12 +1076,15 @@
             "id": "64297e44-2283-4c09-b59c-f221d89163cf"
           },
           {
-            "command": "EVENT_WAIT",
+            "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
-              "time": 1,
-              "frames": 30
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              }
             },
-            "id": "23ea6ce3-b529-4749-8c82-f91573a330a5"
+            "id": "8fcd7775-3002-44e4-82aa-c577f28f0d8b"
           },
           {
             "command": "EVENT_GROUP",

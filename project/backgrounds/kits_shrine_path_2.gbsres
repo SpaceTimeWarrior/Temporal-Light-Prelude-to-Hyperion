@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "845066c7-a703-4361-81e2-278664a24bf7",
+  "name": "kit's shrine path 2",
+  "symbol": "bg_kit_s_shrine_path_2",
+  "width": 20,
+  "height": 24,
+  "imageWidth": 160,
+  "imageHeight": 192,
+  "filename": "kit's shrine path 2.png",
+  "tileColors": "001b8+0428+",
+  "autoColor": false
+}

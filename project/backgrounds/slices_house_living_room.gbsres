@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c82fdf75-2449-450b-87a3-6204a3156980",
+  "name": "slice's house living room",
+  "symbol": "bg_slice_s_house_living_roo",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "slice's house living room.png",
+  "tileColors": "00550+0450+",
+  "autoColor": false
+}

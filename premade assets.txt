@@ -9,7 +9,15 @@ prepare menu created for temporal light but creates a drawable window at the bot
 
 the hud is based on the prior games but was recreated from scratch
 
-pearlite's spritemap was used as a template for kitsune characters
+anything used unless otherwise stated means that they where modified some majorly as only the body type is the same some is the outfit is different
+
+pearlite's spritemap was used as a template for kitsune characters. each one given their own unique sprite
+
+emma's spritemap was used as a base for a side character sina buttface(yes that is their name)
+
+peryil's spritemap was used as a base for a side character flame
+
+flare's spritemap(jem of twilight) was raceswapped and used as a base for slice and bias
 
 braught over the game over screen from jem of twilight and did changes such as centering the text and adding elements
 

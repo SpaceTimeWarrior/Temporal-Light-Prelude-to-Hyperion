@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "50621836-e50a-4560-9b57-31c4381087b5",
+  "_index": 45,
+  "name": "MAP/kit's house",
+  "backgroundId": "7d9da5b8-736e-431d-9856-a97a9e4ac163",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_46",
+  "x": 2000,
+  "y": 30,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

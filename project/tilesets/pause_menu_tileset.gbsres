@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "45cbe088-5af5-42b8-8833-79b0ef1e2832",
+  "name": "pause menu tileset",
+  "symbol": "tileset_pause_menu_tileset",
+  "width": 8,
+  "height": 2,
+  "imageWidth": 64,
+  "imageHeight": 16,
+  "filename": "pause menu tileset.png"
+}

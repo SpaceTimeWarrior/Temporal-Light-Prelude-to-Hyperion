@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3291a802-4a2f-427f-941a-e50e0fa722bb",
+  "name": "bias' room",
+  "symbol": "bg_bias_room",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bias' room.png",
+  "tileColors": "",
+  "autoColor": false
+}

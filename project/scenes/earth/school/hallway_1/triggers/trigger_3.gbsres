@@ -11,21 +11,61 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
-        "sceneId": "827b7feb-a575-48e8-8df1-8b60150c3e4f",
-        "x": {
-          "type": "number",
-          "value": 8
-        },
-        "y": {
-          "type": "number",
-          "value": 35
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "variable": "10",
+        "flag": 9,
+        "__collapseElse": false
       },
-      "id": "96812200-ad89-48dd-8f19-bc449d8c00f7"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:I need to \nget to the \ncafeteria >^"
+              ],
+              "__section": "text",
+              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7d641e6a-aad6-41d5-beb0-d1de66b89182"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "827b7feb-a575-48e8-8df1-8b60150c3e4f",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 35
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "96812200-ad89-48dd-8f19-bc449d8c00f7"
+          }
+        ]
+      },
+      "id": "e72a782c-e33b-4c25-980a-be8a8f69287b"
     }
   ],
   "leaveScript": [],

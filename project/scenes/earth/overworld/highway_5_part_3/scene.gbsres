@@ -13,13 +13,56 @@
   "tilesetId": "",
   "paletteIds": [
     "",
-    "ca394da8-0d18-4832-9c8f-187262444c8c"
+    "ca394da8-0d18-4832-9c8f-187262444c8c",
+    "",
+    "",
+    "",
+    "57c67803-463d-425d-ab3c-5f5c58f1ae49"
   ],
   "spritePaletteIds": [],
   "autoFadeSpeed": 1,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 70
+            },
+            "id": "9faca8ef-9988-4606-8934-3c8953a38eeb"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 70
+              }
+            },
+            "id": "fc9ea434-7f6b-4aa9-841c-129712439a8f"
+          }
+        ]
+      },
+      "id": "e8c057f1-9415-4c9e-ab8e-e0880aab9a3e"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0f5a+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f10+009+0f!00e+0f10+009+0f!00e+0f10+009+0f!00e+0f10+009+0f!00e+0f10+009+0f!00e+0f10+009+0f!00e+0f1a+00e+0f1a+00e+0f1a+00e+0f2+00e+0fa+00e+0f2+00e+0fa+00e+0f2+00e+0fa+00e+0f2+00e+0fa+00e+0f2+00e+0fa+00e+0f2+00e+0fa+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f150+"
+  "collisions": "0f5a+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f10+008+0f2+00e+0f10+008+0f2+00e+0f10+008+0f2+00e+0f10+008+0f2+00e+0f10+008+0f2+00e+0f10+008+0f2+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f3+00d+0fa+00e+0f3+00d+0fa+00e+0f3+00d+0fa+00e+0f3+00d+0fa+00e+0f3+00d+0fa+00e+0f3+00d+0fa+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f10+0018+0f150+"
 }

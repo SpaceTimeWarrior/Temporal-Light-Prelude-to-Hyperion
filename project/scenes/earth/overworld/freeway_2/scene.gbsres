@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "f6028023-95c6-40d2-993b-076b939d1b36",
+  "_index": 50,
+  "name": "Earth/overworld/freeway 2",
+  "backgroundId": "e4f5b656-6559-48a2-bd25-50f6d4388f2d",
+  "tilesetId": "",
+  "width": 40,
+  "height": 200,
+  "type": "SHMUP",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001f40+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_51",
+  "x": 328,
+  "y": 5456,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "3c43e872-e147-4fa3-ac73-a561df52d044"
+}

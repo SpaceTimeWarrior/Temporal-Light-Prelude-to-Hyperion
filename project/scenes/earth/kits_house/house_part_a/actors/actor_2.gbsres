@@ -17,6 +17,31 @@
   "symbol": "actor_8",
   "script": [
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "the one the only\nthe kitchen sink"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6ef5d206-badc-4d42-b2f3-6fde40991b66"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false,

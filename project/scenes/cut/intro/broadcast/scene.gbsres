@@ -33,6 +33,17 @@
       "id": "b89f2757-f7e7-4e4f-81d2-5d41dcc47911"
     },
     {
+      "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+      "args": {
+        "type": "tone",
+        "pitch": 4,
+        "frequency": 400,
+        "duration": 0.03,
+        "effect": 0
+      },
+      "id": "6d32ac6d-85eb-4319-896a-8b85888cab15"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -60,6 +71,17 @@
       "id": "4a695d65-a5c5-47ed-a148-a433991e3ceb"
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "9ce2db7c-0dbd-4a07-9bc3-ff2550f50748"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -67,7 +89,7 @@
           "we have to go to\nschool"
         ],
         "__section": "text",
-        "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+        "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,

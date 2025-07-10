@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3ba56663-083a-4404-a235-b524043c9917",
+  "name": "school cafeteria access",
+  "symbol": "bg_school_cafeteria_access",
+  "width": 60,
+  "height": 18,
+  "imageWidth": 480,
+  "imageHeight": 144,
+  "filename": "school cafeteria access.png",
+  "tileColors": "",
+  "autoColor": false
+}

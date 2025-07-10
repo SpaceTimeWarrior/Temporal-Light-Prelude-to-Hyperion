@@ -3,13 +3,13 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "temporal Light maps/school magic classroom.tmx",
+    "activeFile": "temporal Light maps/slice's room.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "modified kenny assets/Kenny Art.tsx": {
-            "scaleInDock": 1.5,
+            "scaleInDock": 2,
             "scaleInEditor": 2
         },
         "modified kenny assets/woodland path 1.tmx": {
@@ -20,6 +20,38 @@
                 "y": 167.16666666666669
             }
         },
+        "temporal Light maps/Earth freeway 1.tmx": {
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 159.83333333333331,
+                "y": 800.1666666666666
+            }
+        },
+        "temporal Light maps/Earth freeway 2.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 159.83333333333331,
+                "y": 800.1666666666666
+            }
+        },
+        "temporal Light maps/Earth freeway 3.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 159.83333333333331,
+                "y": 800.1666666666666
+            }
+        },
+        "temporal Light maps/bias' room.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 79.9090909090909,
+                "y": 71.90909090909092
+            }
+        },
         "temporal Light maps/blair's room.tmx": {
             "scale": 5.620833333333334,
             "selectedLayer": 3,
@@ -28,11 +60,19 @@
                 "y": 71.9644180874722
             }
         },
-        "temporal Light maps/glacia's room.tmx": {
-            "scale": 5.62,
+        "temporal Light maps/glacia's room pre chapter4.tmx": {
+            "scale": 5.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 79.98220640569396,
+                "x": 79.9090909090909,
+                "y": 71.90909090909092
+            }
+        },
+        "temporal Light maps/glacia's room.tmx": {
+            "scale": 5.62,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 79.98220640569394,
                 "y": 71.97508896797154
             }
         },
@@ -45,19 +85,27 @@
             }
         },
         "temporal Light maps/highway 5 part 2.tmx": {
-            "scale": 1,
+            "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 79.5,
-                "y": 287.5
+                "x": 79.75,
+                "y": 288.25
             }
         },
         "temporal Light maps/highway 5 part 3.tmx": {
             "scale": 5.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 260.6363636363636,
-                "y": 295.9090909090909
+                "x": 160.0909090909091,
+                "y": 288.0909090909091
+            }
+        },
+        "temporal Light maps/highway 5 part 4-freeway connection.tmx": {
+            "scale": 2.810416666666667,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 320.05930318754633,
+                "y": 143.9288361749444
             }
         },
         "temporal Light maps/kit's house bathroom.tmx": {
@@ -68,11 +116,19 @@
                 "y": 71.9644180874722
             }
         },
+        "temporal Light maps/kit's house dad's room.tmx": {
+            "scale": 5.620833333333334,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 79.97034840622683,
+                "y": 71.9644180874722
+            }
+        },
         "temporal Light maps/kit's house exterior south.tmx": {
             "scale": 3.313125,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 160.1207319373703,
+                "x": 160.12073193737032,
                 "y": 71.98641765704585
             }
         },
@@ -132,6 +188,30 @@
                 "y": 143.9288361749444
             }
         },
+        "temporal Light maps/kit's shrine path 2.tmx": {
+            "scale": 5.620833333333334,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 79.97034840622683,
+                "y": 95.9822090437361
+            }
+        },
+        "temporal Light maps/school bathroom.tmx": {
+            "scale": 3.313125,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 160.12073193737032,
+                "y": 71.98641765704585
+            }
+        },
+        "temporal Light maps/school cafeteria access.tmx": {
+            "scale": 8,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.0625,
+                "y": 72.0625
+            }
+        },
         "temporal Light maps/school enterance.tmx": {
             "scale": 3,
             "selectedLayer": 5,
@@ -153,7 +233,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 79.83333333333331,
-                "y": 188.49999999999997
+                "y": 160.16666666666669
             }
         },
         "temporal Light maps/school parking lot f 10.tmx": {
@@ -164,9 +244,65 @@
                 "y": 288.33333333333337
             }
         },
+        "temporal Light maps/slice's house Alice's room.tmx": {
+            "scale": 5.620833333333334,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 88.68791697553743,
+                "y": 95.27057079318011
+            }
+        },
+        "temporal Light maps/slice's house bedroom connections.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 159.83333333333331,
+                "y": 288.16666666666663
+            }
+        },
+        "temporal Light maps/slice's house east.tmx": {
+            "scale": 4,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 160.125,
+                "y": 144.125
+            }
+        },
+        "temporal Light maps/slice's house kitchen.tmx": {
+            "scale": 2.810416666666667,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 159.94069681245367,
+                "y": 143.9288361749444
+            }
+        },
+        "temporal Light maps/slice's house living room(west).tmx": {
+            "scale": 2.810416666666667,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 159.94069681245367,
+                "y": 143.9288361749444
+            }
+        },
+        "temporal Light maps/slice's room.tmx": {
+            "scale": 5.620833333333334,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 92.95774647887323,
+                "y": 35.31504818383987
+            }
+        },
         "temporal Light maps/woodland path 1.tmx": {
             "scale": 3,
             "selectedLayer": 1,
+            "viewCenter": {
+                "x": 79.83333333333331,
+                "y": 800.1666666666666
+            }
+        },
+        "temporal Light maps/woodland path 2.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
             "viewCenter": {
                 "x": 79.83333333333331,
                 "y": 800.1666666666666
@@ -177,7 +313,7 @@
             "scaleInEditor": 2
         },
         "temporal Light tiles/temporal_light_tileset.tsx": {
-            "scaleInDock": 2,
+            "scaleInDock": 3,
             "scaleInEditor": 2
         },
         "temporal Light tiles/temporal_light_tileset2.tsx": {
@@ -213,7 +349,24 @@
         "temporal Light maps/kit's house exterior south.tmx",
         "temporal Light maps/highway 5 part 3.tmx",
         "temporal Light maps/kit's shrine path 1.tmx",
-        "temporal Light maps/school magic classroom.tmx"
+        "temporal Light maps/school magic classroom.tmx",
+        "temporal Light maps/school bathroom.tmx",
+        "temporal Light maps/school cafeteria access.tmx",
+        "temporal Light maps/woodland path 2.tmx",
+        "temporal Light maps/kit's shrine path 2.tmx",
+        "temporal Light maps/slice's house east.tmx",
+        "temporal Light maps/slice's house kitchen.tmx",
+        "temporal Light maps/Earth freeway 2.tmx",
+        "temporal Light maps/Earth freeway 1.tmx",
+        "temporal Light maps/Earth freeway 3.tmx",
+        "temporal Light maps/highway 5 part 4-freeway connection.tmx",
+        "temporal Light maps/slice's house living room(west).tmx",
+        "temporal Light maps/slice's house bedroom connections.tmx",
+        "temporal Light maps/slice's house Alice's room.tmx",
+        "temporal Light maps/kit's house dad's room.tmx",
+        "temporal Light maps/glacia's room pre chapter4.tmx",
+        "temporal Light maps/bias' room.tmx",
+        "temporal Light maps/slice's room.tmx"
     ],
     "project": "temporal Light Prelude to hyperion.tiled-project",
     "recentFiles": [

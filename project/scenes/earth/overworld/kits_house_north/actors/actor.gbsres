@@ -59,6 +59,17 @@
             "id": "2b8e35e9-851b-4d35-aadb-68c8cdb1dd61"
           },
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "8a601986-b8d1-4841-b8f8-7351bf6b9267"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -66,7 +77,7 @@
                 "it is a nice \npractice of our \nshooting skills"
               ],
               "__section": "text",
-              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -83,6 +94,34 @@
               "closeDelayFrames": 30
             },
             "id": "5cd37735-4f11-4c4b-a639-1b4b2d32bb20"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "febfa0a1-251b-49f6-b8ec-9844d60b5402"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 37
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "moveType": "diagonal",
+              "useCollisions": false
+            },
+            "id": "1ceb3d30-bec4-4348-8363-e003f06ab948"
           }
         ]
       },

@@ -17,6 +17,17 @@
   "y": 1224,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "24",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "1fa63acf-04e2-4d2b-9918-da75c1cf9813"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false,

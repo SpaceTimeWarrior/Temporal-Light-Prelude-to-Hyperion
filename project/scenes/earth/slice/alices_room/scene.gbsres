@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "0cf08123-2914-4e2d-bfbe-cfb40b30caa4",
+  "_index": 35,
+  "name": "Earth/slice/Alice's room",
+  "backgroundId": "411d3a38-69b9-4953-a805-b70b12a9b03a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f68+002+0f6+004+0f6+0010+0f4+0010+0f4+007+0f5+004+0f4+00!0f2+004+0f5+004+0f5+006+0f5+004+0f5+00f+0f4+0010+0f4+0010+0fe+002+0f12+002+0f2e+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_36",
+  "x": 2584,
+  "y": 1656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

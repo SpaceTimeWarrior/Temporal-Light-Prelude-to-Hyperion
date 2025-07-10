@@ -60,6 +60,17 @@
             "id": "8c00acf5-60be-4564-998f-3e1914995004"
           },
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "e7e68970-e2e1-4272-aecb-61e79c29eac7"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -67,7 +78,7 @@
                 "Have a nice day \nBlair!"
               ],
               "__section": "text",
-              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -84,6 +95,17 @@
               "closeDelayFrames": 30
             },
             "id": "0a98d83b-487e-43c5-b5fa-e215725b4d97"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "c9298256-f01f-4607-bb38-c31402477ecb"
           },
           {
             "command": "EVENT_ACTOR_MOVE_RELATIVE",

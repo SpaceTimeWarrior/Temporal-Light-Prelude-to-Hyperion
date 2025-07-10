@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "1fcc8cb4-6bb4-460c-ad26-fb0e812afcaa",
+  "_index": 19,
+  "name": "Earth/overworld/woodland path 2-down",
+  "backgroundId": "8c31b1e5-91f1-4c5a-b8b2-b048a2866fd5",
+  "tilesetId": "",
+  "width": 20,
+  "height": 200,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00fa0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_21",
+  "x": 2000,
+  "y": 1776,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 198
+            },
+            "id": "5b0f7c62-7d32-4a0a-a618-4e1c23551cb7"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 198
+              }
+            },
+            "id": "1311e853-1741-42e5-8da3-8e7bb3fde796"
+          }
+        ]
+      },
+      "id": "672ed4d6-34ed-4b07-9aae-ccc8de5d713d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

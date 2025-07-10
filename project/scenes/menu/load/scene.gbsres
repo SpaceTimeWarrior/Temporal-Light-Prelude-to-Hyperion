@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_43",
-  "x": 856,
-  "y": 248,
+  "x": 1600,
+  "y": 32,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -41,7 +41,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "slot 1"
       },
       "children": {
@@ -169,7 +169,7 @@
                         }
                       }
                     },
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "48fb21ba-9bb9-4be8-a01c-de143019a5ec"
                 },
@@ -278,7 +278,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": false,
+                    "__collapse": true,
                     "__label": "hundereds"
                   },
                   "children": {
@@ -334,7 +334,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": false,
+                    "__collapse": true,
                     "__label": "tens"
                   },
                   "children": {
@@ -409,7 +409,7 @@
                 {
                   "command": "EVENT_GROUP",
                   "args": {
-                    "__collapse": false,
+                    "__collapse": true,
                     "__label": "ones"
                   },
                   "children": {
@@ -470,7 +470,7 @@
             "command": "EVENT_GROUP",
             "args": {
               "__label": "Energy",
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -1987,7 +1987,7 @@
         "duration": 0.125,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [

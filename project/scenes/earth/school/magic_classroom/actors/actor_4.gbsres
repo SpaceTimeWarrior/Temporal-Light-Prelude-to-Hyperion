@@ -1,0 +1,92 @@
+{
+  "_resourceType": "actor",
+  "id": "51320d72-5eaa-4748-a2b7-97b460bb5392",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "896f8d67-ce40-4e8e-af40-2bd99eaf6bca",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_140",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "31c5cdd3-f59d-4add-abaf-25733970a8ba"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "896f8d67-ce40-4e8e-af40-2bd99eaf6bca"
+            },
+            "id": "e8e2bcde-c91a-4ed3-9db5-86fc6b480063"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "31f8ab63-5149-484f-a01b-6a14d46d50c8"
+            },
+            "id": "e43fefcd-7c23-4fa7-8125-fd1dcd5ef146"
+          }
+        ]
+      },
+      "id": "5e13ab19-a13d-4cc1-a050-57230c2becad"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "L0",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "f5dd705f-b324-4e8d-9b20-88678b7be246"
+    }
+  ],
+  "x": 9,
+  "y": 9,
+  "_index": 3
+}

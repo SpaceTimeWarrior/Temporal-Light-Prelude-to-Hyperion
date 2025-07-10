@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "71aedfa9-fb5e-44b7-839e-cb730143cee3",
+  "name": "menu_Pause_background",
+  "symbol": "bg_placeholder_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "menu_Pause_background.png",
+  "tileColors": "05d5+06!0592+",
+  "autoColor": false
+}

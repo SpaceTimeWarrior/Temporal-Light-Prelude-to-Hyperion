@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "90a7236f-3131-4b7c-aa04-e17ccccf2fbb",
+  "_index": 40,
+  "name": "Earth/school/cafeteria access",
+  "backgroundId": "3ba56663-083a-4404-a235-b524043c9917",
+  "tilesetId": "",
+  "width": 60,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00b7+0fa+0032+0f!008+0f!0032+0f!008+0f30+003+0f!003b+0f!003b+0f!003b+0f!003b+0f!008+0f30+003+0f!008+0f!0032+0f!008+0f!0032+0f!008+0f!0032+0f!008+0f!0032+0f!008+0f!0032+0f9+006c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_41",
+  "x": 6232,
+  "y": 256,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "17a5656d-dc18-4735-bcd0-087619e1cc55"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "5fbb22ea-69e9-4f76-aad3-e77f57c3f782"
+          }
+        ]
+      },
+      "id": "c24a0ab3-67d5-4ab4-a079-472321478074"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

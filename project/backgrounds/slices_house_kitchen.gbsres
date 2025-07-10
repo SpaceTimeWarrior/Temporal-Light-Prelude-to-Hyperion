@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "710d93e7-dabc-4420-b6c4-ef218ab639ab",
+  "name": "slice's house kitchen",
+  "symbol": "bg_slice_s_house_kitchen",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "slice's house kitchen.png",
+  "tileColors": "00550+0450+",
+  "autoColor": false
+}

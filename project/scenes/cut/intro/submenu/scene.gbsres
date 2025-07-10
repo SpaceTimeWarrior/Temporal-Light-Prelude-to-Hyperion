@@ -30,7 +30,7 @@
         "items": 3,
         "option1": "new game",
         "option2": "load game",
-        "option3": "set volume",
+        "option3": "settings",
         "option4": "",
         "option5": "",
         "option6": "",
@@ -333,29 +333,26 @@
         ],
         "true2": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "8f1f645d-d66e-4687-ad71-9bf06f367a1e"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "text": [
-                "volume system not\nset up"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "sceneId": "006ca4aa-08a4-472d-9cf4-ce00829bc96c",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 13
+              },
+              "direction": "right",
+              "fadeSpeed": "2"
             },
-            "id": "fb9c89ac-f96c-42de-9301-a7b6c4d3878a"
+            "id": "4315781d-6a66-46b4-8640-506cb0dbb40f"
           }
         ],
         "true3": [],

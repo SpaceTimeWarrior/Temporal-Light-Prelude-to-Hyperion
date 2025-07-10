@@ -12,10 +12,41 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "prefabScriptOverrides": {},
   "symbol": "actor_13",
   "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 8,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "caaf9722-6fd7-4d35-a933-43cc326a11cd",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 7
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "11bfdebd-2e79-468e-8f33-d45d6ef8ca63"
+          }
+        ],
+        "false": []
+      },
+      "id": "59fa06c4-2906-4b79-be18-ccf6e0cf5bb6"
+    },
     {
       "command": "EVENT_TEXT",
       "args": {
@@ -47,7 +78,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 26,
+  "x": 28,
   "y": 31,
   "_index": 4
 }
