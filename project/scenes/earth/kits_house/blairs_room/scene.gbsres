@@ -12,12 +12,42 @@
     "ca394da8-0d18-4832-9c8f-187262444c8c"
   ],
   "spritePaletteIds": [],
-  "collisions": "0030+0f4+00b+0f5+004+0f7+004+0f!009+0f2+003+0f!004+0f!009+0f2+003+0f!004+0f!009+0f2+003+0f!002+0f3+009+0f2+003+0f!002+0f!00c+0f2+002+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+00a+0f2+0031+",
+  "collisions": "0f44+004+0fc+009+0f2+003+0f6+009+0f2+003+0f6+009+0f2+003+0f6+009+0f2+003+0f4+00c+0f2+002+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0f4+0010+0fb+002+0f45+",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
   "x": 1112,
   "y": 360,
   "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "song group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "314ee1f0-701e-4cd1-acb8-0fb4417c35e4"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
+              "__collapse": false
+            },
+            "id": "784b7ee3-9704-4adf-8802-919a53ea04eb"
+          }
+        ]
+      },
+      "id": "f38d2afb-93d2-44a0-a83e-7e4bb263ada1"
+    },
     {
       "command": "EVENT_GROUP",
       "args": {

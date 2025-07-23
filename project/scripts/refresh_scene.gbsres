@@ -1,0 +1,23 @@
+{
+  "_resourceType": "script",
+  "id": "929abb7b-1f3d-43e3-8083-12b1f0907872",
+  "name": "refresh scene",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_11",
+  "script": [
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {},
+      "id": "24e12f75-649b-4677-b823-8bb20d0c22fb"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": 0
+      },
+      "id": "b4c820cb-1790-4c22-a63d-0d1226eea2f6"
+    }
+  ]
+}

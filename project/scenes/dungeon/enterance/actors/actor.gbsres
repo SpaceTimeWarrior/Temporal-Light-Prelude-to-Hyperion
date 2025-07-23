@@ -1,0 +1,54 @@
+{
+  "_resourceType": "actor",
+  "id": "953f74a4-74af-49f3-85e1-3e50ee1fcfa9",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9be79250-35e5-45a3-b334-b422e6aa8412",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_220",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "    Caution\n  magic dungeon \n     ahead",
+          "  read the other\n  sign for rules"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7be124ca-8c47-416d-99b1-8b849777e452"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 16,
+  "y": 11,
+  "_index": 0
+}

@@ -22,11 +22,52 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true,
+        "__label": "song group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "0212c34b-fc94-4eef-9e40-f2c994e0be3a"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
+              "__collapse": false
+            },
+            "id": "b0ad1aa9-366f-4a23-bb36-2e863491edaa"
+          }
+        ]
+      },
+      "id": "4b9c8ea5-f209-42f2-9b09-5451b19a862b"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
         "__label": "HUD"
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "30",
+              "value": {
+                "type": "number",
+                "value": 11
+              }
+            },
+            "id": "5d3714aa-6f8d-4da1-939b-b0b342bb7517"
+          },
           {
             "command": "EVENT_PREP_MENU",
             "args": {

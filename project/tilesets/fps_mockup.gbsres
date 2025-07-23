@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "7741ac9d-df7b-4cfa-962d-6bea365c2851",
+  "name": "fps mockup",
+  "symbol": "tileset_fps_mockup",
+  "width": 16,
+  "height": 8,
+  "imageWidth": 128,
+  "imageHeight": 64,
+  "filename": "fps mockup.png"
+}

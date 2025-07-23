@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0032+0f8+00c+0f8+008+0f6+004+0f2+008+0f6+004+0f2+002+0f8+008+0f2+002+0f8+008+0f2+0012+0f2+0012+0f2+002+0f8+008+0f2+002+0f12+008+0fc+008+0fc+0052+",
+  "collisions": "0f5c+004+0f10+004+0fc+008+0fc+008+0f4+0010+0f4+0010+0fc+008+0f90+",
   "autoFadeSpeed": 1,
   "symbol": "scene_10",
   "x": 936,
@@ -24,6 +24,17 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "30",
+              "value": {
+                "type": "number",
+                "value": 7
+              }
+            },
+            "id": "06bdbe49-61a1-469c-9777-3c49ac04f703"
+          },
           {
             "command": "EVENT_PREP_MENU",
             "args": {

@@ -1,0 +1,224 @@
+{
+  "_resourceType": "trigger",
+  "id": "132c8744-3da2-44b9-8860-e7e3800c9a02",
+  "name": "",
+  "prefabId": "",
+  "x": 17,
+  "y": 34,
+  "symbol": "trigger_261",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "43",
+        "choices": 10,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 0,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c7c2963f-895b-4717-b4e7-f1d6ffab00bb"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "54bb5a58-7ecd-45e4-a0c1-bd5e6b7ed36f"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "bf01d519-bbe1-4513-8b74-823ea2204b43"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a2195e87-66dd-4b7d-8d5f-e9c9002432de"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "70cc8250-647a-49c2-bd22-ce2d59ff654d",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "f8db8f53-adeb-40fc-8dfa-fc84c0c06b31"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f7e2416b-6db0-4605-a172-ade83bc6d085"
+          }
+        ],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "a22cec7e-ec52-432a-be1c-d6a9f3a4829d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

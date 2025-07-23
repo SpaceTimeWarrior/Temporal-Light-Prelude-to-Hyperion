@@ -1,0 +1,87 @@
+{
+  "_resourceType": "actor",
+  "id": "de99089c-9007-4748-b0b7-5b577ca187f4",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9be79250-35e5-45a3-b334-b422e6aa8412",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_221",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "  Dungeon  rules\nbelow is a list of\neffects this place",
+          "1 every day at\n midnight the \nlayout changes",
+          "1b. if someone \nenters also \ntriggers this",
+          "2 beings in this\nplace are \nillusions",
+          "3 if you die the\ndungeon community",
+          "won't take \nresponsibility.",
+          "4don't have sex in\nthe dungeon it\nkills both involved",
+          "5 each person/team\nthat enters a\nrandom layout will",
+          "be generated. each\nlayout is\nindependent and",
+          "is Separate from\nfrom other layouts"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8bde201d-811c-4bf4-9cb1-447a8b967c86"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blair:I wonder \nwhy the rule 4 \nwas made"
+        ],
+        "__section": "text",
+        "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6f212d08-e928-43e7-82f9-56217f51ace1"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 22,
+  "y": 11,
+  "_index": 1
+}

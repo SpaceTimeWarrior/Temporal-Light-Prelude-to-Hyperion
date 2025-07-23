@@ -24,3 +24,5 @@ braught over the game over screen from jem of twilight and did changes such as c
 using gb studio mono as a base individually changed the letters for TL_magiscript (used for a ancient magic that can be obtained in a later chapter)
 
 using jem's status screen from jem of twilight and inspiration from shadow flame the screen was altered to fit the new mechanics
+
+grass furret sprite was taken from TL:dark foundation

@@ -1,0 +1,84 @@
+{
+  "_resourceType": "trigger",
+  "id": "1c556971-e7a0-4c6c-b534-460c50339288",
+  "name": "",
+  "prefabId": "",
+  "x": 16,
+  "y": 13,
+  "symbol": "trigger_313",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "leave dungeon",
+        "option2": "goto next floor",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
+      },
+      "id": "30b4c3f4-3888-42e4-b0f6-a675bb0c634d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "381731f3-ae80-4c0a-887c-74940287d300"
+            },
+            "id": "0e08e5c9-9ac2-4616-9479-d640a769ea78"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9a78a492-559d-4690-913c-e8d0d160659d",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "782d1776-8067-4a18-bbbe-01ae698ac0df"
+          }
+        ]
+      },
+      "id": "1ede40c2-1dcb-43e3-bfd5-cdfed50901be"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

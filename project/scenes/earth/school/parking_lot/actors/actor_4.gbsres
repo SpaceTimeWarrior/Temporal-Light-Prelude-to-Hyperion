@@ -25,7 +25,15 @@
         "__collapseElse": false
       },
       "children": {
-        "true": [],
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "39f670b4-9070-4fbe-9bc2-454b9b439a77"
+          }
+        ],
         "false": [
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -33,6 +41,11 @@
               "customEventId": "d8842575-7eb2-4730-8ee8-b5effbf1ae24"
             },
             "id": "6eee083e-5595-4c02-8cbc-ddb1df7a373e"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {},
+            "id": "a7d8c07a-a409-4fdd-bbd3-5e04d202d3d3"
           },
           {
             "command": "EVENT_ADD_FLAGS",
@@ -54,7 +67,7 @@
               "flag14": false,
               "flag15": false,
               "flag16": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2d950060-6d75-4a3a-abaf-630c5dabaa7e"
           },
@@ -93,6 +106,44 @@
               "closeDelayFrames": 30
             },
             "id": "0b1b8c4a-fe57-42af-a288-e0f923180f16"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false,
+              "__label": "HUD"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PREP_MENU",
+                  "args": {
+                    "xnoverlay": 0,
+                    "ynoverlay": 16,
+                    "color": "black",
+                    "xoverlay": 0,
+                    "yoverlay": 0,
+                    "overlayw": 20,
+                    "overlayh": 2,
+                    "xsource": 0,
+                    "ysource": 70
+                  },
+                  "id": "b23ec5de-4609-409b-a9be-f999e7a0450e"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 70
+                    }
+                  },
+                  "id": "cfac6e5f-cc8e-44fc-8d76-1a51466713e7"
+                }
+              ]
+            },
+            "id": "9e9550b8-3194-45e4-989c-f25fa249360a"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -139,7 +190,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 54
+                "value": 56
               },
               "moveType": "vertical",
               "useCollisions": true

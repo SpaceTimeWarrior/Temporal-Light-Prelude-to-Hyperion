@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00d+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!001e+0f3+006+0f4+001a+0f!002+0f!006+0f!002+0f4+0017+0f!00f+0f!0017+0f!00f+0f!0017+0f!00f+0f!0017+0f!00f+0f!00f+0f8+0010+0f4+00!0f2+007+0f3+002+0f2+002+0f!0010+0f!002+0f2+002+0f4+0027+0f!0027+0f!0027+0f!0027+0f!003+0fa+0010+0f6+004+0f!00c+0f!0010+0f!004+0f!004+0f!00c+0f2+00f+0f!004+0f!004+0f!00c+0f2+00f+0f!004+0f!004+0f!00c+0f2+00f+0f!004+0f!004+0f!00c+0f2+00f+0f!003+0f2+004+0f3+00a+0f2+00f+0f!002+0f!008+0f!00a+0f2+00b+0f3+00!0f!002+0f!008+0f!00a+0f!00c+0f3+00!0f!002+0f!008+0f!00a+0f!00b+0f4+00!0f!002+0f!008+0f!00a+0f7+004+0f7+003+0f2+004+0f3+0010+0f!004+0f!00a+0f!004+0f!0012+0f!004+0f!00a+0f6+0012+0f!004+0f!0022+0f!004+0f!0023+0f4+0014+",
+  "collisions": "0fe+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f1f+002+0f!006+0f!002+0f1c+00f+0f19+00f+0f19+00f+0f19+00f+0f18+0010+0f11+002+0f2+002+0f!0010+0f!002+0f2+002+0f7+0024+0f4+0024+0f4+0024+0f4+0024+0fe+0010+0f6+004+0fe+0010+0f6+004+0ff+00f+0f6+004+0ff+00f+0f6+004+0ff+00f+0f6+004+0ff+00f+0f6+004+0ff+00f+0f4+008+0fd+00b+0f3+00!0f4+008+0fc+00c+0f3+00!0f4+008+0fc+00b+0f4+00!0f4+008+0f12+004+0fc+004+0f14+004+0fc+004+0f14+004+0f24+004+0f24+004+0f3c+",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
   "x": 576,
@@ -19,11 +19,52 @@
     {
       "command": "EVENT_GROUP",
       "args": {
+        "__label": "song group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "7ef4f2a8-c593-4ce2-b991-886f34285ccf"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
+              "__collapse": false
+            },
+            "id": "bc73ac60-0fab-4863-86db-24d275389fe4"
+          }
+        ]
+      },
+      "id": "f6584d17-5535-43ae-a006-5f21db0969d1"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
         "__collapse": false,
         "__label": "HUD"
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "30",
+              "value": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "6c6596c9-1176-497d-9bfc-770db932ad67"
+          },
           {
             "command": "EVENT_PREP_MENU",
             "args": {

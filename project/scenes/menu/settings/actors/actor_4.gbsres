@@ -57,6 +57,13 @@
         "false": []
       },
       "id": "92e08a5b-a311-4a14-b74c-e82a7a6bcd7b"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f"
+      },
+      "id": "37ea1f65-dfad-4c58-9eaf-a3901b6cd95c"
     }
   ],
   "startScript": [],

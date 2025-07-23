@@ -1,0 +1,74 @@
+{
+  "_resourceType": "actor",
+  "id": "033d36d8-de75-4db2-b091-07873819d447",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0af81d73-b0d6-45b1-876b-96d8ef1ee6df",
+  "prefabId": "",
+  "direction": "up",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "3",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_214",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "26068cbc-9c50-471b-afea-c07e05fbd37a",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "ddb01901-a2da-4c71-9f00-bd4e3c2b2c7f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "up",
+        "otherActorId": "$self$",
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "y": {
+                "type": "property",
+                "target": "$self$",
+                "property": "ypos"
+              },
+              "moveType": "horizontal",
+              "useCollisions": true
+            },
+            "id": "2b662f01-94ba-4a2b-a542-32538eaefe53"
+          }
+        ],
+        "false": []
+      },
+      "id": "a693b17a-9e1d-4c34-85f0-0c724b5e1c9e"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 7,
+  "y": 124,
+  "_index": 19
+}

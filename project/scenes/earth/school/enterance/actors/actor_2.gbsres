@@ -41,6 +41,44 @@
         "closeDelayFrames": 30
       },
       "id": "90b29e34-ec20-42e6-85fc-fa084b0dd167"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 70
+            },
+            "id": "b34ff81c-cd19-44f4-9bcc-c9e6c7dc06e4"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 70
+              }
+            },
+            "id": "a88ccd4b-11b2-42d2-8f9c-3a32fe9d2306"
+          }
+        ]
+      },
+      "id": "6eb8027f-700f-4934-ac7f-ee1a279ebd93"
     }
   ],
   "startScript": [],

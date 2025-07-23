@@ -1,0 +1,216 @@
+{
+  "_resourceType": "trigger",
+  "id": "b531df5c-67f5-478e-8f7e-228755cf81da",
+  "name": "",
+  "prefabId": "",
+  "x": 17,
+  "y": 0,
+  "symbol": "trigger_268",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "43",
+        "choices": 10,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 0,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ec3a4d74-395a-4fee-8bcf-2ffe649b937d"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b4e55bad-fc2e-4ffa-b470-4114600db234"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ee96aa61-4e91-44a9-b733-be490effd8cc"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "37e4991b-00da-4122-82a5-b25ebefb16f5",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "0a08d849-7c8c-4638-bdf3-8ff11f828af1"
+          }
+        ],
+        "true4": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "07d93a1a-0b64-4ee8-b8a4-48200f0d3cf8",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "272b906b-85bb-4225-a09c-2e5e8620744a"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "996b5c82-6ce8-4bb9-bc95-1cd136f4a55b"
+          }
+        ],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "919eb484-f5df-41d4-b9da-8b906a581fc2"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

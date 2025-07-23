@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "caab1daa-141a-4844-b385-1f62a444c8b9",
+  "name": "prison cell",
+  "symbol": "bg_prison_cell",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "prison cell.png",
+  "tileColors": "0073+04!00f4+",
+  "autoColor": false
+}

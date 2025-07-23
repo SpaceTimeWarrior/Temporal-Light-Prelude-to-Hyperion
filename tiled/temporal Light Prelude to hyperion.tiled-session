@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "temporal Light maps/slice's room.tmx",
+    "activeFile": "temporal Light maps/temp dungeon15.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -25,7 +25,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 159.83333333333331,
-                "y": 800.1666666666666
+                "y": 800
             }
         },
         "temporal Light maps/Earth freeway 2.tmx": {
@@ -33,7 +33,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 159.83333333333331,
-                "y": 800.1666666666666
+                "y": 800
             }
         },
         "temporal Light maps/Earth freeway 3.tmx": {
@@ -41,7 +41,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 159.83333333333331,
-                "y": 800.1666666666666
+                "y": 800
             }
         },
         "temporal Light maps/bias' room.tmx": {
@@ -49,7 +49,7 @@
             "selectedLayer": 4,
             "viewCenter": {
                 "x": 79.9090909090909,
-                "y": 71.90909090909092
+                "y": 72
             }
         },
         "temporal Light maps/blair's room.tmx": {
@@ -57,7 +57,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 79.97034840622683,
-                "y": 71.9644180874722
+                "y": 72.0533728687917
             }
         },
         "temporal Light maps/glacia's room pre chapter4.tmx": {
@@ -65,7 +65,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 79.9090909090909,
-                "y": 71.90909090909092
+                "y": 72
             }
         },
         "temporal Light maps/glacia's room.tmx": {
@@ -73,7 +73,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 79.98220640569394,
-                "y": 71.97508896797154
+                "y": 72.0640569395018
             }
         },
         "temporal Light maps/highway 5 part 1.tmx": {
@@ -81,7 +81,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 320.0748538011696,
-                "y": 144.0187134502924
+                "y": 143.71929824561403
             }
         },
         "temporal Light maps/highway 5 part 2.tmx": {
@@ -89,7 +89,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 79.75,
-                "y": 288.25
+                "y": 288
             }
         },
         "temporal Light maps/highway 5 part 3.tmx": {
@@ -97,7 +97,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 160.0909090909091,
-                "y": 288.0909090909091
+                "y": 288
             }
         },
         "temporal Light maps/highway 5 part 4-freeway connection.tmx": {
@@ -105,7 +105,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 320.05930318754633,
-                "y": 143.9288361749444
+                "y": 144.1067457375834
             }
         },
         "temporal Light maps/kit's house bathroom.tmx": {
@@ -113,7 +113,7 @@
             "selectedLayer": 5,
             "viewCenter": {
                 "x": 79.97034840622683,
-                "y": 71.9644180874722
+                "y": 72.0533728687917
             }
         },
         "temporal Light maps/kit's house dad's room.tmx": {
@@ -121,7 +121,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 79.97034840622683,
-                "y": 71.9644180874722
+                "y": 72.0533728687917
             }
         },
         "temporal Light maps/kit's house exterior south.tmx": {
@@ -129,7 +129,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 160.12073193737032,
-                "y": 71.98641765704585
+                "y": 72.13733257875874
             }
         },
         "temporal Light maps/kit's house exterior.tmx": {
@@ -137,7 +137,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 159.94069681245367,
-                "y": 143.9288361749444
+                "y": 144.1067457375834
             }
         },
         "temporal Light maps/kit's house interior A.tmx": {
@@ -145,7 +145,7 @@
             "selectedLayer": 5,
             "viewCenter": {
                 "x": 160.0909090909091,
-                "y": 144.09090909090907
+                "y": 144
             }
         },
         "temporal Light maps/kit's house interior B.tmx": {
@@ -153,7 +153,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 159.94069681245367,
-                "y": 143.9288361749444
+                "y": 144.1067457375834
             }
         },
         "temporal Light maps/kit's house interior Garage.tmx": {
@@ -161,7 +161,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 159.99247448379663,
-                "y": 72.09444522835237
+                "y": 71.94393490428483
             }
         },
         "temporal Light maps/kit's house shrine enterance.tmx": {
@@ -177,7 +177,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 79.97034840622683,
-                "y": 71.9644180874722
+                "y": 72.0533728687917
             }
         },
         "temporal Light maps/kit's shrine path 1.tmx": {
@@ -185,7 +185,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 159.94069681245367,
-                "y": 143.9288361749444
+                "y": 144.1067457375834
             }
         },
         "temporal Light maps/kit's shrine path 2.tmx": {
@@ -193,7 +193,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 79.97034840622683,
-                "y": 95.9822090437361
+                "y": 96.07116382505559
             }
         },
         "temporal Light maps/school bathroom.tmx": {
@@ -201,7 +201,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 160.12073193737032,
-                "y": 71.98641765704585
+                "y": 72.13733257875874
             }
         },
         "temporal Light maps/school cafeteria access.tmx": {
@@ -209,7 +209,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 240.0625,
-                "y": 72.0625
+                "y": 72
             }
         },
         "temporal Light maps/school enterance.tmx": {
@@ -217,7 +217,7 @@
             "selectedLayer": 5,
             "viewCenter": {
                 "x": 159.83333333333331,
-                "y": 288.16666666666663
+                "y": 288
             }
         },
         "temporal Light maps/school hallway 1.tmx": {
@@ -225,7 +225,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 320.125,
-                "y": 288.125
+                "y": 288
             }
         },
         "temporal Light maps/school magic classroom.tmx": {
@@ -233,7 +233,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 79.83333333333331,
-                "y": 160.16666666666669
+                "y": 160
             }
         },
         "temporal Light maps/school parking lot f 10.tmx": {
@@ -241,15 +241,31 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 319.66666666666663,
-                "y": 288.33333333333337
+                "y": 288
+            }
+        },
+        "temporal Light maps/shrine access.tmx": {
+            "scale": 3.2953124999999996,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 160.07586533902324,
+                "y": 71.92034139402563
             }
         },
         "temporal Light maps/slice's house Alice's room.tmx": {
             "scale": 5.620833333333334,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 88.68791697553743,
-                "y": 95.27057079318011
+                "x": 79.97034840622683,
+                "y": 72.0533728687917
+            }
+        },
+        "temporal Light maps/slice's house bathroom.tmx": {
+            "scale": 5.620833333333334,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 79.97034840622683,
+                "y": 72.0533728687917
             }
         },
         "temporal Light maps/slice's house bedroom connections.tmx": {
@@ -257,7 +273,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 159.83333333333331,
-                "y": 288.16666666666663
+                "y": 288
             }
         },
         "temporal Light maps/slice's house east.tmx": {
@@ -265,7 +281,7 @@
             "selectedLayer": 4,
             "viewCenter": {
                 "x": 160.125,
-                "y": 144.125
+                "y": 144
             }
         },
         "temporal Light maps/slice's house kitchen.tmx": {
@@ -273,7 +289,7 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 159.94069681245367,
-                "y": 143.9288361749444
+                "y": 144.1067457375834
             }
         },
         "temporal Light maps/slice's house living room(west).tmx": {
@@ -281,15 +297,143 @@
             "selectedLayer": 3,
             "viewCenter": {
                 "x": 159.94069681245367,
-                "y": 143.9288361749444
+                "y": 144.1067457375834
             }
         },
         "temporal Light maps/slice's room.tmx": {
             "scale": 5.620833333333334,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 92.95774647887323,
-                "y": 35.31504818383987
+                "x": 79.97034840622683,
+                "y": 72.0533728687917
+            }
+        },
+        "temporal Light maps/temp dungeon0.tmx": {
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 159.83333333333331,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon1.tmx": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 159.5,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon10.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 160.125,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon11.tmx": {
+            "scale": 4,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 160.125,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon12.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 159.75,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon13.tmx": {
+            "scale": 2.8071180555555553,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 160.1286412270394,
+                "y": 143.91984662007545
+            }
+        },
+        "temporal Light maps/temp dungeon14.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 275.125,
+                "y": 113
+            }
+        },
+        "temporal Light maps/temp dungeon15.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 153.83333333333331,
+                "y": 119
+            }
+        },
+        "temporal Light maps/temp dungeon2.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 159.83333333333331,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon3.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 159.66666666666663,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon4.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 159.66666666666663,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon5.tmx": {
+            "scale": 4,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 79.875,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon6.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 159.83333333333331,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon7.tmx": {
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 159.83333333333331,
+                "y": 144
+            }
+        },
+        "temporal Light maps/temp dungeon8.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 152.16666666666669,
+                "y": 148.33333333333331
+            }
+        },
+        "temporal Light maps/temp dungeon9.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 159.66666666666663,
+                "y": 144
             }
         },
         "temporal Light maps/woodland path 1.tmx": {
@@ -297,7 +441,7 @@
             "selectedLayer": 1,
             "viewCenter": {
                 "x": 79.83333333333331,
-                "y": 800.1666666666666
+                "y": 800
             }
         },
         "temporal Light maps/woodland path 2.tmx": {
@@ -305,7 +449,7 @@
             "selectedLayer": 2,
             "viewCenter": {
                 "x": 79.83333333333331,
-                "y": 800.1666666666666
+                "y": 800
             }
         },
         "temporal Light tiles/in_game_HUD.tsx": {
@@ -313,7 +457,7 @@
             "scaleInEditor": 2
         },
         "temporal Light tiles/temporal_light_tileset.tsx": {
-            "scaleInDock": 3,
+            "scaleInDock": 4,
             "scaleInEditor": 2
         },
         "temporal Light tiles/temporal_light_tileset2.tsx": {
@@ -326,7 +470,7 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 10,
+    "map.width": 20,
     "openFiles": [
         "modified kenny assets/Kenny Art.tsx",
         "temporal Light tiles/temporal_light_tileset.tsx",
@@ -366,7 +510,25 @@
         "temporal Light maps/kit's house dad's room.tmx",
         "temporal Light maps/glacia's room pre chapter4.tmx",
         "temporal Light maps/bias' room.tmx",
-        "temporal Light maps/slice's room.tmx"
+        "temporal Light maps/slice's room.tmx",
+        "temporal Light maps/slice's house bathroom.tmx",
+        "temporal Light maps/shrine access.tmx",
+        "temporal Light maps/temp dungeon1.tmx",
+        "temporal Light maps/temp dungeon2.tmx",
+        "temporal Light maps/temp dungeon3.tmx",
+        "temporal Light maps/temp dungeon4.tmx",
+        "temporal Light maps/temp dungeon5.tmx",
+        "temporal Light maps/temp dungeon6.tmx",
+        "temporal Light maps/temp dungeon0.tmx",
+        "temporal Light maps/temp dungeon7.tmx",
+        "temporal Light maps/temp dungeon8.tmx",
+        "temporal Light maps/temp dungeon9.tmx",
+        "temporal Light maps/temp dungeon10.tmx",
+        "temporal Light maps/temp dungeon11.tmx",
+        "temporal Light maps/temp dungeon12.tmx",
+        "temporal Light maps/temp dungeon13.tmx",
+        "temporal Light maps/temp dungeon14.tmx",
+        "temporal Light maps/temp dungeon15.tmx"
     ],
     "project": "temporal Light Prelude to hyperion.tiled-project",
     "recentFiles": [

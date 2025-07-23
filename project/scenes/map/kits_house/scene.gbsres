@@ -14,9 +14,56 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_46",
   "x": 2000,
-  "y": 30,
-  "script": [],
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "a",
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b",
+                "left",
+                "up",
+                "down",
+                "right",
+                "a",
+                "start",
+                "select"
+              ]
+            },
+            "id": "5e0ed2e2-2fb2-41ce-930a-828fa444ff7f"
+          },
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "766bc891-ec42-4d49-806f-c47fe3a7bf03"
+          }
+        ]
+      },
+      "id": "2c0740ff-a59a-40af-801c-b5fecd8ddbb0"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
 }

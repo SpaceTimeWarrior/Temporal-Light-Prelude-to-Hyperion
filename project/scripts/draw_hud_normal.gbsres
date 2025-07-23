@@ -38,6 +38,13 @@
       "id": "b3f55602-150c-45ed-8393-9bdd19c98d94"
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "90abe0da-f58e-4e0b-b891-77f13831014f"
+      },
+      "id": "a9babd50-1219-43ab-8a00-33e0b9744011"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "13",
@@ -81,6 +88,11 @@
       },
       "children": {
         "script": [
+          {
+            "command": "EVENT_RNG_SEED",
+            "args": {},
+            "id": "d9a39c52-8a9d-4516-8805-9b5b8e2572db"
+          },
           {
             "command": "EVENT_INC_VALUE",
             "args": {
@@ -129,7 +141,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -177,7 +189,7 @@
                       }
                     },
                     "__collapseElse": false,
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [

@@ -1,0 +1,248 @@
+{
+  "_resourceType": "script",
+  "id": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
+  "name": "play song",
+  "description": "sets the volume using the volume plugin (this is due to the web version does not have a volume slider)\nthen sets plays the song according to $gsong\ndefault. stop music\n1. kit's house\n2. kit's shrine",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_15",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "variable",
+            "value": "27"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "799fb20c-3531-4bba-a250-6b4d6c5ff106"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "27",
+              "choices": 6,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 1,
+                    "r": 1
+                  },
+                  "id": "02feb8f8-8045-4dda-8f27-7478d585dc66"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 2,
+                    "r": 2
+                  },
+                  "id": "5685402a-7f7d-4baf-8cf1-187d5aa955c0"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 3,
+                    "r": 3
+                  },
+                  "id": "25ca0030-10ea-4ab6-8b03-a91a9f501555"
+                }
+              ],
+              "true3": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 4,
+                    "r": 4
+                  },
+                  "id": "78e2bf96-e898-462d-ad6a-1ee9f1349cb6"
+                }
+              ],
+              "true4": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 5,
+                    "r": 5
+                  },
+                  "id": "e973f5a6-755c-48ce-bf73-8d4ddffe3203"
+                }
+              ],
+              "true5": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 6,
+                    "r": 6
+                  },
+                  "id": "2e037d88-5247-44b2-ac51-005477fde348"
+                }
+              ],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": [
+                {
+                  "command": "EVENT_SET_MASTER_VOL",
+                  "args": {
+                    "l": 7,
+                    "r": 7
+                  },
+                  "id": "299dbd1d-a8ef-4690-b65c-8473ce8ea81b"
+                }
+              ]
+            },
+            "id": "e9334624-1937-4207-9799-f935e5672349"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "28",
+              "choices": 3,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "4375d3dc-eb58-4b7b-a529-951debbb00b4"
+                  },
+                  "id": "087b1455-0063-4129-b1e0-5d0fd6d7905c"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "0a348f1f-8a06-4679-9bc0-96cd0bec11e3"
+                  },
+                  "id": "0d3f85a1-ce3f-4162-9e19-e77b14cfc2a0"
+                }
+              ],
+              "true2": [],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": [
+                {
+                  "command": "EVENT_MUSIC_STOP",
+                  "args": {},
+                  "id": "ebfd7721-180c-48cc-abab-362ad6823896"
+                }
+              ]
+            },
+            "id": "ee4c2ce3-caa9-4f32-be48-3f7c1cf36e35"
+          }
+        ]
+      },
+      "id": "3de625c6-88da-4372-b805-1595c221c1e1"
+    }
+  ]
+}

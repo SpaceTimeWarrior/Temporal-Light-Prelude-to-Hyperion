@@ -15,7 +15,33 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_186",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "glacia's hoverbike"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f8be3bbc-6474-42fa-9578-ed8a81dadd88"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -23,6 +49,27 @@
         "actorId": "$self$"
       },
       "id": "50d7220d-537a-4d0a-8363-b979e0977872"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 5,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "e862eabd-9469-48b0-bf13-6800ca089989"
+          }
+        ],
+        "false": []
+      },
+      "id": "8107b795-dca9-441f-89aa-ffc567b6b096"
     }
   ],
   "updateScript": [],

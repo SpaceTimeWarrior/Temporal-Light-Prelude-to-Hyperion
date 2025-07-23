@@ -28,6 +28,17 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "30",
+              "value": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "fd3d8836-8b07-4d8a-8fff-079089f1a4e5"
+          },
+          {
             "command": "EVENT_PREP_MENU",
             "args": {
               "xnoverlay": 0,

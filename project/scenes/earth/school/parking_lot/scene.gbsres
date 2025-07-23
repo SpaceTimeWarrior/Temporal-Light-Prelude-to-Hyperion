@@ -28,6 +28,17 @@
       "id": "1fa63acf-04e2-4d2b-9918-da75c1cf9813"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "30",
+        "value": {
+          "type": "number",
+          "value": 21
+        }
+      },
+      "id": "d170cfbc-b773-4f0d-991b-37fd0483c626"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false,

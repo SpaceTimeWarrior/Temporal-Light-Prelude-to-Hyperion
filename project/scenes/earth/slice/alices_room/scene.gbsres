@@ -15,7 +15,46 @@
   "symbol": "scene_36",
   "x": 2584,
   "y": 1656,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "4c9c72dd-ee10-44fe-88c2-664c4d93197b"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "c730c744-dff9-4939-9600-09f6cd21bf44"
+          }
+        ]
+      },
+      "id": "7b14d2ff-6d60-4f5c-88ba-b29d54d8e2c2"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

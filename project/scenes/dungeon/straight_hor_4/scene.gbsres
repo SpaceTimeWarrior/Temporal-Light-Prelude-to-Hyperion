@@ -1,0 +1,61 @@
+{
+  "_resourceType": "scene",
+  "id": "978ab7c1-1bc1-4db3-809c-e4dc384a2631",
+  "_index": 97,
+  "name": "Dungeon/straight hor 4",
+  "backgroundId": "8f228f97-cdbe-4854-85ee-4aaaba8c171e",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f168+00a0+0fc8+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_98",
+  "x": 4880,
+  "y": 4064,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "b6b832f0-de97-44db-a3f1-4b2a9c532336"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "315d8714-8f1e-4cf8-a6c4-02d6b3d3a34b"
+          }
+        ]
+      },
+      "id": "d5fea0d2-6655-4072-8482-9cc0974225b4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,552 @@
+{
+  "_resourceType": "actor",
+  "id": "64c2ee68-e61e-43e4-8fbc-ed689c5377aa",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a4d9088e-cf08-4d93-a70e-597f29b053b0",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "2",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_264",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 7,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "6ad53991-241b-46f8-9cc9-8b3f1e14e34f"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 2,
+              "duration": 0.5,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "16"
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_LAUNCH_PROJECTILE",
+                        "args": {
+                          "__section": "presets",
+                          "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+                          "spriteStateId": "",
+                          "actorId": "$self$",
+                          "x": 0,
+                          "y": 0,
+                          "directionType": "target",
+                          "otherActorId": "$self$",
+                          "direction": "right",
+                          "angle": 0,
+                          "angleVariable": "L0",
+                          "targetActorId": "player",
+                          "initialOffset": 0,
+                          "speed": 2,
+                          "animSpeed": 15,
+                          "lifeTime": 1,
+                          "loopAnim": true,
+                          "destroyOnHit": true,
+                          "collisionGroup": "3",
+                          "collisionMask": [
+                            "player"
+                          ]
+                        },
+                        "id": "c77245c7-3bec-4753-8559-12b245e78d8d"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "19e6e49b-f43b-4ffd-b2f0-3759de1a8ee4"
+                }
+              ]
+            },
+            "id": "51b3d302-6352-444f-9bc8-ef64f8966905"
+          }
+        ]
+      },
+      "id": "a56e059d-7fcc-4383-9c23-515e3ecfcde1"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "property",
+            "target": "$self$",
+            "property": "ypos"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 20
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L1",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "c2b827bc-cc9d-45b0-b6dc-a0506b28f6ec"
+          }
+        ],
+        "false": []
+      },
+      "id": "ea4cb3b2-650e-4747-a577-8f68c875c128"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "16"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "19"
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "16",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "833da8ba-9690-4347-9dc3-6f1d1bc040fa"
+                },
+                {
+                  "command": "EVENT_ADD_FLAGS",
+                  "args": {
+                    "variable": "10",
+                    "flag1": false,
+                    "flag2": false,
+                    "flag3": false,
+                    "flag4": false,
+                    "flag5": false,
+                    "flag6": false,
+                    "flag7": false,
+                    "flag8": true,
+                    "flag9": false,
+                    "flag10": false,
+                    "flag11": false,
+                    "flag12": false,
+                    "flag13": false,
+                    "flag14": false,
+                    "flag15": false,
+                    "flag16": false
+                  },
+                  "id": "1e0e0bdd-bcfb-4a65-a9d9-f92b850fe718"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+                  "args": {
+                    "actorId": "player",
+                    "operation": "up",
+                    "otherActorId": "$self$",
+                    "__collapseElse": false,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+                        "args": {
+                          "actorId": "player",
+                          "operation": "left",
+                          "otherActorId": "$self$",
+                          "__collapseElse": false,
+                          "__collapse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                              "args": {
+                                "actorId": "$self$",
+                                "x": {
+                                  "type": "number",
+                                  "value": -1
+                                },
+                                "y": {
+                                  "type": "number",
+                                  "value": -1
+                                },
+                                "moveType": "diagonal",
+                                "useCollisions": true,
+                                "__collapse": true
+                              },
+                              "id": "a9fbe4ce-ad47-48e4-a247-05e12cdde7da"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+                              "args": {
+                                "actorId": "player",
+                                "operation": "right",
+                                "otherActorId": "$self$",
+                                "__collapseElse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "x": {
+                                        "type": "number",
+                                        "value": 1
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": -1
+                                      },
+                                      "moveType": "diagonal",
+                                      "useCollisions": true,
+                                      "__collapse": true
+                                    },
+                                    "id": "e7edf932-099d-4a6c-8498-4c80617f4cd1"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "x": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": -1
+                                      },
+                                      "moveType": "vertical",
+                                      "useCollisions": true,
+                                      "__collapse": true
+                                    },
+                                    "id": "64e0f97e-d6d3-4ee4-b371-dd71dd2c478a"
+                                  }
+                                ]
+                              },
+                              "id": "3177dffa-d246-4a17-9049-2e6218a805a3"
+                            }
+                          ]
+                        },
+                        "id": "09390aa1-931b-4494-b9be-c06d6ba9afaa"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+                        "args": {
+                          "actorId": "player",
+                          "operation": "down",
+                          "otherActorId": "$self$",
+                          "__collapseElse": false,
+                          "__collapse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+                              "args": {
+                                "actorId": "player",
+                                "operation": "left",
+                                "otherActorId": "$self$",
+                                "__collapseElse": false,
+                                "__collapse": true
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "x": {
+                                        "type": "number",
+                                        "value": -1
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 1
+                                      },
+                                      "moveType": "diagonal",
+                                      "useCollisions": true,
+                                      "__collapse": false
+                                    },
+                                    "id": "39e7e5fe-77f5-4297-9006-99304bc7fe8e"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+                                    "args": {
+                                      "actorId": "player",
+                                      "operation": "right",
+                                      "otherActorId": "$self$",
+                                      "__collapseElse": false
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                          "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                              "type": "number",
+                                              "value": 1
+                                            },
+                                            "y": {
+                                              "type": "number",
+                                              "value": 1
+                                            },
+                                            "moveType": "diagonal",
+                                            "useCollisions": true,
+                                            "__collapse": false
+                                          },
+                                          "id": "340f0a39-cadc-4c17-8925-9533f1306aab"
+                                        }
+                                      ],
+                                      "false": [
+                                        {
+                                          "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                          "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                              "type": "number",
+                                              "value": 0
+                                            },
+                                            "y": {
+                                              "type": "number",
+                                              "value": 1
+                                            },
+                                            "moveType": "vertical",
+                                            "useCollisions": true,
+                                            "__collapse": false
+                                          },
+                                          "id": "5b2ebb1e-1abb-429e-913e-c646174e1a27"
+                                        }
+                                      ]
+                                    },
+                                    "id": "4dbbb584-d4d5-4867-b354-3821802c786b"
+                                  }
+                                ]
+                              },
+                              "id": "3a8deba7-e575-42aa-a4c2-101dfd1ca4aa"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+                              "args": {
+                                "actorId": "player",
+                                "operation": "left",
+                                "otherActorId": "$self$",
+                                "__collapseElse": true,
+                                "__collapse": true
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "x": {
+                                        "type": "number",
+                                        "value": -1
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "moveType": "diagonal",
+                                      "useCollisions": true,
+                                      "__collapse": false
+                                    },
+                                    "id": "365419c6-aab7-4589-aa40-677fb1e0dd29"
+                                  }
+                                ],
+                                "false": [
+                                  {
+                                    "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                    "args": {
+                                      "actorId": "$self$",
+                                      "x": {
+                                        "type": "number",
+                                        "value": 1
+                                      },
+                                      "y": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "moveType": "diagonal",
+                                      "useCollisions": true,
+                                      "__collapse": false
+                                    },
+                                    "id": "622ee0bf-726e-4709-a375-ba2faa6e8773"
+                                  }
+                                ]
+                              },
+                              "id": "cc90847c-a38e-48ae-aa3b-94ad9d84fba9"
+                            }
+                          ]
+                        },
+                        "id": "7ea9da33-5fb3-4d4f-8ae1-d1382f39068a"
+                      }
+                    ]
+                  },
+                  "id": "8484fbee-392d-4a3c-b3c5-f8ac178febe8"
+                }
+              ]
+            },
+            "id": "ca5d13e6-2d4f-4f44-b0f6-c7997fca498c"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "10",
+              "flag": 7,
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [],
+              "false": []
+            },
+            "id": "50ab4ef7-ff86-48a2-a022-4651d346491e"
+          }
+        ]
+      },
+      "id": "17f27661-a144-4c8f-bb12-602be2d78f5d"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "70"
+      },
+      "id": "b39c4a02-ccd8-47cf-89d8-f7aceed6de89"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "variable",
+            "value": "70"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "c5f0ac61-fda6-4c3c-aa40-31efef1ac16e"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "10",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": true,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "b59f175a-a644-4af9-9374-f1f8cb963267"
+          }
+        ],
+        "false": []
+      },
+      "id": "0bc77089-261e-458b-b81c-31a499cbcf75"
+    }
+  ],
+  "hit3Script": [],
+  "x": 28,
+  "y": 13,
+  "_index": 5
+}

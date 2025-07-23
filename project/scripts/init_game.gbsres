@@ -93,7 +93,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "story variables",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

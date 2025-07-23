@@ -15,7 +15,54 @@
   "symbol": "scene_49",
   "x": 2176,
   "y": 30,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "a",
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b",
+                "left",
+                "up",
+                "down",
+                "right",
+                "a",
+                "start",
+                "select"
+              ]
+            },
+            "id": "f312047f-64f4-42ba-9946-fb226233481f"
+          },
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "3a24deb8-d9fd-4c29-bc0f-87521c004d7f"
+          }
+        ]
+      },
+      "id": "ec4f6055-da8c-437a-b727-67e5b38b5b69"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

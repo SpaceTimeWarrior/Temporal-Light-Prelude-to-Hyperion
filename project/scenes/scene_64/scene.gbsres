@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "90d10e59-b8ec-41dc-8bfe-8fa20c513c72",
+  "_index": 63,
+  "name": "Scene 64",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_64",
+  "x": 2408.800048828125,
+  "y": 3032,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

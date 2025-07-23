@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3345a3ce-ea88-4dd5-9a82-678a3027f865",
+  "name": "temp dungeon5",
+  "symbol": "bg_temp_dungeon5",
+  "width": 20,
+  "height": 36,
+  "imageWidth": 160,
+  "imageHeight": 288,
+  "filename": "temp dungeon5.png",
+  "tileColors": "",
+  "autoColor": false
+}

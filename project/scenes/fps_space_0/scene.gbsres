@@ -1,0 +1,196 @@
+{
+  "_resourceType": "scene",
+  "id": "cb871bbf-cb46-489d-abca-d2082d78d1ac",
+  "_index": 104,
+  "name": "fps space 0",
+  "backgroundId": "caab1daa-141a-4844-b385-1f62a444c8b9",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_105",
+  "x": 1096,
+  "y": 1976,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "A few years later"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "44ee4869-25c6-4762-9fe6-0cf9fbe5ebb3"
+          },
+          {
+            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "args": {
+              "type": "tone",
+              "pitch": 4,
+              "frequency": 520,
+              "duration": 0.03,
+              "effect": 0
+            },
+            "id": "c9304c2b-f1af-42e1-a2af-55bbdb7d3b6b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!blair:mom is\nthat you"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 1,
+              "closeDelayFrames": 30
+            },
+            "id": "a8e790f0-1092-4192-aefc-ee6eb6f33333"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!kit: yes I have \nsince put the \nshrine on hold.",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!after your \nfather in law \nhad made Eather ",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!a independent \nplanet a group \nthat is well ",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!known for \nhating monsters \nhave started ",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!genocide. the \nonly reason why \nI am immune is ",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!because I am an \nambassador\nbut after I let ",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!you go you have \nto get to Eather",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!did your father \nin law make...\noh my."
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 1,
+              "closeDelayFrames": 30
+            },
+            "id": "4b7b6da3-bab2-483f-a144-9eb9147626d2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!blair:no he \ndidn't..."
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "top",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 1,
+              "closeDelayFrames": 30
+            },
+            "id": "8b762904-44f9-48a0-ba26-e5c76b9b36be"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!kit:... ... get \ngoing. I still\nhave a few",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!things I got to\ndo otherwise it\nwould look",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!very suspicious.\ngood luck"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3986eba0-ae61-4904-af56-dd76ccfc13c1"
+          }
+        ]
+      },
+      "id": "953c555c-9449-44f3-9f42-054b57937b7c"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b419de3c-7814-4ab5-a33b-034d3a366cd1",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "26426ee7-9edc-491f-8062-e5e4b00eaf34"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

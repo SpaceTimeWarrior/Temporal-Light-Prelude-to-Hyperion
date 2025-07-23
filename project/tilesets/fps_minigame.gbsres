@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "0cd65198-7ad3-4859-a75b-5aa09524a572",
+  "name": "fps minigame",
+  "symbol": "tileset_fps_minigame",
+  "width": 20,
+  "height": 8,
+  "imageWidth": 160,
+  "imageHeight": 64,
+  "filename": "fps minigame.png"
+}

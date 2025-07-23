@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "209e0e56-9f8b-46e5-a10c-b436eeef45b8",
+  "_index": 106,
+  "name": "fps TL-HW 1-5Boss",
+  "backgroundId": "1f9badc6-692e-4d98-ac4d-6b0684a0be9f",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_107",
+  "x": 1616,
+  "y": 1976,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

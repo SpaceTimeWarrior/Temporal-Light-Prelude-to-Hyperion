@@ -204,6 +204,188 @@
       "symbol": "var_enemy_ticker"
     },
     {
+      "id": "36",
+      "name": "Enemy HP2",
+      "symbol": "var_enemy_hp2"
+    },
+    {
+      "id": "37",
+      "name": "ENEMY ID 2",
+      "symbol": "var_enemy_id_2"
+    },
+    {
+      "id": "38",
+      "name": "Enemy HP3",
+      "symbol": "var_enemy_hp3"
+    },
+    {
+      "id": "39",
+      "name": "Enemy ID 3",
+      "symbol": "var_enemy_id_3"
+    },
+    {
+      "id": "40",
+      "name": "tick blocker 1",
+      "symbol": "var_tick_blocker_1"
+    },
+    {
+      "id": "41",
+      "name": "tick blocker 2",
+      "symbol": "var_tick_blocker_2"
+    },
+    {
+      "id": "42",
+      "name": "tick blocker 3",
+      "symbol": "var_tick_blocker_3"
+    },
+    {
+      "id": "43",
+      "name": "dungeon_value",
+      "symbol": "var_dungeon_value"
+    },
+    {
+      "id": "44",
+      "name": "FPS_Background_pos",
+      "symbol": "var_fps_background_pos"
+    },
+    {
+      "id": "45",
+      "name": "FPS_throttle_pxps",
+      "symbol": "var_fps_throttle_pxps"
+    },
+    {
+      "id": "46",
+      "name": "FPS_distance_traveled",
+      "symbol": "var_fps_distance_traveled"
+    },
+    {
+      "id": "47",
+      "name": "score",
+      "symbol": "var_score"
+    },
+    {
+      "id": "48",
+      "name": "enemy_cntr",
+      "symbol": "var_enemy_cntr"
+    },
+    {
+      "id": "49",
+      "name": "FPS_enemy_active_tracker",
+      "symbol": "var_fps_enemy_active_tracke",
+      "flags": {
+        "flag1": "L-R",
+        "flag2": "mL-mR",
+        "flag3": "M",
+        "flag4": "mR-mL",
+        "flag5": "R-L"
+      }
+    },
+    {
+      "id": "50",
+      "name": "Inventory 1 ID",
+      "symbol": "var_inventory_1_id"
+    },
+    {
+      "id": "51",
+      "name": "Inventory 2 ID",
+      "symbol": "var_inventory_2_id"
+    },
+    {
+      "id": "52",
+      "name": "Inventory 3 ID",
+      "symbol": "var_inventory_3_id"
+    },
+    {
+      "id": "53",
+      "name": "Inventory 4 ID",
+      "symbol": "var_inventory_4_id"
+    },
+    {
+      "id": "54",
+      "name": "Inventory 5 ID",
+      "symbol": "var_inventory_5_id"
+    },
+    {
+      "id": "55",
+      "name": "Inventory 6 ID",
+      "symbol": "var_inventory_6_id"
+    },
+    {
+      "id": "56",
+      "name": "Inventory 7 ID",
+      "symbol": "var_inventory_7_id"
+    },
+    {
+      "id": "57",
+      "name": "Inventory 8 ID",
+      "symbol": "var_inventory_8_id"
+    },
+    {
+      "id": "58",
+      "name": "Inventory 9 ID",
+      "symbol": "var_inventory_9_id"
+    },
+    {
+      "id": "59",
+      "name": "Inventory size",
+      "symbol": "var_inventory_size"
+    },
+    {
+      "id": "60",
+      "name": "Inventory 1 qty",
+      "symbol": "var_inventory_1_qty"
+    },
+    {
+      "id": "61",
+      "name": "Inventory 2 qty",
+      "symbol": "var_inventory_2_qty"
+    },
+    {
+      "id": "62",
+      "name": "Inventory 3 qty",
+      "symbol": "var_inventory_3_qty"
+    },
+    {
+      "id": "63",
+      "name": "Inventory 4 qty",
+      "symbol": "var_inventory_4_qty"
+    },
+    {
+      "id": "64",
+      "name": "Inventory 5 qty",
+      "symbol": "var_inventory_5_qty"
+    },
+    {
+      "id": "65",
+      "name": "Inventory 6 qty",
+      "symbol": "var_inventory_6_qty"
+    },
+    {
+      "id": "66",
+      "name": "Inventory 7 qty",
+      "symbol": "var_inventory_7_qty"
+    },
+    {
+      "id": "67",
+      "name": "Inventory 9 qty",
+      "symbol": "var_inventory_9_qty"
+    },
+    {
+      "id": "68",
+      "name": "Inventory 8 qty",
+      "symbol": "var_inventory_8_qty"
+    },
+    {
+      "id": "69",
+      "name": "fps_thrust",
+      "symbol": "var_fps_thrust"
+    },
+    {
+      "id": "70",
+      "name": "boss_HP",
+      "symbol": "var_boss_hp"
+    },
+    {
       "id": "128",
       "name": "intro thread",
       "symbol": "var_intro_thread"
@@ -247,24 +429,9 @@
       "symbol": "var_local_5"
     },
     {
-      "id": "37",
-      "name": "ENEMY ID 2",
-      "symbol": "var_enemy_id_2"
-    },
-    {
-      "id": "36",
-      "name": "Enemy HP2",
-      "symbol": "var_enemy_hp2"
-    },
-    {
-      "id": "38",
-      "name": "Enemy HP3",
-      "symbol": "var_enemy_hp3"
-    },
-    {
-      "id": "39",
-      "name": "Enemy ID 3",
-      "symbol": "var_enemy_id_3"
+      "id": "64c2ee68-e61e-43e4-8fbc-ed689c5377aa__L1",
+      "name": "bias_cheated",
+      "symbol": "var_bias_cheated"
     }
   ]
 }

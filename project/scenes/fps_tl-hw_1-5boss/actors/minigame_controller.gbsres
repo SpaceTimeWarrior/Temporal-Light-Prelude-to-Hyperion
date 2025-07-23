@@ -1,0 +1,70 @@
+{
+  "_resourceType": "actor",
+  "id": "869e384e-c5ed-4ce6-a625-72ce99a8b441",
+  "name": "minigame_controller",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9be79250-35e5-45a3-b334-b422e6aa8412",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_286",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "48",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "0c5b853e-a67f-4910-b20d-924f68d5dd03"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "49",
+        "flag": 2,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "054519be-6a79-403f-a85f-62ef1bf2499b",
+              "__collapse": true
+            },
+            "id": "14c3934f-2849-4a62-ac71-bc2e7e10ccd7"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "48",
+              "__collapse": true
+            },
+            "id": "0a8d136e-6859-4acb-819f-4aeb2a5d7a35"
+          }
+        ],
+        "false": []
+      },
+      "id": "4b31c757-e225-4f73-83b4-2ba87c0a22b6"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 3,
+  "_index": 5
+}

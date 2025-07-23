@@ -4,7 +4,7 @@
   "name": "Enemy Unit 1",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "0af81d73-b0d6-45b1-876b-96d8ef1ee6df",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -19,7 +19,7 @@
           "value": "29"
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -79,6 +79,16 @@
         }
       },
       "id": "539f3062-4f2f-4d20-a56c-7dc9363f4490"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "40",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "732edb52-c4db-49b0-8aaf-ab629b161551"
     }
   ],
   "updateScript": [
@@ -103,7 +113,7 @@
             "value": 0
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -220,34 +230,6 @@
             "id": "b32fdd64-1c5a-4772-9513-bed2b73b981f"
           },
           {
-            "command": "EVENT_LAUNCH_PROJECTILE",
-            "args": {
-              "__section": "projectile",
-              "spriteSheetId": "278061bd-ee8f-4a9e-9c73-f9cddadc7e32",
-              "spriteStateId": "",
-              "actorId": "$self$",
-              "x": 0,
-              "y": 0,
-              "directionType": "actor",
-              "otherActorId": "$self$",
-              "direction": "right",
-              "angle": 0,
-              "angleVariable": "0",
-              "targetActorId": "$self$",
-              "initialOffset": 0,
-              "speed": 2,
-              "animSpeed": 15,
-              "lifeTime": 1.5,
-              "loopAnim": true,
-              "destroyOnHit": true,
-              "collisionGroup": "3",
-              "collisionMask": [
-                "player"
-              ]
-            },
-            "id": "b1aabbbe-939e-4926-a406-924124ea7289"
-          },
-          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "$self$",
@@ -265,9 +247,78 @@
               "useCollisions": true
             },
             "id": "118ec1be-4919-4398-93fd-9b6419dd883b"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "40"
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_LAUNCH_PROJECTILE",
+                  "args": {
+                    "__section": "projectile",
+                    "spriteSheetId": "278061bd-ee8f-4a9e-9c73-f9cddadc7e32",
+                    "spriteStateId": "",
+                    "actorId": "$self$",
+                    "x": 0,
+                    "y": 0,
+                    "directionType": "actor",
+                    "otherActorId": "$self$",
+                    "direction": "right",
+                    "angle": 0,
+                    "angleVariable": "0",
+                    "targetActorId": "$self$",
+                    "initialOffset": 0,
+                    "speed": 2,
+                    "animSpeed": 15,
+                    "lifeTime": 1.5,
+                    "loopAnim": true,
+                    "destroyOnHit": true,
+                    "collisionGroup": "3",
+                    "collisionMask": [
+                      "player"
+                    ],
+                    "__collapse": true
+                  },
+                  "id": "b1aabbbe-939e-4926-a406-924124ea7289"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "40",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "3cd5d66e-1cb5-4380-83aa-051703d6481c"
+                }
+              ],
+              "false": []
+            },
+            "id": "f4f90946-aa69-4392-b59b-e958e6642846"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "40",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "06ef0e85-8a42-4d7f-8a30-a32808d57005"
+          }
+        ]
       },
       "id": "5e00cc0c-aaec-4fe5-ac03-ac587bbf6f0c"
     }

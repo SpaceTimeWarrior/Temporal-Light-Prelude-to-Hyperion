@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "43d1d2b1-71a8-444e-a6c0-bd09c539513b",
+  "_index": 44,
+  "name": "Earth/shrine/shrine access",
+  "backgroundId": "08cd9c50-5284-4b70-9ee2-641f387a5a7c",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0ff0+00f0+0ff0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_45",
+  "x": 384,
+  "y": 1328,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

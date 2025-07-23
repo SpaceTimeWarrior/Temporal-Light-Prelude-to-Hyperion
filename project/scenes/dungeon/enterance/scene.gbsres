@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "9a78a492-559d-4690-913c-e8d0d160659d",
+  "_index": 70,
+  "name": "Dungeon/enterance",
+  "backgroundId": "bdcba2b6-35dc-4bfe-99fa-b10769b075f3",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0010+0f7+0021+0f!006+0f!001c+0f5+006+0f5+0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f!00e+0f!0018+0f5+006+0f5+001c+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0020+0f!006+0f!0021+0f6+0011+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_71",
+  "x": 2392,
+  "y": 624,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

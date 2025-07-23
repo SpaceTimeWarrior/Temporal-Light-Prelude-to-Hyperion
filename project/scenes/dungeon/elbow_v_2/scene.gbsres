@@ -1,0 +1,63 @@
+{
+  "_resourceType": "scene",
+  "id": "2949a747-5929-4f87-a418-0d168a81c3f4",
+  "_index": 73,
+  "name": "Dungeon/elbow V> 1",
+  "backgroundId": "580b1c9a-441e-4041-a06e-8b20a5505ceb",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f127+008+0f20+008+0f1e+00c+0f1c+00c+0f1a+0016+0f11+0017+0f11+001e+0fa+001e+0fa+001e+0fa+001e+0fa+001e+0fa+0018+0f10+0018+0f12+00e+0f1a+00e+0f1c+00a+0f21+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f3b+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_74",
+  "x": 4872.45703125,
+  "y": 2152.6856863839284,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 34,
+              "__collapse": true
+            },
+            "id": "26a20b94-b743-4e0c-a058-7814830cc10f"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 34
+              },
+              "__collapse": true
+            },
+            "id": "7be8c6e5-1909-4add-b80a-921d8babe280"
+          }
+        ]
+      },
+      "id": "a89929c6-01e9-4d6e-b035-aad658b7d4e6"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

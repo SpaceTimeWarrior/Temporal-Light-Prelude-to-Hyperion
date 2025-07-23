@@ -17,6 +17,18 @@
   "y": 30,
   "script": [
     {
+      "command": "EVENT_RESET_VARIABLES",
+      "args": {},
+      "id": "2a6803e0-6d93-4f3d-8d47-722d522e9acc"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "99f79d8d-f0ce-446c-95ff-af52259e5483"
+      },
+      "id": "606f7639-0785-41af-ae0c-0602dc9c17c7"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$"

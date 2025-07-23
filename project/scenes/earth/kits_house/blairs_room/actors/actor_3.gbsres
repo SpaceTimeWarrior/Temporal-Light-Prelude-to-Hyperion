@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "9be79250-35e5-45a3-b334-b422e6aa8412",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -40,6 +40,70 @@
         "closeDelayFrames": 30
       },
       "id": "809857ba-19f5-4141-a8d8-c751344fde11"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "or is it",
+        "option2": "not now",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
+      },
+      "id": "64613ca6-032e-408a-8ee7-8b331427d672"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "81d5e0bf-8b4c-4d3c-a567-0be436b1b1aa"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "cb871bbf-cb46-489d-abca-d2082d78d1ac",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "direction": "right",
+              "fadeSpeed": "2"
+            },
+            "id": "d72e3ef0-8e25-4b1c-9d6f-5f1dad146b71"
+          }
+        ],
+        "false": []
+      },
+      "id": "bee8ad11-fc1c-4f31-a170-089a0016ea78"
     },
     {
       "command": "EVENT_GROUP",

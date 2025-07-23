@@ -7,7 +7,7 @@
   "tilesetId": "",
   "width": 20,
   "height": 200,
-  "type": "TOPDOWN",
+  "type": "SHMUP",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "00fa0+",
@@ -17,6 +17,17 @@
   "y": 1776,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "30",
+        "value": {
+          "type": "number",
+          "value": 18
+        }
+      },
+      "id": "f106deb7-9fb5-481d-b399-e0de549feb9c"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false,
@@ -24,6 +35,28 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "f35b6903-5103-4e7d-90b1-fdea160de0ee"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "24",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "911653b9-ea93-486e-9adc-7478c972ab87"
+          },
           {
             "command": "EVENT_PREP_MENU",
             "args": {
@@ -37,7 +70,7 @@
               "xsource": 0,
               "ysource": 198
             },
-            "id": "5b0f7c62-7d32-4a0a-a618-4e1c23551cb7"
+            "id": "a57fc439-5e73-418f-9832-7c1230320c55"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -48,14 +81,15 @@
                 "value": 198
               }
             },
-            "id": "1311e853-1741-42e5-8da3-8e7bb3fde796"
+            "id": "e690da54-9a7f-4ed1-a374-80771a805ef2"
           }
         ]
       },
-      "id": "672ed4d6-34ed-4b07-9aae-ccc8de5d713d"
+      "id": "e994e4cb-2f93-4c1a-a33e-19360c57147c"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "9a7e68a6-540c-47c7-af76-7608f40f60c6"
 }

@@ -15,8 +15,449 @@
   "symbol": "scene_22",
   "x": 2192,
   "y": 2328,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "d8842575-7eb2-4730-8ee8-b5effbf1ae24"
+      },
+      "id": "dd51121f-e757-425c-b48a-dd82bd873d53"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "30",
+        "value": {
+          "type": "number",
+          "value": 19
+        }
+      },
+      "id": "982e400b-0806-4916-abec-b56d3de9444b"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 6,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 22
+              },
+              "moveType": "horizontal",
+              "useCollisions": true
+            },
+            "id": "8231d063-685c-402c-b63e-faaa034607c5"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "3f48e68f-df9b-43ef-b636-ebd42e0d6958",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "238f4692-a334-42d7-982b-0040e49b3d7a"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              }
+            },
+            "id": "dc46a458-2912-49b0-b3f1-f7f14893e3ea"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "64c2ee68-e61e-43e4-8fbc-ed689c5377aa",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+            },
+            "id": "dc9fa416-f6d8-4c8b-bbfe-bd1879c468cf"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "bias:Looks like\nthe furballs are\nback"
+              ],
+              "__section": "text",
+              "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "94773057-4345-4d96-9b44-e0a3f721dd91"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "slice:Bias show \nsome respect, ",
+                "you know it is \nrude."
+              ],
+              "__section": "text",
+              "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a2791059-b7a1-4070-867a-3801980b09ed"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair: I have a \npackage for you"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7589b6e2-1c90-468a-ba9c-0ae5d63191df"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "slice: Looks \nlike my blessed\nwooden sword",
+                "has finally been\nrepaired...",
+                "while I normally\ndon't teach the \nway of the sword",
+                "to women, would \nyou like to \npractice?"
+              ],
+              "__section": "text",
+              "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "eb4207ce-0eb5-4440-8991-cda30edd64ff"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair: sure"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a8de4200-446f-40b3-9319-ad350725769e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "slice:I will \nhave my son Bias\nfight you"
+              ],
+              "__section": "text",
+              "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "9ef4c969-67ec-4b6e-9d66-627c9247635a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair: Any tips?"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6c3c7ac6-904a-4deb-ae5a-83d09a348141"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "slice: Not until\nI see how you \nfight first",
+                "use the bike\nrack to store\nyour bike",
+                "once you enter\ngravel ground\nleaving is \ndefeat"
+              ],
+              "__section": "text",
+              "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "46e82bf0-ef6a-424f-9260-81b829b795bd"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 25
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "e55e0460-02a3-474c-ac9a-a2b07d37afc4"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "right"
+              }
+            },
+            "id": "f88cf084-6d33-49c6-b11f-33fc3d8d14ee"
+          },
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "e07f5f4d-6b59-430c-ab9c-e8358bbfc1d4"
+            },
+            "id": "04ac26cc-b4bd-431d-950b-511463244812"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 14
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "45384dcc-c24e-4b7f-9483-dc186e638b75"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "10",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": true,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "7790c670-8015-492f-9412-de2718628fd8"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "d1d965cf-7fed-484a-9499-c0cc6634855e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "70",
+              "value": {
+                "type": "number",
+                "value": 20
+              }
+            },
+            "id": "a0f59979-dd85-4eae-b58d-97b3edcf8d3e"
+          }
+        ]
+      },
+      "id": "fefa848a-3020-4076-bcd6-0c957ea7a43d"
+    }
+  ],
   "playerHit1Script": [],
-  "playerHit2Script": [],
+  "playerHit2Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "26068cbc-9c50-471b-afea-c07e05fbd37a",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "3d3b4c18-181c-457a-9296-5d07b4249bd0"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "16"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "e2e24c28-531c-4893-a50d-7e9b0fcb50ec"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "10",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": true,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "33a7c98c-9201-4ff2-b368-5840d83f0b33"
+          }
+        ],
+        "false": []
+      },
+      "id": "cf29a935-f5c8-436a-8371-55b4b8e63a37"
+    }
+  ],
   "playerHit3Script": []
 }

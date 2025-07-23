@@ -36,6 +36,112 @@
         ],
         "false": [
           {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "12"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "12",
+                    "choices": 2,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_PLAYER_SET_SPRITE",
+                        "args": {
+                          "spriteSheetId": "4d227af5-a279-45d9-b9cb-c59ed3b567e6"
+                        },
+                        "id": "0720f86b-d5b6-4338-89e6-c669a298e440"
+                      }
+                    ],
+                    "true1": [],
+                    "true2": [],
+                    "true3": [],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": [
+                      {
+                        "command": "EVENT_PLAYER_SET_SPRITE",
+                        "args": {
+                          "spriteSheetId": "318581b1-1317-4a0f-917b-525fb3c256b2"
+                        },
+                        "id": "bd8cba84-9b54-49a8-94d4-3ee0b101aa18"
+                      }
+                    ]
+                  },
+                  "id": "15f3f33c-22e2-487c-8de9-cb215032e330"
+                }
+              ],
+              "false": []
+            },
+            "id": "b3476964-588a-47ea-866b-c41ebc87957e"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {},
+            "id": "0cc643fd-4b09-4690-a641-3f3275942e26"
+          },
+          {
             "command": "EVENT_ADD_FLAGS",
             "args": {
               "variable": "10",

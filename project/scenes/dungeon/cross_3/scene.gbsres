@@ -1,0 +1,63 @@
+{
+  "_resourceType": "scene",
+  "id": "03e5e3a4-f72d-4d59-bc8a-dffb4ec1d5d7",
+  "_index": 91,
+  "name": "Dungeon/cross 3",
+  "backgroundId": "340441d1-19a6-4137-a820-8ade1b7ae188",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f13+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f1c+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+00e+0f1a+001d+0fb+001d+0f9+001f+0f9+001f+0f9+001f+0f9+0013+0fc+001c+0fc+001c+0fc+001c+0fc+0017+0f11+0017+0f1b+00d+0f1b+00d+0f1b+00d+0f1b+00d+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f39+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_92",
+  "x": 6616,
+  "y": 3280,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 34,
+              "__collapse": true
+            },
+            "id": "eb142fbc-a9da-4939-9328-d9eb4e5f554a"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 34
+              },
+              "__collapse": true
+            },
+            "id": "a1fc40f5-29db-4b77-9005-34d928318060"
+          }
+        ]
+      },
+      "id": "57032fd2-3263-4a5d-90f9-803da3df2243"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

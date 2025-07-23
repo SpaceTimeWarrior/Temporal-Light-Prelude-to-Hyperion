@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f47e5b82-dad4-4c40-8c3e-5eb364f1d9f0",
+  "name": "fps mockup",
+  "symbol": "bg_fps_mockup",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "fps mockup.png",
+  "tileColors": "032+0410+034+0410+034+0410+034+0410+034+0410+034+0410+034+0410+034+0410+034+0410+034+0410+034+0410+034+0410+034+0410+034+0410+032a+0428+",
+  "autoColor": false
+}

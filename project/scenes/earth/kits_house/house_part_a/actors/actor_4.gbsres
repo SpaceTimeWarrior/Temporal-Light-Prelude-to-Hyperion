@@ -68,7 +68,9 @@
               "text": [
                 "kit: go deliver\nthe gift I gave\nyou.",
                 "it is southeast\nof here.(*>).",
-                "I recommend that\nyou use your \nmotorcycle"
+                "I recommend that\nyou use your \nmotorcycle",
+                "you also can use\nthe nearest\ndungeon to train",
+                "your magic but\ndon't take too\nlong."
               ],
               "__section": "text",
               "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
@@ -88,6 +90,25 @@
               "closeDelayFrames": 30
             },
             "id": "a26a3f19-4e1e-4f84-95fc-d6a12803f86d"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 2,
+              "option1": "where is it",
+              "option2": "I don't want to",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": true
+            },
+            "id": "3165ad5d-6e70-491f-8070-1cb4607b0340"
           },
           {
             "command": "EVENT_ACTOR_SET_DIRECTION",
@@ -151,6 +172,32 @@
                           "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66"
                         },
                         "id": "c43c9595-c3bd-4de1-bdf7-75a922c56e9f"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_POSITION",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 16
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 15
+                          }
+                        },
+                        "id": "dc76e3dd-7db3-4b87-b866-67b35d235c96"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "up"
+                          }
+                        },
+                        "id": "f5e77504-8436-4b5a-80db-5f6e2e9f45dc"
                       }
                     ],
                     "false": [
@@ -491,7 +538,7 @@
                           "text": [
                             "kit: Sorry, but \nit is for your \nown good.",
                             "How about this,\ncan you deliver \nthis package to ",
-                            "Slice Fireglobe?\nHe is to the \nSouth east of \nhere"
+                            "Slice Fireglobe?\nHe is to the \n*> of here"
                           ],
                           "__section": "text",
                           "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
@@ -515,7 +562,7 @@
                       {
                         "command": "EVENT_ACTOR_EMOTE",
                         "args": {
-                          "actorId": "$self$",
+                          "actorId": "player",
                           "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
                         },
                         "id": "5cac7835-79c4-4443-b3a6-fe89da872a09"
@@ -557,6 +604,55 @@
                         "id": "617fa8bb-2a93-4870-8a2f-6a3c8c564ea4"
                       },
                       {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 1
+                          }
+                        },
+                        "id": "59480e88-655e-43a0-b57a-c262ac07f7e5"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "glacia:you also \ncan use the \nnearest dungeon ",
+                            "to train\nyour magic and ",
+                            "get stronger\nit is >^ of here"
+                          ],
+                          "__section": "text",
+                          "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "e43d9c16-285a-46cc-9379-3faab7a10fa9"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "60aff843-90eb-427a-95e7-bfe630b8d61c"
+                      },
+                      {
                         "command": "EVENT_ADD_FLAGS",
                         "args": {
                           "variable": "10",
@@ -578,6 +674,47 @@
                           "flag16": false
                         },
                         "id": "8dfe4efb-4d61-4cdc-ab68-d4fb89af4b0f"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_MOVE_TO",
+                        "args": {
+                          "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66",
+                          "x": {
+                            "type": "number",
+                            "value": 27
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 30
+                          },
+                          "moveType": "vertical",
+                          "useCollisions": true
+                        },
+                        "id": "bad01555-9744-4a54-9c63-301d1dbed742"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66"
+                        },
+                        "id": "db92e295-a1f7-457b-82b0-49480bf1d6ce"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_MOVE_TO",
+                        "args": {
+                          "actorId": "$self$",
+                          "x": {
+                            "type": "number",
+                            "value": 18
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 15
+                          },
+                          "moveType": "horizontal",
+                          "useCollisions": true
+                        },
+                        "id": "4379abf0-cc86-4a84-9208-f5fab6da2694"
                       }
                     ]
                   },
@@ -947,7 +1084,8 @@
             "args": {
               "text": [
                 "blair:if it is a\nmovie it was \nvery convincing,",
-                "but it could of \nbeen propaganda\nas I just turned\nit on."
+                "but it could of \nbeen propaganda",
+                "as I just turned\nit on."
               ],
               "__section": "text",
               "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",

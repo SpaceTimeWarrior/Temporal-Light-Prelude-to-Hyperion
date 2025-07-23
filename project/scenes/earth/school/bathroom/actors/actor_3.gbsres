@@ -37,7 +37,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "e970a8ce-14ce-45f0-8aa4-377059010e2f"
     },
@@ -56,7 +57,8 @@
         "option8": "",
         "cancelOnB": true,
         "layout": "dialogue",
-        "cancelOnLastOption": true
+        "cancelOnLastOption": true,
+        "__collapse": true
       },
       "id": "c82e2283-0970-481b-be40-9e9336077f94"
     },
@@ -74,7 +76,8 @@
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -136,6 +139,44 @@
         "false": []
       },
       "id": "9e014b39-2492-42d5-988a-c1f79afe84eb"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "2590de40-9840-4d87-a157-03b0c46292e3"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "f9acd481-9405-4dd3-a844-6188db5e48a7"
+          }
+        ]
+      },
+      "id": "0705e08e-8460-4a43-86df-bf27b87c2371"
     }
   ],
   "startScript": [],

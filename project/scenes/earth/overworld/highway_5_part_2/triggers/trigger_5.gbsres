@@ -18,7 +18,33 @@
         "__collapseElse": false
       },
       "children": {
-        "true": [],
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "275485d7-8924-435a-8b40-bc9f760fb9b6",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "add",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "ypos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 6
+                }
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "5b2c7ab0-dcbe-4c3b-aaad-955a2e558e98"
+          }
+        ],
         "false": [
           {
             "command": "EVENT_TEXT",

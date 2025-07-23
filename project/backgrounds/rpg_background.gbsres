@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8215fc24-b33f-4495-86a7-a24160ec3682",
+  "name": "RPG_background",
+  "symbol": "bg_rpg_background",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "RPG_background.png",
+  "tileColors": "",
+  "autoColor": false
+}

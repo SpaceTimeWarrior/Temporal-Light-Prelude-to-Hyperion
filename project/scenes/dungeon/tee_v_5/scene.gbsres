@@ -1,0 +1,63 @@
+{
+  "_resourceType": "scene",
+  "id": "1ee3ee93-e208-45ef-b279-61ee531878ae",
+  "_index": 95,
+  "name": "Dungeon/tee <V> 1",
+  "backgroundId": "684a425e-3f01-4fd3-897e-193466868ace",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f1c3+0012+0f16+0012+0f14+0016+0f12+0016+0f9+00c8+0f8+0018+0f10+0018+0f18+00a+0f1e+002+0f!004+0f!002+0f21+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f24+004+0f39+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_96",
+  "x": 4456,
+  "y": 3592,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 34,
+              "__collapse": true
+            },
+            "id": "f7ca10ca-2971-4677-b7ba-04f9d10d2e03"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 34
+              },
+              "__collapse": true
+            },
+            "id": "3d9c167f-046e-4de9-9965-35cdc9d7f718"
+          }
+        ]
+      },
+      "id": "d90bf522-2af5-44d8-891c-9ab4b7fda4d7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

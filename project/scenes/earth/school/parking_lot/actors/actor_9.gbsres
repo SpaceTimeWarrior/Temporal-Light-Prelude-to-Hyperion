@@ -15,7 +15,33 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_187",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "my motorcycle"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "35967064-77e7-4e1b-8fc2-943d9dfb05f9"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -23,6 +49,27 @@
         "actorId": "$self$"
       },
       "id": "0c2913af-fd95-4bf7-8915-e8e043fc76e9"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 5,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "aca00501-1846-45b1-9f92-6941d3d56ffd"
+          }
+        ],
+        "false": []
+      },
+      "id": "9ece822e-f15a-466c-81ef-d81b7e93707e"
     }
   ],
   "updateScript": [],

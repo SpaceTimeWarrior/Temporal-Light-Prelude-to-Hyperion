@@ -1,0 +1,81 @@
+{
+  "_resourceType": "trigger",
+  "id": "2f11f9a4-0729-4cea-9511-a229c8cbe8b0",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 8,
+  "symbol": "trigger_214",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 20,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 4,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "eafeba10-9939-4ff6-91f7-bcd232741564",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "sub",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "ypos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 6
+                }
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "30e6c668-b94d-4731-9625-4617d5502527"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Glacia:Where ARE\nYOU GOING?"
+              ],
+              "__section": "text",
+              "avatarId": "b93e3935-8f15-4359-bb14-723551871a4e",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "210888e9-de88-459b-a5eb-edbb357cbffd"
+          }
+        ]
+      },
+      "id": "57a80c86-6676-4c1b-ba09-7233410ccab1"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}
