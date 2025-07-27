@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "eda4d320-5eec-401b-bb83-d8c7d575dad8",
+  "name": "shrine connector",
+  "symbol": "bg_shrine_connector",
+  "width": 20,
+  "height": 32,
+  "imageWidth": 160,
+  "imageHeight": 256,
+  "filename": "shrine connector.png",
+  "tileColors": "02c8+00190+0428+",
+  "autoColor": false
+}

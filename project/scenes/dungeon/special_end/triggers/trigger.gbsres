@@ -1,0 +1,84 @@
+{
+  "_resourceType": "trigger",
+  "id": "4673581b-c1ab-4902-9d61-e36a2d8ea257",
+  "name": "",
+  "prefabId": "",
+  "x": 5,
+  "y": 23,
+  "symbol": "trigger_317",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 4,
+  "script": [
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "leave dungeon",
+        "option2": "goto next floor",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
+      },
+      "id": "c58b9ee1-be80-4d64-a133-9e0f75de03ee"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "381731f3-ae80-4c0a-887c-74940287d300"
+            },
+            "id": "e60a3ff7-53de-47a9-b20d-8076781c23b6"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9a78a492-559d-4690-913c-e8d0d160659d",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "98ac63a4-98a9-421b-b2e7-4bc2f48f399a"
+          }
+        ]
+      },
+      "id": "39c61a68-e72e-4a45-9319-ab024f92a702"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1c03ed99-71a2-4774-869f-8d4d7c68b7e2",
+  "name": "time crystal shrine",
+  "symbol": "bg_time_crystal_shrine",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "time crystal shrine.png",
+  "tileColors": "0287+00d+021a+00d+021b+002+0232+00!021c+00!023+054+0224+05!002+05!023+002+021a+002+023+05!002+05!024+00!021a+00!024+054+023+002+021a+002+023+034+022b+00!021c+00!0226+00!02b+002+021b+002+028+002+022dd+0450+",
+  "autoColor": false
+}

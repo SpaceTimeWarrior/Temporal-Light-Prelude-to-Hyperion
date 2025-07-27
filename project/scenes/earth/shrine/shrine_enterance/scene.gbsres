@@ -1,0 +1,26 @@
+{
+  "_resourceType": "scene",
+  "id": "0a24912e-b65f-42ff-a990-a5c80bfd8132",
+  "_index": 111,
+  "type": "TOPDOWN",
+  "name": "Earth/shrine/shrine enterance",
+  "symbol": "scene_112",
+  "x": 216,
+  "y": 1232,
+  "width": 20,
+  "height": 32,
+  "backgroundId": "eda4d320-5eec-401b-bb83-d8c7d575dad8",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "",
+    "ca394da8-0d18-4832-9c8f-187262444c8c"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": "0f8+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+006+0fe+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0f8+00c+0fa0+"
+}

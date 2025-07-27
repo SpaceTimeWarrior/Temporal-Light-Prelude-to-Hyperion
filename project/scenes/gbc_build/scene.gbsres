@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "68f4317e-af33-47e3-9537-95a3df11f542",
+  "_index": 107,
+  "name": "GBC_BUILD",
+  "backgroundId": "1443d80f-bf40-4aaa-93ef-d79c31c62321",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_108",
+  "x": 60,
+  "y": 200,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

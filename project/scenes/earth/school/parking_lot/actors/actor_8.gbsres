@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "3d7784fd-58dc-4449-853e-48c73c0385c4",
+  "id": "d2adad66-d9e8-4484-803f-74f347732069",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "fcf78166-b980-400d-8175-78a09531a5a4",
+  "spriteSheetId": "4901f26b-167f-43d8-95a7-9dd412093c63",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,13 +14,13 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_186",
+  "symbol": "actor_187",
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "glacia's hoverbike"
+          "my motorcycle"
         ],
         "__section": "text",
         "avatarId": "",
@@ -39,7 +39,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "f8be3bbc-6474-42fa-9578-ed8a81dadd88"
+      "id": "35967064-77e7-4e1b-8fc2-943d9dfb05f9"
     }
   ],
   "startScript": [
@@ -48,7 +48,7 @@
       "args": {
         "actorId": "$self$"
       },
-      "id": "50d7220d-537a-4d0a-8363-b979e0977872"
+      "id": "0c2913af-fd95-4bf7-8915-e8e043fc76e9"
     },
     {
       "command": "EVENT_IF_FLAGS_COMPARE",
@@ -64,12 +64,12 @@
             "args": {
               "actorId": "$self$"
             },
-            "id": "e862eabd-9469-48b0-bf13-6800ca089989"
+            "id": "aca00501-1846-45b1-9f92-6941d3d56ffd"
           }
         ],
         "false": []
       },
-      "id": "8107b795-dca9-441f-89aa-ffc567b6b096"
+      "id": "9ece822e-f15a-466c-81ef-d81b7e93707e"
     }
   ],
   "updateScript": [],
@@ -77,6 +77,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 60,
-  "y": 61,
+  "y": 56,
   "_index": 7
 }

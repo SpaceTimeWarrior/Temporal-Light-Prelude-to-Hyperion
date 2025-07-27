@@ -19,7 +19,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__comment": true
+        "__comment": false
       },
       "children": {
         "true": [
@@ -173,16 +173,34 @@
       "id": "953c555c-9449-44f3-9f42-054b57937b7c"
     },
     {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "76"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "3cc7f723-e0a6-422c-b653-5a1abe818474"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "b419de3c-7814-4ab5-a33b-034d3a366cd1",
+        "sceneId": "0e6189c9-179b-40a7-8607-4e5e39de3914",
         "x": {
           "type": "number",
           "value": 9
         },
         "y": {
           "type": "number",
-          "value": 6
+          "value": 5
         },
         "direction": "",
         "fadeSpeed": "2"

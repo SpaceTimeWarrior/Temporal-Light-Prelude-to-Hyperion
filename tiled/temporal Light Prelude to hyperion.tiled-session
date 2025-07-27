@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "temporal Light maps/temp dungeon15.tmx",
+    "activeFile": "temporal Light maps/shrine connector.tmx",
     "expandedProjectPaths": [
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -252,6 +252,14 @@
                 "y": 71.92034139402563
             }
         },
+        "temporal Light maps/shrine connector.tmx": {
+            "scale": 2.8071180555555553,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 73.91922815263777,
+                "y": 133.9452037850207
+            }
+        },
         "temporal Light maps/slice's house Alice's room.tmx": {
             "scale": 5.620833333333334,
             "selectedLayer": 3,
@@ -360,16 +368,24 @@
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 275.125,
-                "y": 113
+                "x": 160.125,
+                "y": 144
             }
         },
         "temporal Light maps/temp dungeon15.tmx": {
             "scale": 3,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 153.83333333333331,
-                "y": 119
+                "x": 159.83333333333331,
+                "y": 72
+            }
+        },
+        "temporal Light maps/temp dungeon16.tmx": {
+            "scale": 4,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 140.875,
+                "y": 44.25
             }
         },
         "temporal Light maps/temp dungeon2.tmx": {
@@ -424,8 +440,8 @@
             "scale": 3,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 152.16666666666669,
-                "y": 148.33333333333331
+                "x": 159.83333333333331,
+                "y": 144
             }
         },
         "temporal Light maps/temp dungeon9.tmx": {
@@ -434,6 +450,14 @@
             "viewCenter": {
                 "x": 159.66666666666663,
                 "y": 144
+            }
+        },
+        "temporal Light maps/time crystal shrine.tmx": {
+            "scale": 5.5,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 82.27272727272728,
+                "y": 249.09090909090912
             }
         },
         "temporal Light maps/woodland path 1.tmx": {
@@ -457,7 +481,7 @@
             "scaleInEditor": 2
         },
         "temporal Light tiles/temporal_light_tileset.tsx": {
-            "scaleInDock": 4,
+            "scaleInDock": 3,
             "scaleInEditor": 2
         },
         "temporal Light tiles/temporal_light_tileset2.tsx": {
@@ -466,11 +490,11 @@
         }
     },
     "last.imagePath": "C:/Users/steve/Documents/Temporal-Light-Prelude-to-Hyperion/tiled/temporal Light tiles",
-    "map.height": 9,
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 20,
+    "map.width": 10,
     "openFiles": [
         "modified kenny assets/Kenny Art.tsx",
         "temporal Light tiles/temporal_light_tileset.tsx",
@@ -528,7 +552,10 @@
         "temporal Light maps/temp dungeon12.tmx",
         "temporal Light maps/temp dungeon13.tmx",
         "temporal Light maps/temp dungeon14.tmx",
-        "temporal Light maps/temp dungeon15.tmx"
+        "temporal Light maps/temp dungeon15.tmx",
+        "temporal Light maps/temp dungeon16.tmx",
+        "temporal Light maps/time crystal shrine.tmx",
+        "temporal Light maps/shrine connector.tmx"
     ],
     "project": "temporal Light Prelude to hyperion.tiled-project",
     "recentFiles": [

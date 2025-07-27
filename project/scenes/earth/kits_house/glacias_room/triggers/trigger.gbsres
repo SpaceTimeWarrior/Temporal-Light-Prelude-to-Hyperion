@@ -1,0 +1,73 @@
+{
+  "_resourceType": "trigger",
+  "id": "a17e4c3a-20d9-437a-9d98-b689fd67ffe6",
+  "name": "",
+  "prefabId": "",
+  "x": 16,
+  "y": 4,
+  "symbol": "trigger_325",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 11,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "086acf8b-1873-4911-afdd-d71fdeb2a259",
+              "x": {
+                "type": "number",
+                "value": 30
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "direction": "right",
+              "fadeSpeed": "2"
+            },
+            "id": "d0d59d84-472a-4566-a156-9918686e2c6e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:I have a \nfeeling that\nsomething is in\nhere"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "4bf20591-8d0d-4a29-884a-aa9ac477e605"
+          }
+        ]
+      },
+      "id": "98337fbd-ca9a-41eb-85d7-435b41bbe445"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

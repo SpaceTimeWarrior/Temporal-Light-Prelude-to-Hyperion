@@ -33,91 +33,111 @@
       "id": "b89f2757-f7e7-4e4f-81d2-5d41dcc47911"
     },
     {
-      "command": "EVENT_GROUP",
+      "command": "EVENT_IF",
       "args": {
-        "__collapse": true,
-        "__comment": true
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "76"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+            "command": "EVENT_GROUP",
             "args": {
-              "type": "tone",
-              "pitch": 4,
-              "frequency": 400,
-              "duration": 0.03,
-              "effect": 0
+              "__collapse": true,
+              "__comment": false
             },
-            "id": "6d32ac6d-85eb-4319-896a-8b85888cab15"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "we interrupt this\nshow for some\nbreaking news",
-                "president leo \npriderock is going\nto sign the latest",
-                "bill signing the\nUS to join the New\nEarth Order"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT_SET_SOUND_EFFECT",
+                  "args": {
+                    "type": "tone",
+                    "pitch": 4,
+                    "frequency": 400,
+                    "duration": 0.03,
+                    "effect": 0
+                  },
+                  "id": "6d32ac6d-85eb-4319-896a-8b85888cab15"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "we interrupt this\nshow for some\nbreaking news",
+                      "president leo \npriderock is going\nto sign the latest",
+                      "bill signing the\nUS to join the New\nEarth Order"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "4a695d65-a5c5-47ed-a148-a433991e3ceb"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "9ce2db7c-0dbd-4a07-9bc3-ff2550f50748"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Glacia:Blair you\nare watching tv \nagain.",
+                      "we have to go to\nschool"
+                    ],
+                    "__section": "text",
+                    "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "85e9498f-1d55-483f-88f3-18f811570cc2"
+                }
+              ]
             },
-            "id": "4a695d65-a5c5-47ed-a148-a433991e3ceb"
-          },
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
-              "$variable[V0]$": {
-                "type": "number",
-                "value": 1
-              }
-            },
-            "id": "9ce2db7c-0dbd-4a07-9bc3-ff2550f50748"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Glacia:Blair you\nare watching tv \nagain.",
-                "we have to go to\nschool"
-              ],
-              "__section": "text",
-              "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "85e9498f-1d55-483f-88f3-18f811570cc2"
+            "id": "ef13b70a-c2b2-46cf-950b-92294b0cf6db"
           }
-        ]
+        ],
+        "false": []
       },
-      "id": "ef13b70a-c2b2-46cf-950b-92294b0cf6db"
+      "id": "d9b4582e-0811-449f-9529-f462f46de343"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -140,5 +160,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": ""
+  "collisions": "",
+  "playerSpriteSheetId": "9be79250-35e5-45a3-b334-b422e6aa8412"
 }

@@ -31,7 +31,7 @@
             "command": "EVENT_ACTOR_SET_SPRITE",
             "args": {
               "actorId": "$self$",
-              "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2"
+              "spriteSheetId": "b4b9902a-0858-405d-85bc-a431ba753fda"
             },
             "id": "de35eb0a-74c5-472d-9567-d3b6ecb5991b"
           },

@@ -149,7 +149,7 @@
               "sceneId": "7e490d18-a58e-4611-9551-8092e45e8a96",
               "x": {
                 "type": "number",
-                "value": 2
+                "value": 1
               },
               "y": {
                 "type": "number",
@@ -188,8 +188,52 @@
             "id": "4c92dc9d-763b-4837-8c6c-c4e62cee6a6f"
           }
         ],
-        "true6": [],
-        "true7": [],
+        "true6": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f06cd592-99db-472f-8f5e-1b5209c64f49"
+          }
+        ],
+        "true7": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7e490d18-a58e-4611-9551-8092e45e8a96",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "eed462e1-4942-4fe8-8d8e-e7be6aabb60a"
+          }
+        ],
         "true8": [],
         "true9": [],
         "true10": [],

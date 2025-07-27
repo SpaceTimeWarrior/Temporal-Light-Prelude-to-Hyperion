@@ -3,7 +3,7 @@
   "id": "006ca4aa-08a4-472d-9cf4-ce00829bc96c",
   "_index": 56,
   "name": "MENU/settings",
-  "backgroundId": "47c099e2-330c-4419-bb08-65eee30cfadd",
+  "backgroundId": "0afc85bd-7fe8-4139-acc8-6312dba73681",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -25,7 +25,7 @@
         "duration": 0.0625,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "script": [
@@ -802,7 +802,8 @@
                 "value": "29"
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
             },
             "children": {
               "true": [

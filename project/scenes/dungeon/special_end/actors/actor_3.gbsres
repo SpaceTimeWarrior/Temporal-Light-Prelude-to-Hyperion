@@ -1,0 +1,53 @@
+{
+  "_resourceType": "actor",
+  "id": "0ac307d9-f4a4-4bdd-a502-98046d615d07",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0db49e12-bb74-4a27-b086-6c4ee151b27b",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_128",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blair:lever to\ncontrol the door\nlikely busted"
+        ],
+        "__section": "text",
+        "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a37ff7e9-255b-4241-b494-fa9d5c37cc67"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 16,
+  "y": 8,
+  "_index": 2
+}

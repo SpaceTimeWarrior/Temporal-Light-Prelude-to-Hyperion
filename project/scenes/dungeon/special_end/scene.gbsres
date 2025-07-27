@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "c284ca67-857e-44cf-b811-9747361e92e4",
+  "_index": 109,
+  "name": "Dungeon/special end",
+  "backgroundId": "5b3e30d0-1b9a-43e1-ae89-ef45965f2a21",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f100+00a+0f1e+00a+0ff+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f11+00a+0f1e+00a+0f1e+00a+0f1e+00a+0f1e+00a+0f10+00c+0f2+00a+0f2+00a+0f4+00c+0f2+00a+0f2+00a+0f4+00c+0f2+00a+0f2+00a+0f4+00c+0f2+00a+0f2+00a+0f8+008+0f2+00a+0f2+006+0fb+009+0f2+00a+0f2+007+0fa+009+0f2+00a+0f2+007+0fa+009+0f2+00a+0f2+007+0fa+009+0f4+006+0f4+007+0fb+008+0f4+006+0f4+006+0f8+00c+0f4+006+0f4+00a+0f4+00c+0f4+006+0f4+00a+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f52+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_110",
+  "x": 4472,
+  "y": 4056,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

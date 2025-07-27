@@ -3,7 +3,7 @@
   "id": "aa57b7b6-952c-48c0-989c-61945812e297",
   "_index": 58,
   "name": "cut/chapter3/broadcast",
-  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "backgroundId": "b18e2dad-a039-4360-8bb3-853512700ad0",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -17,55 +17,111 @@
   "y": 272,
   "script": [
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "this is a special\nnews update \ncongress is ",
-          "proposing a bill \nto join the new \nearth order"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "76"
+          }
+        },
+        "__collapseElse": true
       },
-      "id": "38d8765f-9a8c-4408-bc24-55926907c448"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "glacia: Blair \nare you awake?"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "this is a special\nnews update \ncongress is ",
+                      "proposing a bill \nto join the new \nearth order",
+                      "we included a\nrough drawing as\nour cameraman",
+                      "went on vacation"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "38d8765f-9a8c-4408-bc24-55926907c448"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "blair:couldn't\nthey got a old\nimage.",
+                      "this sounds \nfishy"
+                    ],
+                    "__section": "text",
+                    "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "470e58e6-70e0-4f48-b9fd-4a24a718642f"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "glacia: Blair \nare you awake?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "812acf96-037c-455c-84cb-3daf401bc768"
+                }
+              ]
+            },
+            "id": "b1cd8fde-e8e2-42d2-b373-9e64ffc79042"
+          }
         ],
-        "__section": "text",
-        "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "false": []
       },
-      "id": "812acf96-037c-455c-84cb-3daf401bc768"
+      "id": "dbb3c85b-796c-44a4-b9db-f04935f4a0c5"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -87,5 +143,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "9be79250-35e5-45a3-b334-b422e6aa8412"
 }

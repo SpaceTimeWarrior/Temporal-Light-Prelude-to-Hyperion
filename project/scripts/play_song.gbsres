@@ -161,7 +161,7 @@
             "command": "EVENT_SWITCH",
             "args": {
               "variable": "28",
-              "choices": 3,
+              "choices": 4,
               "__collapseCase0": false,
               "value0": 1,
               "__collapseCase1": false,
@@ -216,7 +216,15 @@
                   "id": "0d3f85a1-ce3f-4162-9e19-e77b14cfc2a0"
                 }
               ],
-              "true2": [],
+              "true2": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "dc90c4f4-23f6-4b85-be79-dcd6c18391dd"
+                  },
+                  "id": "432a0de6-dd97-42a7-bc24-b47d4063203c"
+                }
+              ],
               "true3": [],
               "true4": [],
               "true5": [],

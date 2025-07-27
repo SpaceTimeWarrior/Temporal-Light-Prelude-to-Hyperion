@@ -61,7 +61,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 3
+                "value": 4
               },
               "direction": "",
               "fadeSpeed": "2"
@@ -118,7 +118,7 @@
               },
               "y": {
                 "type": "number",
-                "value": 3
+                "value": 4
               },
               "direction": "",
               "fadeSpeed": "2"
@@ -172,7 +172,33 @@
             "id": "2e6ec10f-9db4-46ef-820b-3dba6b7a1358"
           }
         ],
-        "true6": [],
+        "true6": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e5534b5f-ca09-4fe7-a976-b278bbb5f88c"
+          }
+        ],
         "true7": [],
         "true8": [],
         "true9": [],

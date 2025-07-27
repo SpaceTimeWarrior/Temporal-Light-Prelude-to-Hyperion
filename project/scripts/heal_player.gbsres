@@ -16,7 +16,7 @@
     },
     "V2": {
       "id": "V2",
-      "name": "Variable C",
+      "name": "temp2",
       "passByReference": false
     }
   },
@@ -50,6 +50,32 @@
       "id": "bedff62f-1c2a-4101-a0c8-0002f034373c"
     },
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "$V1$\n$V2$"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__comment": true
+      },
+      "id": "35c33162-b130-4ad0-900f-6f4587252385"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -63,7 +89,8 @@
             "value": "V2"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false,
+        "__comment": false
       },
       "children": {
         "true": [
@@ -75,15 +102,15 @@
                 "type": "sub",
                 "valueA": {
                   "type": "variable",
-                  "value": "V1"
+                  "value": "V2"
                 },
                 "valueB": {
                   "type": "variable",
-                  "value": "V2"
+                  "value": "0"
                 }
               }
             },
-            "id": "80c2bf88-982c-456e-85d4-714517668abf"
+            "id": "aec7e2d5-16d9-4108-9966-1c994c3d56b3"
           }
         ],
         "false": []

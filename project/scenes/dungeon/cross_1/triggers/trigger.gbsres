@@ -180,7 +180,25 @@
             "id": "3cc2160b-dbe3-4380-b7cb-9a8370ebc4c9"
           }
         ],
-        "true6": [],
+        "true6": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1175ce22-66b9-4851-ac42-0b517c6976cc",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 32
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "66d71698-4039-40e2-aa98-e32993dca7ba"
+          }
+        ],
         "true7": [],
         "true8": [],
         "true9": [],

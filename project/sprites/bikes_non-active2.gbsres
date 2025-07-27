@@ -23,7 +23,7 @@
               "tiles": [
                 {
                   "id": "2e07bd38-fbfe-4173-858b-63e5fbf0f4e9",
-                  "x": -8,
+                  "x": -4,
                   "y": 0,
                   "sliceX": 0,
                   "sliceY": 16,
@@ -36,7 +36,7 @@
                 },
                 {
                   "id": "2cfb2143-d9bc-45a4-a7df-d7d1316910fc",
-                  "x": 0,
+                  "x": 4,
                   "y": 0,
                   "sliceX": 8,
                   "sliceY": 16,
@@ -48,21 +48,8 @@
                   "priority": false
                 },
                 {
-                  "id": "e6123f20-f568-41a2-b6c0-c00d9a3b35a2",
-                  "x": 8,
-                  "y": 0,
-                  "sliceX": 16,
-                  "sliceY": 16,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 0,
-                  "priority": false
-                },
-                {
                   "id": "d8e32a4d-14eb-460f-84b3-5654a8dbbcc7",
-                  "x": 16,
+                  "x": 12,
                   "y": 0,
                   "sliceX": 24,
                   "sliceY": 16,
@@ -143,8 +130,8 @@
       ]
     }
   ],
-  "numTiles": 4,
-  "canvasWidth": 32,
+  "numTiles": 3,
+  "canvasWidth": 24,
   "canvasHeight": 16,
   "boundsX": -8,
   "boundsY": 0,

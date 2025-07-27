@@ -67,7 +67,8 @@
         "flag8": "bias 2",
         "flag9": "kit story 1-1",
         "flag10": "school flag 2",
-        "flag11": "blair 1"
+        "flag11": "blair 1",
+        "flag12": "kidnapping flag 1"
       }
     },
     {
@@ -110,8 +111,8 @@
     },
     {
       "id": "17",
-      "name": "no_boss_update",
-      "symbol": "var_no_boss_update"
+      "name": "boss_update",
+      "symbol": "var_boss_update"
     },
     {
       "id": "18",
@@ -386,6 +387,36 @@
       "symbol": "var_boss_hp"
     },
     {
+      "id": "71",
+      "name": "boss_ID",
+      "symbol": "var_boss_id"
+    },
+    {
+      "id": "72",
+      "name": "last_boss_HP",
+      "symbol": "var_last_boss_hp"
+    },
+    {
+      "id": "73",
+      "name": "projectile_counter",
+      "symbol": "var_projectile_counter"
+    },
+    {
+      "id": "74",
+      "name": "indoors",
+      "symbol": "var_indoors"
+    },
+    {
+      "id": "75",
+      "name": "gbc_build",
+      "symbol": "var_gbc_build"
+    },
+    {
+      "id": "76",
+      "name": "debug mode",
+      "symbol": "var_debug_mode"
+    },
+    {
       "id": "128",
       "name": "intro thread",
       "symbol": "var_intro_thread"
@@ -432,6 +463,16 @@
       "id": "64c2ee68-e61e-43e4-8fbc-ed689c5377aa__L1",
       "name": "bias_cheated",
       "symbol": "var_bias_cheated"
+    },
+    {
+      "id": "d716a3d3-b81e-43cb-9918-c1a52ad1a168__L0",
+      "name": "Local 0",
+      "symbol": "var_local_6"
+    },
+    {
+      "id": "64c2ee68-e61e-43e4-8fbc-ed689c5377aa__L0",
+      "name": "Local 0",
+      "symbol": "var_local_7"
     }
   ]
 }

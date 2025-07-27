@@ -1,11 +1,11 @@
 {
   "_resourceType": "actor",
-  "id": "6687be54-19df-437d-bfd8-ca28ecbb587d",
+  "id": "3d7784fd-58dc-4449-853e-48c73c0385c4",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "de01894f-be7e-4097-be80-6d824fd5f955",
+  "spriteSheetId": "fcf78166-b980-400d-8175-78a09531a5a4",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -14,14 +14,69 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_123",
-  "script": [],
-  "startScript": [],
+  "symbol": "actor_186",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "glacia's hoverbike"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f8be3bbc-6474-42fa-9578-ed8a81dadd88"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "50d7220d-537a-4d0a-8363-b979e0977872"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 5,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SHOW",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "e862eabd-9469-48b0-bf13-6800ca089989"
+          }
+        ],
+        "false": []
+      },
+      "id": "8107b795-dca9-441f-89aa-ffc567b6b096"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 6,
-  "y": 71,
+  "x": 60,
+  "y": 61,
   "_index": 6
 }

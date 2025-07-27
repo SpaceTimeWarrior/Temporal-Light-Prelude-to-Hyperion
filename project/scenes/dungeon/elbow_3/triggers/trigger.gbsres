@@ -164,8 +164,44 @@
             "id": "47a7b9a4-09c2-4836-a85d-3cebd68751ec"
           }
         ],
-        "true6": [],
-        "true7": [],
+        "true6": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "f0da3840-3d92-4aab-a061-69285dc07ef4",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "0466ad6f-6df9-4b4c-9d94-69ee2d1429a2"
+          }
+        ],
+        "true7": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "eb28006d-5ef1-4f3d-b2a0-3f73dac235b7",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 31
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "1dbdd508-f22f-4de8-9a21-bf0ca5a61820"
+          }
+        ],
         "true8": [],
         "true9": [],
         "true10": [],

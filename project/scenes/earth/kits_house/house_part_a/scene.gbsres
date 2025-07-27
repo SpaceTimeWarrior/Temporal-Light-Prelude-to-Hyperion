@@ -19,11 +19,53 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
-        "__label": "HUD"
+        "__label": "song group"
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "4e4fd040-be30-4af3-9302-3e6f824ad1a1"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
+              "__collapse": false
+            },
+            "id": "e1753194-d432-44c4-a449-090bd824142a"
+          }
+        ]
+      },
+      "id": "2fbfb799-9b36-4e10-96a4-8a65bf3a7765"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "HUD",
+        "__comment": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "74",
+              "value": {
+                "type": "true"
+              },
+              "__comment": false
+            },
+            "id": "21c08937-4ae3-49ac-9d65-400c25352a1d"
+          },
           {
             "command": "EVENT_SET_VALUE",
             "args": {
@@ -57,7 +99,8 @@
               "$variable[V0]$": {
                 "type": "number",
                 "value": 34
-              }
+              },
+              "__comment": false
             },
             "id": "dd65ff7c-b3b5-4524-8fcd-5af7c1ae258c"
           }

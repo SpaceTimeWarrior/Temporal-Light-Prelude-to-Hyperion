@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "326452b5-2b1d-4ba7-ada4-2b351b067388",
+  "id": "6d8a73eb-5128-4bd4-84aa-576b9cd0f485",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,46 +14,56 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_189",
+  "symbol": "actor_191",
   "script": [
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "27"
+      },
+      "id": "048a9ff4-4eb8-4de3-a94e-272fd13fcd3a"
+    },
     {
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "variable",
-          "value": "29"
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "27"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 7
+          }
         },
-        "__collapseElse": false,
-        "__collapse": false
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "29",
+              "variable": "27",
               "value": {
-                "type": "false"
+                "type": "number",
+                "value": 0
               }
             },
-            "id": "3e66a378-1f37-4aab-8ae5-84bd8af4f23a"
+            "id": "022141c6-f8a8-4861-a49a-4b7b8556ae86"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "29",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "a4e4d2b1-bb16-4200-91bd-7bcad437bd99"
-          }
-        ]
+        "false": []
       },
-      "id": "b888c3e4-f6a3-4e9c-87d6-c515e61c1bdb"
+      "id": "92e08a5b-a311-4a14-b74c-e82a7a6bcd7b"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f"
+      },
+      "id": "37ea1f65-dfad-4c58-9eaf-a3901b6cd95c"
     }
   ],
   "startScript": [],
@@ -61,7 +71,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 5,
-  "y": 11,
+  "x": 13,
+  "y": 7,
   "_index": 1
 }

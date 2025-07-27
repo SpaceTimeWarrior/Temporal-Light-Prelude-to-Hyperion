@@ -475,7 +475,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -598,6 +598,46 @@
         "false": []
       },
       "id": "2dd1488c-0671-4fc8-80fe-6af478dd9703"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "46"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1000
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b419de3c-7814-4ab5-a33b-034d3a366cd1",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "3caf8c1e-e2ad-4a4b-bf2d-f26a0f835e0e"
+          }
+        ],
+        "false": []
+      },
+      "id": "92d8d4b9-a97f-4fa9-b423-3042a1783858"
     }
   ],
   "hit1Script": [],

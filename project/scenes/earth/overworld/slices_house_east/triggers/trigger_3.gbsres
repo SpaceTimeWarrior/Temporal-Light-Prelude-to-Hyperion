@@ -38,6 +38,74 @@
               ]
             },
             "id": "10397f01-e718-49ba-8398-928046083ba8"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "71",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "437da1ab-d3b9-48ff-90af-51a2add4a6ee"
+          },
+          {
+            "command": "EVENT_CLEAR_FLAGS",
+            "args": {
+              "variable": "15",
+              "flag1": true,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "d9884537-5fb8-4b21-8bc8-e58d6ef32afb"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "15",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": true,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "84b862af-c8aa-4e6e-a8a6-108bc72c0fbc"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "14",
+              "value": {
+                "type": "number",
+                "value": 6
+              }
+            },
+            "id": "613569bb-7a9c-420e-b2ff-66f278d98d8d"
           }
         ]
       },
@@ -66,7 +134,51 @@
             "id": "c184b2a7-5cec-4e24-8762-4e5f52c106e9"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "c52e5391-d4fe-4222-9226-cd10cc506846"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "42fbe341-9aae-40fc-8490-c1baf21b0d30"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "10",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": true,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "1f8335d9-f326-4877-9c6a-e936430fd08c"
+          }
+        ]
       },
       "id": "96b66bac-30f4-49ec-8915-34bb2c794a1c"
     }

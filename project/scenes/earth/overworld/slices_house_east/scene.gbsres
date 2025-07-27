@@ -17,6 +17,84 @@
   "y": 2328,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "74",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "46db2fdd-8a09-4222-ac93-df4f07bf46fb"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "song group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "8aaaec67-cc9d-4ac9-8008-3f41cde0bcbb"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
+              "__collapse": false
+            },
+            "id": "759ea129-ba30-4d3d-a400-84473aa21660"
+          }
+        ]
+      },
+      "id": "d4517d64-4267-4164-abc2-54b0fcdfaa95"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 34
+            },
+            "id": "0d6f4e1d-4868-4ee4-97f6-6f0bd4ca61c2"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "b651adbd-ad4a-48f9-8093-da246ffab7eb",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 34
+              }
+            },
+            "id": "8d1497fc-143d-436b-84ef-9794568e1952"
+          }
+        ]
+      },
+      "id": "fb644e36-a2d3-4f03-a4bd-69272fc7a940"
+    },
+    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "d8842575-7eb2-4730-8ee8-b5effbf1ae24"
@@ -50,13 +128,13 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 20
+                "value": 27
               },
               "y": {
                 "type": "number",
-                "value": 22
+                "value": 24
               },
-              "moveType": "horizontal",
+              "moveType": "vertical",
               "useCollisions": true
             },
             "id": "8231d063-685c-402c-b63e-faaa034607c5"
@@ -273,6 +351,7 @@
               "text": [
                 "slice: Not until\nI see how you \nfight first",
                 "use the bike\nrack to store\nyour bike",
+                "you may use this\nwood sword or\nyour fists only",
                 "once you enter\ngravel ground\nleaving is \ndefeat"
               ],
               "__section": "text",
@@ -321,6 +400,24 @@
               }
             },
             "id": "f88cf084-6d33-49c6-b11f-33fc3d8d14ee"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "12",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "e9f438b8-29ff-4093-974b-53596108b240"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "d8842575-7eb2-4730-8ee8-b5effbf1ae24"
+            },
+            "id": "9adc5e0e-0df8-4a82-a555-901134a30885"
           },
           {
             "command": "EVENT_ACTOR_SHOW",
@@ -385,10 +482,48 @@
               "variable": "70",
               "value": {
                 "type": "number",
-                "value": 20
+                "value": 200
               }
             },
             "id": "a0f59979-dd85-4eae-b58d-97b3edcf8d3e"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false,
+              "__label": "HUD"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PREP_MENU",
+                  "args": {
+                    "xnoverlay": 0,
+                    "ynoverlay": 16,
+                    "color": "black",
+                    "xoverlay": 0,
+                    "yoverlay": 0,
+                    "overlayw": 20,
+                    "overlayh": 2,
+                    "xsource": 0,
+                    "ysource": 34
+                  },
+                  "id": "bc670f85-a7eb-4aca-93b0-bb4c60adc911"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "b651adbd-ad4a-48f9-8093-da246ffab7eb",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 34
+                    }
+                  },
+                  "id": "bac9b537-c02d-452a-8b99-25ed69f72055"
+                }
+              ]
+            },
+            "id": "dd0fb0b8-6185-474b-964b-80850a3e7419"
           }
         ]
       },

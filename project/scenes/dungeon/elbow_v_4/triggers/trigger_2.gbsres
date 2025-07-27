@@ -188,8 +188,44 @@
             "id": "8cdb9ef1-fbf9-43e0-8270-e46cfb9363c2"
           }
         ],
-        "true6": [],
-        "true7": [],
+        "true6": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "ad205d16-e2aa-45d0-b87b-316aa9755c22",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "98e3d3ae-0059-4f6e-9e18-b44303e72bf9"
+          }
+        ],
+        "true7": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9c643053-c894-4b3e-8058-f332c3e67769",
+              "x": {
+                "type": "number",
+                "value": 22
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "8b70cb20-2d45-4a17-972f-01dc371f5936"
+          }
+        ],
         "true8": [],
         "true9": [],
         "true10": [],

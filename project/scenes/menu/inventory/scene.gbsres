@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "69e5f934-1b6b-4252-9f1d-bb056281c166",
+  "_index": 110,
+  "name": "MENU/Inventory",
+  "backgroundId": "9cd8bb4d-c133-4e8c-9a0b-2b8bf1721e72",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_111",
+  "x": 1792,
+  "y": 32,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

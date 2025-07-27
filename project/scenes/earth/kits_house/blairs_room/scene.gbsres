@@ -19,6 +19,16 @@
   "y": 360,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "74",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "e718dee7-b328-4d39-b835-27737bb55c03"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__label": "song group"

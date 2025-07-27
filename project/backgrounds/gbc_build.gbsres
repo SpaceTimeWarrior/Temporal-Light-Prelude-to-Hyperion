@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1443d80f-bf40-4aaa-93ef-d79c31c62321",
+  "name": "GBC_BUILD",
+  "symbol": "bg_placeholder_copy_0",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "GBC_BUILD.png",
+  "tileColors": "",
+  "autoColor": false
+}

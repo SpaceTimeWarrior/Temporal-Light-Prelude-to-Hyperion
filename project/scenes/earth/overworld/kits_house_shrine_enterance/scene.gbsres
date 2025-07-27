@@ -19,6 +19,16 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "74",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "bf4dff2e-a6e1-43d8-98a3-1b8cf5fb2ccb"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__label": "song group"

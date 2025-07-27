@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "db617439-52b5-4dc1-aedc-595bed713e87",
+  "id": "176c2b93-2dbe-4249-9a38-c49a1c52af4f",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,16 +14,30 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_188",
+  "symbol": "actor_190",
   "script": [
+    {
+      "command": "EVENT_DEC_VALUE",
+      "args": {
+        "variable": "27"
+      },
+      "id": "9b7d9a92-44b8-4814-b6a1-cf5cdb82b205"
+    },
     {
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "variable",
-          "value": "29"
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "27"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
         },
-        "__collapseElse": false,
+        "__collapseElse": true,
         "__collapse": true
       },
       "children": {
@@ -31,29 +45,25 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "29",
+              "variable": "27",
               "value": {
-                "type": "false"
+                "type": "number",
+                "value": 7
               }
             },
-            "id": "7063b22c-5aa0-49a8-95ca-6c1e89dc67a7"
+            "id": "dff7fa43-74bc-49ee-9e62-2c7d4d44d992"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "29",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": true
-            },
-            "id": "93e483fc-f7dc-4c84-b31b-c9edda2dfd40"
-          }
-        ]
+        "false": []
       },
-      "id": "a095c34c-a1e9-4eef-9003-4c1fdba4b772"
+      "id": "98a973f6-b1f8-43a6-829d-b16e518a336f"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f"
+      },
+      "id": "69371891-e51b-4f3c-b05a-340a1bed0d36"
     }
   ],
   "startScript": [],
@@ -61,7 +71,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 13,
-  "y": 11,
+  "x": 5,
+  "y": 7,
   "_index": 0
 }

@@ -20,6 +20,46 @@
   "autoFadeSpeed": 1,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "74",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "07afda7f-57b3-4ecd-8c09-1b4f39702787"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "song group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "249ecc06-3bc2-4141-8988-5d50654c3f76"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
+              "__collapse": false
+            },
+            "id": "e4650de1-d8e6-4cd9-83d0-9862431863d0"
+          }
+        ]
+      },
+      "id": "af7732fe-3fce-41d0-81f1-fe19e030f6ae"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__collapse": false,

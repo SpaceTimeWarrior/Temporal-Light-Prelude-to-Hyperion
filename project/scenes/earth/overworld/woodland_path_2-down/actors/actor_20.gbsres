@@ -26,6 +26,13 @@
         }
       },
       "id": "ddb01901-a2da-4c71-9f00-bd4e3c2b2c7f"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "88960c59-87e3-43d3-89f2-d2b908c74a42"
     }
   ],
   "startScript": [],
@@ -65,9 +72,66 @@
       "id": "a693b17a-9e1d-4c34-85f0-0c724b5e1c9e"
     }
   ],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0ce484c8-efab-41d8-bd44-4e45c5456eb1",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "a02be88e-eb2d-4948-8fa9-4507ad8fafaf"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "25d6bcc9-4c8d-4d43-848c-ce9fc6698af8"
+    }
+  ],
+  "hit2Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0ce484c8-efab-41d8-bd44-4e45c5456eb1",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "c25b896b-f96f-4ebc-9c66-c7d918196e5f"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8346a218-b196-4574-b1f5-e54f1d437ce7"
+    }
+  ],
+  "hit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "0ce484c8-efab-41d8-bd44-4e45c5456eb1",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "14f0f03e-5b77-471b-8b4f-08666acc1f29"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "f1bed178-1dc1-4ea3-86f2-137cc0d6465e"
+    }
+  ],
   "x": 7,
   "y": 124,
   "_index": 19
