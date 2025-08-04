@@ -34,7 +34,7 @@
         "__collapseCase8": false,
         "value8": 9,
         "__collapseCase9": false,
-        "value9": 0,
+        "value9": 10,
         "__collapseCase10": false,
         "value10": 11,
         "__collapseCase11": false,
@@ -239,9 +239,79 @@
             "id": "d987c359-a4e0-4fdd-80b3-b355aafc6be7"
           }
         ],
-        "true7": [],
-        "true8": [],
-        "true9": [],
+        "true7": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1cf85596-9b3d-4a7d-a4eb-389da9bc484c"
+          }
+        ],
+        "true8": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0d0e5fc6-70ea-4e1e-912b-de1836fc15a5",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "93806f87-7821-44ee-b90e-07ce5434232b"
+          }
+        ],
+        "true9": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "52adbee0-13f8-42ac-856e-aab8441bf55d"
+          }
+        ],
         "true10": [],
         "true11": [],
         "true12": [],

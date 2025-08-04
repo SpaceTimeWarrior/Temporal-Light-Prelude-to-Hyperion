@@ -34,7 +34,7 @@
         "__collapseCase8": false,
         "value8": 9,
         "__collapseCase9": false,
-        "value9": 0,
+        "value9": 10,
         "__collapseCase10": false,
         "value10": 11,
         "__collapseCase11": false,
@@ -215,9 +215,71 @@
             "id": "e030feb1-24a9-4c0b-b01e-1176fd8d85f9"
           }
         ],
-        "true7": [],
-        "true8": [],
-        "true9": [],
+        "true7": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:dead end"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8337b31e-c6f3-4bb2-9db8-a26a85e0aad2"
+          }
+        ],
+        "true8": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9fffa9c7-3139-4abc-bdb9-4faddd821877",
+              "x": {
+                "type": "number",
+                "value": 1
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "8bee74cd-5645-4365-bc31-1a1755b65c36"
+          }
+        ],
+        "true9": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "fb71907a-1788-49e7-b118-e9e185547cf2",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "71c12d21-7065-4c22-ad6b-e369f2a388c2"
+          }
+        ],
         "true10": [],
         "true11": [],
         "true12": [],

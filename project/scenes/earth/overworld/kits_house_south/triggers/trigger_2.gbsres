@@ -17,45 +17,72 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L0"
+            "value": "76"
           },
           "valueB": {
             "type": "number",
             "value": 0
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
-        "true": [],
-        "false": []
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "that is not safe\nto continue"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b0b30330-346e-4d0d-b69f-20c268fe17e3"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "eafeba10-9939-4ff6-91f7-bcd232741564",
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "add",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "ypos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 54
+                }
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "5e50642b-8b30-4346-ac73-3be84ff1e49a"
+          }
+        ]
       },
       "id": "3722b9cd-f1db-4728-b127-22781e70b9d0"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "eafeba10-9939-4ff6-91f7-bcd232741564",
-        "x": {
-          "type": "number",
-          "value": 3
-        },
-        "y": {
-          "type": "add",
-          "valueA": {
-            "type": "property",
-            "target": "player",
-            "property": "ypos"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 54
-          }
-        },
-        "direction": "",
-        "fadeSpeed": "2"
-      },
-      "id": "5e50642b-8b30-4346-ac73-3be84ff1e49a"
     }
   ],
   "leaveScript": [],

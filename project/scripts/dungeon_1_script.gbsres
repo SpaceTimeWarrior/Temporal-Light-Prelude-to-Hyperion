@@ -3,7 +3,13 @@
   "id": "381731f3-ae80-4c0a-887c-74940287d300",
   "name": "dungeon 1 script",
   "description": "",
-  "variables": {},
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "temp",
+      "passByReference": false
+    }
+  },
   "actors": {},
   "symbol": "script_14",
   "script": [
@@ -213,8 +219,117 @@
             "id": "30b26fa3-cc87-4813-a83c-f420e2ccbdb9"
           }
         ],
-        "true8": [],
-        "true9": [],
+        "true8": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V0",
+              "value": {
+                "type": "rnd",
+                "value": {
+                  "type": "number",
+                  "value": 11
+                }
+              }
+            },
+            "id": "d3bcad23-db00-4b43-9892-e5bc63068550"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "V0",
+              "value": {
+                "type": "mod",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              }
+            },
+            "id": "53fddfcb-d61a-4ac6-90af-2f7b69abaf21"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "V0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "1175ce22-66b9-4851-ac42-0b517c6976cc",
+                    "x": {
+                      "type": "number",
+                      "value": 10
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "f92239c7-a206-457d-8e7a-9d8b9cd26f54"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "2949a747-5929-4f87-a418-0d168a81c3f4",
+                    "x": {
+                      "type": "number",
+                      "value": 21
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 12
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "4d47b4b8-e09b-429c-ae35-b36045e125e6"
+                }
+              ]
+            },
+            "id": "762e7ec7-4bce-4e67-bbc6-b16147acde1b"
+          }
+        ],
+        "true9": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "cf12cd0c-1a7d-40a6-a376-8df9be7cce7f",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "4db04a16-210b-40ae-80b6-9dde2746857a"
+          }
+        ],
         "true10": [],
         "true11": [],
         "true12": [],

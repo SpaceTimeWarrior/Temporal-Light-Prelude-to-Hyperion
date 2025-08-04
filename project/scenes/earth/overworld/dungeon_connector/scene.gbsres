@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "d479ed5d-4d56-4748-9703-af35edb37f9c",
+  "_index": 113,
+  "name": "Earth/overworld/dungeon connector",
+  "backgroundId": "2a6195aa-4b49-47d9-ba48-32f532043926",
+  "tilesetId": "",
+  "width": 40,
+  "height": 64,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2a+00!0f24+00!0f2+00!0f24+00!0f2+00!0f24+00!0f2+00!0f24+00!0f2+00!0f24+00!0f2+00!0f24+00!0f2+00!0f24+00!0f2+00!0ff+006+0ff+00!0f2+0026+0f2+0026+0f2+0026+0f2+003+0fa+00c+0fa+003+0f2+003+0fa+00c+0fa+003+0f2+003+0fa+00c+0fa+003+0f2+003+0fa+00c+0fa+003+0f2+003+0fa+00c+0fa+003+0f2+003+0f!008+0f!00c+0f!008+0f!003+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f2+002a5+0f!0026+0f2+0025+0f5+0022+0f6+0021+0f7+0020+0f8+001f+0f9+001e+0fa+001d+0fb+001c+0fc+001b+0fd+001a+0fe+0019+0fd+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_114",
+  "x": 2440,
+  "y": 456,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

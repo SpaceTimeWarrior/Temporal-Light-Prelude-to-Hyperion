@@ -172,7 +172,7 @@
                         "args": {
                           "variable": "10",
                           "flag": 7,
-                          "__collapseElse": true,
+                          "__collapseElse": false,
                           "__collapse": false
                         },
                         "children": {
@@ -182,325 +182,459 @@
                               "args": {
                                 "variable": "10",
                                 "flag": 11,
-                                "__collapseElse": false
+                                "__collapseElse": false,
+                                "__collapse": true
                               },
                               "children": {
                                 "true": [
                                   {
-                                    "command": "EVENT_ACTOR_DEACTIVATE",
+                                    "command": "EVENT_IF_FLAGS_COMPARE",
                                     "args": {
-                                      "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66"
+                                      "variable": "10",
+                                      "flag": 12,
+                                      "__collapseElse": false
                                     },
-                                    "id": "03ea5a49-c332-4ea7-8e68-978007d4944c"
-                                  },
-                                  {
-                                    "command": "EVENT_ACTOR_SET_POSITION",
-                                    "args": {
-                                      "actorId": "$self$",
-                                      "x": {
-                                        "type": "number",
-                                        "value": 32
-                                      },
-                                      "y": {
-                                        "type": "number",
-                                        "value": 31
-                                      }
-                                    },
-                                    "id": "f4b9c69e-1736-4bfb-a94a-fcaa5a1b547f"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "system:blair shows\nkit the letter"
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_ACTOR_DEACTIVATE",
+                                          "args": {
+                                            "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66"
+                                          },
+                                          "id": "1fe72647-6aba-4cbb-ae44-e12e899176bb"
+                                        },
+                                        {
+                                          "command": "EVENT_ACTOR_DEACTIVATE",
+                                          "args": {
+                                            "actorId": "$self$"
+                                          },
+                                          "id": "7a94d1b2-e4b6-4a3b-8021-574cd7952fe0"
+                                        }
                                       ],
-                                      "__section": "text",
-                                      "avatarId": "",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
+                                      "false": [
+                                        {
+                                          "command": "EVENT_GROUP",
+                                          "args": {},
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_ACTOR_DEACTIVATE",
+                                                "args": {
+                                                  "actorId": "b5dc5398-ad33-42cb-a34d-f78edf761c66"
+                                                },
+                                                "id": "03ea5a49-c332-4ea7-8e68-978007d4944c"
+                                              },
+                                              {
+                                                "command": "EVENT_ACTOR_SET_POSITION",
+                                                "args": {
+                                                  "actorId": "$self$",
+                                                  "x": {
+                                                    "type": "number",
+                                                    "value": 32
+                                                  },
+                                                  "y": {
+                                                    "type": "number",
+                                                    "value": 31
+                                                  }
+                                                },
+                                                "id": "f4b9c69e-1736-4bfb-a94a-fcaa5a1b547f"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "system:blair shows\nkit the letter"
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "adde9489-1fe1-4778-8267-83e767a5a306"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "kit: I will show\nhim the letter,\nbut I am fairly",
+                                                    "sure I already\nknow the answer.\nNO."
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "32c18f97-634d-46f0-a254-b91ef21d4d65"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "blair:did glacia\nhave her phone ",
+                                                    "on her I didn't\nsee it anywhere"
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "5c64a89a-0a2b-451e-979f-50ea37b7d841"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "kit:I don't know\nwhy"
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "d177dfbd-286d-4e17-aea3-f8fc9c860413"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "blair: the day\nbefore I was\nknocked",
+                                                    "unconscious. I\nput a tracker on\nher phone."
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "4c36f0ab-1142-4092-84c1-3981b4842eed"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "kit: to be \nhonest I don't\nknow why I",
+                                                    "didn't think of\nthat. what are \nwe going to do."
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "58c48d86-8905-4482-b4ac-226077bfc5e1"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "blair: I will \ntry to track her\ndown.",
+                                                    "instead of\nconvincing the\npresident to",
+                                                    "give up the\nunited states\ninstead convince",
+                                                    "him to call the \nsecret service \nor the national ",
+                                                    "guard to try to \nget her out."
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "97f270a7-7e66-4589-b00a-d5702716689e"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "kit: you are not\nto leave the \nhouse. ",
+                                                    "I...I can't lose\nanother."
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "86608a15-7981-4a77-9f69-cba6aec274da"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "blair: I will \nstay here until\nyou come back ",
+                                                    "but If they come\nback I won't\nhesitate to \nleave."
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "b6a815bf-128e-4114-8463-859811655fd8"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "kit:...how about\nI leave you with\nslice tonight at",
+                                                    "least until I \nget you a \nsecurity detail."
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "7b179b84-be55-4a4e-931e-458591de6166"
+                                              },
+                                              {
+                                                "command": "EVENT_ACTOR_EMOTE",
+                                                "args": {
+                                                  "actorId": "player",
+                                                  "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+                                                },
+                                                "id": "abba0584-1f3d-458c-957b-23bfeea054ef"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "blair: great and\nwhat about his\nracist son."
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "a12f4679-c740-4b73-85ad-d5b001e0c160"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "kit: I would \nrather have you \nwith someone I \ntrust.",
+                                                    "while his son's \nracism could be \na problem.",
+                                                    "did he just do\nattacks to you \nor all kitsune"
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "892253fb-8be1-4c76-8d2e-c25a0006edfd"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "blair: just me"
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "f9d6974b-afb3-4902-974e-afb9dda15acd"
+                                              },
+                                              {
+                                                "command": "EVENT_TEXT",
+                                                "args": {
+                                                  "text": [
+                                                    "kit:that isn't \nracism. racism \nis to treat a",
+                                                    "whole race as a\nstereotype. lets\ngo."
+                                                  ],
+                                                  "__section": "text",
+                                                  "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                                                  "minHeight": 4,
+                                                  "maxHeight": 7,
+                                                  "textX": 1,
+                                                  "textY": 1,
+                                                  "textHeight": 5,
+                                                  "position": "bottom",
+                                                  "clearPrevious": true,
+                                                  "showFrame": "true",
+                                                  "speedIn": -1,
+                                                  "speedOut": -1,
+                                                  "closeWhen": "key",
+                                                  "closeButton": "a",
+                                                  "closeDelayTime": 0.5,
+                                                  "closeDelayFrames": 30
+                                                },
+                                                "id": "845a60d2-be53-4259-8612-8986c9d56bdf"
+                                              },
+                                              {
+                                                "command": "EVENT_SWITCH_SCENE",
+                                                "args": {
+                                                  "sceneId": "fb5981f4-cad1-40d9-a2cf-cb75bf45f34e",
+                                                  "x": {
+                                                    "type": "number",
+                                                    "value": 2
+                                                  },
+                                                  "y": {
+                                                    "type": "number",
+                                                    "value": 22
+                                                  },
+                                                  "direction": "right",
+                                                  "fadeSpeed": "2"
+                                                },
+                                                "id": "32b7ad4a-d295-4fbd-974e-8cc5adbec254"
+                                              }
+                                            ]
+                                          },
+                                          "id": "cc5bb42a-4c98-4be6-aca7-592b448d1d59"
+                                        }
+                                      ]
                                     },
-                                    "id": "adde9489-1fe1-4778-8267-83e767a5a306"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "kit: I will show\nhim the letter,\nbut I am fairly",
-                                        "sure I already\nknow the answer.\nNO."
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "32c18f97-634d-46f0-a254-b91ef21d4d65"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "blair:did glacia\nhave her phone ",
-                                        "on her I didn't\nsee it anywhere"
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "5c64a89a-0a2b-451e-979f-50ea37b7d841"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "kit:I don't know\nwhy"
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "d177dfbd-286d-4e17-aea3-f8fc9c860413"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "blair: the day\nbefore I was\nknocked",
-                                        "unconscious. I\nput a tracker on\nher phone."
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "4c36f0ab-1142-4092-84c1-3981b4842eed"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "kit: to be \nhonest I don't\nknow why I",
-                                        "didn't think of\nthat. what are \nwe going to do."
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "58c48d86-8905-4482-b4ac-226077bfc5e1"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "blair: I will \ntry to track her\ndown.",
-                                        " instead of\nconvincing the\npresident to",
-                                        "give up the\nunited states\ninstead convince",
-                                        "him to call the \nsecret service \nor the national ",
-                                        "guard to try to \nget her out."
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "97f270a7-7e66-4589-b00a-d5702716689e"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "kit: you are not\nto leave the \nhouse. ",
-                                        "I...I can't lose\nanother."
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "86608a15-7981-4a77-9f69-cba6aec274da"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "blair: I will \nstay here until\nyou come back ",
-                                        "but If they come\nback I won't\nhesitate to \nleave."
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "b6a815bf-128e-4114-8463-859811655fd8"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "kit:...how about\nI leave you with\nslice tonight at",
-                                        "least until I \nget you a \nsecurity detail."
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "7b179b84-be55-4a4e-931e-458591de6166"
-                                  },
-                                  {
-                                    "command": "EVENT_ACTOR_EMOTE",
-                                    "args": {
-                                      "actorId": "player",
-                                      "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
-                                    },
-                                    "id": "abba0584-1f3d-458c-957b-23bfeea054ef"
-                                  },
-                                  {
-                                    "command": "EVENT_TEXT",
-                                    "args": {
-                                      "text": [
-                                        "blair: great and\nwhat about his\nracist son."
-                                      ],
-                                      "__section": "text",
-                                      "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
-                                      "minHeight": 4,
-                                      "maxHeight": 7,
-                                      "textX": 1,
-                                      "textY": 1,
-                                      "textHeight": 5,
-                                      "position": "bottom",
-                                      "clearPrevious": true,
-                                      "showFrame": "true",
-                                      "speedIn": -1,
-                                      "speedOut": -1,
-                                      "closeWhen": "key",
-                                      "closeButton": "a",
-                                      "closeDelayTime": 0.5,
-                                      "closeDelayFrames": 30
-                                    },
-                                    "id": "a12f4679-c740-4b73-85ad-d5b001e0c160"
+                                    "id": "5169abf4-0fae-4be3-82a3-a85ab5953e47"
                                   }
                                 ],
                                 "false": [

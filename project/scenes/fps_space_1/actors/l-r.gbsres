@@ -78,11 +78,11 @@
             "id": "4d5978e7-fb07-4f18-9681-39c123ed856a"
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
+            "command": "EVENT_INC_VALUE",
             "args": {
-              "actorId": "$self$"
+              "variable": "47"
             },
-            "id": "07a25485-87e7-4fe1-86d6-677bd7bb1311"
+            "id": "efb2f6e3-df38-46f2-ac55-d5ceedc940bc"
           },
           {
             "command": "EVENT_ADD_FLAGS",
@@ -106,6 +106,13 @@
               "flag16": false
             },
             "id": "92a6f42f-706e-46ff-b789-a8359bb826e4"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "07a25485-87e7-4fe1-86d6-677bd7bb1311"
           }
         ]
       },

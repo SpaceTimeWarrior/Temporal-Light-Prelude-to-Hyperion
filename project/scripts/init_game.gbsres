@@ -18,6 +18,17 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
+              "variable": "43",
+              "value": {
+                "type": "number",
+                "value": -1
+              }
+            },
+            "id": "ece199f2-583f-4e2f-b993-41120432dbd4"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
               "variable": "0",
               "value": {
                 "type": "number",
@@ -162,7 +173,7 @@
               "flag2": false,
               "flag3": false,
               "flag4": false,
-              "flag5": true,
+              "flag5": false,
               "flag6": false,
               "flag7": false,
               "flag8": false,
@@ -208,7 +219,7 @@
         "value": {
           "type": "true"
         },
-        "__comment": false
+        "__comment": true
       },
       "id": "87e0a597-ba1d-4cc9-95f8-a27419231fdf"
     },

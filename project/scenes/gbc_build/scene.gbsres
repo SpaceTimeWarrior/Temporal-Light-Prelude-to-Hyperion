@@ -13,9 +13,15 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_108",
-  "x": 60,
+  "x": 64,
   "y": 200,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "fbe0a4ca-9391-4f0a-b7af-61e5d2335d95"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

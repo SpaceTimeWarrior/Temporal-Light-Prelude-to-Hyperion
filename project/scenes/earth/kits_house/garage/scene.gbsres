@@ -27,6 +27,27 @@
       "id": "adffe713-a9d6-4a2c-b7b6-78c84c7ebf6c"
     },
     {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 12,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "9637d10b-ab68-4c2a-89fd-9e23e1bf9538"
+            },
+            "id": "f6106639-1c53-4826-9275-58b38df1216c"
+          }
+        ],
+        "false": []
+      },
+      "id": "71bbd27a-b1e2-4a5f-b356-a357e018f74f"
+    },
+    {
       "command": "EVENT_GROUP",
       "args": {
         "__label": "song group"

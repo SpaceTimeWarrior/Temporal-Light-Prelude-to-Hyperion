@@ -465,7 +465,7 @@
             "args": {
               "variable": "10",
               "flag": 7,
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -510,15 +510,6 @@
                     "__collapseElse": true
                   },
                   "children": {
-                    "true": [],
-                    "false": []
-                  },
-                  "id": "c018b3b0-8f5d-413d-bf23-2b28006c5b2b"
-                },
-                {
-                  "command": "EVENT_GROUP",
-                  "args": {},
-                  "children": {
                     "true": [
                       {
                         "command": "EVENT_SET_VALUE",
@@ -530,7 +521,17 @@
                           }
                         },
                         "id": "35553920-5f3b-483c-84aa-a8bbcc5dd960"
-                      },
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "c018b3b0-8f5d-413d-bf23-2b28006c5b2b"
+                },
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {},
+                  "children": {
+                    "true": [
                       {
                         "command": "EVENT_ACTOR_MOVE_TO",
                         "args": {
@@ -572,7 +573,7 @@
                             "type": "variable",
                             "value": "19"
                           },
-                          "__collapseElse": false,
+                          "__collapseElse": true,
                           "__collapse": false
                         },
                         "children": {
@@ -585,7 +586,7 @@
                                   "their tail \nbetween their \nlegs"
                                 ],
                                 "__section": "text",
-                                "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+                                "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
                                 "minHeight": 4,
                                 "maxHeight": 7,
                                 "textX": 1,
@@ -599,7 +600,8 @@
                                 "closeWhen": "key",
                                 "closeButton": "a",
                                 "closeDelayTime": 0.5,
-                                "closeDelayFrames": 30
+                                "closeDelayFrames": 30,
+                                "__collapse": true
                               },
                               "id": "e80e52c7-b6e0-4447-8272-fa6e65442656"
                             },
@@ -618,14 +620,16 @@
                                   "property": "ypos"
                                 },
                                 "moveType": "horizontal",
-                                "useCollisions": false
+                                "useCollisions": false,
+                                "__collapse": true
                               },
                               "id": "5a92a5d5-c862-406c-854a-de04e83ecf18"
                             },
                             {
                               "command": "EVENT_PLAYER_SET_SPRITE",
                               "args": {
-                                "spriteSheetId": "e4ecbec0-e916-418b-b9d7-62350bc960f1"
+                                "spriteSheetId": "e4ecbec0-e916-418b-b9d7-62350bc960f1",
+                                "__collapse": true
                               },
                               "id": "094535f6-6cf6-4f24-8234-0f0cfc85c97c"
                             },
@@ -633,7 +637,8 @@
                               "command": "EVENT_ACTOR_SET_SPRITE",
                               "args": {
                                 "actorId": "3f48e68f-df9b-43ef-b636-ebd42e0d6958",
-                                "spriteSheetId": "318581b1-1317-4a0f-917b-525fb3c256b2"
+                                "spriteSheetId": "318581b1-1317-4a0f-917b-525fb3c256b2",
+                                "__collapse": true
                               },
                               "id": "17f799ce-6de4-4388-af33-8a441ad23785"
                             },
@@ -642,7 +647,8 @@
                               "args": {
                                 "actorId": "player",
                                 "vectorX": "L0",
-                                "vectorY": "L2"
+                                "vectorY": "L2",
+                                "__collapse": true
                               },
                               "id": "eb97a061-8770-4e7d-a537-a4c8fb61b65e"
                             },
@@ -650,7 +656,8 @@
                               "command": "EVENT_ACTOR_GET_DIRECTION",
                               "args": {
                                 "actorId": "player",
-                                "direction": "L5"
+                                "direction": "L5",
+                                "__collapse": true
                               },
                               "id": "6491c916-f303-4f56-8af0-f099cf349c64"
                             },
@@ -659,7 +666,8 @@
                               "args": {
                                 "actorId": "$self$",
                                 "vectorX": "L3",
-                                "vectorY": "L4"
+                                "vectorY": "L4",
+                                "__collapse": true
                               },
                               "id": "8cd97063-4d5d-4499-a00e-2c6354d42816"
                             },
@@ -674,7 +682,8 @@
                                 "y": {
                                   "type": "variable",
                                   "value": "L2"
-                                }
+                                },
+                                "__collapse": true
                               },
                               "id": "4af45573-a55d-4c50-8905-631874d9634d"
                             },
@@ -689,7 +698,8 @@
                                 "y": {
                                   "type": "variable",
                                   "value": "L4"
-                                }
+                                },
+                                "__collapse": true
                               },
                               "id": "5074f2e1-a7c0-44f2-ad63-0157110b66eb"
                             },
@@ -804,7 +814,8 @@
                             {
                               "command": "EVENT_ACTOR_PUSH",
                               "args": {
-                                "continue": true
+                                "continue": true,
+                                "__collapse": true
                               },
                               "id": "b4942a1d-073a-4ba0-b3e2-6e378ad5990c"
                             },
@@ -813,7 +824,8 @@
                               "args": {
                                 "actorId": "player",
                                 "vectorX": "L3",
-                                "vectorY": "L4"
+                                "vectorY": "L4",
+                                "__collapse": true
                               },
                               "id": "36a28594-d393-457a-ae79-dd8ba9ec0e0d"
                             },
@@ -821,7 +833,8 @@
                               "command": "EVENT_ACTOR_SET_SPRITE",
                               "args": {
                                 "actorId": "3f48e68f-df9b-43ef-b636-ebd42e0d6958",
-                                "spriteSheetId": "e4ecbec0-e916-418b-b9d7-62350bc960f1"
+                                "spriteSheetId": "e4ecbec0-e916-418b-b9d7-62350bc960f1",
+                                "__collapse": true
                               },
                               "id": "24422cd4-8f92-4e16-a158-2b7469ada386"
                             },
@@ -829,7 +842,8 @@
                               "command": "EVENT_ACTOR_SET_SPRITE",
                               "args": {
                                 "actorId": "player",
-                                "spriteSheetId": "318581b1-1317-4a0f-917b-525fb3c256b2"
+                                "spriteSheetId": "318581b1-1317-4a0f-917b-525fb3c256b2",
+                                "__collapse": true
                               },
                               "id": "0df6cbec-ebc8-44ed-90f1-8ab9fa98dcc9"
                             },
@@ -844,7 +858,8 @@
                                 "y": {
                                   "type": "variable",
                                   "value": "L4"
-                                }
+                                },
+                                "__collapse": true
                               },
                               "id": "45b08a50-97a3-484c-96a5-67fa65380216"
                             },
@@ -859,7 +874,8 @@
                                 "y": {
                                   "type": "variable",
                                   "value": "L2"
-                                }
+                                },
+                                "__collapse": true
                               },
                               "id": "e08dd878-d124-45c0-b851-eb4c6f33e3f4"
                             },
@@ -872,7 +888,7 @@
                                   "It looks like \nthere isn't much\nI can teach you"
                                 ],
                                 "__section": "text",
-                                "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+                                "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
                                 "minHeight": 4,
                                 "maxHeight": 7,
                                 "textX": 1,
@@ -886,35 +902,37 @@
                                 "closeWhen": "key",
                                 "closeButton": "a",
                                 "closeDelayTime": 0.5,
-                                "closeDelayFrames": 30
+                                "closeDelayFrames": 30,
+                                "__collapse": true
                               },
                               "id": "dcd4da0d-e225-462c-818f-854dcf065e6a"
                             },
                             {
-                              "command": "EVENT_TEXT",
+                              "command": "EVENT_GROUP",
                               "args": {
-                                "text": [
-                                  "slice: Take this,\nit should help you\non your journey",
-                                  "$20 was added to\nyour wallet"
-                                ],
-                                "__section": "text",
-                                "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 5,
-                                "position": "bottom",
-                                "clearPrevious": true,
-                                "showFrame": "true",
-                                "speedIn": -1,
-                                "speedOut": -1,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "closeDelayTime": 0.5,
-                                "closeDelayFrames": 30
+                                "__label": "give rewards",
+                                "__collapse": true
                               },
-                              "id": "363d27de-7168-49c8-bdec-d702e5dc16dd"
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                                    "args": {
+                                      "customEventId": "0ce484c8-efab-41d8-bd44-4e45c5456eb1",
+                                      "$variable[V1]$": {
+                                        "type": "number",
+                                        "value": 0
+                                      },
+                                      "$variable[V0]$": {
+                                        "type": "number",
+                                        "value": 8
+                                      }
+                                    },
+                                    "id": "c0c8b47d-b56a-445f-85d3-96e7654eb031"
+                                  }
+                                ]
+                              },
+                              "id": "5c15ec7e-f385-45be-9125-8d9d09b2ec55"
                             }
                           ],
                           "false": [
@@ -926,7 +944,7 @@
                                   "That furball \nmust of cheated!"
                                 ],
                                 "__section": "text",
-                                "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+                                "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
                                 "minHeight": 4,
                                 "maxHeight": 7,
                                 "textX": 1,
@@ -943,6 +961,65 @@
                                 "closeDelayFrames": 30
                               },
                               "id": "41cae323-819e-4e4e-8695-9e4d60a113d0"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "slice: Take this,\nit should help you\non your journey",
+                                  "$20 was added to\nyour wallet"
+                                ],
+                                "__section": "text",
+                                "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30
+                              },
+                              "id": "363d27de-7168-49c8-bdec-d702e5dc16dd"
+                            },
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "77",
+                                "value": {
+                                  "type": "add",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "77"
+                                  },
+                                  "valueB": {
+                                    "type": "number",
+                                    "value": 20
+                                  }
+                                }
+                              },
+                              "id": "b3f5f1e5-c140-46c1-8945-cda9b9ed60f0"
+                            },
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "0ce484c8-efab-41d8-bd44-4e45c5456eb1",
+                                "$variable[V0]$": {
+                                  "type": "number",
+                                  "value": 4
+                                },
+                                "$variable[V1]$": {
+                                  "type": "number",
+                                  "value": 0
+                                }
+                              },
+                              "id": "55ff7cde-9830-4398-83de-b46f23480b15"
                             }
                           ]
                         },
@@ -957,7 +1034,7 @@
                             "Meanwhile, I got\nto scold my son\non how to treat\na lady."
                           ],
                           "__section": "text",
-                          "avatarId": "597d8357-f13c-45a3-a6b9-71d8daeee8ac",
+                          "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
                           "minHeight": 4,
                           "maxHeight": 7,
                           "textX": 1,
@@ -982,7 +1059,7 @@
                             "blair: I guess I\nhave to check \nback with my mom"
                           ],
                           "__section": "text",
-                          "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+                          "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
                           "minHeight": 4,
                           "maxHeight": 7,
                           "textX": 1,

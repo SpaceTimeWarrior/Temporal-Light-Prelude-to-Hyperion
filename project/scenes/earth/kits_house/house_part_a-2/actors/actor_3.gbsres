@@ -1,0 +1,116 @@
+{
+  "_resourceType": "actor",
+  "id": "a420a8fa-8942-42d1-8c06-7ae7b2acd006",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "0db49e12-bb74-4a27-b086-6c4ee151b27b",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_378",
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 8,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "10",
+              "flag": 7,
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "0e4c1561-3e50-40c0-adf8-822e5814537a",
+                    "x": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "e20e75bb-d17b-4b6e-94b3-02f2cd5d8bd1"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "caaf9722-6fd7-4d35-a933-43cc326a11cd",
+                    "x": {
+                      "type": "number",
+                      "value": 14
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "cb72af0b-3ccf-4c48-b0cf-1f78734b33be"
+                }
+              ]
+            },
+            "id": "8fa8d956-e861-4997-9f01-5d0017b9a47d"
+          }
+        ],
+        "false": []
+      },
+      "id": "15407755-9aeb-4b53-afbc-c24ec73f7520"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "the door is locked"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0937d116-430a-49b8-8c35-d5b6811ba065"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 28,
+  "y": 31,
+  "_index": 2
+}

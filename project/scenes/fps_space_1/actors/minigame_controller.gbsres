@@ -45,7 +45,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -617,6 +617,40 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "48",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "f12a757b-d934-4a62-9f98-ac304b054bc6"
+          },
+          {
+            "command": "EVENT_CLEAR_FLAGS",
+            "args": {
+              "variable": "49",
+              "flag1": true,
+              "flag2": true,
+              "flag3": true,
+              "flag4": true,
+              "flag5": true,
+              "flag6": true,
+              "flag7": true,
+              "flag8": true,
+              "flag9": true,
+              "flag10": true,
+              "flag11": true,
+              "flag12": true,
+              "flag13": true,
+              "flag14": true,
+              "flag15": true,
+              "flag16": true
+            },
+            "id": "4f4812ef-c335-4310-967f-32c3be525950"
+          },
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {

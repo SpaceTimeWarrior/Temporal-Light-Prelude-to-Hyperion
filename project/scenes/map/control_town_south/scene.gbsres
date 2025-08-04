@@ -1,0 +1,69 @@
+{
+  "_resourceType": "scene",
+  "id": "e5052ebe-f4d8-4e84-a34b-92444b2c8122",
+  "_index": 46,
+  "name": "MAP/control town south",
+  "backgroundId": "6429aa9d-5405-49f2-9dd7-c00a2d6aa226",
+  "tilesetId": "",
+  "width": 48,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_47",
+  "x": 1416,
+  "y": 944,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "a",
+          "start",
+          "select"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b",
+                "left",
+                "up",
+                "down",
+                "right",
+                "a",
+                "start",
+                "select"
+              ]
+            },
+            "id": "59f979c5-24a1-411f-a19d-9ad5017f5a92"
+          },
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "953e06f0-fcb9-4c70-bbba-c95eb8329109"
+          }
+        ]
+      },
+      "id": "cb4ef026-c443-4d0d-b294-51744a4c58d3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "32cc053b-1524-49ba-93fc-8059b5a2bf87"
+}

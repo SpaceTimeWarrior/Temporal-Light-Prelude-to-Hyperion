@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
   "name": "play song",
-  "description": "sets the volume using the volume plugin (this is due to the web version does not have a volume slider)\nthen sets plays the song according to $gsong\ndefault. stop music\n1. kit's house\n2. kit's shrine",
+  "description": "sets the volume using the volume plugin (this is due to the web version does not have a volume slider)\nthen sets plays the song according to $gsong\ndefault. stop music\n1. kit's house\n2. kit's shrine\n3. overworld theme\n4. main title theme\n5. Hyperion war",
   "variables": {},
   "actors": {},
   "symbol": "script_15",
@@ -161,7 +161,7 @@
             "command": "EVENT_SWITCH",
             "args": {
               "variable": "28",
-              "choices": 4,
+              "choices": 6,
               "__collapseCase0": false,
               "value0": 1,
               "__collapseCase1": false,
@@ -225,8 +225,24 @@
                   "id": "432a0de6-dd97-42a7-bc24-b47d4063203c"
                 }
               ],
-              "true3": [],
-              "true4": [],
+              "true3": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "9b71afff-b53d-4ce0-965b-fec04e3baf9a"
+                  },
+                  "id": "ff8bb596-d39e-47db-871d-888caf385a53"
+                }
+              ],
+              "true4": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "00dc4e93-6a41-40c9-9c95-64a20960b704"
+                  },
+                  "id": "57991181-eb0f-4584-b3a4-7de0240b73b3"
+                }
+              ],
               "true5": [],
               "true6": [],
               "true7": [],

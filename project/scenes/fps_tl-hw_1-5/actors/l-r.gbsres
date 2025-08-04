@@ -78,13 +78,6 @@
             "id": "377e59b0-10d0-40ce-a34d-91c405eda8c7"
           },
           {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "$self$"
-            },
-            "id": "4064d01f-df5d-499c-85b6-2cd7af020193"
-          },
-          {
             "command": "EVENT_ADD_FLAGS",
             "args": {
               "variable": "49",
@@ -106,6 +99,20 @@
               "flag16": false
             },
             "id": "55eeea46-fbcf-440b-8097-8476ec8e5563"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "47"
+            },
+            "id": "0bdcfd30-16e2-4bbd-aaa9-75b13e32dbde"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "4064d01f-df5d-499c-85b6-2cd7af020193"
           }
         ]
       },

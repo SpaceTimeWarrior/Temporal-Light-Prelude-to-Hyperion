@@ -20,7 +20,8 @@
           "value": "29"
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": false,
+        "__comment": true
       },
       "children": {
         "true": [
@@ -362,7 +363,8 @@
           "value": "29"
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": false,
+        "__comment": true
       },
       "children": {
         "true": [
@@ -443,6 +445,118 @@
             },
             "id": "8b6b4969-02bc-4ba0-ae99-5d0178800396",
             "children": {}
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "give rewards"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "0ce484c8-efab-41d8-bd44-4e45c5456eb1",
+                    "$variable[V1]$": {
+                      "type": "number",
+                      "value": 0
+                    },
+                    "$variable[V0]$": {
+                      "type": "rnd",
+                      "value": {
+                        "type": "add",
+                        "valueA": {
+                          "type": "variable",
+                          "value": "22"
+                        },
+                        "valueB": {
+                          "type": "number",
+                          "value": 1
+                        }
+                      }
+                    }
+                  },
+                  "id": "f292ab8c-bb1c-4e9c-b999-f61e3cff2d8b"
+                },
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__label": "give money",
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "T0",
+                          "value": {
+                            "type": "rnd",
+                            "value": {
+                              "type": "add",
+                              "valueA": {
+                                "type": "variable",
+                                "value": "22"
+                              },
+                              "valueB": {
+                                "type": "number",
+                                "value": 2
+                              }
+                            }
+                          }
+                        },
+                        "id": "3d527ac2-97a6-4f1d-a6dc-06402f145475"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "77",
+                          "value": {
+                            "type": "add",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "77"
+                            },
+                            "valueB": {
+                              "type": "variable",
+                              "value": "T0"
+                            }
+                          }
+                        },
+                        "id": "d564e957-f2f3-4eee-a99d-66033dbf778c"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "$$T0$ was added to\nyour wallet"
+                          ],
+                          "__section": "behavior",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "text",
+                          "closeButton": "a",
+                          "closeDelayTime": 2,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "7445f0a8-0434-47ad-b408-27d3af65f692"
+                      }
+                    ]
+                  },
+                  "id": "02e1b835-c91b-4bec-baa4-ccc05c231fea"
+                }
+              ]
+            },
+            "id": "76e84199-7abd-45e1-b173-a537c13d2aa8"
           },
           {
             "command": "EVENT_ACTOR_DEACTIVATE",

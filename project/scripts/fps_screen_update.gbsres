@@ -25,7 +25,7 @@
             "command": "EVENT_GROUP",
             "args": {
               "__label": "line update",
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -1168,7 +1168,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

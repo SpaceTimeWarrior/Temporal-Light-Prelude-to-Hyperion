@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "d5556f6c-bb25-4eae-8535-12c3741e3cbc",
+  "id": "1f701114-f182-4777-84b8-1acde03e7436",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "0f5740da-70b4-4443-aebb-72c122602a52",
+  "spriteSheetId": "9be79250-35e5-45a3-b334-b422e6aa8412",
   "prefabId": "",
-  "direction": "down",
+  "direction": "right",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -14,14 +14,142 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_194",
-  "script": [],
+  "symbol": "actor_115",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "blair: that is \nenough tv for\nnow"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "314e4207-3359-4d9b-a17b-dd6c14e917f9"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "or is it",
+        "option2": "not now",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
+      },
+      "id": "adb19df2-012d-456f-b636-98e8b440e655"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "e7f5621e-3810-4ee0-804e-dd76670c670b"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "cb871bbf-cb46-489d-abca-d2082d78d1ac",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "direction": "right",
+              "fadeSpeed": "2"
+            },
+            "id": "e71d0431-f933-4dfd-9294-664d5066da80"
+          }
+        ],
+        "false": []
+      },
+      "id": "425581b6-7bef-41f7-b5f6-2aeced2915b8"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "6633d1ef-5d83-4f75-9d65-195732bc3739"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "72545a3e-7192-4d42-b535-5238ec174bf6"
+          }
+        ]
+      },
+      "id": "1856a2af-c2d0-471e-be35-1483027ca256"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 13,
-  "y": 5,
+  "x": 4,
+  "y": 11,
   "_index": 4
 }

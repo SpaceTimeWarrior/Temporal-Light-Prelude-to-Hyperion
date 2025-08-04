@@ -1,0 +1,36 @@
+{
+  "_resourceType": "script",
+  "id": "f1dfe8d5-c5f9-4d74-8f45-07eb2b15d337",
+  "name": "Demo End",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_17",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You have reached \nthe end of the \ndemo"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d57b322f-d757-455d-96e1-8e9900b14497"
+    }
+  ]
+}

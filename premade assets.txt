@@ -1,28 +1,34 @@
+
 used the temporal Light kitbash for tilesets as well as generic sprites
 https://timespacewarrior.itch.io/temporal-light-kitbash
-I am also using kenny assets for the background tilesets only
+I am also using kenny assets for the background tilesets only and used sparingly
+
 plugins used
 master volume plugin for web versions
 https://github.com/Y0UR-U5ERNAME/gbs-plugin-collection
 
-prepare menu created for temporal light but creates a drawable window at the bottom of the screen and was in every temporal light game since shadow flame
+prepare menu is a plugin created for temporal light and creates a drawable window at the bottom of the screen and was in every temporal light game since shadow flame
+
+Assets used(in depth)
+anything used unless otherwise stated means that they where modified some majorly as only the body type is the same some is the outfit is different.
+any game in parenthesis unles has "NTL" in front means a game from the temporal light series
 
 the hud is based on the prior games but was recreated from scratch
 
-anything used unless otherwise stated means that they where modified some majorly as only the body type is the same some is the outfit is different
+pearlite's spritemap was used as a template for kitsune characters. each one given their own unique sprite (game origin:jem of twilight)
 
-pearlite's spritemap was used as a template for kitsune characters. each one given their own unique sprite
+emma's spritemap was used as a base for a side character sina buttface(yes that is their name) (game origin:dark foundation)
 
-emma's spritemap was used as a base for a side character sina buttface(yes that is their name)
+peryil's spritemap was used as a base for a side character flame (game origin:shadow flame)
 
-peryil's spritemap was used as a base for a side character flame
-
-flare's spritemap(jem of twilight) was raceswapped and used as a base for slice and bias
+flare's spritemap was raceswapped and used as a base for slice and bias (game origin:jem of twilight)
 
 braught over the game over screen from jem of twilight and did changes such as centering the text and adding elements
 
-using gb studio mono as a base individually changed the letters for TL_magiscript (used for a ancient magic that can be obtained in a later chapter)
+using gb studio mono as a base individually changed the letters for TL_magiscript (used for a ancient magic that can be obtained in a later chapter)(orign:NTL-GB-studio default)
 
-using jem's status screen from jem of twilight and inspiration from shadow flame the screen was altered to fit the new mechanics
+using jem's status screen from jem of twilight and inspiration from shadow flame the screen was altered to fit the new mechanics(Game origin:Jem of Twilight)
 
-grass furret sprite was taken from TL:dark foundation
+grass furret sprite was taken from dark foundation (Game Origin:Dark Foundation)
+
+the intro cutscene and hyperion war theme was used for the FPS section. the sprites however where recreated for first person perspective (game origin:Hyperion War)

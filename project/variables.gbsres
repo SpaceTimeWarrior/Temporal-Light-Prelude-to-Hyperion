@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "Blairs_HP",
-      "symbol": "var_blairs_hp"
+      "symbol": "var_blairs_hp_0"
     },
     {
       "id": "1",
@@ -68,7 +68,8 @@
         "flag9": "kit story 1-1",
         "flag10": "school flag 2",
         "flag11": "blair 1",
-        "flag12": "kidnapping flag 1"
+        "flag12": "kidnapping flag 1",
+        "flag13": "bias3"
       }
     },
     {
@@ -79,7 +80,7 @@
     {
       "id": "12",
       "name": "on_bike",
-      "symbol": "var_on_bike"
+      "symbol": "var_on_bike_0"
     },
     {
       "id": "13",
@@ -417,6 +418,21 @@
       "symbol": "var_debug_mode"
     },
     {
+      "id": "77",
+      "name": "money",
+      "symbol": "var_money"
+    },
+    {
+      "id": "78",
+      "name": "FPS_ENEMY_TYPE",
+      "symbol": "var_fps_enemy_type"
+    },
+    {
+      "id": "79",
+      "name": "FPS_ENEMY_TYPE2",
+      "symbol": "var_fps_enemy_type2"
+    },
+    {
       "id": "128",
       "name": "intro thread",
       "symbol": "var_intro_thread"
@@ -473,6 +489,21 @@
       "id": "64c2ee68-e61e-43e4-8fbc-ed689c5377aa__L0",
       "name": "Local 0",
       "symbol": "var_local_7"
+    },
+    {
+      "id": "05cfbde7-ac87-46a4-a397-63a3fc6f73aa__L0",
+      "name": "Local 0",
+      "symbol": "var_local_8"
+    },
+    {
+      "id": "204f9fee-8c24-4bdc-9f4b-23b26e99443f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_9"
+    },
+    {
+      "id": "869e384e-c5ed-4ce6-a625-72ce99a8b441__L0",
+      "name": "Local 0",
+      "symbol": "var_local_10"
     }
   ]
 }

@@ -34,7 +34,7 @@
         "__collapseCase8": false,
         "value8": 9,
         "__collapseCase9": false,
-        "value9": 0,
+        "value9": 10,
         "__collapseCase10": false,
         "value10": 11,
         "__collapseCase11": false,
@@ -219,7 +219,25 @@
           }
         ],
         "true8": [],
-        "true9": [],
+        "true9": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "40e2d3ee-d95e-4dee-82a5-71d0beaa0fea",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "413d4cd8-8543-47b2-b065-64c418744b35"
+          }
+        ],
         "true10": [],
         "true11": [],
         "true12": [],

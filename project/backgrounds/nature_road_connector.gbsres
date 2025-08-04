@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "edafe436-5764-45fa-a472-dd74f8fc8a38",
+  "name": "Nature road connector",
+  "symbol": "bg_nature_road_connector",
+  "width": 20,
+  "height": 64,
+  "imageWidth": 160,
+  "imageHeight": 512,
+  "filename": "Nature road connector.png",
+  "tileColors": ""
+}

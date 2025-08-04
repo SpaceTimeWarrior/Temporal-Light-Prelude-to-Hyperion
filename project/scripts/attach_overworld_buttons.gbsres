@@ -50,7 +50,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -271,7 +271,7 @@
                 }
               },
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true": [
@@ -281,7 +281,7 @@
                     "variable": "15",
                     "flag": 15,
                     "__collapseElse": true,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "children": {
                     "true": [
@@ -520,7 +520,8 @@
                       "type": "variable",
                       "value": "74"
                     },
-                    "__collapseElse": false
+                    "__collapseElse": false,
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -577,7 +578,8 @@
                       "type": "variable",
                       "value": "74"
                     },
-                    "__collapseElse": false
+                    "__collapseElse": false,
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -632,7 +634,8 @@
                       "type": "variable",
                       "value": "74"
                     },
-                    "__collapseElse": false
+                    "__collapseElse": false,
+                    "__collapse": true
                   },
                   "children": {
                     "true": [

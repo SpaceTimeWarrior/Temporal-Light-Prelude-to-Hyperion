@@ -78,6 +78,13 @@
             "id": "8b6cebf6-be41-43f0-af1b-60e0df6c8a8b"
           },
           {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "47"
+            },
+            "id": "456db855-b6c8-4af8-b1d1-5eaf4f92566c"
+          },
+          {
             "command": "EVENT_ADD_FLAGS",
             "args": {
               "variable": "49",

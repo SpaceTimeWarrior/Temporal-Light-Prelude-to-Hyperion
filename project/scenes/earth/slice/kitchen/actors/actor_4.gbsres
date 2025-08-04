@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "2fd83787-3f5c-46a8-bb3d-509e064ee2b6",
+  "id": "decd5748-84f8-4792-891f-20f1d5fddd1b",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "e4ecbec0-e916-418b-b9d7-62350bc960f1",
+  "spriteSheetId": "5efef798-b365-44e9-a3d1-e81f034200ee",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -14,14 +14,359 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_265",
+  "symbol": "actor_376",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "10",
+        "flag": 12,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "c8907eca-3b71-41f7-b5ee-be037199622d"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "2fd83787-3f5c-46a8-bb3d-509e064ee2b6",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "445cc0f9-f971-4b17-b8f5-8d8b3f08223a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "slice:what's the\nmatter did blair",
+                "not do something\ncorrectly"
+              ],
+              "__section": "text",
+              "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "954c88c8-56fb-47e8-8578-109f23b5425e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "kit: I wish that\nwas the case.",
+                " the New Earth \nOrder kidnapped \nglacia."
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "cb618a81-8747-4261-98b4-6655d5a3280b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "slice: oh.let me\nguess you want \nme to take care ",
+                "of blair for a \nfew days"
+              ],
+              "__section": "text",
+              "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f962e3be-c86c-48b3-b57c-261c609b7dec"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "kit:yes, at \nleast until I \ncan get a ",
+                "security detail \non her."
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6d584c58-5e14-494b-a6a5-24b359b6e097"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "slice:did they \nleave a ransom."
+              ],
+              "__section": "text",
+              "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "fdfc577d-2524-4419-9118-4b3b09f5f0fd"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "kit:convince the\npresident to \ngive up the",
+                "United States...\nbut blair came \nup with a better",
+                "Idea. she is \ngoing to use \nleads to track",
+                "glacia down and \ntake her back."
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "df4ef75f-6980-408c-a62e-2cbce2aa274f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "slice: I will \nkeep blair safe \nas best as I can",
+                "do what you need\nto I will write \na note to their ",
+                "school that they\nare feeling sick\nand spread it to\nbias."
+              ],
+              "__section": "text",
+              "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a3b9a1d8-d399-41c0-b2a9-410fe9b968f6"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "kit: ok"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "91d21667-8a70-49a6-9146-16e09b55bb17"
+          },
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "9e84a94f-c689-4f7d-94f7-827039273814"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair: why does \nshe trust you?"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "231be5a3-f4c3-4829-8a6f-aa63d1fa0b9d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "bias(finally \nnoticing):oh \nlook the furball",
+                "has come to play\nagain."
+              ],
+              "__section": "text",
+              "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7e23b9f3-5845-4c79-802f-805960831744"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "slice:bias this \nis serious I \nwill tell you ",
+                "later.blair I \nwas your \nfather's best ",
+                "friend other \nthan your mother\nyou can use my ",
+                "oldest's room \nshe went to \ncollege last",
+                "year.we will \nvisit your house\ntomorrow so you",
+                "can get your \nthings"
+              ],
+              "__section": "text",
+              "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2c2704e0-5274-4beb-9144-4ea82280530e"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0cf08123-2914-4e2d-bfbe-cfb40b30caa4",
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "d9997b8a-413c-4c5a-a6c4-4a86db2529e9"
+          }
+        ]
+      },
+      "id": "620e5840-3b76-47b1-8874-b382645415e4"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 8,
-  "y": 25,
+  "x": 0,
+  "y": 19,
   "_index": 3
 }

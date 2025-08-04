@@ -27,7 +27,7 @@
         "variable": "75",
         "value": {
           "type": "number",
-          "value": 0
+          "value": 1
         }
       },
       "id": "8d20eee0-e83f-453c-bbe0-51cf92ca8672"
@@ -52,6 +52,17 @@
         "__comment": true
       },
       "id": "ae409c4a-89c1-48bc-a557-3f71d8133396"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "43",
+        "value": {
+          "type": "number",
+          "value": -1
+        }
+      },
+      "id": "184f7538-04d7-4476-8169-8a3a00abaada"
     },
     {
       "command": "EVENT_IF",
@@ -115,6 +126,36 @@
         }
       },
       "id": "b3271fe4-8707-4144-8128-975700759905"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "song group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "1383c3e3-3456-4032-8ce0-fc81f3bdcd53"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
+              "__collapse": false
+            },
+            "id": "13835eb5-117b-4f0c-a4cc-cddff64ffa96"
+          }
+        ]
+      },
+      "id": "50e994d6-11ba-4689-9f02-3b56192da037"
     },
     {
       "command": "EVENT_SET_VALUE",

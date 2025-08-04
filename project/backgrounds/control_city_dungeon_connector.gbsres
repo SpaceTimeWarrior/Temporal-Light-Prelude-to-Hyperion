@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2a6195aa-4b49-47d9-ba48-32f532043926",
+  "name": "control city dungeon connector",
+  "symbol": "bg_control_city_dungeon_con",
+  "width": 40,
+  "height": 64,
+  "imageWidth": 320,
+  "imageHeight": 512,
+  "filename": "control city dungeon connector.png",
+  "tileColors": ""
+}

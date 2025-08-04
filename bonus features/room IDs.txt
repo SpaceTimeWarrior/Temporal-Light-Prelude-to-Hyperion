@@ -15,8 +15,8 @@
 16	Earth overworld-kit's house south
 17	Earth overworld-woodland path 1
 18	Earth overworld-woodland path 2
-19	slice's house east
 
+20	slice's house east
 21	school-parking lot
 22	school-enterance
 23	school-hallway 1
@@ -32,3 +32,10 @@
 36	slice's house-slice's room
 37	slice's house-bathroom
 38	slice's house-training room
+
+41	Earth overworld-kit's house west
+42	Earth overworld-kit's shrine access path 1
+43	Earth overworld-kit's shrine access path 2
+44	Earth overworld-kit's shrine access path 3
+45	Earth overworld-kit's shrine access path 4
+46	Earth overworld-kit's shrine

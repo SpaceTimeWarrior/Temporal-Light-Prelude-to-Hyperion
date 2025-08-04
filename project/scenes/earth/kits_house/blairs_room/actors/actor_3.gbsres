@@ -79,6 +79,18 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "47",
+              "value": {
+                "type": "number",
+                "value": 0
+              },
+              "__collapse": true
+            },
+            "id": "6139ff88-09ff-4173-b254-6a135bb75968"
+          },
+          {
             "command": "EVENT_SCENE_PUSH_STATE",
             "args": {},
             "id": "81d5e0bf-8b4c-4d3c-a567-0be436b1b1aa"

@@ -78,6 +78,13 @@
             "id": "771b59b7-a53c-4a30-8766-8f092b99ee24"
           },
           {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "47"
+            },
+            "id": "1bca8235-94ab-41d3-9e0e-b6844b4b3073"
+          },
+          {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$"
