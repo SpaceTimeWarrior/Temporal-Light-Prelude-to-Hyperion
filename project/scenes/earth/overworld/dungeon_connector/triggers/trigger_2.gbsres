@@ -11,29 +11,78 @@
   "height": 18,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "2e961809-6cae-477f-8ef6-4b681fc9e613",
-        "x": {
-          "type": "number",
-          "value": 17
-        },
-        "y": {
-          "type": "add",
+        "condition": {
+          "type": "ne",
           "valueA": {
-            "type": "property",
-            "target": "player",
-            "property": "ypos"
+            "type": "variable",
+            "value": "12"
           },
           "valueB": {
             "type": "number",
-            "value": 16
+            "value": 0
           }
         },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "9956d5e4-1c90-41ab-9785-99170d20e5d3"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "2e961809-6cae-477f-8ef6-4b681fc9e613",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "add",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "ypos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 16
+                }
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "9956d5e4-1c90-41ab-9785-99170d20e5d3"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "it is too \ndangerous to walk"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c09553f1-dd42-42e5-bd85-fd87bbe59212"
+          }
+        ]
+      },
+      "id": "0dd045e9-ac51-4a30-ab74-3427c2176df4"
     }
   ],
   "leaveScript": [],

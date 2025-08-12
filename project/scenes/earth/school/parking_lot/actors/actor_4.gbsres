@@ -236,7 +236,7 @@
               "actorId": "$self$",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 31
               },
               "y": {
                 "type": "number",

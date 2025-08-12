@@ -267,7 +267,7 @@
         },
         "direction": "",
         "fadeSpeed": "2",
-        "__comment": true
+        "__comment": false
       },
       "id": "26426ee7-9edc-491f-8062-e5e4b00eaf34"
     },
@@ -284,7 +284,8 @@
           "value": 3
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__comment": true
       },
       "id": "576421df-4632-4b14-ac32-8c64b98f9fc1"
     }

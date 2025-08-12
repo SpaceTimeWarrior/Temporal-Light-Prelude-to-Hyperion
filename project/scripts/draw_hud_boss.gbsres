@@ -4526,208 +4526,153 @@
                   "children": {
                     "true0": [
                       {
-                        "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                        "command": "EVENT_GROUP",
                         "args": {
-                          "variable": "5",
-                          "expression": "abs($70$*100/20)",
-                          "__collapse": true
-                        },
-                        "id": "ecb17905-8602-45c5-8eba-f66ca9a726f3"
-                      },
-                      {
-                        "command": "EVENT_REPLACE_TILE_XY",
-                        "args": {
-                          "x": {
-                            "type": "number",
-                            "value": 16
-                          },
-                          "y": {
-                            "type": "variable",
-                            "value": "6"
-                          },
-                          "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
-                          "tileIndex": {
-                            "type": "number",
-                            "value": 141
-                          },
-                          "__collapse": true
-                        },
-                        "id": "fb5304da-35ee-4696-9d9e-203f54b04fe2"
-                      },
-                      {
-                        "command": "EVENT_REPLACE_TILE_XY",
-                        "args": {
-                          "x": {
-                            "type": "number",
-                            "value": 17
-                          },
-                          "y": {
-                            "type": "variable",
-                            "value": "6"
-                          },
-                          "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
-                          "tileIndex": {
-                            "type": "number",
-                            "value": 208
-                          },
-                          "__collapse": true
-                        },
-                        "id": "94e9ce8a-19f0-4ebc-a80d-b8eafab076ab"
-                      },
-                      {
-                        "command": "EVENT_REPLACE_TILE_XY",
-                        "args": {
-                          "x": {
-                            "type": "number",
-                            "value": 18
-                          },
-                          "y": {
-                            "type": "variable",
-                            "value": "6"
-                          },
-                          "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
-                          "tileIndex": {
-                            "type": "number",
-                            "value": 200
-                          },
-                          "__collapse": true
-                        },
-                        "id": "bd5fbe9e-b82d-49ac-a170-6b7aeb6911ce"
-                      },
-                      {
-                        "command": "EVENT_REPLACE_TILE_XY",
-                        "args": {
-                          "x": {
-                            "type": "number",
-                            "value": 19
-                          },
-                          "y": {
-                            "type": "variable",
-                            "value": "6"
-                          },
-                          "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
-                          "tileIndex": {
-                            "type": "number",
-                            "value": 238
-                          },
-                          "__collapse": true
-                        },
-                        "id": "7886022f-0d85-4aa3-adbb-4a6a1a577d97"
-                      },
-                      {
-                        "command": "EVENT_IF",
-                        "args": {
-                          "condition": {
-                            "type": "ne",
-                            "valueA": {
-                              "type": "variable",
-                              "value": "70"
-                            },
-                            "valueB": {
-                              "type": "variable",
-                              "value": "72"
-                            }
-                          },
-                          "__collapseElse": true,
                           "__collapse": true
                         },
                         "children": {
                           "true": [
                             {
-                              "command": "EVENT_IF",
+                              "command": "EVENT_VARIABLE_MATH_EVALUATE",
                               "args": {
-                                "condition": {
-                                  "type": "gt",
-                                  "valueA": {
-                                    "type": "variable",
-                                    "value": "5"
-                                  },
-                                  "valueB": {
-                                    "type": "number",
-                                    "value": 100
-                                  }
+                                "variable": "5",
+                                "expression": "abs($70$*100/20)",
+                                "__collapse": true
+                              },
+                              "id": "ecb17905-8602-45c5-8eba-f66ca9a726f3"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 16
                                 },
-                                "__collapseElse": true
+                                "y": {
+                                  "type": "variable",
+                                  "value": "6"
+                                },
+                                "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 141
+                                },
+                                "__collapse": true
                               },
-                              "children": {
-                                "true": [
-                                  {
-                                    "command": "EVENT_SET_VALUE",
-                                    "args": {
-                                      "variable": "5",
-                                      "value": {
-                                        "type": "number",
-                                        "value": 100
-                                      }
-                                    },
-                                    "id": "972e6469-d173-4fd8-a965-8ca2af6a27b2"
-                                  }
-                                ],
-                                "false": []
+                              "id": "fb5304da-35ee-4696-9d9e-203f54b04fe2"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 17
+                                },
+                                "y": {
+                                  "type": "variable",
+                                  "value": "6"
+                                },
+                                "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 208
+                                },
+                                "__collapse": true
                               },
-                              "id": "64b246b9-ac25-4630-9a2e-cd840154ac1c"
+                              "id": "94e9ce8a-19f0-4ebc-a80d-b8eafab076ab"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 18
+                                },
+                                "y": {
+                                  "type": "variable",
+                                  "value": "6"
+                                },
+                                "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 200
+                                },
+                                "__collapse": true
+                              },
+                              "id": "bd5fbe9e-b82d-49ac-a170-6b7aeb6911ce"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 19
+                                },
+                                "y": {
+                                  "type": "variable",
+                                  "value": "6"
+                                },
+                                "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 238
+                                },
+                                "__collapse": true
+                              },
+                              "id": "7886022f-0d85-4aa3-adbb-4a6a1a577d97"
                             },
                             {
                               "command": "EVENT_IF",
                               "args": {
                                 "condition": {
-                                  "type": "gt",
+                                  "type": "ne",
                                   "valueA": {
                                     "type": "variable",
-                                    "value": "5"
+                                    "value": "70"
                                   },
                                   "valueB": {
-                                    "type": "number",
-                                    "value": 25
+                                    "type": "variable",
+                                    "value": "72"
                                   }
                                 },
-                                "__collapseElse": false
+                                "__collapseElse": true,
+                                "__collapse": true
                               },
                               "children": {
                                 "true": [
                                   {
-                                    "command": "EVENT_REPLACE_TILE_XY",
+                                    "command": "EVENT_IF",
                                     "args": {
-                                      "x": {
-                                        "type": "number",
-                                        "value": 16
-                                      },
-                                      "y": {
-                                        "type": "add",
-                                        "valueA": {
-                                          "type": "variable",
-                                          "value": "6"
-                                        },
-                                        "valueB": {
-                                          "type": "number",
-                                          "value": 1
-                                        }
-                                      },
-                                      "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
-                                      "tileIndex": {
-                                        "type": "number",
-                                        "value": 29
-                                      }
-                                    },
-                                    "id": "c10d14eb-27ed-4311-b1d9-be4960a15726"
-                                  },
-                                  {
-                                    "command": "EVENT_SET_VALUE",
-                                    "args": {
-                                      "variable": "5",
-                                      "value": {
-                                        "type": "sub",
+                                      "condition": {
+                                        "type": "gt",
                                         "valueA": {
                                           "type": "variable",
                                           "value": "5"
                                         },
                                         "valueB": {
                                           "type": "number",
-                                          "value": 25
+                                          "value": 100
                                         }
-                                      }
+                                      },
+                                      "__collapseElse": true
                                     },
-                                    "id": "d5085047-709d-483b-b187-61e601aceb5e"
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_SET_VALUE",
+                                          "args": {
+                                            "variable": "5",
+                                            "value": {
+                                              "type": "number",
+                                              "value": 100
+                                            }
+                                          },
+                                          "id": "972e6469-d173-4fd8-a965-8ca2af6a27b2"
+                                        }
+                                      ],
+                                      "false": []
+                                    },
+                                    "id": "64b246b9-ac25-4630-9a2e-cd840154ac1c"
                                   },
                                   {
                                     "command": "EVENT_IF",
@@ -4752,7 +4697,7 @@
                                           "args": {
                                             "x": {
                                               "type": "number",
-                                              "value": 17
+                                              "value": 16
                                             },
                                             "y": {
                                               "type": "add",
@@ -4768,10 +4713,10 @@
                                             "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
                                             "tileIndex": {
                                               "type": "number",
-                                              "value": 69
+                                              "value": 29
                                             }
                                           },
-                                          "id": "24d907cc-86b2-437c-bb71-9696a0d6ef37"
+                                          "id": "c10d14eb-27ed-4311-b1d9-be4960a15726"
                                         },
                                         {
                                           "command": "EVENT_SET_VALUE",
@@ -4789,7 +4734,7 @@
                                               }
                                             }
                                           },
-                                          "id": "5f4ad1d2-c2e5-444c-9ae0-b36f1efd1469"
+                                          "id": "d5085047-709d-483b-b187-61e601aceb5e"
                                         },
                                         {
                                           "command": "EVENT_IF",
@@ -4814,7 +4759,7 @@
                                                 "args": {
                                                   "x": {
                                                     "type": "number",
-                                                    "value": 18
+                                                    "value": 17
                                                   },
                                                   "y": {
                                                     "type": "add",
@@ -4833,7 +4778,7 @@
                                                     "value": 69
                                                   }
                                                 },
-                                                "id": "cf6ba401-9258-4d83-a6fd-60a891b8a39f"
+                                                "id": "24d907cc-86b2-437c-bb71-9696a0d6ef37"
                                               },
                                               {
                                                 "command": "EVENT_SET_VALUE",
@@ -4851,7 +4796,7 @@
                                                     }
                                                   }
                                                 },
-                                                "id": "cf19d77a-b915-4922-808e-37f37884d64b"
+                                                "id": "5f4ad1d2-c2e5-444c-9ae0-b36f1efd1469"
                                               },
                                               {
                                                 "command": "EVENT_IF",
@@ -4876,7 +4821,7 @@
                                                       "args": {
                                                         "x": {
                                                           "type": "number",
-                                                          "value": 19
+                                                          "value": 18
                                                         },
                                                         "y": {
                                                           "type": "add",
@@ -4895,7 +4840,215 @@
                                                           "value": 69
                                                         }
                                                       },
-                                                      "id": "a0987e35-0301-455a-acbc-5f28fd6a6a69"
+                                                      "id": "cf6ba401-9258-4d83-a6fd-60a891b8a39f"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_SET_VALUE",
+                                                      "args": {
+                                                        "variable": "5",
+                                                        "value": {
+                                                          "type": "sub",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "5"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 25
+                                                          }
+                                                        }
+                                                      },
+                                                      "id": "cf19d77a-b915-4922-808e-37f37884d64b"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_IF",
+                                                      "args": {
+                                                        "condition": {
+                                                          "type": "gt",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "5"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 25
+                                                          }
+                                                        },
+                                                        "__collapseElse": false
+                                                      },
+                                                      "children": {
+                                                        "true": [
+                                                          {
+                                                            "command": "EVENT_REPLACE_TILE_XY",
+                                                            "args": {
+                                                              "x": {
+                                                                "type": "number",
+                                                                "value": 19
+                                                              },
+                                                              "y": {
+                                                                "type": "add",
+                                                                "valueA": {
+                                                                  "type": "variable",
+                                                                  "value": "6"
+                                                                },
+                                                                "valueB": {
+                                                                  "type": "number",
+                                                                  "value": 1
+                                                                }
+                                                              },
+                                                              "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                              "tileIndex": {
+                                                                "type": "number",
+                                                                "value": 69
+                                                              }
+                                                            },
+                                                            "id": "a0987e35-0301-455a-acbc-5f28fd6a6a69"
+                                                          }
+                                                        ],
+                                                        "false": [
+                                                          {
+                                                            "command": "EVENT_GROUP",
+                                                            "args": {
+                                                              "__label": "hp segment",
+                                                              "__collapse": false
+                                                            },
+                                                            "children": {
+                                                              "true": [
+                                                                {
+                                                                  "command": "EVENT_IF",
+                                                                  "args": {
+                                                                    "condition": {
+                                                                      "type": "gt",
+                                                                      "valueA": {
+                                                                        "type": "variable",
+                                                                        "value": "5"
+                                                                      },
+                                                                      "valueB": {
+                                                                        "type": "number",
+                                                                        "value": 20
+                                                                      }
+                                                                    },
+                                                                    "__collapseElse": true
+                                                                  },
+                                                                  "children": {
+                                                                    "true": [
+                                                                      {
+                                                                        "command": "EVENT_SET_VALUE",
+                                                                        "args": {
+                                                                          "variable": "5",
+                                                                          "value": {
+                                                                            "type": "number",
+                                                                            "value": 20
+                                                                          }
+                                                                        },
+                                                                        "id": "1bc807d4-5e2a-45ac-a6de-cb35f31a9b39"
+                                                                      }
+                                                                    ],
+                                                                    "false": []
+                                                                  },
+                                                                  "id": "b44b7034-125a-4af4-8715-29f37af97f98"
+                                                                },
+                                                                {
+                                                                  "command": "EVENT_SET_VALUE",
+                                                                  "args": {
+                                                                    "variable": "7",
+                                                                    "value": {
+                                                                      "type": "div",
+                                                                      "valueA": {
+                                                                        "type": "variable",
+                                                                        "value": "5"
+                                                                      },
+                                                                      "valueB": {
+                                                                        "type": "number",
+                                                                        "value": 2
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "id": "e3150e9e-6cf4-4aef-9d90-ef04ee24fd95"
+                                                                },
+                                                                {
+                                                                  "command": "EVENT_DEC_VALUE",
+                                                                  "args": {
+                                                                    "variable": "7"
+                                                                  },
+                                                                  "id": "8cfc85c5-34fe-4f2a-a9d8-efea7468fa8f"
+                                                                },
+                                                                {
+                                                                  "command": "EVENT_IF",
+                                                                  "args": {
+                                                                    "condition": {
+                                                                      "type": "lt",
+                                                                      "valueA": {
+                                                                        "type": "variable",
+                                                                        "value": "7"
+                                                                      },
+                                                                      "valueB": {
+                                                                        "type": "number",
+                                                                        "value": 0
+                                                                      }
+                                                                    },
+                                                                    "__collapseElse": true,
+                                                                    "__collapse": false
+                                                                  },
+                                                                  "children": {
+                                                                    "true": [
+                                                                      {
+                                                                        "command": "EVENT_SET_VALUE",
+                                                                        "args": {
+                                                                          "variable": "7",
+                                                                          "value": {
+                                                                            "type": "number",
+                                                                            "value": 0
+                                                                          },
+                                                                          "__collapse": true
+                                                                        },
+                                                                        "id": "f1c437f6-7492-49ae-a9c7-3010fb19e0ea"
+                                                                      }
+                                                                    ],
+                                                                    "false": []
+                                                                  },
+                                                                  "id": "0b30e875-3e8c-430f-8009-871cdcee33a4"
+                                                                },
+                                                                {
+                                                                  "command": "EVENT_REPLACE_TILE_XY",
+                                                                  "args": {
+                                                                    "x": {
+                                                                      "type": "number",
+                                                                      "value": 19
+                                                                    },
+                                                                    "y": {
+                                                                      "type": "add",
+                                                                      "valueA": {
+                                                                        "type": "variable",
+                                                                        "value": "6"
+                                                                      },
+                                                                      "valueB": {
+                                                                        "type": "number",
+                                                                        "value": 1
+                                                                      }
+                                                                    },
+                                                                    "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                                    "tileIndex": {
+                                                                      "type": "add",
+                                                                      "valueA": {
+                                                                        "type": "number",
+                                                                        "value": 60
+                                                                      },
+                                                                      "valueB": {
+                                                                        "type": "variable",
+                                                                        "value": "7"
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "id": "7972c781-176d-4d03-a86a-918c9a88fe51"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "id": "fa7a1d18-9b06-49f3-a056-70d2fed09acc"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "id": "c2190aaa-fa13-4d04-97bb-b627c04d3f4d"
                                                     }
                                                   ],
                                                   "false": [
@@ -4934,12 +5087,12 @@
                                                                       "value": 20
                                                                     }
                                                                   },
-                                                                  "id": "1bc807d4-5e2a-45ac-a6de-cb35f31a9b39"
+                                                                  "id": "5a3be551-dcd2-44ec-9f29-417b7ebf369e"
                                                                 }
                                                               ],
                                                               "false": []
                                                             },
-                                                            "id": "b44b7034-125a-4af4-8715-29f37af97f98"
+                                                            "id": "7a477794-f4e8-4d60-a54c-b84b86fa2818"
                                                           },
                                                           {
                                                             "command": "EVENT_SET_VALUE",
@@ -4957,14 +5110,14 @@
                                                                 }
                                                               }
                                                             },
-                                                            "id": "e3150e9e-6cf4-4aef-9d90-ef04ee24fd95"
+                                                            "id": "7a3b97c6-3782-4ff0-a9a9-b0bee3a7ecab"
                                                           },
                                                           {
                                                             "command": "EVENT_DEC_VALUE",
                                                             "args": {
                                                               "variable": "7"
                                                             },
-                                                            "id": "8cfc85c5-34fe-4f2a-a9d8-efea7468fa8f"
+                                                            "id": "9bd45861-3493-461d-9582-2054f8a14ad6"
                                                           },
                                                           {
                                                             "command": "EVENT_IF",
@@ -4995,19 +5148,19 @@
                                                                     },
                                                                     "__collapse": true
                                                                   },
-                                                                  "id": "f1c437f6-7492-49ae-a9c7-3010fb19e0ea"
+                                                                  "id": "718d6144-dc20-4a26-894b-7400221fb736"
                                                                 }
                                                               ],
                                                               "false": []
                                                             },
-                                                            "id": "0b30e875-3e8c-430f-8009-871cdcee33a4"
+                                                            "id": "21895153-3f50-47ea-a321-46ecb94257cd"
                                                           },
                                                           {
                                                             "command": "EVENT_REPLACE_TILE_XY",
                                                             "args": {
                                                               "x": {
                                                                 "type": "number",
-                                                                "value": 19
+                                                                "value": 18
                                                               },
                                                               "y": {
                                                                 "type": "add",
@@ -5033,15 +5186,52 @@
                                                                 }
                                                               }
                                                             },
-                                                            "id": "7972c781-176d-4d03-a86a-918c9a88fe51"
+                                                            "id": "ccc21058-11ea-4936-b754-e752b4fddcb5"
                                                           }
                                                         ]
                                                       },
-                                                      "id": "fa7a1d18-9b06-49f3-a056-70d2fed09acc"
+                                                      "id": "21ae9e00-c009-4e5a-90dd-3fa2bdcb095d"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_GROUP",
+                                                      "args": {
+                                                        "__collapse": false
+                                                      },
+                                                      "children": {
+                                                        "true": [
+                                                          {
+                                                            "command": "EVENT_REPLACE_TILE_XY",
+                                                            "args": {
+                                                              "x": {
+                                                                "type": "number",
+                                                                "value": 19
+                                                              },
+                                                              "y": {
+                                                                "type": "add",
+                                                                "valueA": {
+                                                                  "type": "variable",
+                                                                  "value": "6"
+                                                                },
+                                                                "valueB": {
+                                                                  "type": "number",
+                                                                  "value": 1
+                                                                }
+                                                              },
+                                                              "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                              "tileIndex": {
+                                                                "type": "number",
+                                                                "value": 100
+                                                              }
+                                                            },
+                                                            "id": "7694ec74-cd8d-4073-8574-2598824c31e6"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "id": "accab16c-52c5-432c-b249-035ce1a824bf"
                                                     }
                                                   ]
                                                 },
-                                                "id": "c2190aaa-fa13-4d04-97bb-b627c04d3f4d"
+                                                "id": "fd777da9-a245-4d98-b7d1-fbc84e770ad2"
                                               }
                                             ],
                                             "false": [
@@ -5080,12 +5270,12 @@
                                                                 "value": 20
                                                               }
                                                             },
-                                                            "id": "5a3be551-dcd2-44ec-9f29-417b7ebf369e"
+                                                            "id": "d96767d1-c8b9-4376-90b6-ab710d82a130"
                                                           }
                                                         ],
                                                         "false": []
                                                       },
-                                                      "id": "7a477794-f4e8-4d60-a54c-b84b86fa2818"
+                                                      "id": "db32afb0-db14-40f6-8830-38da4d57d392"
                                                     },
                                                     {
                                                       "command": "EVENT_SET_VALUE",
@@ -5103,14 +5293,14 @@
                                                           }
                                                         }
                                                       },
-                                                      "id": "7a3b97c6-3782-4ff0-a9a9-b0bee3a7ecab"
+                                                      "id": "659ff2e0-be99-438c-a3c6-2c78cc98aa36"
                                                     },
                                                     {
                                                       "command": "EVENT_DEC_VALUE",
                                                       "args": {
                                                         "variable": "7"
                                                       },
-                                                      "id": "9bd45861-3493-461d-9582-2054f8a14ad6"
+                                                      "id": "5135a397-927f-43c9-a633-e810889c4bfa"
                                                     },
                                                     {
                                                       "command": "EVENT_IF",
@@ -5141,19 +5331,19 @@
                                                               },
                                                               "__collapse": true
                                                             },
-                                                            "id": "718d6144-dc20-4a26-894b-7400221fb736"
+                                                            "id": "e1417251-9842-430a-9e2d-8fe254456ef9"
                                                           }
                                                         ],
                                                         "false": []
                                                       },
-                                                      "id": "21895153-3f50-47ea-a321-46ecb94257cd"
+                                                      "id": "8ba656aa-6a03-42ac-b4cd-1900f95d472f"
                                                     },
                                                     {
                                                       "command": "EVENT_REPLACE_TILE_XY",
                                                       "args": {
                                                         "x": {
                                                           "type": "number",
-                                                          "value": 18
+                                                          "value": 17
                                                         },
                                                         "y": {
                                                           "type": "add",
@@ -5179,19 +5369,43 @@
                                                           }
                                                         }
                                                       },
-                                                      "id": "ccc21058-11ea-4936-b754-e752b4fddcb5"
+                                                      "id": "bdaabc50-9411-4c88-8926-747c1ba1582a"
                                                     }
                                                   ]
                                                 },
-                                                "id": "21ae9e00-c009-4e5a-90dd-3fa2bdcb095d"
+                                                "id": "57092b61-0b08-43d3-b3c0-ff6bb463de88"
                                               },
                                               {
                                                 "command": "EVENT_GROUP",
-                                                "args": {
-                                                  "__collapse": false
-                                                },
+                                                "args": {},
                                                 "children": {
                                                   "true": [
+                                                    {
+                                                      "command": "EVENT_REPLACE_TILE_XY",
+                                                      "args": {
+                                                        "x": {
+                                                          "type": "number",
+                                                          "value": 18
+                                                        },
+                                                        "y": {
+                                                          "type": "add",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "6"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 1
+                                                          }
+                                                        },
+                                                        "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                        "tileIndex": {
+                                                          "type": "number",
+                                                          "value": 60
+                                                        }
+                                                      },
+                                                      "id": "2215b28e-1010-4b19-a5b0-685ad6850049"
+                                                    },
                                                     {
                                                       "command": "EVENT_REPLACE_TILE_XY",
                                                       "args": {
@@ -5213,18 +5427,18 @@
                                                         "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
                                                         "tileIndex": {
                                                           "type": "number",
-                                                          "value": 100
+                                                          "value": 60
                                                         }
                                                       },
-                                                      "id": "7694ec74-cd8d-4073-8574-2598824c31e6"
+                                                      "id": "db24e63f-0da1-4042-88a5-a7500e5f3cc0"
                                                     }
                                                   ]
                                                 },
-                                                "id": "accab16c-52c5-432c-b249-035ce1a824bf"
+                                                "id": "9d918255-d211-4b93-b6f0-0bc55bdc4b4c"
                                               }
                                             ]
                                           },
-                                          "id": "fd777da9-a245-4d98-b7d1-fbc84e770ad2"
+                                          "id": "52ad7913-0d6d-4c58-acf1-a8290fafbb23"
                                         }
                                       ],
                                       "false": [
@@ -5263,12 +5477,12 @@
                                                           "value": 20
                                                         }
                                                       },
-                                                      "id": "d96767d1-c8b9-4376-90b6-ab710d82a130"
+                                                      "id": "49aa2fc1-5cdf-471f-8c64-b1d31e95db48"
                                                     }
                                                   ],
                                                   "false": []
                                                 },
-                                                "id": "db32afb0-db14-40f6-8830-38da4d57d392"
+                                                "id": "1549a514-aafa-40a8-ade6-ec7ccf5475ef"
                                               },
                                               {
                                                 "command": "EVENT_SET_VALUE",
@@ -5286,14 +5500,14 @@
                                                     }
                                                   }
                                                 },
-                                                "id": "659ff2e0-be99-438c-a3c6-2c78cc98aa36"
+                                                "id": "71e049e9-9e89-4293-834a-44ff8c61671a"
                                               },
                                               {
                                                 "command": "EVENT_DEC_VALUE",
                                                 "args": {
                                                   "variable": "7"
                                                 },
-                                                "id": "5135a397-927f-43c9-a633-e810889c4bfa"
+                                                "id": "5d8429af-e3a1-4171-a5d4-2935ed1d438c"
                                               },
                                               {
                                                 "command": "EVENT_IF",
@@ -5310,7 +5524,7 @@
                                                     }
                                                   },
                                                   "__collapseElse": true,
-                                                  "__collapse": false
+                                                  "__collapse": true
                                                 },
                                                 "children": {
                                                   "true": [
@@ -5324,13 +5538,55 @@
                                                         },
                                                         "__collapse": true
                                                       },
-                                                      "id": "e1417251-9842-430a-9e2d-8fe254456ef9"
+                                                      "id": "14fb81a1-a360-4d2c-8b76-17707abe9452"
                                                     }
                                                   ],
                                                   "false": []
                                                 },
-                                                "id": "8ba656aa-6a03-42ac-b4cd-1900f95d472f"
+                                                "id": "e71c8196-3551-4383-8b5d-6dad559c1926"
                                               },
+                                              {
+                                                "command": "EVENT_REPLACE_TILE_XY",
+                                                "args": {
+                                                  "x": {
+                                                    "type": "number",
+                                                    "value": 16
+                                                  },
+                                                  "y": {
+                                                    "type": "add",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "6"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 1
+                                                    }
+                                                  },
+                                                  "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                  "tileIndex": {
+                                                    "type": "add",
+                                                    "valueA": {
+                                                      "type": "number",
+                                                      "value": 20
+                                                    },
+                                                    "valueB": {
+                                                      "type": "variable",
+                                                      "value": "7"
+                                                    }
+                                                  }
+                                                },
+                                                "id": "81824c2a-2e83-49ad-aacd-b32a24c62390"
+                                              }
+                                            ]
+                                          },
+                                          "id": "b4c7e7df-83b3-4927-8021-240f42490ef6"
+                                        },
+                                        {
+                                          "command": "EVENT_GROUP",
+                                          "args": {},
+                                          "children": {
+                                            "true": [
                                               {
                                                 "command": "EVENT_REPLACE_TILE_XY",
                                                 "args": {
@@ -5351,28 +5607,12 @@
                                                   },
                                                   "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
                                                   "tileIndex": {
-                                                    "type": "add",
-                                                    "valueA": {
-                                                      "type": "number",
-                                                      "value": 60
-                                                    },
-                                                    "valueB": {
-                                                      "type": "variable",
-                                                      "value": "7"
-                                                    }
+                                                    "type": "number",
+                                                    "value": 60
                                                   }
                                                 },
-                                                "id": "bdaabc50-9411-4c88-8926-747c1ba1582a"
-                                              }
-                                            ]
-                                          },
-                                          "id": "57092b61-0b08-43d3-b3c0-ff6bb463de88"
-                                        },
-                                        {
-                                          "command": "EVENT_GROUP",
-                                          "args": {},
-                                          "children": {
-                                            "true": [
+                                                "id": "fc5414e9-6ba4-4235-849a-6df3acd594c4"
+                                              },
                                               {
                                                 "command": "EVENT_REPLACE_TILE_XY",
                                                 "args": {
@@ -5397,7 +5637,7 @@
                                                     "value": 60
                                                   }
                                                 },
-                                                "id": "2215b28e-1010-4b19-a5b0-685ad6850049"
+                                                "id": "76342490-8daf-488b-b47b-3adb0417a209"
                                               },
                                               {
                                                 "command": "EVENT_REPLACE_TILE_XY",
@@ -5420,124 +5660,197 @@
                                                   "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
                                                   "tileIndex": {
                                                     "type": "number",
-                                                    "value": 60
+                                                    "value": 100
                                                   }
                                                 },
-                                                "id": "db24e63f-0da1-4042-88a5-a7500e5f3cc0"
+                                                "id": "bc47ca13-20e9-435e-8bd1-c3a89ccfcde6"
                                               }
                                             ]
                                           },
-                                          "id": "9d918255-d211-4b93-b6f0-0bc55bdc4b4c"
+                                          "id": "55ef217f-f186-4141-a071-6e4950cf6f58"
                                         }
                                       ]
                                     },
-                                    "id": "52ad7913-0d6d-4c58-acf1-a8290fafbb23"
+                                    "id": "4466e60d-d69c-4c29-89f3-bd11920192aa"
                                   }
                                 ],
-                                "false": [
+                                "false": []
+                              },
+                              "id": "ab959a00-3850-4322-9fac-36d94139ccb2"
+                            }
+                          ]
+                        },
+                        "id": "f9b03c7a-b784-48e2-a28e-bb41a894499d"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_GROUP",
+                        "args": {
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_VARIABLE_MATH_EVALUATE",
+                              "args": {
+                                "variable": "5",
+                                "expression": "abs($70$*100/20)",
+                                "__collapse": true
+                              },
+                              "id": "465c4b2a-5064-4db8-8bea-0a7abf77cbad"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 16
+                                },
+                                "y": {
+                                  "type": "variable",
+                                  "value": "6"
+                                },
+                                "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 141
+                                },
+                                "__collapse": false
+                              },
+                              "id": "ff92735a-3c01-422c-a883-9db027ee3664"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 17
+                                },
+                                "y": {
+                                  "type": "variable",
+                                  "value": "6"
+                                },
+                                "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 224
+                                },
+                                "__collapse": false
+                              },
+                              "id": "a3d30cce-e344-43f2-9f3b-756d5ec51872"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 18
+                                },
+                                "y": {
+                                  "type": "variable",
+                                  "value": "6"
+                                },
+                                "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 223
+                                },
+                                "__collapse": false
+                              },
+                              "id": "de4d2b33-6563-41c5-afe1-40cc1f72713e"
+                            },
+                            {
+                              "command": "EVENT_REPLACE_TILE_XY",
+                              "args": {
+                                "x": {
+                                  "type": "number",
+                                  "value": 19
+                                },
+                                "y": {
+                                  "type": "variable",
+                                  "value": "6"
+                                },
+                                "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                "tileIndex": {
+                                  "type": "number",
+                                  "value": 224
+                                },
+                                "__collapse": false
+                              },
+                              "id": "2be8f083-938a-4ec6-9f7a-4b396ff18e5c"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "condition": {
+                                  "type": "ne",
+                                  "valueA": {
+                                    "type": "variable",
+                                    "value": "70"
+                                  },
+                                  "valueB": {
+                                    "type": "variable",
+                                    "value": "72"
+                                  }
+                                },
+                                "__collapseElse": true,
+                                "__collapse": true
+                              },
+                              "children": {
+                                "true": [
                                   {
-                                    "command": "EVENT_GROUP",
+                                    "command": "EVENT_IF",
                                     "args": {
-                                      "__label": "hp segment",
-                                      "__collapse": false
+                                      "condition": {
+                                        "type": "gt",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "5"
+                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 100
+                                        }
+                                      },
+                                      "__collapseElse": true
                                     },
                                     "children": {
                                       "true": [
                                         {
-                                          "command": "EVENT_IF",
-                                          "args": {
-                                            "condition": {
-                                              "type": "gt",
-                                              "valueA": {
-                                                "type": "variable",
-                                                "value": "5"
-                                              },
-                                              "valueB": {
-                                                "type": "number",
-                                                "value": 20
-                                              }
-                                            },
-                                            "__collapseElse": true
-                                          },
-                                          "children": {
-                                            "true": [
-                                              {
-                                                "command": "EVENT_SET_VALUE",
-                                                "args": {
-                                                  "variable": "5",
-                                                  "value": {
-                                                    "type": "number",
-                                                    "value": 20
-                                                  }
-                                                },
-                                                "id": "49aa2fc1-5cdf-471f-8c64-b1d31e95db48"
-                                              }
-                                            ],
-                                            "false": []
-                                          },
-                                          "id": "1549a514-aafa-40a8-ade6-ec7ccf5475ef"
-                                        },
-                                        {
                                           "command": "EVENT_SET_VALUE",
                                           "args": {
-                                            "variable": "7",
+                                            "variable": "5",
                                             "value": {
-                                              "type": "div",
-                                              "valueA": {
-                                                "type": "variable",
-                                                "value": "5"
-                                              },
-                                              "valueB": {
-                                                "type": "number",
-                                                "value": 2
-                                              }
+                                              "type": "number",
+                                              "value": 100
                                             }
                                           },
-                                          "id": "71e049e9-9e89-4293-834a-44ff8c61671a"
+                                          "id": "69ffc9a2-14ac-4339-a43a-ab9b32630d98"
+                                        }
+                                      ],
+                                      "false": []
+                                    },
+                                    "id": "8383ba25-7700-4edd-8266-735013b05820"
+                                  },
+                                  {
+                                    "command": "EVENT_IF",
+                                    "args": {
+                                      "condition": {
+                                        "type": "gt",
+                                        "valueA": {
+                                          "type": "variable",
+                                          "value": "5"
                                         },
-                                        {
-                                          "command": "EVENT_DEC_VALUE",
-                                          "args": {
-                                            "variable": "7"
-                                          },
-                                          "id": "5d8429af-e3a1-4171-a5d4-2935ed1d438c"
-                                        },
-                                        {
-                                          "command": "EVENT_IF",
-                                          "args": {
-                                            "condition": {
-                                              "type": "lt",
-                                              "valueA": {
-                                                "type": "variable",
-                                                "value": "7"
-                                              },
-                                              "valueB": {
-                                                "type": "number",
-                                                "value": 0
-                                              }
-                                            },
-                                            "__collapseElse": true,
-                                            "__collapse": true
-                                          },
-                                          "children": {
-                                            "true": [
-                                              {
-                                                "command": "EVENT_SET_VALUE",
-                                                "args": {
-                                                  "variable": "7",
-                                                  "value": {
-                                                    "type": "number",
-                                                    "value": 0
-                                                  },
-                                                  "__collapse": true
-                                                },
-                                                "id": "14fb81a1-a360-4d2c-8b76-17707abe9452"
-                                              }
-                                            ],
-                                            "false": []
-                                          },
-                                          "id": "e71c8196-3551-4383-8b5d-6dad559c1926"
-                                        },
+                                        "valueB": {
+                                          "type": "number",
+                                          "value": 25
+                                        }
+                                      },
+                                      "__collapseElse": false
+                                    },
+                                    "children": {
+                                      "true": [
                                         {
                                           "command": "EVENT_REPLACE_TILE_XY",
                                           "args": {
@@ -5558,121 +5871,977 @@
                                             },
                                             "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
                                             "tileIndex": {
-                                              "type": "add",
+                                              "type": "number",
+                                              "value": 29
+                                            }
+                                          },
+                                          "id": "94a731f8-f115-4bdb-8719-6f2ca1e9f946"
+                                        },
+                                        {
+                                          "command": "EVENT_SET_VALUE",
+                                          "args": {
+                                            "variable": "5",
+                                            "value": {
+                                              "type": "sub",
                                               "valueA": {
-                                                "type": "number",
-                                                "value": 20
+                                                "type": "variable",
+                                                "value": "5"
                                               },
                                               "valueB": {
-                                                "type": "variable",
-                                                "value": "7"
+                                                "type": "number",
+                                                "value": 25
                                               }
                                             }
                                           },
-                                          "id": "81824c2a-2e83-49ad-aacd-b32a24c62390"
+                                          "id": "ae8ca0d4-7ea9-477f-bceb-b6aed347b091"
+                                        },
+                                        {
+                                          "command": "EVENT_IF",
+                                          "args": {
+                                            "condition": {
+                                              "type": "gt",
+                                              "valueA": {
+                                                "type": "variable",
+                                                "value": "5"
+                                              },
+                                              "valueB": {
+                                                "type": "number",
+                                                "value": 25
+                                              }
+                                            },
+                                            "__collapseElse": false
+                                          },
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_REPLACE_TILE_XY",
+                                                "args": {
+                                                  "x": {
+                                                    "type": "number",
+                                                    "value": 17
+                                                  },
+                                                  "y": {
+                                                    "type": "add",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "6"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 1
+                                                    }
+                                                  },
+                                                  "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                  "tileIndex": {
+                                                    "type": "number",
+                                                    "value": 69
+                                                  }
+                                                },
+                                                "id": "bbbf6e43-31f3-492e-96dd-0685dd1b3253"
+                                              },
+                                              {
+                                                "command": "EVENT_SET_VALUE",
+                                                "args": {
+                                                  "variable": "5",
+                                                  "value": {
+                                                    "type": "sub",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "5"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 25
+                                                    }
+                                                  }
+                                                },
+                                                "id": "7dc6b851-7140-4973-bd1b-45cb9da394f0"
+                                              },
+                                              {
+                                                "command": "EVENT_IF",
+                                                "args": {
+                                                  "condition": {
+                                                    "type": "gt",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "5"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 25
+                                                    }
+                                                  },
+                                                  "__collapseElse": false
+                                                },
+                                                "children": {
+                                                  "true": [
+                                                    {
+                                                      "command": "EVENT_REPLACE_TILE_XY",
+                                                      "args": {
+                                                        "x": {
+                                                          "type": "number",
+                                                          "value": 18
+                                                        },
+                                                        "y": {
+                                                          "type": "add",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "6"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 1
+                                                          }
+                                                        },
+                                                        "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                        "tileIndex": {
+                                                          "type": "number",
+                                                          "value": 69
+                                                        }
+                                                      },
+                                                      "id": "fd86bf83-6638-4ff6-8e1e-46aad865378a"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_SET_VALUE",
+                                                      "args": {
+                                                        "variable": "5",
+                                                        "value": {
+                                                          "type": "sub",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "5"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 25
+                                                          }
+                                                        }
+                                                      },
+                                                      "id": "92e77f71-8dbc-4dcf-9e37-77e4393c499e"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_IF",
+                                                      "args": {
+                                                        "condition": {
+                                                          "type": "gt",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "5"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 25
+                                                          }
+                                                        },
+                                                        "__collapseElse": false
+                                                      },
+                                                      "children": {
+                                                        "true": [
+                                                          {
+                                                            "command": "EVENT_REPLACE_TILE_XY",
+                                                            "args": {
+                                                              "x": {
+                                                                "type": "number",
+                                                                "value": 19
+                                                              },
+                                                              "y": {
+                                                                "type": "add",
+                                                                "valueA": {
+                                                                  "type": "variable",
+                                                                  "value": "6"
+                                                                },
+                                                                "valueB": {
+                                                                  "type": "number",
+                                                                  "value": 1
+                                                                }
+                                                              },
+                                                              "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                              "tileIndex": {
+                                                                "type": "number",
+                                                                "value": 69
+                                                              }
+                                                            },
+                                                            "id": "476d1026-dbe4-45b0-a949-52f8846c93a2"
+                                                          }
+                                                        ],
+                                                        "false": [
+                                                          {
+                                                            "command": "EVENT_GROUP",
+                                                            "args": {
+                                                              "__label": "hp segment",
+                                                              "__collapse": false
+                                                            },
+                                                            "children": {
+                                                              "true": [
+                                                                {
+                                                                  "command": "EVENT_IF",
+                                                                  "args": {
+                                                                    "condition": {
+                                                                      "type": "gt",
+                                                                      "valueA": {
+                                                                        "type": "variable",
+                                                                        "value": "5"
+                                                                      },
+                                                                      "valueB": {
+                                                                        "type": "number",
+                                                                        "value": 20
+                                                                      }
+                                                                    },
+                                                                    "__collapseElse": true
+                                                                  },
+                                                                  "children": {
+                                                                    "true": [
+                                                                      {
+                                                                        "command": "EVENT_SET_VALUE",
+                                                                        "args": {
+                                                                          "variable": "5",
+                                                                          "value": {
+                                                                            "type": "number",
+                                                                            "value": 20
+                                                                          }
+                                                                        },
+                                                                        "id": "461e1670-2362-450c-95fa-e83372cc5a43"
+                                                                      }
+                                                                    ],
+                                                                    "false": []
+                                                                  },
+                                                                  "id": "35d92dbc-49c6-4b79-9159-9a4f4e0cbef9"
+                                                                },
+                                                                {
+                                                                  "command": "EVENT_SET_VALUE",
+                                                                  "args": {
+                                                                    "variable": "7",
+                                                                    "value": {
+                                                                      "type": "div",
+                                                                      "valueA": {
+                                                                        "type": "variable",
+                                                                        "value": "5"
+                                                                      },
+                                                                      "valueB": {
+                                                                        "type": "number",
+                                                                        "value": 2
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "id": "76a8dde9-af6d-48d6-8620-a40389628e91"
+                                                                },
+                                                                {
+                                                                  "command": "EVENT_DEC_VALUE",
+                                                                  "args": {
+                                                                    "variable": "7"
+                                                                  },
+                                                                  "id": "5e00d274-dae8-4e77-9412-46b272e412ee"
+                                                                },
+                                                                {
+                                                                  "command": "EVENT_IF",
+                                                                  "args": {
+                                                                    "condition": {
+                                                                      "type": "lt",
+                                                                      "valueA": {
+                                                                        "type": "variable",
+                                                                        "value": "7"
+                                                                      },
+                                                                      "valueB": {
+                                                                        "type": "number",
+                                                                        "value": 0
+                                                                      }
+                                                                    },
+                                                                    "__collapseElse": true,
+                                                                    "__collapse": false
+                                                                  },
+                                                                  "children": {
+                                                                    "true": [
+                                                                      {
+                                                                        "command": "EVENT_SET_VALUE",
+                                                                        "args": {
+                                                                          "variable": "7",
+                                                                          "value": {
+                                                                            "type": "number",
+                                                                            "value": 0
+                                                                          },
+                                                                          "__collapse": true
+                                                                        },
+                                                                        "id": "c30edb1b-dbb8-4281-89f2-28e582fdf929"
+                                                                      }
+                                                                    ],
+                                                                    "false": []
+                                                                  },
+                                                                  "id": "595b94cb-d392-4b4c-9bba-e81e18061d08"
+                                                                },
+                                                                {
+                                                                  "command": "EVENT_REPLACE_TILE_XY",
+                                                                  "args": {
+                                                                    "x": {
+                                                                      "type": "number",
+                                                                      "value": 19
+                                                                    },
+                                                                    "y": {
+                                                                      "type": "add",
+                                                                      "valueA": {
+                                                                        "type": "variable",
+                                                                        "value": "6"
+                                                                      },
+                                                                      "valueB": {
+                                                                        "type": "number",
+                                                                        "value": 1
+                                                                      }
+                                                                    },
+                                                                    "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                                    "tileIndex": {
+                                                                      "type": "add",
+                                                                      "valueA": {
+                                                                        "type": "number",
+                                                                        "value": 60
+                                                                      },
+                                                                      "valueB": {
+                                                                        "type": "variable",
+                                                                        "value": "7"
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "id": "90f6e030-39ed-46f1-839e-1ba5fc662b2b"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "id": "e023ce63-c664-40d4-86ab-0d91899ef4ec"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "id": "ca37049a-8c66-43c0-b04e-d2509ef11293"
+                                                    }
+                                                  ],
+                                                  "false": [
+                                                    {
+                                                      "command": "EVENT_GROUP",
+                                                      "args": {
+                                                        "__label": "hp segment",
+                                                        "__collapse": false
+                                                      },
+                                                      "children": {
+                                                        "true": [
+                                                          {
+                                                            "command": "EVENT_IF",
+                                                            "args": {
+                                                              "condition": {
+                                                                "type": "gt",
+                                                                "valueA": {
+                                                                  "type": "variable",
+                                                                  "value": "5"
+                                                                },
+                                                                "valueB": {
+                                                                  "type": "number",
+                                                                  "value": 20
+                                                                }
+                                                              },
+                                                              "__collapseElse": true
+                                                            },
+                                                            "children": {
+                                                              "true": [
+                                                                {
+                                                                  "command": "EVENT_SET_VALUE",
+                                                                  "args": {
+                                                                    "variable": "5",
+                                                                    "value": {
+                                                                      "type": "number",
+                                                                      "value": 20
+                                                                    }
+                                                                  },
+                                                                  "id": "084b46b4-7464-43b5-86c5-e3040fd5eb3c"
+                                                                }
+                                                              ],
+                                                              "false": []
+                                                            },
+                                                            "id": "f44a08ab-70df-43d6-8593-2223ab172ff4"
+                                                          },
+                                                          {
+                                                            "command": "EVENT_SET_VALUE",
+                                                            "args": {
+                                                              "variable": "7",
+                                                              "value": {
+                                                                "type": "div",
+                                                                "valueA": {
+                                                                  "type": "variable",
+                                                                  "value": "5"
+                                                                },
+                                                                "valueB": {
+                                                                  "type": "number",
+                                                                  "value": 2
+                                                                }
+                                                              }
+                                                            },
+                                                            "id": "cd1bdfaa-90be-4d27-8110-bd8ff7a6d4da"
+                                                          },
+                                                          {
+                                                            "command": "EVENT_DEC_VALUE",
+                                                            "args": {
+                                                              "variable": "7"
+                                                            },
+                                                            "id": "7ac96fee-7367-477d-9329-0cb1a80a5930"
+                                                          },
+                                                          {
+                                                            "command": "EVENT_IF",
+                                                            "args": {
+                                                              "condition": {
+                                                                "type": "lt",
+                                                                "valueA": {
+                                                                  "type": "variable",
+                                                                  "value": "7"
+                                                                },
+                                                                "valueB": {
+                                                                  "type": "number",
+                                                                  "value": 0
+                                                                }
+                                                              },
+                                                              "__collapseElse": true,
+                                                              "__collapse": false
+                                                            },
+                                                            "children": {
+                                                              "true": [
+                                                                {
+                                                                  "command": "EVENT_SET_VALUE",
+                                                                  "args": {
+                                                                    "variable": "7",
+                                                                    "value": {
+                                                                      "type": "number",
+                                                                      "value": 0
+                                                                    },
+                                                                    "__collapse": true
+                                                                  },
+                                                                  "id": "74961da0-c0fc-4e7c-845d-f2e861ff8ee4"
+                                                                }
+                                                              ],
+                                                              "false": []
+                                                            },
+                                                            "id": "608ac9f7-abe0-4c53-ab5b-da15de3eafd6"
+                                                          },
+                                                          {
+                                                            "command": "EVENT_REPLACE_TILE_XY",
+                                                            "args": {
+                                                              "x": {
+                                                                "type": "number",
+                                                                "value": 18
+                                                              },
+                                                              "y": {
+                                                                "type": "add",
+                                                                "valueA": {
+                                                                  "type": "variable",
+                                                                  "value": "6"
+                                                                },
+                                                                "valueB": {
+                                                                  "type": "number",
+                                                                  "value": 1
+                                                                }
+                                                              },
+                                                              "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                              "tileIndex": {
+                                                                "type": "add",
+                                                                "valueA": {
+                                                                  "type": "number",
+                                                                  "value": 60
+                                                                },
+                                                                "valueB": {
+                                                                  "type": "variable",
+                                                                  "value": "7"
+                                                                }
+                                                              }
+                                                            },
+                                                            "id": "281476dd-4632-4102-a451-20d09ce87a20"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "id": "b8fd9496-baf9-489a-b7b1-e2719efd5926"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_GROUP",
+                                                      "args": {
+                                                        "__collapse": false
+                                                      },
+                                                      "children": {
+                                                        "true": [
+                                                          {
+                                                            "command": "EVENT_REPLACE_TILE_XY",
+                                                            "args": {
+                                                              "x": {
+                                                                "type": "number",
+                                                                "value": 19
+                                                              },
+                                                              "y": {
+                                                                "type": "add",
+                                                                "valueA": {
+                                                                  "type": "variable",
+                                                                  "value": "6"
+                                                                },
+                                                                "valueB": {
+                                                                  "type": "number",
+                                                                  "value": 1
+                                                                }
+                                                              },
+                                                              "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                              "tileIndex": {
+                                                                "type": "number",
+                                                                "value": 100
+                                                              }
+                                                            },
+                                                            "id": "f2ae02cd-127d-41c6-9556-c5ee82134a18"
+                                                          }
+                                                        ]
+                                                      },
+                                                      "id": "45b55161-c56a-479a-8a66-2b28ae725a42"
+                                                    }
+                                                  ]
+                                                },
+                                                "id": "73f4f4c6-59b3-400e-b474-d6f46a1e6e97"
+                                              }
+                                            ],
+                                            "false": [
+                                              {
+                                                "command": "EVENT_GROUP",
+                                                "args": {
+                                                  "__label": "hp segment",
+                                                  "__collapse": false
+                                                },
+                                                "children": {
+                                                  "true": [
+                                                    {
+                                                      "command": "EVENT_IF",
+                                                      "args": {
+                                                        "condition": {
+                                                          "type": "gt",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "5"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 20
+                                                          }
+                                                        },
+                                                        "__collapseElse": true
+                                                      },
+                                                      "children": {
+                                                        "true": [
+                                                          {
+                                                            "command": "EVENT_SET_VALUE",
+                                                            "args": {
+                                                              "variable": "5",
+                                                              "value": {
+                                                                "type": "number",
+                                                                "value": 20
+                                                              }
+                                                            },
+                                                            "id": "ce2d8cb5-9c5f-4441-a059-0baf7b724555"
+                                                          }
+                                                        ],
+                                                        "false": []
+                                                      },
+                                                      "id": "72fae337-6373-491c-a319-5ab5a3c438e4"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_SET_VALUE",
+                                                      "args": {
+                                                        "variable": "7",
+                                                        "value": {
+                                                          "type": "div",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "5"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 2
+                                                          }
+                                                        }
+                                                      },
+                                                      "id": "2d2c1d3b-0ec5-432e-b41b-20137e227938"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_DEC_VALUE",
+                                                      "args": {
+                                                        "variable": "7"
+                                                      },
+                                                      "id": "2f4f2c5f-8ea9-4376-983e-799320dea5da"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_IF",
+                                                      "args": {
+                                                        "condition": {
+                                                          "type": "lt",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "7"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 0
+                                                          }
+                                                        },
+                                                        "__collapseElse": true,
+                                                        "__collapse": false
+                                                      },
+                                                      "children": {
+                                                        "true": [
+                                                          {
+                                                            "command": "EVENT_SET_VALUE",
+                                                            "args": {
+                                                              "variable": "7",
+                                                              "value": {
+                                                                "type": "number",
+                                                                "value": 0
+                                                              },
+                                                              "__collapse": true
+                                                            },
+                                                            "id": "40da9eb2-e4af-4bcf-8294-b5e711890996"
+                                                          }
+                                                        ],
+                                                        "false": []
+                                                      },
+                                                      "id": "005c6866-0f99-48b1-ae78-9cc9fbcc6d82"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_REPLACE_TILE_XY",
+                                                      "args": {
+                                                        "x": {
+                                                          "type": "number",
+                                                          "value": 17
+                                                        },
+                                                        "y": {
+                                                          "type": "add",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "6"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 1
+                                                          }
+                                                        },
+                                                        "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                        "tileIndex": {
+                                                          "type": "add",
+                                                          "valueA": {
+                                                            "type": "number",
+                                                            "value": 60
+                                                          },
+                                                          "valueB": {
+                                                            "type": "variable",
+                                                            "value": "7"
+                                                          }
+                                                        }
+                                                      },
+                                                      "id": "d846e1d5-21f1-4d92-80f6-f712e0345a23"
+                                                    }
+                                                  ]
+                                                },
+                                                "id": "8dad9089-dc10-4fb2-986f-e77c56e47bac"
+                                              },
+                                              {
+                                                "command": "EVENT_GROUP",
+                                                "args": {},
+                                                "children": {
+                                                  "true": [
+                                                    {
+                                                      "command": "EVENT_REPLACE_TILE_XY",
+                                                      "args": {
+                                                        "x": {
+                                                          "type": "number",
+                                                          "value": 18
+                                                        },
+                                                        "y": {
+                                                          "type": "add",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "6"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 1
+                                                          }
+                                                        },
+                                                        "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                        "tileIndex": {
+                                                          "type": "number",
+                                                          "value": 60
+                                                        }
+                                                      },
+                                                      "id": "03ea9c35-7355-4510-8725-3403ceeadca9"
+                                                    },
+                                                    {
+                                                      "command": "EVENT_REPLACE_TILE_XY",
+                                                      "args": {
+                                                        "x": {
+                                                          "type": "number",
+                                                          "value": 19
+                                                        },
+                                                        "y": {
+                                                          "type": "add",
+                                                          "valueA": {
+                                                            "type": "variable",
+                                                            "value": "6"
+                                                          },
+                                                          "valueB": {
+                                                            "type": "number",
+                                                            "value": 1
+                                                          }
+                                                        },
+                                                        "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                        "tileIndex": {
+                                                          "type": "number",
+                                                          "value": 60
+                                                        }
+                                                      },
+                                                      "id": "4d653d58-d613-41cc-9703-c1047e53cdba"
+                                                    }
+                                                  ]
+                                                },
+                                                "id": "6d67181b-9028-49a8-a6f7-97db6c702601"
+                                              }
+                                            ]
+                                          },
+                                          "id": "e8d8b18a-dfb2-4a18-a2c4-57f41024e77d"
+                                        }
+                                      ],
+                                      "false": [
+                                        {
+                                          "command": "EVENT_GROUP",
+                                          "args": {
+                                            "__label": "hp segment",
+                                            "__collapse": false
+                                          },
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_IF",
+                                                "args": {
+                                                  "condition": {
+                                                    "type": "gt",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "5"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 20
+                                                    }
+                                                  },
+                                                  "__collapseElse": true
+                                                },
+                                                "children": {
+                                                  "true": [
+                                                    {
+                                                      "command": "EVENT_SET_VALUE",
+                                                      "args": {
+                                                        "variable": "5",
+                                                        "value": {
+                                                          "type": "number",
+                                                          "value": 20
+                                                        }
+                                                      },
+                                                      "id": "983535a9-78f4-449a-b654-67e6b86c9f68"
+                                                    }
+                                                  ],
+                                                  "false": []
+                                                },
+                                                "id": "7722ebbc-0f81-4cef-b007-32ad724eb8af"
+                                              },
+                                              {
+                                                "command": "EVENT_SET_VALUE",
+                                                "args": {
+                                                  "variable": "7",
+                                                  "value": {
+                                                    "type": "div",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "5"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 2
+                                                    }
+                                                  }
+                                                },
+                                                "id": "88316886-f87f-4f4d-99c1-096e37ad1e40"
+                                              },
+                                              {
+                                                "command": "EVENT_DEC_VALUE",
+                                                "args": {
+                                                  "variable": "7"
+                                                },
+                                                "id": "b20ad60f-7e47-4034-a2ae-bfc36424a75b"
+                                              },
+                                              {
+                                                "command": "EVENT_IF",
+                                                "args": {
+                                                  "condition": {
+                                                    "type": "lt",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "7"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 0
+                                                    }
+                                                  },
+                                                  "__collapseElse": true,
+                                                  "__collapse": true
+                                                },
+                                                "children": {
+                                                  "true": [
+                                                    {
+                                                      "command": "EVENT_SET_VALUE",
+                                                      "args": {
+                                                        "variable": "7",
+                                                        "value": {
+                                                          "type": "number",
+                                                          "value": 0
+                                                        },
+                                                        "__collapse": true
+                                                      },
+                                                      "id": "f109cf6e-561c-4548-bcc2-9d03949dee37"
+                                                    }
+                                                  ],
+                                                  "false": []
+                                                },
+                                                "id": "43b4879f-6409-4624-b8ec-8ef8807ebd34"
+                                              },
+                                              {
+                                                "command": "EVENT_REPLACE_TILE_XY",
+                                                "args": {
+                                                  "x": {
+                                                    "type": "number",
+                                                    "value": 16
+                                                  },
+                                                  "y": {
+                                                    "type": "add",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "6"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 1
+                                                    }
+                                                  },
+                                                  "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                  "tileIndex": {
+                                                    "type": "add",
+                                                    "valueA": {
+                                                      "type": "number",
+                                                      "value": 20
+                                                    },
+                                                    "valueB": {
+                                                      "type": "variable",
+                                                      "value": "7"
+                                                    }
+                                                  }
+                                                },
+                                                "id": "149eef83-cfb7-4f9d-9bce-861c0bc4fb25"
+                                              }
+                                            ]
+                                          },
+                                          "id": "0269fc5c-e818-4772-a460-a00f72d9215d"
+                                        },
+                                        {
+                                          "command": "EVENT_GROUP",
+                                          "args": {},
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_REPLACE_TILE_XY",
+                                                "args": {
+                                                  "x": {
+                                                    "type": "number",
+                                                    "value": 17
+                                                  },
+                                                  "y": {
+                                                    "type": "add",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "6"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 1
+                                                    }
+                                                  },
+                                                  "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                  "tileIndex": {
+                                                    "type": "number",
+                                                    "value": 60
+                                                  }
+                                                },
+                                                "id": "6d447fcc-f244-45a6-a88c-0db18a6536d4"
+                                              },
+                                              {
+                                                "command": "EVENT_REPLACE_TILE_XY",
+                                                "args": {
+                                                  "x": {
+                                                    "type": "number",
+                                                    "value": 18
+                                                  },
+                                                  "y": {
+                                                    "type": "add",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "6"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 1
+                                                    }
+                                                  },
+                                                  "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                  "tileIndex": {
+                                                    "type": "number",
+                                                    "value": 60
+                                                  }
+                                                },
+                                                "id": "5eb23705-115b-4a70-8a07-b99f1f2cdbd1"
+                                              },
+                                              {
+                                                "command": "EVENT_REPLACE_TILE_XY",
+                                                "args": {
+                                                  "x": {
+                                                    "type": "number",
+                                                    "value": 19
+                                                  },
+                                                  "y": {
+                                                    "type": "add",
+                                                    "valueA": {
+                                                      "type": "variable",
+                                                      "value": "6"
+                                                    },
+                                                    "valueB": {
+                                                      "type": "number",
+                                                      "value": 1
+                                                    }
+                                                  },
+                                                  "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
+                                                  "tileIndex": {
+                                                    "type": "number",
+                                                    "value": 100
+                                                  }
+                                                },
+                                                "id": "6cfbcc6b-b188-42df-aae0-8f0880006485"
+                                              }
+                                            ]
+                                          },
+                                          "id": "f8f62f97-792f-4b11-8ba7-536ada86bcd8"
                                         }
                                       ]
                                     },
-                                    "id": "b4c7e7df-83b3-4927-8021-240f42490ef6"
-                                  },
-                                  {
-                                    "command": "EVENT_GROUP",
-                                    "args": {},
-                                    "children": {
-                                      "true": [
-                                        {
-                                          "command": "EVENT_REPLACE_TILE_XY",
-                                          "args": {
-                                            "x": {
-                                              "type": "number",
-                                              "value": 17
-                                            },
-                                            "y": {
-                                              "type": "add",
-                                              "valueA": {
-                                                "type": "variable",
-                                                "value": "6"
-                                              },
-                                              "valueB": {
-                                                "type": "number",
-                                                "value": 1
-                                              }
-                                            },
-                                            "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
-                                            "tileIndex": {
-                                              "type": "number",
-                                              "value": 60
-                                            }
-                                          },
-                                          "id": "fc5414e9-6ba4-4235-849a-6df3acd594c4"
-                                        },
-                                        {
-                                          "command": "EVENT_REPLACE_TILE_XY",
-                                          "args": {
-                                            "x": {
-                                              "type": "number",
-                                              "value": 18
-                                            },
-                                            "y": {
-                                              "type": "add",
-                                              "valueA": {
-                                                "type": "variable",
-                                                "value": "6"
-                                              },
-                                              "valueB": {
-                                                "type": "number",
-                                                "value": 1
-                                              }
-                                            },
-                                            "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
-                                            "tileIndex": {
-                                              "type": "number",
-                                              "value": 60
-                                            }
-                                          },
-                                          "id": "76342490-8daf-488b-b47b-3adb0417a209"
-                                        },
-                                        {
-                                          "command": "EVENT_REPLACE_TILE_XY",
-                                          "args": {
-                                            "x": {
-                                              "type": "number",
-                                              "value": 19
-                                            },
-                                            "y": {
-                                              "type": "add",
-                                              "valueA": {
-                                                "type": "variable",
-                                                "value": "6"
-                                              },
-                                              "valueB": {
-                                                "type": "number",
-                                                "value": 1
-                                              }
-                                            },
-                                            "tilesetId": "296ae42d-aaba-4daf-9916-5bb94c03c761",
-                                            "tileIndex": {
-                                              "type": "number",
-                                              "value": 100
-                                            }
-                                          },
-                                          "id": "bc47ca13-20e9-435e-8bd1-c3a89ccfcde6"
-                                        }
-                                      ]
-                                    },
-                                    "id": "55ef217f-f186-4141-a071-6e4950cf6f58"
+                                    "id": "ae036087-cf56-451b-a4f4-d6c1b5bbf9c4"
                                   }
-                                ]
+                                ],
+                                "false": []
                               },
-                              "id": "4466e60d-d69c-4c29-89f3-bd11920192aa"
+                              "id": "5d70ef59-4742-4265-a299-a821c9d958eb"
                             }
-                          ],
-                          "false": []
+                          ]
                         },
-                        "id": "ab959a00-3850-4322-9fac-36d94139ccb2"
+                        "id": "c43bf5dc-286e-4bad-a6c5-a6ed8c398999"
                       }
                     ],
-                    "true1": [],
                     "true2": [],
                     "true3": [],
                     "true4": [],

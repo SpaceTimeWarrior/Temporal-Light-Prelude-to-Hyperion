@@ -1,0 +1,103 @@
+{
+  "_resourceType": "scene",
+  "id": "616f792e-2457-4d2f-a1ff-93226bc8c8ad",
+  "_index": 114,
+  "name": "RPG/kitsune_fighter/1-1",
+  "backgroundId": "9ca69954-8634-41a3-bc41-3e6f2d170203",
+  "tilesetId": "",
+  "width": 120,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f16+0018+0f18+0016+0f32+0018+0f18+0016+0f32+0018+0f18+0016+0f32+0018+0f18+0016+0f1c+0076+0f2+0076+0f2+0077+0f!0077+0f!0077+0f!0077+0f!0077+0f!0077+0f!0077+0f!0077+0f!0077+0f!0077+0ff1+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_115",
+  "x": 3136,
+  "y": 1848,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "e17bf424-6920-4041-8923-4bfcdca917a8"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "74",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "0a4ebf7a-c48a-4249-97a4-115d268385d6"
+          },
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "169b90c7-a708-4500-b9ab-32735189b2c6"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "fef91dc6-7430-4e35-8d07-d4a3e408f2bf"
+          }
+        ]
+      },
+      "id": "907dd83d-2f9a-4938-aef0-7e3c34a6917c"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "48",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "3ad397c6-d001-4e5e-96d7-e7c156c5de03"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "18",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "1e89246e-f5ee-445e-9ce4-e612f6d9fd57"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5c876e63-4d43-474d-808d-90de08b7c96e"
+}

@@ -31,7 +31,8 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__label": "song group"
+        "__label": "song group",
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -61,7 +62,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false,
+        "__collapse": true,
         "__label": "HUD"
       },
       "children": {
@@ -108,11 +109,68 @@
       "id": "394f1dfc-45ea-4cee-8e9c-614ce00158b1"
     },
     {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "76"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "15",
+              "flag1": true,
+              "flag2": true,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "932e5c91-0b55-4d19-94ef-97fbd56b73d2"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "616f792e-2457-4d2f-a1ff-93226bc8c8ad",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "9ff6150b-9b5c-4368-a25a-2240bfa92f32"
+          }
+        ],
+        "false": []
+      },
+      "id": "f2d19fbb-5df1-4c4d-aa88-4e18eec2a159"
+    },
+    {
       "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
         "variable": "10",
         "flag": 15,
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [

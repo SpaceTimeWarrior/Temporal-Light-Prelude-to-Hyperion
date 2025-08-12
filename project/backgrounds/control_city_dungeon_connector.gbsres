@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 512,
   "filename": "control city dungeon connector.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

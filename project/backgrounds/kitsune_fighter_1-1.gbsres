@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9ca69954-8634-41a3-bc41-3e6f2d170203",
+  "name": "kitsune fighter 1-1",
+  "symbol": "bg_kitsune_fighter_1_1",
+  "width": 120,
+  "height": 18,
+  "imageWidth": 960,
+  "imageHeight": 144,
+  "filename": "kitsune fighter 1-1.png",
+  "tileColors": "",
+  "autoColor": false
+}

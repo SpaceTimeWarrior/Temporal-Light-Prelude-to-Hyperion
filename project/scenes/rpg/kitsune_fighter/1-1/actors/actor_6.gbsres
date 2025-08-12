@@ -1,0 +1,77 @@
+{
+  "_resourceType": "actor",
+  "id": "4e3062a1-54b5-4884-bd76-499085390703",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5c043bb7-f7dc-426d-a1f6-9bd13fbe6d01",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": true,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_400",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "48",
+        "flag": 0,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF_FLAGS_COMPARE",
+            "args": {
+              "variable": "48",
+              "flag": 1,
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF_FLAGS_COMPARE",
+                  "args": {
+                    "variable": "48",
+                    "flag": 2,
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [],
+                    "false": [
+                      {
+                        "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
+                        "args": {
+                          "actorId": "$self$"
+                        },
+                        "id": "4cf5d828-e630-4a81-8ff9-320485f02783"
+                      }
+                    ]
+                  },
+                  "id": "250568f9-021a-41c5-8e66-2cbab2327423"
+                }
+              ],
+              "false": []
+            },
+            "id": "91461e6a-755e-4a32-b400-2eca8d93a732"
+          }
+        ],
+        "false": []
+      },
+      "id": "d085f284-4e81-46fa-a96c-0b2f8fe2cc87"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 20,
+  "y": 17,
+  "_index": 5
+}

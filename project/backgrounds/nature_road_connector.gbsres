@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 512,
   "filename": "Nature road connector.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

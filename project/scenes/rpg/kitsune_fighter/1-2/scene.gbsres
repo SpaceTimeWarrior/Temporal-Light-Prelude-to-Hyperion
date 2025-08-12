@@ -1,0 +1,301 @@
+{
+  "_resourceType": "scene",
+  "id": "a9f08a54-82ba-4053-800d-146dc78113a4",
+  "_index": 115,
+  "name": "RPG/kitsune_fighter/1-2",
+  "backgroundId": "e40eed73-aeb0-479b-9db7-a9a7f1101dfd",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f3d+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f3+00e+0f6+00e+0f54+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_116",
+  "x": 4128,
+  "y": 1848,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "16"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_DIALOGUE_FRAME",
+            "args": {
+              "tilesetId": "2d0e5b52-5844-47fd-a256-7d12084212f3"
+            },
+            "id": "76b48158-006d-4439-a869-b512e193f83e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "big boss:if you \nwant to continue\nyou must take\ndown your ally."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5d517e84-83df-4631-b19c-538cb9458207"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "serene:and what\nif we don't"
+              ],
+              "__section": "text",
+              "avatarId": "db002620-17dc-4ea8-af6e-22562f20afb2",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1c5cbe9d-b236-42dd-9d34-b2d5cc4b8652"
+          },
+          {
+            "command": "EVENT_SET_DIALOGUE_FRAME",
+            "args": {},
+            "id": "4bcaf36a-2f7d-42de-ab28-18a863199d4d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair:who is\nserene?"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d3e47f5f-9a36-46b5-a828-acb99c2c1e57"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "bias:that is \nyour character's\nname."
+              ],
+              "__section": "text",
+              "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b2299b0c-bd9c-4cde-8f0e-68b445f41598"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "blair: oh"
+              ],
+              "__section": "text",
+              "avatarId": "0785ee9b-3ff4-478e-9fc8-055ae2cefca0",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d768744e-dd98-451c-b496-caf7842c5ba1"
+          },
+          {
+            "command": "EVENT_SET_DIALOGUE_FRAME",
+            "args": {
+              "tilesetId": "2d0e5b52-5844-47fd-a256-7d12084212f3"
+            },
+            "id": "01d2e939-f551-4af9-8222-95a45e7ef5db"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "big boss:I will \nflood the room \nwith neurotoxin"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "72fe25ad-c927-43cf-bb8c-8ec9911d593d"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "70",
+              "value": {
+                "type": "number",
+                "value": 20
+              }
+            },
+            "id": "b8b7d498-dd9a-4c79-94a8-f0cb22aab252"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "71",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "fd3685b9-e19e-47a5-870d-781d661616da"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "e3c39271-93d7-46a7-b948-5cf920a7df00"
+          }
+        ],
+        "false": []
+      },
+      "id": "dcf2737b-3d72-4bfe-bde8-2db2518bdbbd"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "16",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "79055041-b123-45b9-a74c-895ffd7243b1"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "74",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "24fefc24-362c-48e3-a562-de3f21e501d2"
+          },
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "f9cb3819-b860-4f94-a0cc-db52bed91be9"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "5f7081a8-1aa5-4f39-b267-7e5d1ea74760"
+          }
+        ]
+      },
+      "id": "25bbf13f-628e-4796-a84c-ee658a1c3f6a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "6a6dca5f-94f9-49f8-8bc0-aefb4f7ef40c",
+  "name": "frame - Copy",
+  "symbol": "tileset_frame_copy",
+  "width": 3,
+  "height": 3,
+  "imageWidth": 24,
+  "imageHeight": 24,
+  "filename": "frame - Copy.png"
+}

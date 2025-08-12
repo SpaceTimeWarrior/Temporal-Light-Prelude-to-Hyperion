@@ -69,7 +69,9 @@
         "flag10": "school flag 2",
         "flag11": "blair 1",
         "flag12": "kidnapping flag 1",
-        "flag13": "bias3"
+        "flag13": "bias3",
+        "flag14": "kitsune fighter 1",
+        "flag15": "kitsune fighter 2"
       }
     },
     {
@@ -268,7 +270,10 @@
     {
       "id": "48",
       "name": "enemy_cntr",
-      "symbol": "var_enemy_cntr"
+      "symbol": "var_enemy_cntr",
+      "flags": {
+        "flag1": "Flag 1"
+      }
     },
     {
       "id": "49",
@@ -433,6 +438,21 @@
       "symbol": "var_fps_enemy_type2"
     },
     {
+      "id": "80",
+      "name": "bike rack",
+      "symbol": "var_bike_rack"
+    },
+    {
+      "id": "81",
+      "name": "ally_HP",
+      "symbol": "var_ally_hp"
+    },
+    {
+      "id": "82",
+      "name": "ally_counter",
+      "symbol": "var_ally_counter"
+    },
+    {
       "id": "128",
       "name": "intro thread",
       "symbol": "var_intro_thread"
@@ -504,6 +524,16 @@
       "id": "869e384e-c5ed-4ce6-a625-72ce99a8b441__L0",
       "name": "Local 0",
       "symbol": "var_local_10"
+    },
+    {
+      "id": "ab5ba2b6-bf50-415b-9d34-adcc3c2e8f4a__L1",
+      "name": "bias_cheated",
+      "symbol": "var_bias_cheated_0"
+    },
+    {
+      "id": "ab5ba2b6-bf50-415b-9d34-adcc3c2e8f4a__L0",
+      "name": "Local 0",
+      "symbol": "var_local_11"
     }
   ]
 }

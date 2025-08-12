@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "2d0e5b52-5844-47fd-a256-7d12084212f3",
+  "name": "kf-frame",
+  "symbol": "tileset_kf_frame",
+  "width": 3,
+  "height": 3,
+  "imageWidth": 24,
+  "imageHeight": 24,
+  "filename": "kf-frame.png"
+}
