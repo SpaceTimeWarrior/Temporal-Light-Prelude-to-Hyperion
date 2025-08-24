@@ -37,6 +37,19 @@
         "true": [],
         "false": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "4bd6c78e-59d7-4948-98dc-7b70a392fa28"
+          },
+          {
             "command": "EVENT_ACTOR_EFFECTS",
             "args": {
               "effect": "splitOut",

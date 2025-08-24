@@ -58,6 +58,18 @@
     }
   ],
   "playerHit1Script": [],
-  "playerHit2Script": [],
+  "playerHit2Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "26068cbc-9c50-471b-afea-c07e05fbd37a",
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "bd705110-7e2c-427a-9813-3e72921c79f6"
+    }
+  ],
   "playerHit3Script": []
 }

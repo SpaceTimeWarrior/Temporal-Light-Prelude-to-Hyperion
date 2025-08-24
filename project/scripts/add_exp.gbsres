@@ -107,6 +107,17 @@
                   "id": "9a278bbb-e1df-4b4d-aed0-24f787822765"
                 },
                 {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": -3
+                    }
+                  },
+                  "id": "e2b0439f-22b7-4eda-92e7-34d89bc7f928"
+                },
+                {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
@@ -329,7 +340,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -1743,7 +1754,7 @@
       "args": {
         "sceneId": "b194401a-7a71-4b3c-8b7b-cc7f4b10ce9c",
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

@@ -453,6 +453,14 @@
       "symbol": "var_ally_counter"
     },
     {
+      "id": "83",
+      "name": "story_flags_2",
+      "symbol": "var_story_flags_2",
+      "flags": {
+        "flag1": "shrine_song"
+      }
+    },
+    {
       "id": "128",
       "name": "intro thread",
       "symbol": "var_intro_thread"

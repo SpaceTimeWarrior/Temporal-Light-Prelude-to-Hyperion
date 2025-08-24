@@ -1,0 +1,81 @@
+{
+  "_resourceType": "trigger",
+  "id": "65c528e9-d8cb-473c-86c3-1cf455093323",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 147,
+  "symbol": "trigger_381",
+  "prefabScriptOverrides": {},
+  "width": 20,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "ca394da8-0d18-4832-9c8f-187262444c8c",
+        "palette1": "ca394da8-0d18-4832-9c8f-187262444c8c",
+        "palette2": "ca394da8-0d18-4832-9c8f-187262444c8c",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__comment": true
+      },
+      "id": "cef52eab-6d8b-4141-aabd-34c3a39116f7"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "or",
+          "valueA": {
+            "type": "lte",
+            "valueA": {
+              "type": "property",
+              "target": "player",
+              "property": "xpos"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 8
+            }
+          },
+          "valueB": {
+            "type": "gte",
+            "valueA": {
+              "type": "property",
+              "target": "player",
+              "property": "xpos"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 12
+            }
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "26068cbc-9c50-471b-afea-c07e05fbd37a",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "e89df1d6-6bb6-4593-b165-2b7e93e9052a"
+          }
+        ],
+        "false": []
+      },
+      "id": "aeac2107-8b66-4208-a2e4-b30254861dad"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 13
+}

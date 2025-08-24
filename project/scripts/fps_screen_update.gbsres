@@ -177,7 +177,7 @@
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "left dark bar",
-                    "__collapse": false,
+                    "__collapse": true,
                     "__comment": false
                   },
                   "children": {
@@ -322,7 +322,7 @@
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "right light bar",
-                    "__collapse": false
+                    "__collapse": true
                   },
                   "children": {
                     "true": [
@@ -466,7 +466,7 @@
                   "command": "EVENT_GROUP",
                   "args": {
                     "__label": "left dark bar",
-                    "__collapse": false,
+                    "__collapse": true,
                     "__comment": false
                   },
                   "children": {
@@ -1154,6 +1154,50 @@
       "id": "4dfbd155-4dc2-49d5-b13e-eeaf2e0a03b5"
     },
     {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "5",
+        "expression": "abs($00$*100/$04$)"
+      },
+      "id": "d0451e3e-f5f0-4aa7-8a9c-3b484d6c2775"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 20
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "fab98818-46d6-4853-a2e0-90a89d471f26",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "7a6005cc-904f-4146-ae87-c67f5848aeb4"
+          }
+        ],
+        "false": []
+      },
+      "id": "704728b5-dd91-4bde-86f4-c83ccfb6a3cc"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -1178,7 +1222,7 @@
               "variable": "5",
               "expression": "abs($00$*100/$04$)"
             },
-            "id": "d0451e3e-f5f0-4aa7-8a9c-3b484d6c2775"
+            "id": "9306d6b9-2bf0-4a8b-a503-6c78d49e5d7a"
           },
           {
             "command": "EVENT_IF",

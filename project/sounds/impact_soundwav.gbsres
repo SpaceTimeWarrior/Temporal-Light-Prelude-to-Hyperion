@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "93ee0345-a2d8-439d-a98d-713be366b6ce",
+  "name": "impact_sound.wav",
+  "symbol": "sound_impact_sound_wav",
+  "filename": "impact_sound.wav",
+  "type": "wav"
+}

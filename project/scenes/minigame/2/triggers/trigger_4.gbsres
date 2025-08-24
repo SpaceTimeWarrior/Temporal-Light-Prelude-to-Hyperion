@@ -1,0 +1,82 @@
+{
+  "_resourceType": "trigger",
+  "id": "04564038-3887-46da-a1e2-b0bb656ade5a",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 149,
+  "symbol": "trigger_367",
+  "prefabScriptOverrides": {},
+  "width": 20,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "ca394da8-0d18-4832-9c8f-187262444c8c",
+        "palette1": "ca394da8-0d18-4832-9c8f-187262444c8c",
+        "palette2": "ca394da8-0d18-4832-9c8f-187262444c8c",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__collapse": true,
+        "__comment": true
+      },
+      "id": "2fa2dc2f-08e3-4366-904f-e9857008559d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "or",
+          "valueA": {
+            "type": "lte",
+            "valueA": {
+              "type": "property",
+              "target": "player",
+              "property": "xpos"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 8
+            }
+          },
+          "valueB": {
+            "type": "gte",
+            "valueA": {
+              "type": "property",
+              "target": "player",
+              "property": "xpos"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 11
+            }
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "26068cbc-9c50-471b-afea-c07e05fbd37a",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "0ef0c77f-d854-4e31-9c61-05072dd8cc45"
+          }
+        ],
+        "false": []
+      },
+      "id": "33f01d5e-f014-4188-844f-2d338efae4fa"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 3
+}

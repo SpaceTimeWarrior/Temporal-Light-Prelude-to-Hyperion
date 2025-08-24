@@ -1,0 +1,66 @@
+{
+  "_resourceType": "trigger",
+  "id": "aa0859d3-d2f0-4769-bc22-80419b4dae4a",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 106,
+  "symbol": "trigger_382",
+  "prefabScriptOverrides": {},
+  "width": 10,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "default-bg-4",
+        "palette1": "default-bg-4",
+        "palette2": "default-bg-4",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__comment": true
+      },
+      "id": "34e9f67a-9eb1-44bc-9380-28930f81cff9"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "property",
+            "target": "player",
+            "property": "xpos"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 8
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "26068cbc-9c50-471b-afea-c07e05fbd37a",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "644aa8fa-3d6b-4e8d-8b95-05962d979108"
+          }
+        ],
+        "false": []
+      },
+      "id": "5357cfe1-7ae1-40a2-b54b-26089e864ecf"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 14
+}

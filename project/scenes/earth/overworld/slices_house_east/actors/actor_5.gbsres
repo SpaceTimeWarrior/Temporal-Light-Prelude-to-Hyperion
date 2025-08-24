@@ -573,11 +573,22 @@
                             "type": "variable",
                             "value": "19"
                           },
-                          "__collapseElse": true,
+                          "__collapseElse": false,
                           "__collapse": false
                         },
                         "children": {
                           "true": [
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                                "$variable[V0]$": {
+                                  "type": "number",
+                                  "value": 4
+                                }
+                              },
+                              "id": "00448d90-03a2-42c1-a850-e251268813b7"
+                            },
                             {
                               "command": "EVENT_TEXT",
                               "args": {
@@ -880,38 +891,21 @@
                               "id": "e08dd878-d124-45c0-b851-eb4c6f33e3f4"
                             },
                             {
-                              "command": "EVENT_TEXT",
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
                               "args": {
-                                "text": [
-                                  "slice: If anyone\ncheated it is \nyou Bias and",
-                                  "that is not how\nto treat a lady.",
-                                  "It looks like \nthere isn't much\nI can teach you"
-                                ],
-                                "__section": "text",
-                                "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
-                                "minHeight": 4,
-                                "maxHeight": 7,
-                                "textX": 1,
-                                "textY": 1,
-                                "textHeight": 5,
-                                "position": "bottom",
-                                "clearPrevious": true,
-                                "showFrame": "true",
-                                "speedIn": -1,
-                                "speedOut": -1,
-                                "closeWhen": "key",
-                                "closeButton": "a",
-                                "closeDelayTime": 0.5,
-                                "closeDelayFrames": 30,
-                                "__collapse": true
+                                "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                                "$variable[V0]$": {
+                                  "type": "number",
+                                  "value": 5
+                                }
                               },
-                              "id": "dcd4da0d-e225-462c-818f-854dcf065e6a"
+                              "id": "4a72a416-21ae-4caa-9805-6762c5b4c3e7"
                             },
                             {
                               "command": "EVENT_GROUP",
                               "args": {
                                 "__label": "give rewards",
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "children": {
                                 "true": [
@@ -937,6 +931,18 @@
                           ],
                           "false": [
                             {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                                "$variable[V0]$": {
+                                  "type": "number",
+                                  "value": 4
+                                },
+                                "__collapse": true
+                              },
+                              "id": "567bf371-8926-4ee6-ac90-db7e6dd01014"
+                            },
+                            {
                               "command": "EVENT_TEXT",
                               "args": {
                                 "text": [
@@ -961,6 +967,45 @@
                                 "closeDelayFrames": 30
                               },
                               "id": "41cae323-819e-4e4e-8695-9e4d60a113d0"
+                            },
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                                "$variable[V0]$": {
+                                  "type": "number",
+                                  "value": 5
+                                }
+                              },
+                              "id": "7d58855e-83cc-46ee-ab4f-d81f671ddb00"
+                            },
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "slice: If anyone\ncheated it is \nyou Bias and",
+                                  "that is not how\nto treat a lady.",
+                                  "It looks like \nthere isn't much\nI can teach you"
+                                ],
+                                "__section": "text",
+                                "avatarId": "3bf70123-7f4b-4632-a30c-69a0718db925",
+                                "minHeight": 4,
+                                "maxHeight": 7,
+                                "textX": 1,
+                                "textY": 1,
+                                "textHeight": 5,
+                                "position": "bottom",
+                                "clearPrevious": true,
+                                "showFrame": "true",
+                                "speedIn": -1,
+                                "speedOut": -1,
+                                "closeWhen": "key",
+                                "closeButton": "a",
+                                "closeDelayTime": 0.5,
+                                "closeDelayFrames": 30,
+                                "__collapse": false
+                              },
+                              "id": "dcd4da0d-e225-462c-818f-854dcf065e6a"
                             },
                             {
                               "command": "EVENT_TEXT",
@@ -1026,6 +1071,17 @@
                         "id": "35020538-9652-40a3-894f-10b140e8157c"
                       },
                       {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 5
+                          }
+                        },
+                        "id": "30224526-535b-4c03-b080-627602dd9638"
+                      },
+                      {
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
@@ -1051,6 +1107,17 @@
                           "closeDelayFrames": 30
                         },
                         "id": "337d0c07-2392-481e-a5e1-aac32fab2e26"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "6a10b04c-9965-4e7b-9af5-b147dc0ca9ad"
                       },
                       {
                         "command": "EVENT_TEXT",
@@ -1151,6 +1218,19 @@
         "variable": "70"
       },
       "id": "b39c4a02-ccd8-47cf-89d8-f7aceed6de89"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "5410c982-1cb7-47ee-a7ae-18e57a89a807",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "1a0f8d31-bc6c-4d58-93f2-2382b5aaeb67"
     },
     {
       "command": "EVENT_IF",

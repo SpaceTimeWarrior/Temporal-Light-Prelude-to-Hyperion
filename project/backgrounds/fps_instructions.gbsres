@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "e35cd7fd-e147-44e6-ad41-ff5ce3f3ff59",
+  "name": "fps instructions",
+  "symbol": "bg_fps_instructions",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "fps instructions.png",
+  "tileColors": "",
+  "autoColor": false
+}

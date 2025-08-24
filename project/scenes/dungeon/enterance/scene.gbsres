@@ -20,7 +20,7 @@
       "command": "EVENT_GROUP",
       "args": {
         "__label": "song group",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -30,7 +30,7 @@
               "variable": "28",
               "value": {
                 "type": "number",
-                "value": 0
+                "value": 4
               }
             },
             "id": "a94670ae-5b64-408f-a9cb-410f3943deb1"

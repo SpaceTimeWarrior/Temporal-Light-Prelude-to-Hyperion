@@ -71,7 +71,7 @@
         "duration": 0.25,
         "frames": 30,
         "__scriptTabs": "end",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "script": [
@@ -280,7 +280,8 @@
           "select"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -330,6 +331,34 @@
         ]
       },
       "id": "a1f07883-d26c-42dc-93b6-fb41faf170a7"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "1bb697d0-1cc2-4950-a2b0-f26ea5c9df77",
+              "priority": "low",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "cec24de9-fd51-4948-a95d-62756ca2bda9"
+          }
+        ]
+      },
+      "id": "cc7a9dd7-c2f9-4825-b835-abf90cc7fe0e"
     }
   ],
   "playerHit1Script": [],

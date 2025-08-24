@@ -26,6 +26,187 @@
         }
       },
       "id": "a161ee27-a71f-4529-9b36-474e1555bbaa"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "room code"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "song group",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "28",
+                    "value": {
+                      "type": "number",
+                      "value": 3
+                    }
+                  },
+                  "id": "ac671856-5049-459f-82b7-d470e5e50fe9"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
+                    "__collapse": false
+                  },
+                  "id": "4661ee2f-67f3-4c7b-8aa4-a63b5134dd08"
+                }
+              ]
+            },
+            "id": "e4d3acf2-3ef2-4c53-906e-84edc1b56fe0"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false,
+              "__label": "HUD"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PREP_MENU",
+                  "args": {
+                    "xnoverlay": 0,
+                    "ynoverlay": 16,
+                    "color": "black",
+                    "xoverlay": 0,
+                    "yoverlay": 0,
+                    "overlayw": 20,
+                    "overlayh": 2,
+                    "xsource": 0,
+                    "ysource": 34
+                  },
+                  "id": "99264b1b-75ad-4a5b-ae9a-8175ada82a04"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 34
+                    }
+                  },
+                  "id": "ec081f70-cec2-4d20-93af-60a5971e7f96"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "12"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH",
+                        "args": {
+                          "variable": "12",
+                          "choices": 2,
+                          "__collapseCase0": false,
+                          "value0": 1,
+                          "__collapseCase1": false,
+                          "value1": 2,
+                          "__collapseCase2": false,
+                          "value2": 3,
+                          "__collapseCase3": false,
+                          "value3": 4,
+                          "__collapseCase4": false,
+                          "value4": 5,
+                          "__collapseCase5": false,
+                          "value5": 6,
+                          "__collapseCase6": false,
+                          "value6": 7,
+                          "__collapseCase7": false,
+                          "value7": 8,
+                          "__collapseCase8": false,
+                          "value8": 9,
+                          "__collapseCase9": false,
+                          "value9": 10,
+                          "__collapseCase10": false,
+                          "value10": 11,
+                          "__collapseCase11": false,
+                          "value11": 12,
+                          "__collapseCase12": false,
+                          "value12": 13,
+                          "__collapseCase13": false,
+                          "value13": 14,
+                          "__collapseCase14": false,
+                          "value14": 15,
+                          "__collapseCase15": false,
+                          "value15": 16,
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true0": [
+                            {
+                              "command": "EVENT_PLAYER_SET_SPRITE",
+                              "args": {
+                                "spriteSheetId": "4d227af5-a279-45d9-b9cb-c59ed3b567e6"
+                              },
+                              "id": "fa97e974-93f4-4862-93fd-f8a91aa0908e"
+                            }
+                          ],
+                          "true1": [],
+                          "true2": [],
+                          "true3": [],
+                          "true4": [],
+                          "true5": [],
+                          "true6": [],
+                          "true7": [],
+                          "true8": [],
+                          "true9": [],
+                          "true10": [],
+                          "true11": [],
+                          "true12": [],
+                          "true13": [],
+                          "true14": [],
+                          "true15": [],
+                          "false": [
+                            {
+                              "command": "EVENT_PLAYER_SET_SPRITE",
+                              "args": {
+                                "spriteSheetId": "318581b1-1317-4a0f-917b-525fb3c256b2"
+                              },
+                              "id": "7d576edc-1011-4639-b026-081d34085d8a"
+                            }
+                          ]
+                        },
+                        "id": "0d58ee39-033e-4202-914b-63e6a8b39c0c"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "22f7f780-1bc5-465a-9421-b3f83fceabf1"
+                }
+              ]
+            },
+            "id": "8360a001-7023-4696-90af-4901ac30d9ca"
+          }
+        ]
+      },
+      "id": "2ad83b40-1fc4-43dd-9367-3f562bba6da0"
     }
   ],
   "playerHit1Script": [],

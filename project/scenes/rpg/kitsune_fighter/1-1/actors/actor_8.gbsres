@@ -4,7 +4,7 @@
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "0af81d73-b0d6-45b1-876b-96d8ef1ee6df",
+  "spriteSheetId": "896f8d67-ce40-4e8e-af40-2bd99eaf6bca",
   "prefabId": "",
   "direction": "left",
   "moveSpeed": 1,
@@ -145,7 +145,9 @@
                     "operation": "up",
                     "otherActorId": "$self$",
                     "__collapseElse": false,
-                    "__collapse": true
+                    "__collapse": true,
+                    "__disableElse": false,
+                    "__comment": true
                   },
                   "children": {
                     "true": [
@@ -202,7 +204,8 @@
                     "operation": "left",
                     "otherActorId": "$self$",
                     "__collapseElse": false,
-                    "__collapse": true
+                    "__collapse": true,
+                    "__comment": true
                   },
                   "children": {
                     "true": [
@@ -269,7 +272,8 @@
                       "property": "ypos"
                     },
                     "moveType": "diagonal",
-                    "useCollisions": true
+                    "useCollisions": true,
+                    "__comment": true
                   },
                   "id": "fb5ffe09-7164-4367-b8b9-f8c7aff0ba6b",
                   "children": {}

@@ -277,7 +277,8 @@
           "select"
         ],
         "override": true,
-        "__scriptTabs": "press"
+        "__scriptTabs": "press",
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -336,6 +337,34 @@
         ]
       },
       "id": "79d868d1-6c13-4765-8b3f-f078951047e4"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "1bb697d0-1cc2-4950-a2b0-f26ea5c9df77",
+              "priority": "low",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "bf522754-addc-4ef9-9d6e-a108a2d30a60"
+          }
+        ]
+      },
+      "id": "aebc444f-9581-4414-9126-1a9c58c87ea1"
     }
   ],
   "playerHit1Script": [],

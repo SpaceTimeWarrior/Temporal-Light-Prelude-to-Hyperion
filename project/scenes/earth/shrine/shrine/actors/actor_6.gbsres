@@ -1,0 +1,113 @@
+{
+  "_resourceType": "actor",
+  "id": "a4caa305-ffe2-44ed-9a4f-4dfcd0cfadc4",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "09a999df-c6d0-4f0a-aa5e-b79f1052591d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_413",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:I am the \nuniverse's avatar\nsinia crystalfox",
+          "I manage all of \ntime and space \nkeeping the flow",
+          "of time consistant\n\n...",
+          "wait how are you \ntalking to me.this\nis out of bounds",
+          "have fun in the \ndungeon"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f34c1541-1b06-4551-90df-428fbdace7d5"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "HUD"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "30",
+              "value": {
+                "type": "number",
+                "value": 46
+              }
+            },
+            "id": "830a56ec-ebf5-4f10-bf8e-e3f0aa423e63"
+          },
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 34
+            },
+            "id": "6f1386f0-1cda-4f29-8252-24c76bce1bcc"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "ac01d218-09b2-4d89-8989-fb6e5761e51c",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 34
+              }
+            },
+            "id": "eb8532a7-e5a2-4359-81b5-7a20f444cd8b"
+          }
+        ]
+      },
+      "id": "8647c987-bd2b-43c1-bea9-617588e1f652"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "381731f3-ae80-4c0a-887c-74940287d300"
+      },
+      "id": "99461880-ddc7-46a3-8942-d436cb530902"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 0,
+  "y": 33,
+  "_index": 5
+}

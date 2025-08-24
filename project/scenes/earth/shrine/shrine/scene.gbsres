@@ -16,9 +16,44 @@
     "",
     "ca394da8-0d18-4832-9c8f-187262444c8c"
   ],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "",
+    "",
+    "",
+    "a5804dc8-520f-4d32-bfb6-4f2806616cd7"
+  ],
   "autoFadeSpeed": 1,
   "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__label": "song group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "67e0e32c-d0ef-4884-a55c-8967b647a076"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "83602dfd-3762-4c4c-a77f-0e7c0d0e1e5f",
+              "__collapse": false
+            },
+            "id": "c3b3392d-9430-4dee-98a9-44411a778198"
+          }
+        ]
+      },
+      "id": "1becf6c7-340d-4f81-8440-c243fc296612"
+    },
     {
       "command": "EVENT_GROUP",
       "args": {
@@ -72,5 +107,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "0fd8+00a+0f1e+00a+0f1e+003+0f4+003+0f1e+003+0f4+003+0f1e+003+0f4+003+0f1e+003+0f4+003+0f1e+003+0f4+003+0f1e+003+0f!002+0f!003+0f1e+00a+0f1e+00a+0f20+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f38+"
+  "collisions": "0fd8+00a+0f1e+00a+0f1e+003+0f4+003+0f1e+003+0f4+003+0f1e+003+0f4+003+0f1e+003+0f4+003+0f1e+003+0f4+003+0f1e+003+0f!002+0f!003+0f1e+00a+0f1e+00a+0f20+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0f22+006+0fc+00!0f15+006+0f38+"
 }

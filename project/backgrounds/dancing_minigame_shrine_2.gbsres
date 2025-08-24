@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "a12f9fc5-a375-453f-834a-2efb0badb7c5",
+  "name": "dancing minigame shrine 2",
+  "symbol": "bg_dancing_minigame_shrine__0",
+  "width": 20,
+  "height": 200,
+  "imageWidth": 160,
+  "imageHeight": 1600,
+  "filename": "dancing minigame shrine 2.png",
+  "tileColors": "00f78+0428+",
+  "autoColor": false
+}

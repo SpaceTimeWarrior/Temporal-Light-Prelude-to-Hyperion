@@ -405,6 +405,51 @@
             "id": "91fd746a-37c9-497a-8405-6f743edd93f4"
           },
           {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "5",
+              "expression": "abs($00$*100/$04$)"
+            },
+            "id": "ea537b6a-c480-4614-b0d3-47d519447bee"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "lt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "5"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 20
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "fab98818-46d6-4853-a2e0-90a89d471f26",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "da681bc5-127e-4da3-b588-e9d1a0b6de79"
+                }
+              ],
+              "false": []
+            },
+            "id": "2f368d5a-9c6b-43dc-94d8-8db67672aea2"
+          },
+          {
             "command": "EVENT_IF",
             "args": {
               "condition": {
@@ -419,7 +464,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [

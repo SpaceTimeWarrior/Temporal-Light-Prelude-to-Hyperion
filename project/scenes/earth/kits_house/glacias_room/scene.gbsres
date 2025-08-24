@@ -25,6 +25,17 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "cad208e2-defc-4e00-a2dd-941270ee3130"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "30",

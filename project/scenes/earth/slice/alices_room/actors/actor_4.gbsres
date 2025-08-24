@@ -15,7 +15,89 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_195",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "books on \nmagiscript"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c07d21ab-20e6-4d68-bdd7-b7fb61291d1b"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "read",
+        "falseText": "don't"
+      },
+      "id": "a130256b-8e17-4c4a-bc6b-0388b98bf7b8"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "magiscript is a \nform of coded \nenglish created",
+                "during the first\nhuman-monster war\nthis is a syngle",
+                "case language.\nbelow is a table\nof common symbols",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!a !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!a    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!b !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!b   !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!c !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!c\n!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!d !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!d    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!e !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!e   !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!f !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!f\n!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!g !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!g    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!h !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!h   !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!i !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!i",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!j !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!j    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!k !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!k   !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!l !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!l\n!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!m !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!m    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!n !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!n   !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!o !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!o\n!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!p !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!p    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!q !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!q   !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!r !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!r",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!s !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!s    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!t !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!t   !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!u !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!u\n!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!v !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!v    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!w !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!x   !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!y !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!y\n!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!z !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!z !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!numbers: !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!0 !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!0",
+                "!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!1 !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!1    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!2 !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!2    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!3 !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!3 \n!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!4 !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!4    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!5 !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!5    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!6 !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!6\n!F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!7 !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!7    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!8 !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!8    !F:4bd653f0-e08d-424e-9e5b-c1f3aaa21e47!9 !F:101a85fb-c2f0-4dff-94b6-198b27bb5f3e!9"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "816b13bc-e851-4592-9d27-b883fb474479"
+          }
+        ],
+        "false": []
+      },
+      "id": "bf483061-db92-4e8d-9756-d6e1a4b49fd5"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],

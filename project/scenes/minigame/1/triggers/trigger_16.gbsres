@@ -1,0 +1,111 @@
+{
+  "_resourceType": "trigger",
+  "id": "5d4e5db8-c9bb-4e5e-909b-074019b2e63a",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 32,
+  "symbol": "trigger_362",
+  "prefabScriptOverrides": {},
+  "width": 20,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "default-bg-4",
+        "palette1": "default-bg-4",
+        "palette2": "default-bg-4",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep",
+        "__comment": true
+      },
+      "id": "dae51446-33e1-40bb-90e1-33e6a766eb07"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "or",
+          "valueA": {
+            "type": "lte",
+            "valueA": {
+              "type": "property",
+              "target": "player",
+              "property": "xpos"
+            },
+            "valueB": {
+              "type": "number",
+              "value": 4
+            }
+          },
+          "valueB": {
+            "type": "or",
+            "valueA": {
+              "type": "and",
+              "valueA": {
+                "type": "gte",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "xpos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 7
+                }
+              },
+              "valueB": {
+                "type": "lte",
+                "valueA": {
+                  "type": "property",
+                  "target": "player",
+                  "property": "xpos"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 10
+                }
+              }
+            },
+            "valueB": {
+              "type": "gte",
+              "valueA": {
+                "type": "property",
+                "target": "player",
+                "property": "xpos"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 13
+              }
+            }
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "26068cbc-9c50-471b-afea-c07e05fbd37a",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "62cb62a3-29ba-4689-bce1-492f61b6c591"
+          }
+        ],
+        "false": []
+      },
+      "id": "b989a34d-8aed-4c70-93b5-8619daf638f9"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 15
+}

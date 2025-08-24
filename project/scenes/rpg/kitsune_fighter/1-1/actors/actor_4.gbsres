@@ -136,7 +136,9 @@
               "operation": "up",
               "otherActorId": "$self$",
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": true,
+              "__disableElse": true,
+              "__comment": true
             },
             "children": {
               "true": [
@@ -193,7 +195,8 @@
               "operation": "left",
               "otherActorId": "$self$",
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": true,
+              "__comment": true
             },
             "children": {
               "true": [
@@ -260,7 +263,8 @@
                 "property": "ypos"
               },
               "moveType": "diagonal",
-              "useCollisions": true
+              "useCollisions": true,
+              "__comment": true
             },
             "id": "a5e1e8a7-0312-4f0d-9772-4091d2a41437",
             "children": {}

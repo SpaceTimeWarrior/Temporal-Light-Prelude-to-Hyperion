@@ -1,0 +1,30 @@
+{
+  "_resourceType": "trigger",
+  "id": "7f3bd6d6-de63-41f8-9621-69eb74073082",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 92,
+  "symbol": "trigger_356",
+  "prefabScriptOverrides": {},
+  "width": 19,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "default-bg-5",
+        "palette1": "default-bg-5",
+        "palette2": "default-bg-5",
+        "palette3": "keep",
+        "palette4": "keep",
+        "palette5": "keep",
+        "palette6": "keep",
+        "palette7": "keep"
+      },
+      "id": "05e43723-7927-44f3-b904-faf095db6154"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 9
+}

@@ -32,7 +32,7 @@
               "variable": "0",
               "value": {
                 "type": "number",
-                "value": 10
+                "value": 20
               },
               "__collapse": false
             },
@@ -55,7 +55,7 @@
               "variable": "4",
               "value": {
                 "type": "number",
-                "value": 10
+                "value": 20
               },
               "__collapse": false
             },
@@ -67,7 +67,7 @@
               "variable": "2",
               "value": {
                 "type": "number",
-                "value": 20
+                "value": 40
               },
               "__collapse": false
             },
@@ -79,7 +79,7 @@
               "variable": "8",
               "value": {
                 "type": "number",
-                "value": 20
+                "value": 40
               },
               "__collapse": false
             },
@@ -219,7 +219,8 @@
         "value": {
           "type": "true"
         },
-        "__comment": true
+        "__comment": false,
+        "__collapse": true
       },
       "id": "87e0a597-ba1d-4cc9-95f8-a27419231fdf"
     },

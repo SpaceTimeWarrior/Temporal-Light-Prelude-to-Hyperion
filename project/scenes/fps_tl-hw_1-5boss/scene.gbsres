@@ -127,6 +127,17 @@
                   "children": {
                     "true": [
                       {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": -3
+                          }
+                        },
+                        "id": "6a8811bc-6b3c-4673-8144-a19e3baef9d2"
+                      },
+                      {
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
@@ -279,6 +290,17 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "585baf83-94b6-4be5-a921-70b7ee564856",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": -3
+              }
+            },
+            "id": "be8362f6-bb67-4723-bf4a-711076823aad"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -324,6 +346,34 @@
         ]
       },
       "id": "d05425f3-6ee0-4c7d-9af9-f7e936c2d21c"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "1bb697d0-1cc2-4950-a2b0-f26ea5c9df77",
+              "priority": "low",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "9904989a-9af8-4812-a512-73444593596c"
+          }
+        ]
+      },
+      "id": "c0968074-1b21-495e-84f8-fffecfb5566b"
     }
   ],
   "playerHit1Script": [],

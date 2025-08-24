@@ -44,7 +44,7 @@
   },
   "musicDriver": "huge",
   "cartType": "mbc5",
-  "batterylessEnabled": false,
+  "batterylessEnabled": true,
   "customColorsWhite": "E8F8E0",
   "customColorsLight": "B0F088",
   "customColorsDark": "509878",

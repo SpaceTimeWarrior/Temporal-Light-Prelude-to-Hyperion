@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1264c6b3-4222-4f8d-84bd-e57abb7d658b",
+  "name": "dancing minigame",
+  "symbol": "bg_dancing_minigame",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "dancing minigame.png",
+  "tileColors": "",
+  "autoColor": false
+}
